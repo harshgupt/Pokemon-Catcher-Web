@@ -2,6 +2,7 @@ import { useState } from 'react'
 import dexOrder   from '../data/dex-order.json'
 import pokemon    from '../data/pokemon.json'
 import itemsData  from '../data/items.json'
+import filters    from '../data/pokedex-filters.json'
 
 const byId     = Object.fromEntries(pokemon.map(p   => [p.id,   p]))
 const byItemId = Object.fromEntries(itemsData.map(i => [i.id,   i]))
@@ -41,64 +42,35 @@ function getAllChainEvolutions(selectedId) {
   return evolutions
 }
 
-function getGen(p) {
-  const own = p.categories.find(c => c.startsWith('Generation'))
-  if (own) return own
-  const base = byId[getBaseId(p.id)]
-  return base?.categories.find(c => c.startsWith('Generation')) ?? ''
-}
-
-function getFormType(p) {
-  const n = p.name
-  if (/-Mega([XYZ]|Z)?$/.test(n)) return 'mega'
-  if (/-Giga$/.test(n))           return 'giga'
-  if (/-(Alolan|Galarian|Hisuian|Paldean)/.test(n) || p.categories.includes('RegionalForm')) return 'regional'
-  if (p.categories.includes('ConvergentForm'))                                  return 'alt'
-  if (p.categories.includes('AlternateForm') && n.includes('-'))                return 'alt'
-  if (n.includes('-') && !p.categories.some(c => c.startsWith('Generation')))  return 'alt'
-  return 'base'
-}
-
-// Pre-compute per-entry metadata once at module load
-const meta = Object.fromEntries(pokemon.map(p => [p.id, {
-  gen:      getGen(p),
-  formType: getFormType(p),
-}]))
-
 // ── Filter options ────────────────────────────────────────────────────────────
 const TYPES = [
   'Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison',
   'Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy',
 ]
 
-const GENERATIONS = [
-  { value: 'Generation1', label: 'Gen I'   },
-  { value: 'Generation2', label: 'Gen II'  },
-  { value: 'Generation3', label: 'Gen III' },
-  { value: 'Generation4', label: 'Gen IV'  },
-  { value: 'Generation5', label: 'Gen V'   },
-  { value: 'Generation6', label: 'Gen VI'  },
-  { value: 'Generation7', label: 'Gen VII' },
-  { value: 'Generation8', label: 'Gen VIII'},
-  { value: 'Generation9', label: 'Gen IX'  },
+const REGIONS = Object.keys(filters.regions)
+const FORMS   = [
+  { value: 'MegaEvolution',  label: 'Mega Evolution'   },
+  { value: 'RegionalForm',   label: 'Regional Form'    },
+  { value: 'Gigantamax',     label: 'Gigantamax'       },
+  { value: 'ConvergentForm', label: 'Convergent Form'  },
+  { value: 'AlternateForm',  label: 'Alternate Form'   },
 ]
-
-const RARITIES = [
-  { value: 'Common',          label: 'Common'           },
-  { value: 'Uncommon',        label: 'Uncommon'         },
-  { value: 'Rare',            label: 'Rare'             },
-  { value: 'Sparse',          label: 'Sparse'           },
+const CLASSES = [
   { value: 'Starter',         label: 'Starter'          },
   { value: 'Baby',            label: 'Baby'             },
   { value: 'Fossil',          label: 'Fossil'           },
-  { value: 'Pseudo',          label: 'Pseudo-Legendary' },
+  { value: 'PseudoLegendary', label: 'Pseudo-Legendary' },
   { value: 'Legendary',       label: 'Legendary'        },
-  { value: 'StrongLegendary', label: 'Strong Legendary' },
-  { value: 'BoxLegendary',    label: 'Box Legendary'    },
   { value: 'Mythical',        label: 'Mythical'         },
-  { value: 'Singular',        label: 'Singular'         },
   { value: 'UltraBeast',      label: 'Ultra Beast'      },
+  { value: 'Paradox',         label: 'Paradox'          },
 ]
+
+// Pre-build Sets for O(1) lookup
+const regionSets = Object.fromEntries(Object.entries(filters.regions).map(([k, ids]) => [k, new Set(ids)]))
+const formSets   = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
+const classSets  = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
 
 // ── Official Pokémon HOME type colours ────────────────────────────────────────
 const TYPE_COLORS = {
@@ -126,14 +98,14 @@ export default function PokeDex({ gameState }) {
   const [query,   setQuery]   = useState('')
   const [type1,   setType1]   = useState('')
   const [type2,   setType2]   = useState('')
-  const [gen,     setGen]     = useState('')
+  const [region,  setRegion]  = useState('')
   const [form,    setForm]    = useState('')
-  const [rarity,  setRarity]  = useState('')
+  const [cls,     setCls]     = useState('')
   const [selected, setSelected] = useState(null) // pokemon entry for popup
 
   const allEntries  = dexOrder.map(id => byId[id]).filter(Boolean)
   const lowerQuery  = query.toLowerCase()
-  const hasFilters  = query || type1 || type2 || gen || form || rarity
+  const hasFilters  = query || type1 || type2 || region || form || cls
 
   function isUnlocked(p) {
     return gameState?.pokemon[p.id]?.isUnlocked ?? false
@@ -142,12 +114,11 @@ export default function PokeDex({ gameState }) {
   function isHidden(p) {
     if (!hasFilters) return false
     if (query  && !(p.displayName ?? p.name).toLowerCase().includes(lowerQuery)) return true
-    if (type1  && !p.types?.includes(type1))        return true
-    if (type2  && !p.types?.includes(type2))        return true
-    const m = meta[p.id]
-    if (gen    && m.gen      !== gen)    return true
-    if (form   && m.formType !== form)   return true
-    if (rarity && p.rarity   !== rarity) return true
+    if (type1  && !p.types?.includes(type1))              return true
+    if (type2  && !p.types?.includes(type2))              return true
+    if (region && !regionSets[region]?.has(p.id))         return true
+    if (form   && !formSets[form]?.has(p.id))             return true
+    if (cls    && !classSets[cls]?.has(p.id))             return true
     return false
   }
 
@@ -169,21 +140,17 @@ export default function PokeDex({ gameState }) {
           <option value="">Type 2</option>
           {TYPES.map(t => <option key={t} value={t}>{t}</option>)}
         </select>
-        <select style={styles.select} value={gen} onChange={e => setGen(e.target.value)}>
-          <option value="">Generation</option>
-          {GENERATIONS.map(g => <option key={g.value} value={g.value}>{g.label}</option>)}
+        <select style={styles.select} value={region} onChange={e => setRegion(e.target.value)}>
+          <option value="">Region</option>
+          {REGIONS.map(r => <option key={r} value={r}>{r}</option>)}
         </select>
         <select style={styles.select} value={form} onChange={e => setForm(e.target.value)}>
           <option value="">Form</option>
-          <option value="base">Base Forms</option>
-          <option value="mega">Mega Evolutions</option>
-          <option value="giga">Gigantamax</option>
-          <option value="regional">Regional Forms</option>
-          <option value="alt">Alternate Forms</option>
+          {FORMS.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
         </select>
-        <select style={styles.select} value={rarity} onChange={e => setRarity(e.target.value)}>
-          <option value="">Rarity</option>
-          {RARITIES.map(r => <option key={r.value} value={r.value}>{r.label}</option>)}
+        <select style={styles.select} value={cls} onChange={e => setCls(e.target.value)}>
+          <option value="">Class</option>
+          {CLASSES.map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
         </select>
       </div>
       <div style={styles.grid}>
@@ -389,6 +356,7 @@ const styles = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
     alignItems: 'start',
+    alignContent: 'start',
     gap: '10px',
     overflowY: 'auto',
     paddingRight: '4px',
