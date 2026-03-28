@@ -1,12 +1,6 @@
 import { useState } from 'react'
 import allItems from '../data/items.json'
 
-const RARITY_COLORS = {
-  Common:   '#90caf9',
-  Uncommon: '#a5d6a7',
-  Rare:     '#ce93d8',
-  Sparse:   '#ffcc02',
-}
 
 export default function ItemDex() {
   const [query, setQuery] = useState('')
@@ -33,7 +27,6 @@ export default function ItemDex() {
 
 function ItemCard({ item, hidden }) {
   const [imgState, setImgState] = useState('loading')
-  const rarityColor = RARITY_COLORS[item.rarity] ?? '#ffffff'
   const spriteSrc = item.tmType
     ? `/sprites/items/TM ${item.tmType}.png`
     : `/sprites/items/${item.name}.png`
@@ -52,7 +45,6 @@ function ItemCard({ item, hidden }) {
       </div>
       <div style={styles.info}>
         <span style={styles.name}>{item.displayName ?? item.name}</span>
-        <span style={{ ...styles.rarity, color: rarityColor }}>{item.rarity}</span>
       </div>
     </div>
   )
@@ -131,12 +123,5 @@ const styles = {
     justifyContent: 'center',
     overflow: 'hidden',
     width: '100%',
-  },
-  rarity: {
-    fontSize: '10px',
-    fontWeight: '600',
-    textTransform: 'uppercase',
-    letterSpacing: '0.04em',
-    opacity: 0.8,
   },
 }
