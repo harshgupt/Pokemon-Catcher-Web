@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import items from '../data/items.json'
+import allItems from '../data/items.json'
 
 const RARITY_COLORS = {
   Common:   '#90caf9',
@@ -9,19 +9,29 @@ const RARITY_COLORS = {
 }
 
 export default function ItemDex() {
+  const [query, setQuery] = useState('')
+  const lowerQuery = query.toLowerCase()
+
   return (
     <div style={styles.root}>
-      <div style={styles.counter}>{items.length} items</div>
+      <input
+        style={styles.search}
+        type="text"
+        placeholder="Search items…"
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+      />
       <div style={styles.grid}>
-        {items.map(item => (
-          <ItemCard key={item.id} item={item} />
-        ))}
+        {allItems.map(item => {
+          const hidden = query && !(item.displayName ?? item.name).toLowerCase().includes(lowerQuery)
+          return <ItemCard key={item.id} item={item} hidden={hidden} />
+        })}
       </div>
     </div>
   )
 }
 
-function ItemCard({ item }) {
+function ItemCard({ item, hidden }) {
   const [imgState, setImgState] = useState('loading')
   const rarityColor = RARITY_COLORS[item.rarity] ?? '#ffffff'
   const spriteSrc = item.tmType
@@ -29,7 +39,7 @@ function ItemCard({ item }) {
     : `/sprites/items/${item.name}.png`
 
   return (
-    <div style={styles.card}>
+    <div style={hidden ? { ...styles.card, display: 'none' } : styles.card}>
       <div style={styles.imageWrap}>
         {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
@@ -55,10 +65,16 @@ const styles = {
     gap: '16px',
     height: '100%',
   },
-  counter: {
+  search: {
+    flexShrink: 0,
+    width: '100%',
+    padding: '6px 10px',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-sm)',
+    color: 'var(--text-primary)',
     fontSize: '13px',
-    color: 'var(--text-muted)',
-    fontWeight: '500',
+    outline: 'none',
   },
   grid: {
     display: 'grid',
@@ -71,15 +87,15 @@ const styles = {
     background: 'var(--bg-elevated)',
     border: '1px solid var(--border)',
     borderRadius: 'var(--radius-md)',
-    padding: '12px 8px 10px',
+    padding: '10px 8px 8px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    gap: '8px',
+    gap: '6px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), transform var(--transition), background var(--transition)',
     contentVisibility: 'auto',
-    containIntrinsicSize: '0 130px',
+    containIntrinsicSize: '0 124px',
   },
   imageWrap: {
     width: '56px',
@@ -90,8 +106,8 @@ const styles = {
     position: 'relative',
   },
   image: {
-    width: '100%',
-    height: '100%',
+    maxWidth: '100%',
+    maxHeight: '100%',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
@@ -109,6 +125,12 @@ const styles = {
     textAlign: 'center',
     lineHeight: '1.3',
     wordBreak: 'break-word',
+    height: '29px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    width: '100%',
   },
   rarity: {
     fontSize: '10px',

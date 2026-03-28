@@ -27,15 +27,24 @@ const TYPE_COLORS = {
 }
 
 export default function PokeDex() {
+  const [query, setQuery] = useState('')
   const entries = dexOrder.map(id => byId[id]).filter(Boolean)
+  const lowerQuery = query.toLowerCase()
 
   return (
     <div style={styles.root}>
-      <div style={styles.counter}>{entries.length} Pokémon</div>
+      <input
+        style={styles.search}
+        type="text"
+        placeholder="Search Pokémon…"
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+      />
       <div style={styles.grid}>
-        {entries.map((p, i) => (
-          <PokeCard key={`${p.id}-${i}`} pokemon={p} />
-        ))}
+        {entries.map((p, i) => {
+          const hidden = query && !(p.displayName ?? p.name).toLowerCase().includes(lowerQuery)
+          return <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={hidden} />
+        })}
       </div>
     </div>
   )
@@ -62,13 +71,13 @@ function TypeBadge({ type }) {
   )
 }
 
-function PokeCard({ pokemon: p }) {
+function PokeCard({ pokemon: p, hidden }) {
   const [imgState, setImgState] = useState('loading')
   const displayName = p.displayName ?? p.name
   const spriteFile  = p.spriteName ?? p.name
 
   return (
-    <div style={styles.card}>
+    <div style={hidden ? { ...styles.card, display: 'none' } : styles.card}>
       <div style={styles.imageWrap}>
         {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
@@ -97,11 +106,16 @@ const styles = {
     gap: '16px',
     height: '100%',
   },
-  counter: {
-    fontSize: '13px',
-    color: 'var(--text-muted)',
-    fontWeight: '500',
+  search: {
     flexShrink: 0,
+    width: '100%',
+    padding: '6px 10px',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-sm)',
+    color: 'var(--text-primary)',
+    fontSize: '13px',
+    outline: 'none',
   },
   grid: {
     display: 'grid',
@@ -118,12 +132,12 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    justifyContent: 'center',
     gap: '6px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), background var(--transition)',
     contentVisibility: 'auto',
-    containIntrinsicSize: '0 140px',
-    height: '140px',
+    containIntrinsicSize: '0 132px',
   },
   imageWrap: {
     width: '52px',
@@ -134,8 +148,8 @@ const styles = {
     position: 'relative',
   },
   image: {
-    width: '100%',
-    height: '100%',
+    width: '52px',
+    height: '52px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
@@ -144,14 +158,13 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     width: '100%',
-    flex: 1,
+    gap: '4px',
   },
   dexId: {
     fontSize: '9px',
     color: 'var(--text-muted)',
     fontWeight: '600',
     letterSpacing: '0.04em',
-    marginBottom: '2px',
   },
   name: {
     fontSize: '10px',
@@ -160,17 +173,17 @@ const styles = {
     textAlign: 'center',
     lineHeight: '1.3',
     wordBreak: 'break-word',
-    flex: 1,
+    height: '26px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
+    width: '100%',
   },
   types: {
     display: 'flex',
     gap: '3px',
     justifyContent: 'center',
-    marginTop: '3px',
   },
   typeBadge: {
     fontSize: '8px',
