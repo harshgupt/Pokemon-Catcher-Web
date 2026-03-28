@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { loadSave, saveGame, deleteSave } from '../lib/save'
 
 export default function SettingsTab({ gameState, setGameState }) {
-  const [toast, setToast] = useState(null) // { message, type: 'success'|'warn' }
+  const [toast, setToast]   = useState(null)
+  const importRef           = useRef(null)
 
   function showToast(message, type = 'success') {
     setToast({ message, type })
@@ -28,8 +29,40 @@ export default function SettingsTab({ gameState, setGameState }) {
     showToast('Game reset.', 'warn')
   }
 
+  function handleExport() {
+    const json = JSON.stringify(gameState, null, 2)
+    const blob = new Blob([json], { type: 'application/json' })
+    const url  = URL.createObjectURL(blob)
+    const a    = document.createElement('a')
+    a.href     = url
+    a.download = `pokemon-catcher-save-${new Date().toISOString().slice(0,10)}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+    showToast('Save exported.')
+  }
+
+  function handleImportFile(e) {
+    const file = e.target.files[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = evt => {
+      try {
+        const parsed = JSON.parse(evt.target.result)
+        if (!parsed.pokemon || !parsed.items) throw new Error('Invalid save file')
+        saveGame(parsed)
+        setGameState(loadSave())
+        showToast('Save imported.')
+      } catch {
+        showToast('Invalid save file.', 'warn')
+      }
+      e.target.value = ''
+    }
+    reader.readAsText(file)
+  }
+
   return (
     <div style={styles.root}>
+      <input ref={importRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImportFile} />
       <div style={styles.sections}>
 
         <Section title="Save Data">
@@ -53,6 +86,23 @@ export default function SettingsTab({ gameState, setGameState }) {
             buttonLabel="Reset"
             buttonVariant="danger"
             onClick={handleReset}
+          />
+        </Section>
+
+        <Section title="Backup">
+          <ActionRow
+            label="Export Save"
+            description="Download your save as a .json file for backup."
+            buttonLabel="Export"
+            buttonVariant="default"
+            onClick={handleExport}
+          />
+          <ActionRow
+            label="Import Save"
+            description="Restore progress from a previously exported .json file."
+            buttonLabel="Import"
+            buttonVariant="default"
+            onClick={() => importRef.current.click()}
           />
         </Section>
 
@@ -135,6 +185,7 @@ const styles = {
     gap: '24px',
     padding: '16px 20px',
     borderBottom: '1px solid var(--border)',
+    ':lastChild': { borderBottom: 'none' },
   },
   actionInfo: {
     display: 'flex',

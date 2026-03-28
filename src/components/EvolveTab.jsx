@@ -132,20 +132,21 @@ function injectTestState(setGameState) {
 }
 
 export default function EvolveTab({ gameState, setGameState }) {
-  const [selected, setSelected] = useState(null)
+  const [selected,   setSelected]   = useState(null) // pokemon for evolve options popup
+  const [evolved,    setEvolved]    = useState(null) // { fromPoke, toPoke } for result popup
 
-  // Build the evolvable list — one entry per pokemon that has ≥1 available evo
   const evolvable = pokemonData.filter(p => getAvailableEvolutions(p, gameState).length > 0)
 
   function handleEvolve(nf) {
-    const newGs = performEvolve(gameState, nf)
+    const newGs   = performEvolve(gameState, nf)
     setGameState(newGs)
     saveGame(newGs)
+    setSelected(null)
+    setEvolved({ fromPoke: byId[nf.fromId], toPoke: byId[nf.nextCharacterID] })
+  }
 
-    // Recompute available evolutions for the selected pokemon in the new state
-    const stillEvolvable = getAvailableEvolutions(byId[nf.fromId], newGs).length > 0
-    if (!stillEvolvable) setSelected(null)
-    else setSelected(byId[nf.fromId]) // refresh selected so popup re-renders
+  function handleResultClose() {
+    setEvolved(null)
   }
 
   return (
@@ -171,6 +172,14 @@ export default function EvolveTab({ gameState, setGameState }) {
           gameState={gameState}
           onEvolve={handleEvolve}
           onClose={() => setSelected(null)}
+        />
+      )}
+
+      {evolved && (
+        <EvolveResultPopup
+          fromPoke={evolved.fromPoke}
+          toPoke={evolved.toPoke}
+          onClose={handleResultClose}
         />
       )}
     </div>
@@ -278,6 +287,44 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
             )
           })}
         </div>
+      </div>
+    </div>
+  )
+}
+
+function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
+  const toFile   = toPoke   ? (toPoke.spriteName   ?? toPoke.name)   : null
+  const fromFile = fromPoke ? (fromPoke.spriteName  ?? fromPoke.name) : null
+  const toName   = toPoke   ? (toPoke.displayName   ?? toPoke.name)   : '???'
+  const fromName = fromPoke ? (fromPoke.displayName ?? fromPoke.name) : '???'
+
+  return (
+    <div style={styles.overlay} onClick={onClose}>
+      <div style={styles.resultPopup} onClick={e => e.stopPropagation()}>
+        <p style={styles.resultLine}>
+          <span style={styles.resultFrom}>{fromName}</span>
+          <span style={styles.resultArrow}> evolved into </span>
+          <span style={styles.resultTo}>{toName}!</span>
+        </p>
+        <div style={styles.resultSprites}>
+          {fromFile && (
+            <img
+              src={`/sprites/pokemon/mid/${fromFile}.png`}
+              alt={fromName}
+              style={{ ...styles.resultSprite, opacity: 0.4, filter: 'brightness(0.6)' }}
+            />
+          )}
+          <span style={styles.resultSpriteArrow}>→</span>
+          {toFile && (
+            <img
+              src={`/sprites/pokemon/large/${toFile}.png`}
+              alt={toName}
+              style={styles.resultLargeSprite}
+              onError={e => { e.target.onerror = null; e.target.src = `/sprites/pokemon/large/${toPoke.name}.png` }}
+            />
+          )}
+        </div>
+        <p style={styles.resultDismiss}>Click anywhere to close</p>
       </div>
     </div>
   )
@@ -534,5 +581,60 @@ const styles = {
     fontWeight: '700',
     cursor: 'pointer',
     transition: 'opacity var(--transition)',
+  },
+  resultPopup: {
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-lg)',
+    padding: '40px 56px 32px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '20px',
+    boxShadow: 'var(--shadow-md)',
+    minWidth: '320px',
+  },
+  resultLine: {
+    fontSize: '18px',
+    fontWeight: '600',
+    textAlign: 'center',
+    color: 'var(--text-primary)',
+  },
+  resultFrom: {
+    color: 'var(--text-secondary)',
+  },
+  resultArrow: {
+    color: 'var(--text-muted)',
+  },
+  resultTo: {
+    color: 'var(--accent-bright)',
+    fontWeight: '700',
+  },
+  resultSprites: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '16px',
+  },
+  resultSprite: {
+    width: '56px',
+    height: '56px',
+    objectFit: 'contain',
+    imageRendering: 'pixelated',
+  },
+  resultSpriteArrow: {
+    fontSize: '24px',
+    color: 'var(--text-muted)',
+  },
+  resultLargeSprite: {
+    width: '200px',
+    height: '200px',
+    objectFit: 'contain',
+    imageRendering: 'pixelated',
+  },
+  resultDismiss: {
+    fontSize: '11px',
+    color: 'var(--text-muted)',
+    fontStyle: 'italic',
   },
 }
