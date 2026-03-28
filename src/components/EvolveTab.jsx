@@ -118,6 +118,7 @@ const TYPE_COLORS = {
 
 // ── Components ────────────────────────────────────────────────────────────────
 
+
 export default function EvolveTab({ gameState, setGameState }) {
   const [selected, setSelected] = useState(null)
 
@@ -302,6 +303,7 @@ const styles = {
   grid: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(110px, 1fr))',
+    alignItems: 'start',
     gap: '10px',
     overflowY: 'auto',
     paddingRight: '4px',
@@ -318,8 +320,8 @@ const styles = {
     gap: '6px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), background var(--transition)',
-    contentVisibility: 'auto',
-    containIntrinsicSize: '0 130px',
+    height: '120px',
+    boxSizing: 'border-box',
   },
   imageWrap: {
     width: '56px',

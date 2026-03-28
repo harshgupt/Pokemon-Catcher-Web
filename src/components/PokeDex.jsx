@@ -216,17 +216,19 @@ export default function PokeDex({ gameState }) {
                 {(selected.types ?? []).map(t => <TypeBadge key={t} type={t} large />)}
               </div>
 
-              {/* ── Stats row ── */}
-              <div style={styles.statsRow}>
-                <div style={styles.statChip}>
-                  <span style={styles.statLabel}>Caught</span>
-                  <span style={styles.statValue}>{numberCaught}</span>
+              {/* ── Stats row (base Pokémon only — evolved forms cannot be caught) ── */}
+              {getBaseId(selected.id) === selected.id && (
+                <div style={styles.statsRow}>
+                  <div style={styles.statChip}>
+                    <span style={styles.statLabel}>Caught</span>
+                    <span style={styles.statValue}>{numberCaught}</span>
+                  </div>
+                  <div style={styles.statChip}>
+                    <span style={styles.statLabel}>In the wild</span>
+                    <span style={styles.statValue}>{remaining}</span>
+                  </div>
                 </div>
-                <div style={styles.statChip}>
-                  <span style={styles.statLabel}>In the wild</span>
-                  <span style={styles.statValue}>{remaining}</span>
-                </div>
-              </div>
+              )}
 
               {/* ── Evolution chain ── */}
               {evolutions.length > 0 && (
@@ -386,6 +388,7 @@ const styles = {
   grid: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
+    alignItems: 'start',
     gap: '10px',
     overflowY: 'auto',
     paddingRight: '4px',
@@ -403,8 +406,8 @@ const styles = {
     gap: '6px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), background var(--transition)',
-    contentVisibility: 'auto',
-    containIntrinsicSize: '0 132px',
+    height: '132px',
+    boxSizing: 'border-box',
   },
   imageWrap: {
     width: '52px',

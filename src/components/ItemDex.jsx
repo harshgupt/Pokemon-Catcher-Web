@@ -75,6 +75,7 @@ const styles = {
   grid: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
+    alignItems: 'start',
     gap: '12px',
     overflowY: 'auto',
     paddingRight: '4px',
@@ -90,8 +91,8 @@ const styles = {
     gap: '6px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), transform var(--transition), background var(--transition)',
-    contentVisibility: 'auto',
-    containIntrinsicSize: '0 124px',
+    height: '124px',
+    boxSizing: 'border-box',
   },
   imageWrap: {
     width: '56px',
