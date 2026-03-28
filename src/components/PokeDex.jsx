@@ -35,8 +35,21 @@ export default function PokeDex() {
   )
 }
 
+function GenderedName({ name }) {
+  const femaleIdx = name.indexOf(' ♀')
+  const maleIdx   = name.indexOf(' ♂')
+  if (femaleIdx !== -1) {
+    return <>{name.slice(0, femaleIdx)} <span style={{ color: '#f48fb1' }}>♀</span></>
+  }
+  if (maleIdx !== -1) {
+    return <>{name.slice(0, maleIdx)} <span style={{ color: '#90caf9' }}>♂</span></>
+  }
+  return <>{name}</>
+}
+
 function PokeCard({ pokemon: p }) {
   const rarityColor = RARITY_COLORS[p.rarity] ?? '#ffffff'
+  const displayName = p.displayName ?? p.name
 
   return (
     <div style={styles.card}>
@@ -50,7 +63,7 @@ function PokeCard({ pokemon: p }) {
       </div>
       <div style={styles.info}>
         <span style={styles.dexId}>#{String(p.dexId).padStart(4, '0')}</span>
-        <span style={styles.name}>{p.name}</span>
+        <span style={styles.name}><GenderedName name={displayName} /></span>
         <span style={{ ...styles.rarity, color: rarityColor }}>{p.rarity}</span>
       </div>
     </div>
