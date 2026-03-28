@@ -196,27 +196,36 @@ export default function PokeDex({ gameState }) {
         const selUnlocked  = isUnlocked(selected)
         const selName      = selUnlocked ? (selected.displayName ?? selected.name) : '?????'
         const remaining    = gameState?.pokemon[selected.id]?.numberToSpawn ?? 0
+        const numberCaught = gameState?.pokemon[selected.id]?.numberCaught  ?? 0
         const evolutions   = getAllChainEvolutions(selected.id)
 
         return (
           <div style={styles.overlay} onClick={() => setSelected(null)}>
             <div style={styles.popup} onClick={e => e.stopPropagation()}>
 
-              {/* ── Sprite + name + types ── */}
+              {/* ── Sprite + dex ID + name + types ── */}
               <img
                 src={`/sprites/pokemon/large/${selected.spriteName ?? selected.name}.png`}
                 alt={selected.name}
                 style={{ ...styles.popupImage, filter: selUnlocked ? 'none' : 'brightness(0)' }}
                 onError={e => { e.target.onerror = null; e.target.src = `/sprites/pokemon/large/${selected.name}.png` }}
               />
+              {selUnlocked && <div style={styles.popupDexId}>#{String(selected.dexId).padStart(4, '0')}</div>}
               <div style={styles.popupName}><GenderedName name={selName} /></div>
               <div style={styles.popupTypes}>
                 {(selected.types ?? []).map(t => <TypeBadge key={t} type={t} large />)}
               </div>
 
-              {/* ── Wild count ── */}
-              <div style={styles.wildChip}>
-                {remaining === 0 ? 'None left in the wild' : `${remaining} remaining in the wild`}
+              {/* ── Stats row ── */}
+              <div style={styles.statsRow}>
+                <div style={styles.statChip}>
+                  <span style={styles.statLabel}>Caught</span>
+                  <span style={styles.statValue}>{numberCaught}</span>
+                </div>
+                <div style={styles.statChip}>
+                  <span style={styles.statLabel}>In the wild</span>
+                  <span style={styles.statValue}>{remaining}</span>
+                </div>
               </div>
 
               {/* ── Evolution chain ── */}
@@ -247,6 +256,7 @@ export default function PokeDex({ gameState }) {
                     // Full detail row
                     const rootId      = getBaseId(ev.fromId)
                     const rootCaught  = gameState?.pokemon[rootId]?.numberCaught ?? 0
+                    const methodLabel = { LevelUp: 'Level Up', Item: 'Item', CharacterRequired: 'Pokémon', ItemAndCharacterRequired: 'Item + Pokémon' }[ev.evolutionMethod] ?? ev.evolutionMethod
                     const needsItem   = ev.evolutionMethod === 'Item' || ev.evolutionMethod === 'ItemAndCharacterRequired'
                     const needsChar   = ev.evolutionMethod === 'CharacterRequired' || ev.evolutionMethod === 'ItemAndCharacterRequired'
                     const item        = needsItem ? byItemId[ev.evolutionItemID] : null
@@ -265,6 +275,7 @@ export default function PokeDex({ gameState }) {
                         <span style={{ ...styles.evoCount, color: countMet ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
                           {rootCaught} / {ev.characterCount}
                         </span>
+                        <span style={styles.methodBadge}>{methodLabel}</span>
                         {needsItem && itemSrc && (
                           <img src={itemSrc} alt={item?.name} title={item?.displayName ?? item?.name}
                             style={{ ...styles.evoReqSprite, filter: hasItem ? 'none' : 'brightness(0.3)' }} />
@@ -467,6 +478,7 @@ const styles = {
     maxWidth: '480px',
     maxHeight: '85vh',
     overflowY: 'auto',
+    overflowX: 'hidden',
   },
   popupImage: {
     width: '300px',
@@ -521,8 +533,8 @@ const styles = {
     padding: '6px 10px',
   },
   evoSprite: {
-    width: '36px',
-    height: '36px',
+    width: '52px',
+    height: '52px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
     flexShrink: 0,
@@ -546,5 +558,53 @@ const styles = {
     imageRendering: 'pixelated',
     flexShrink: 0,
     marginLeft: '2px',
+  },
+  popupDexId: {
+    fontSize: '12px',
+    fontWeight: '600',
+    color: 'var(--text-muted)',
+    letterSpacing: '0.06em',
+    marginBottom: '-8px',
+  },
+  statsRow: {
+    display: 'flex',
+    gap: '8px',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+  },
+  statChip: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '2px',
+    background: 'var(--bg-surface)',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius-sm)',
+    padding: '6px 16px',
+    minWidth: '80px',
+  },
+  statLabel: {
+    fontSize: '10px',
+    color: 'var(--text-muted)',
+    fontWeight: '500',
+    textTransform: 'uppercase',
+    letterSpacing: '0.05em',
+  },
+  statValue: {
+    fontSize: '20px',
+    fontWeight: '700',
+    color: 'var(--text-primary)',
+    lineHeight: 1,
+  },
+  methodBadge: {
+    fontSize: '10px',
+    fontWeight: '600',
+    color: 'var(--accent)',
+    background: 'color-mix(in srgb, var(--accent) 15%, transparent)',
+    border: '1px solid color-mix(in srgb, var(--accent) 40%, transparent)',
+    borderRadius: '4px',
+    padding: '2px 7px',
+    whiteSpace: 'nowrap',
+    flexShrink: 0,
   },
 }
