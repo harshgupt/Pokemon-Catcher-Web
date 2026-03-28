@@ -7,6 +7,64 @@ import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from 
 const byPokemonId = Object.fromEntries(pokemonData.map(p => [p.id, p]))
 const byItemId    = Object.fromEntries(itemsData.map(i   => [i.id, i]))
 
+// Build parent map for chain-root lookup (mirrors DexManager.GetChainRoot)
+const parentOf = {}
+pokemonData.forEach(p => {
+  if (Array.isArray(p.nextForms))
+    p.nextForms.forEach(nf => { if (parentOf[nf.nextCharacterID] === undefined) parentOf[nf.nextCharacterID] = p.id })
+})
+function getChainRoot(id, seen = new Set()) {
+  if (seen.has(id)) return id
+  seen.add(id)
+  return parentOf[id] !== undefined ? getChainRoot(parentOf[id], seen) : id
+}
+
+/**
+ * Returns all frontier evolutions for the caught pokemon's chain:
+ * any unlocked form → not-yet-unlocked next form.
+ * Mirrors the logic in DexCharacterPanel.SetupEvolutions + DexManager.GetChainRoot.
+ */
+function getEvolutionFrontier(caughtId, gameState) {
+  const result  = []
+  const visited = new Set()
+
+  function walk(id) {
+    if (visited.has(id)) return
+    visited.add(id)
+    const p = byPokemonId[id]
+    if (!p || !Array.isArray(p.nextForms) || p.nextForms.length === 0) return
+    if (!(gameState.pokemon[id]?.isUnlocked)) return   // can only evolve unlocked forms
+
+    for (const nf of p.nextForms) {
+      const nextId      = nf.nextCharacterID
+      const nextUnlocked = gameState.pokemon[nextId]?.isUnlocked ?? false
+      if (!nextUnlocked) {
+        const rootId   = getChainRoot(id)
+        const fromPoke = byPokemonId[id]
+        const nextPoke = byPokemonId[nextId]
+        result.push({
+          fromId: id,
+          nextId,
+          fromSrc:  fromPoke ? `/sprites/pokemon/mid/${fromPoke.spriteName ?? fromPoke.name}.png` : '',
+          nextSrc:  nextPoke ? `/sprites/pokemon/mid/${nextPoke.spriteName ?? nextPoke.name}.png` : '',
+          nextName: nextPoke ? (nextPoke.displayName ?? nextPoke.name) : '???',
+          current:  gameState.pokemon[rootId]?.numberCaught ?? 0,
+          required: nf.characterCount,
+        })
+      } else {
+        walk(nextId)   // already unlocked — look deeper
+      }
+    }
+  }
+
+  // Start from the chain root; also start from caughtId itself in case root is not yet unlocked
+  const rootId = getChainRoot(caughtId)
+  walk(rootId)
+  if (caughtId !== rootId) walk(caughtId)
+
+  return result
+}
+
 const TYPE_COLORS = {
   Normal: '#9FA19F', Fire: '#E62829', Water: '#2980EF', Electric: '#FAC000',
   Grass: '#3FA129', Ice: '#3DCEF3', Fighting: '#FF8000', Poison: '#9141CB',
@@ -75,12 +133,10 @@ export default function CatchTab() {
     if (animIdx !== -1) return
 
     setAnimIdx(idx)
-    setAnimPhase('shake')
+    setAnimPhase('burst')
     setHoveredIdx(-1)
 
-    const t1 = setTimeout(() => setAnimPhase('burst'), 420)
     setTimeout(() => {
-      clearTimeout(t1)
       setAnimIdx(-1)
       setAnimPhase(null)
 
@@ -89,8 +145,8 @@ export default function CatchTab() {
       setGameState(newGs)
       saveGame(newGs)
 
-      setPopup({ slot })
-    }, 670)
+      setPopup({ slot, gameState: newGs })
+    }, 300)
   }
 
   function handlePopupClose() {
@@ -154,7 +210,7 @@ export default function CatchTab() {
         </>
       )}
 
-      {popup && <CatchPopup slot={popup.slot} onClose={handlePopupClose} />}
+      {popup && <CatchPopup slot={popup.slot} gameState={popup.gameState} onClose={handlePopupClose} />}
     </div>
   )
 }
@@ -167,16 +223,10 @@ function BallSlot({ isAnimating, animPhase, isHovered, onHoverEnter, onHoverExit
     objectFit: 'contain',
     imageRendering: 'pixelated',
     transform: isHovered && !isAnimating ? 'scale(1.12)' : 'scale(1)',
-    transition: 'transform 0.15s ease',
-    ...(isAnimating && animPhase === 'shake' && {
-      animation: 'pb-shake 0.14s ease-in-out 3',
+    transition: isAnimating ? 'none' : 'transform 0.15s ease',
+    ...(isAnimating && {
+      animation: 'pb-burst 0.28s ease-out forwards',
       transformOrigin: 'center',
-      transition: 'none',
-    }),
-    ...(isAnimating && animPhase === 'burst' && {
-      animation: 'pb-burst 0.25s ease-out forwards',
-      transformOrigin: 'center',
-      transition: 'none',
     }),
   }
 
@@ -193,9 +243,18 @@ function BallSlot({ isAnimating, animPhase, isHovered, onHoverEnter, onHoverExit
 }
 
 // ── CatchPopup ────────────────────────────────────────────────────────────────
-function CatchPopup({ slot, onClose }) {
+function CatchPopup({ slot, gameState, onClose }) {
   const d = slotData(slot)
   const catchLine = d.isItem ? `You found ${d.name}!` : `You caught ${d.name}!`
+
+  // ── Pokemon-only stats ─────────────────────────────────────────────────────
+  let remaining    = null
+  let evolutions   = []
+
+  if (slot.type === 'pokemon') {
+    remaining  = gameState.pokemon[slot.id]?.numberToSpawn ?? 0
+    evolutions = getEvolutionFrontier(slot.id, gameState)
+  }
 
   return (
     <div style={styles.overlay} onClick={onClose}>
@@ -220,6 +279,21 @@ function CatchPopup({ slot, onClose }) {
               <span key={t} style={{ ...styles.typeBadge, background: TYPE_COLORS[t] ?? '#9FA19F' }}>
                 {t}
               </span>
+            ))}
+          </div>
+        )}
+        {slot.type === 'pokemon' && (
+          <div style={styles.statsRow}>
+            <span style={styles.statChip}>
+              {remaining === 0 ? 'None left in the wild' : `${remaining} left in the wild`}
+            </span>
+            {evolutions.map((ev, i) => (
+              <div key={i} style={styles.evoChip}>
+                <img src={ev.fromSrc} alt="" style={styles.evoSprite} />
+                <span style={styles.evoArrow}>→</span>
+                <img src={ev.nextSrc} alt={ev.nextName} style={styles.evoSprite} />
+                <span style={styles.evoCount}>{ev.current} / {ev.required}</span>
+              </div>
             ))}
           </div>
         )}
@@ -336,6 +410,47 @@ const styles = {
     padding: '3px 12px',
     textTransform: 'uppercase',
     letterSpacing: '0.04em',
+  },
+  statsRow: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '6px',
+    width: '100%',
+  },
+  statChip: {
+    fontSize: '12px',
+    color: 'var(--text-secondary)',
+    background: 'var(--bg-surface)',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius-sm)',
+    padding: '4px 10px',
+    textAlign: 'center',
+  },
+  evoChip: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '6px',
+    background: 'var(--bg-surface)',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius-sm)',
+    padding: '4px 10px',
+  },
+  evoSprite: {
+    width: '28px',
+    height: '28px',
+    objectFit: 'contain',
+    imageRendering: 'pixelated',
+  },
+  evoArrow: {
+    fontSize: '12px',
+    color: 'var(--text-muted)',
+  },
+  evoCount: {
+    fontSize: '12px',
+    fontWeight: '600',
+    color: 'var(--text-secondary)',
+    marginLeft: '2px',
   },
   closeBtn: {
     marginTop: '4px',
