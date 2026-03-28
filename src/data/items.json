@@ -159,7 +159,8 @@
     "id": 26,
     "name": "Pokeball",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "displayName": "Poké Ball"
   },
   {
     "id": 27,
@@ -279,7 +280,8 @@
     "id": 46,
     "name": "Gracidea Flower",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Sparse",
+    "displayName": "Gracidea"
   },
   {
     "id": 47,
@@ -345,7 +347,8 @@
     "id": 104,
     "name": "PhD Costume",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "displayName": "Ph.D. Costume"
   },
   {
     "id": 105,
@@ -357,13 +360,15 @@
     "id": 106,
     "name": "N Solarizer",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Sparse",
+    "displayName": "N-Solarizer"
   },
   {
     "id": 107,
     "name": "N Lunarizer",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Sparse",
+    "displayName": "N-Lunarizer"
   },
   {
     "id": 108,
@@ -1280,7 +1285,8 @@
     "name": "Baby Doll Eyes",
     "spawnCount": 1,
     "rarity": "Common",
-    "tmType": "Fairy"
+    "tmType": "Fairy",
+    "displayName": "Baby-Doll Eyes"
   },
   {
     "id": 168,
@@ -1385,7 +1391,8 @@
     "name": "Topsy Turvy",
     "spawnCount": 1,
     "rarity": "Common",
-    "tmType": "Dark"
+    "tmType": "Dark",
+    "displayName": "Topsy-Turvy"
   },
   {
     "id": 183,

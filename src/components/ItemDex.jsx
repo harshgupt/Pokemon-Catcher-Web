@@ -37,7 +37,7 @@ function ItemCard({ item }) {
         />
       </div>
       <div style={styles.info}>
-        <span style={styles.name}>{item.name}</span>
+        <span style={styles.name}>{item.displayName ?? item.name}</span>
         <span style={{ ...styles.rarity, color: rarityColor }}>{item.rarity}</span>
       </div>
     </div>
