@@ -2,7 +2,7 @@ import { useState } from 'react'
 import allItems from '../data/items.json'
 
 
-export default function ItemDex() {
+export default function ItemDex({ gameState }) {
   const [query, setQuery] = useState('')
   const lowerQuery = query.toLowerCase()
 
@@ -17,19 +17,22 @@ export default function ItemDex() {
       />
       <div style={styles.grid}>
         {allItems.map(item => {
-          const hidden = query && !(item.displayName ?? item.name).toLowerCase().includes(lowerQuery)
-          return <ItemCard key={item.id} item={item} hidden={hidden} />
+          const hidden    = query && !(item.displayName ?? item.name).toLowerCase().includes(lowerQuery)
+          const unlocked  = gameState?.items[item.id]?.isUnlocked  ?? false
+          const collected = gameState?.items[item.id]?.numberCollected ?? 0
+          return <ItemCard key={item.id} item={item} hidden={hidden} unlocked={unlocked} collected={collected} />
         })}
       </div>
     </div>
   )
 }
 
-function ItemCard({ item, hidden }) {
+function ItemCard({ item, hidden, unlocked, collected }) {
   const [imgState, setImgState] = useState('loading')
   const spriteSrc = item.tmType
     ? `/sprites/items/TM ${item.tmType}.png`
     : `/sprites/items/${item.name}.png`
+  const displayName = unlocked ? (item.displayName ?? item.name) : '?????'
 
   return (
     <div style={hidden ? { ...styles.card, display: 'none' } : styles.card}>
@@ -38,13 +41,14 @@ function ItemCard({ item, hidden }) {
         <img
           src={spriteSrc}
           alt={item.name}
-          style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0 }}
+          style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0, filter: unlocked ? 'none' : 'brightness(0)' }}
           onLoad={() => setImgState('loaded')}
           onError={() => setImgState('error')}
         />
       </div>
       <div style={styles.info}>
-        <span style={styles.name}>{item.displayName ?? item.name}</span>
+        <span style={styles.name}>{displayName}</span>
+        {unlocked && <span style={styles.count}>×{collected}</span>}
       </div>
     </div>
   )
@@ -123,5 +127,11 @@ const styles = {
     justifyContent: 'center',
     overflow: 'hidden',
     width: '100%',
+  },
+  count: {
+    fontSize: '10px',
+    color: 'var(--text-muted)',
+    fontWeight: '600',
+    letterSpacing: '0.04em',
   },
 }

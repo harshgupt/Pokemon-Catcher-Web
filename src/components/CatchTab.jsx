@@ -97,17 +97,17 @@ function slotData(slot) {
 }
 
 // ── Main component ────────────────────────────────────────────────────────────
-export default function CatchTab() {
-  const [gameState, setGameState] = useState(() => loadSave())
+export default function CatchTab({ gameState, setGameState }) {
   const [slots,     setSlots]     = useState([])
   const [animIdx,   setAnimIdx]   = useState(-1)
   const [animPhase, setAnimPhase] = useState(null)   // 'shake' | 'burst'
   const [hoveredIdx,setHoveredIdx]= useState(-1)
-  const [popup,     setPopup]     = useState(null)   // { slot }
+  const [popup,     setPopup]     = useState(null)   // { slot, gameState }
   const [phase,     setPhase]     = useState('grid') // 'grid' | 'gameOver' | 'categoryEmpty'
 
+  // Keep ref in sync with prop so callbacks always see latest state
   const gsRef = useRef(gameState)
-  useEffect(() => { gsRef.current = gameState }, [gameState])
+  gsRef.current = gameState
 
   useEffect(() => {
     const onUnload     = () => saveGame(gsRef.current)
@@ -158,8 +158,8 @@ export default function CatchTab() {
     if (!confirm('Reset all progress? This cannot be undone.')) return
     deleteSave()
     const fresh = loadSave()
+    gsRef.current = fresh   // sync ref before generateGrid reads it
     setGameState(fresh)
-    gsRef.current = fresh
     doGenerateGrid(fresh)
   }
 
@@ -297,7 +297,6 @@ function CatchPopup({ slot, gameState, onClose }) {
             ))}
           </div>
         )}
-        <button style={styles.closeBtn} onClick={onClose}>Close</button>
       </div>
     </div>
   )
@@ -464,15 +463,5 @@ const styles = {
     fontWeight: '600',
     color: 'var(--text-secondary)',
     marginLeft: '2px',
-  },
-  closeBtn: {
-    marginTop: '4px',
-    padding: '7px 24px',
-    background: 'transparent',
-    color: 'var(--text-secondary)',
-    border: '1px solid var(--border-strong)',
-    borderRadius: 'var(--radius-sm)',
-    fontSize: '13px',
-    cursor: 'pointer',
   },
 }

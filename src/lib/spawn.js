@@ -68,10 +68,10 @@ function weightedSelect(pool, getWeight) {
 }
 
 function pokemonClue(p) {
-  const pool = [`Rarity: ${p.rarity}`]
+  const pool = []
   for (const cat of (p.categories ?? []))
     if (CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])
-  return pool[Math.floor(Math.random() * pool.length)]
+  return pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : '???'
 }
 
 // ── Public API ────────────────────────────────────────────────────────────────

@@ -1,8 +1,10 @@
 import { useState } from 'react'
-import dexOrder from '../data/dex-order.json'
-import pokemon from '../data/pokemon.json'
+import dexOrder   from '../data/dex-order.json'
+import pokemon    from '../data/pokemon.json'
+import itemsData  from '../data/items.json'
 
-const byId = Object.fromEntries(pokemon.map(p => [p.id, p]))
+const byId     = Object.fromEntries(pokemon.map(p   => [p.id,   p]))
+const byItemId = Object.fromEntries(itemsData.map(i => [i.id,   i]))
 
 // ── Evolution chain helpers ───────────────────────────────────────────────────
 const parentOf = {}
@@ -19,6 +21,24 @@ function getBaseId(id, seen = new Set()) {
   if (seen.has(id)) return id
   seen.add(id)
   return parentOf[id] !== undefined ? getBaseId(parentOf[id], seen) : id
+}
+
+/** Walk the whole chain from root, returning every evolution step. */
+function getAllChainEvolutions(selectedId) {
+  const evolutions = []
+  const visited    = new Set()
+  function walk(id) {
+    if (visited.has(id)) return
+    visited.add(id)
+    const p = byId[id]
+    if (!p || !Array.isArray(p.nextForms)) return
+    for (const nf of p.nextForms) {
+      evolutions.push({ fromId: id, ...nf })
+      walk(nf.nextCharacterID)
+    }
+  }
+  walk(getBaseId(selectedId))
+  return evolutions
 }
 
 function getGen(p) {
@@ -102,7 +122,7 @@ const TYPE_COLORS = {
   Fairy:    '#EF70EF',
 }
 
-export default function PokeDex() {
+export default function PokeDex({ gameState }) {
   const [query,   setQuery]   = useState('')
   const [type1,   setType1]   = useState('')
   const [type2,   setType2]   = useState('')
@@ -114,6 +134,10 @@ export default function PokeDex() {
   const allEntries  = dexOrder.map(id => byId[id]).filter(Boolean)
   const lowerQuery  = query.toLowerCase()
   const hasFilters  = query || type1 || type2 || gen || form || rarity
+
+  function isUnlocked(p) {
+    return gameState?.pokemon[p.id]?.isUnlocked ?? false
+  }
 
   function isHidden(p) {
     if (!hasFilters) return false
@@ -164,33 +188,100 @@ export default function PokeDex() {
       </div>
       <div style={styles.grid}>
         {allEntries.map((p, i) => (
-          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} onSelect={setSelected} />
+          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} unlocked={isUnlocked(p)} onSelect={setSelected} />
         ))}
       </div>
 
-      {selected && (
-        <div style={styles.overlay} onClick={() => setSelected(null)}>
-          <div style={styles.popup} onClick={e => e.stopPropagation()}>
-            <img
-              src={`/sprites/pokemon/large/${selected.spriteName ?? selected.name}.png`}
-              alt={selected.name}
-              style={styles.popupImage}
-              onError={e => {
-                e.target.onerror = null
-                e.target.src = `/sprites/pokemon/large/${selected.name}.png`
-              }}
-            />
-            <div style={styles.popupName}>
-              <GenderedName name={selected.displayName ?? selected.name} />
-            </div>
-            <div style={styles.popupTypes}>
-              {(selected.types ?? []).map(t => (
-                <TypeBadge key={t} type={t} large />
-              ))}
+      {selected && (() => {
+        const selUnlocked  = isUnlocked(selected)
+        const selName      = selUnlocked ? (selected.displayName ?? selected.name) : '?????'
+        const remaining    = gameState?.pokemon[selected.id]?.numberToSpawn ?? 0
+        const evolutions   = getAllChainEvolutions(selected.id)
+
+        return (
+          <div style={styles.overlay} onClick={() => setSelected(null)}>
+            <div style={styles.popup} onClick={e => e.stopPropagation()}>
+
+              {/* ── Sprite + name + types ── */}
+              <img
+                src={`/sprites/pokemon/large/${selected.spriteName ?? selected.name}.png`}
+                alt={selected.name}
+                style={{ ...styles.popupImage, filter: selUnlocked ? 'none' : 'brightness(0)' }}
+                onError={e => { e.target.onerror = null; e.target.src = `/sprites/pokemon/large/${selected.name}.png` }}
+              />
+              <div style={styles.popupName}><GenderedName name={selName} /></div>
+              <div style={styles.popupTypes}>
+                {(selected.types ?? []).map(t => <TypeBadge key={t} type={t} large />)}
+              </div>
+
+              {/* ── Wild count ── */}
+              <div style={styles.wildChip}>
+                {remaining === 0 ? 'None left in the wild' : `${remaining} remaining in the wild`}
+              </div>
+
+              {/* ── Evolution chain ── */}
+              {evolutions.length > 0 && (
+                <div style={styles.evoSection}>
+                  {evolutions.map((ev, i) => {
+                    const fromPoke = byId[ev.fromId]
+                    const toPoke   = byId[ev.nextCharacterID]
+                    const fromFile = fromPoke ? (fromPoke.spriteName ?? fromPoke.name) : null
+                    const toFile   = toPoke   ? (toPoke.spriteName   ?? toPoke.name)   : null
+                    const fromLocked = !(gameState?.pokemon[ev.fromId]?.isUnlocked          ?? false)
+                    const toLocked   = !(gameState?.pokemon[ev.nextCharacterID]?.isUnlocked ?? false)
+
+                    // Full detail only when selected pokemon is directly involved
+                    const involved = ev.fromId === selected.id || ev.nextCharacterID === selected.id
+
+                    if (!involved) {
+                      // Context row — sprites only
+                      return (
+                        <div key={i} style={{ ...styles.evoRow, opacity: 0.5 }}>
+                          {fromFile && <img src={`/sprites/pokemon/mid/${fromFile}.png`} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
+                          <span style={styles.evoArrow}>→</span>
+                          {toFile   && <img src={`/sprites/pokemon/mid/${toFile}.png`}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
+                        </div>
+                      )
+                    }
+
+                    // Full detail row
+                    const rootId      = getBaseId(ev.fromId)
+                    const rootCaught  = gameState?.pokemon[rootId]?.numberCaught ?? 0
+                    const needsItem   = ev.evolutionMethod === 'Item' || ev.evolutionMethod === 'ItemAndCharacterRequired'
+                    const needsChar   = ev.evolutionMethod === 'CharacterRequired' || ev.evolutionMethod === 'ItemAndCharacterRequired'
+                    const item        = needsItem ? byItemId[ev.evolutionItemID] : null
+                    const itemSrc     = item ? (item.tmType ? `/sprites/items/TM ${item.tmType}.png` : `/sprites/items/${item.name}.png`) : null
+                    const hasItem     = needsItem ? (gameState?.items[ev.evolutionItemID]?.numberCollected ?? 0) > 0 : true
+                    const reqChar     = (needsChar && ev.characterRequiredID) ? byId[ev.characterRequiredID] : null
+                    const reqCharFile = reqChar ? (reqChar.spriteName ?? reqChar.name) : null
+                    const reqCharUnlocked = needsChar ? (gameState?.pokemon[ev.characterRequiredID]?.isUnlocked ?? false) : true
+                    const countMet    = rootCaught >= ev.characterCount
+
+                    return (
+                      <div key={i} style={styles.evoRow}>
+                        {fromFile && <img src={`/sprites/pokemon/mid/${fromFile}.png`} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
+                        <span style={styles.evoArrow}>→</span>
+                        {toFile   && <img src={`/sprites/pokemon/mid/${toFile}.png`}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
+                        <span style={{ ...styles.evoCount, color: countMet ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
+                          {rootCaught} / {ev.characterCount}
+                        </span>
+                        {needsItem && itemSrc && (
+                          <img src={itemSrc} alt={item?.name} title={item?.displayName ?? item?.name}
+                            style={{ ...styles.evoReqSprite, filter: hasItem ? 'none' : 'brightness(0.3)' }} />
+                        )}
+                        {needsChar && reqCharFile && (
+                          <img src={`/sprites/pokemon/mid/${reqCharFile}.png`} alt={reqChar?.name} title={reqChar?.displayName ?? reqChar?.name}
+                            style={{ ...styles.evoReqSprite, filter: reqCharUnlocked ? 'none' : 'brightness(0)' }} />
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
             </div>
           </div>
-        </div>
-      )}
+        )
+      })()}
     </div>
   )
 }
@@ -217,9 +308,9 @@ function TypeBadge({ type, large }) {
   )
 }
 
-function PokeCard({ pokemon: p, hidden, onSelect }) {
+function PokeCard({ pokemon: p, hidden, unlocked, onSelect }) {
   const [imgState, setImgState] = useState('loading')
-  const displayName = p.displayName ?? p.name
+  const displayName = unlocked ? (p.displayName ?? p.name) : '?????'
   const spriteFile  = p.spriteName ?? p.name
 
   return (
@@ -229,13 +320,13 @@ function PokeCard({ pokemon: p, hidden, onSelect }) {
         <img
           src={`/sprites/pokemon/mid/${spriteFile}.png`}
           alt={p.name}
-          style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0 }}
+          style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0, filter: unlocked ? 'none' : 'brightness(0)' }}
           onLoad={() => setImgState('loaded')}
           onError={() => setImgState('error')}
         />
       </div>
       <div style={styles.info}>
-        <span style={styles.dexId}>#{String(p.dexId).padStart(4, '0')}</span>
+        <span style={styles.dexId}>{unlocked ? `#${String(p.dexId).padStart(4, '0')}` : '?????'}</span>
         <span style={styles.name}><GenderedName name={displayName} /></span>
         <div style={styles.types}>
           {(p.types ?? []).map(t => <TypeBadge key={t} type={t} />)}
@@ -366,13 +457,16 @@ const styles = {
     background: 'var(--bg-elevated)',
     border: '1px solid var(--border-strong)',
     borderRadius: 'var(--radius-lg)',
-    padding: '48px 64px 40px',
+    padding: '40px 48px 36px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    gap: '16px',
+    gap: '14px',
     boxShadow: 'var(--shadow-md)',
-    minWidth: '320px',
+    minWidth: '340px',
+    maxWidth: '480px',
+    maxHeight: '85vh',
+    overflowY: 'auto',
   },
   popupImage: {
     width: '300px',
@@ -400,5 +494,57 @@ const styles = {
     textTransform: 'uppercase',
     letterSpacing: '0.04em',
     whiteSpace: 'nowrap',
+  },
+  wildChip: {
+    fontSize: '12px',
+    color: 'var(--text-secondary)',
+    background: 'var(--bg-surface)',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius-sm)',
+    padding: '4px 12px',
+  },
+  evoSection: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '6px',
+    width: '100%',
+    borderTop: '1px solid var(--border)',
+    paddingTop: '12px',
+  },
+  evoRow: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '8px',
+    background: 'var(--bg-surface)',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius-sm)',
+    padding: '6px 10px',
+  },
+  evoSprite: {
+    width: '36px',
+    height: '36px',
+    objectFit: 'contain',
+    imageRendering: 'pixelated',
+    flexShrink: 0,
+  },
+  evoArrow: {
+    fontSize: '14px',
+    color: 'var(--text-muted)',
+    flexShrink: 0,
+  },
+  evoCount: {
+    fontSize: '12px',
+    fontWeight: '600',
+    minWidth: '44px',
+    textAlign: 'right',
+    marginRight: '4px',
+  },
+  evoReqSprite: {
+    width: '28px',
+    height: '28px',
+    objectFit: 'contain',
+    imageRendering: 'pixelated',
+    flexShrink: 0,
+    marginLeft: '2px',
   },
 }
