@@ -46,6 +46,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ─── Pokeball animations ─────────────────────────────────────────────────── */
+@keyframes pb-shake {
+  0%, 100% { transform: translateX(0); }
+  25%       { transform: translateX(7px); }
+  75%       { transform: translateX(-7px); }
+}
+
+@keyframes pb-burst {
+  from { transform: scale(1);   opacity: 1; }
+  to   { transform: scale(2.5); opacity: 0; }
+}
+
 /* ─── Sprite spinner ─────────────────────────────────────────────────────── */
 @keyframes spin {
   to { transform: rotate(360deg); }

@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import './styles/index.css'
 import Sidebar from './components/Sidebar'
-import ItemDex from './components/ItemDex'
-import PokeDex from './components/PokeDex'
+import ItemDex  from './components/ItemDex'
+import PokeDex  from './components/PokeDex'
+import CatchTab from './components/CatchTab'
 
 const PAGE_LABELS = {
   catch:    'Catch',
@@ -23,9 +24,10 @@ export default function App() {
           <h1 style={styles.pageTitle}>{PAGE_LABELS[activePage]}</h1>
         </header>
         <div style={styles.content}>
+          <div style={activePage === 'catch'   ? styles.page : styles.pageHidden}><CatchTab /></div>
           <div style={activePage === 'pokedex' ? styles.page : styles.pageHidden}><PokeDex /></div>
           <div style={activePage === 'items'   ? styles.page : styles.pageHidden}><ItemDex /></div>
-          {activePage !== 'items' && activePage !== 'pokedex' && <Placeholder page={activePage} />}
+          {activePage !== 'catch' && activePage !== 'items' && activePage !== 'pokedex' && <Placeholder page={activePage} />}
         </div>
       </main>
     </div>
