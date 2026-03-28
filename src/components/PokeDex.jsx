@@ -103,12 +103,13 @@ const TYPE_COLORS = {
 }
 
 export default function PokeDex() {
-  const [query,  setQuery]  = useState('')
-  const [type1,  setType1]  = useState('')
-  const [type2,  setType2]  = useState('')
-  const [gen,    setGen]    = useState('')
-  const [form,   setForm]   = useState('')
-  const [rarity, setRarity] = useState('')
+  const [query,   setQuery]   = useState('')
+  const [type1,   setType1]   = useState('')
+  const [type2,   setType2]   = useState('')
+  const [gen,     setGen]     = useState('')
+  const [form,    setForm]    = useState('')
+  const [rarity,  setRarity]  = useState('')
+  const [selected, setSelected] = useState(null) // pokemon entry for popup
 
   const allEntries  = dexOrder.map(id => byId[id]).filter(Boolean)
   const lowerQuery  = query.toLowerCase()
@@ -163,9 +164,33 @@ export default function PokeDex() {
       </div>
       <div style={styles.grid}>
         {allEntries.map((p, i) => (
-          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} />
+          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} onSelect={setSelected} />
         ))}
       </div>
+
+      {selected && (
+        <div style={styles.overlay} onClick={() => setSelected(null)}>
+          <div style={styles.popup} onClick={e => e.stopPropagation()}>
+            <img
+              src={`/sprites/pokemon/large/${selected.spriteName ?? selected.name}.png`}
+              alt={selected.name}
+              style={styles.popupImage}
+              onError={e => {
+                e.target.onerror = null
+                e.target.src = `/sprites/pokemon/large/${selected.name}.png`
+              }}
+            />
+            <div style={styles.popupName}>
+              <GenderedName name={selected.displayName ?? selected.name} />
+            </div>
+            <div style={styles.popupTypes}>
+              {(selected.types ?? []).map(t => (
+                <TypeBadge key={t} type={t} large />
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -182,22 +207,23 @@ function GenderedName({ name }) {
   return <>{name}</>
 }
 
-function TypeBadge({ type }) {
+function TypeBadge({ type, large }) {
   const bg = TYPE_COLORS[type] ?? '#9FA19F'
+  const override = large ? { fontSize: '13px', padding: '3px 12px', borderRadius: '5px' } : {}
   return (
-    <span style={{ ...styles.typeBadge, background: bg }}>
+    <span style={{ ...styles.typeBadge, background: bg, ...override }}>
       {type}
     </span>
   )
 }
 
-function PokeCard({ pokemon: p, hidden }) {
+function PokeCard({ pokemon: p, hidden, onSelect }) {
   const [imgState, setImgState] = useState('loading')
   const displayName = p.displayName ?? p.name
   const spriteFile  = p.spriteName ?? p.name
 
   return (
-    <div style={hidden ? { ...styles.card, display: 'none' } : styles.card}>
+    <div style={hidden ? { ...styles.card, display: 'none' } : styles.card} onClick={() => onSelect(p)}>
       <div style={styles.imageWrap}>
         {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
@@ -322,6 +348,47 @@ const styles = {
   types: {
     display: 'flex',
     gap: '3px',
+    justifyContent: 'center',
+  },
+  overlay: {
+    position: 'fixed',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 'var(--sidebar-width)',
+    background: 'rgba(0,0,0,0.7)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    zIndex: 100,
+  },
+  popup: {
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-lg)',
+    padding: '48px 64px 40px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '16px',
+    boxShadow: 'var(--shadow-md)',
+    minWidth: '320px',
+  },
+  popupImage: {
+    width: '300px',
+    height: '300px',
+    objectFit: 'contain',
+    imageRendering: 'pixelated',
+  },
+  popupName: {
+    fontSize: '24px',
+    fontWeight: '700',
+    color: 'var(--text-primary)',
+    textAlign: 'center',
+  },
+  popupTypes: {
+    display: 'flex',
+    gap: '8px',
     justifyContent: 'center',
   },
   typeBadge: {
