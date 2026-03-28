@@ -187,18 +187,20 @@ export default function CatchTab({ gameState, setGameState }) {
 
       {phase === 'grid' && (
         <>
-          <div style={styles.grid}>
-            {slots.map((slot, idx) => (
-              <BallSlot
-                key={idx}
-                isAnimating={animIdx === idx}
-                animPhase={animIdx === idx ? animPhase : null}
-                isHovered={hoveredIdx === idx}
-                onHoverEnter={() => { if (animIdx === -1) setHoveredIdx(idx) }}
-                onHoverExit={() => setHoveredIdx(-1)}
-                onClick={() => handleBallClick(idx)}
-              />
-            ))}
+          <div style={styles.gridPanel}>
+            <div style={styles.grid}>
+              {slots.map((slot, idx) => (
+                <BallSlot
+                  key={idx}
+                  isAnimating={animIdx === idx}
+                  animPhase={animIdx === idx ? animPhase : null}
+                  isHovered={hoveredIdx === idx}
+                  onHoverEnter={() => { if (animIdx === -1) setHoveredIdx(idx) }}
+                  onHoverExit={() => setHoveredIdx(-1)}
+                  onClick={() => handleBallClick(idx)}
+                />
+              ))}
+            </div>
           </div>
 
           <div style={styles.clueBar}>
@@ -317,12 +319,21 @@ const styles = {
     backgroundRepeat: 'no-repeat',
     borderRadius: 'var(--radius-md)',
   },
+  gridPanel: {
+    background: 'rgba(8, 12, 24, 0.55)',
+    backdropFilter: 'blur(12px)',
+    WebkitBackdropFilter: 'blur(12px)',
+    border: '1px solid rgba(255,255,255,0.07)',
+    borderRadius: '20px',
+    padding: '20px 24px',
+    boxShadow: '0 8px 32px rgba(0,0,0,0.4)',
+  },
   grid: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    gap: '16px',
-    maxWidth: '460px',
+    gap: '12px',
+    maxWidth: '400px',
   },
   ballSlot: {
     width: '68px',
@@ -340,20 +351,23 @@ const styles = {
   },
   clueText: {
     fontSize: '15px',
-    fontWeight: '500',
+    fontWeight: '600',
+    fontFamily: "'Nunito', sans-serif",
     color: '#fff',
-    letterSpacing: '0.02em',
+    letterSpacing: '0.03em',
     background: 'rgba(0,0,0,0.55)',
-    padding: '7px 20px',
+    padding: '7px 22px',
     borderRadius: '20px',
     backdropFilter: 'blur(4px)',
   },
   cluePlaceholder: {
     fontSize: '14px',
-    color: 'rgba(255,255,255,0.4)',
+    fontFamily: "'Nunito', sans-serif",
+    fontWeight: '500',
     fontStyle: 'italic',
+    color: 'rgba(255,255,255,0.4)',
     background: 'rgba(0,0,0,0.3)',
-    padding: '7px 20px',
+    padding: '7px 22px',
     borderRadius: '20px',
     backdropFilter: 'blur(4px)',
   },
@@ -449,8 +463,8 @@ const styles = {
     padding: '4px 10px',
   },
   evoSprite: {
-    width: '28px',
-    height: '28px',
+    width: '40px',
+    height: '40px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
