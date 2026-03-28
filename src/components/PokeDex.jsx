@@ -48,7 +48,7 @@ const TYPES = [
   'Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy',
 ]
 
-const REGIONS = Object.keys(filters.regions)
+const REGIONS = ['Kanto','Johto','Hoenn','Sinnoh','Unova','Kalos','Alola','Galar','Hisui','Paldea']
 const FORMS   = [
   { value: 'MegaEvolution',  label: 'Mega Evolution'   },
   { value: 'RegionalForm',   label: 'Regional Form'    },
@@ -68,9 +68,8 @@ const CLASSES = [
 ]
 
 // Pre-build Sets for O(1) lookup
-const regionSets = Object.fromEntries(Object.entries(filters.regions).map(([k, ids]) => [k, new Set(ids)]))
-const formSets   = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
-const classSets  = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+const formSets  = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
+const classSets = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
 
 // ── Official Pokémon HOME type colours ────────────────────────────────────────
 const TYPE_COLORS = {
@@ -116,7 +115,7 @@ export default function PokeDex({ gameState }) {
     if (query  && !(p.displayName ?? p.name).toLowerCase().includes(lowerQuery)) return true
     if (type1  && !p.types?.includes(type1))              return true
     if (type2  && !p.types?.includes(type2))              return true
-    if (region && !regionSets[region]?.has(p.id))         return true
+    if (region && p.region !== region)                     return true
     if (form   && !formSets[form]?.has(p.id))             return true
     if (cls    && !classSets[cls]?.has(p.id))             return true
     return false
