@@ -166,6 +166,12 @@ export default function CatchTab({ gameState, setGameState }) {
     setItemsOnly(v => !v)
   }
 
+  function handleResetFilters() {
+    setType1(''); setType2(''); setRegion(''); setForm(''); setCls(''); setItemsOnly(false)
+  }
+
+  const anyFilterActive = type1 || type2 || region || form || cls || itemsOnly
+
   function handleBallClick(idx) {
     if (animIdx !== -1) return
 
@@ -207,6 +213,7 @@ export default function CatchTab({ gameState, setGameState }) {
   return (
     <div style={styles.root}>
 
+      {/* Filter bar — always anchored at top (hidden only on game over) */}
       {phase !== 'gameOver' && (
         <div style={styles.filterBar}>
           <select style={styles.filterSelect} value={type1} onChange={e => setType1(e.target.value)} disabled={filtersDisabled}>
@@ -221,11 +228,11 @@ export default function CatchTab({ gameState, setGameState }) {
             <option value="">Region</option>
             {REGIONS.map(r => <option key={r} value={r}>{r}</option>)}
           </select>
-          <select style={styles.filterSelect} value={form} onChange={e => setForm(e.target.value)} disabled={filtersDisabled}>
+          <select style={{ ...styles.filterSelect, ...styles.filterSelectWide }} value={form} onChange={e => setForm(e.target.value)} disabled={filtersDisabled}>
             <option value="">Form</option>
             {FORMS.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
           </select>
-          <select style={styles.filterSelect} value={cls} onChange={e => setCls(e.target.value)} disabled={filtersDisabled}>
+          <select style={{ ...styles.filterSelect, ...styles.filterSelectWide }} value={cls} onChange={e => setCls(e.target.value)} disabled={filtersDisabled}>
             <option value="">Class</option>
             {CLASSES.map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
           </select>
@@ -233,54 +240,60 @@ export default function CatchTab({ gameState, setGameState }) {
             style={{ ...styles.itemsBtn, ...(itemsOnly ? styles.itemsBtnActive : {}) }}
             onClick={handleItemsOnly}
           >
-            Items Only
+            Items
           </button>
+          {anyFilterActive && (
+            <button style={styles.resetFilterBtn} onClick={handleResetFilters} title="Reset filters">✕</button>
+          )}
         </div>
       )}
 
-      {phase === 'gameOver' && (
-        <div style={styles.endPanel}>
-          <span style={styles.endIcon}>◈</span>
-          <p style={styles.endTitle}>All Pokémon Caught!</p>
-          <p style={styles.endSub}>You've caught everything. Start a new game?</p>
-          <button style={styles.resetBtn} onClick={handleReset}>New Game</button>
-        </div>
-      )}
+      {/* Main content — fills remaining space, centers its content */}
+      <div style={styles.mainContent}>
+        {phase === 'gameOver' && (
+          <div style={styles.endPanel}>
+            <span style={styles.endIcon}>◈</span>
+            <p style={styles.endTitle}>All Pokémon Caught!</p>
+            <p style={styles.endSub}>You've caught everything. Start a new game?</p>
+            <button style={styles.resetBtn} onClick={handleReset}>New Game</button>
+          </div>
+        )}
 
-      {phase === 'categoryEmpty' && (
-        <div style={styles.endPanel}>
-          <span style={styles.endIcon}>◈</span>
-          <p style={styles.endTitle}>Nothing Available</p>
-          <p style={styles.endSub}>No Pokémon left in this category.</p>
-        </div>
-      )}
+        {phase === 'categoryEmpty' && (
+          <div style={styles.endPanel}>
+            <span style={styles.endIcon}>◈</span>
+            <p style={styles.endTitle}>Nothing Available</p>
+            <p style={styles.endSub}>No Pokémon left in this category.</p>
+          </div>
+        )}
 
-      {phase === 'grid' && (
-        <>
-          <div style={styles.gridPanel}>
-            <div style={styles.grid}>
-              {slots.map((slot, idx) => (
-                <BallSlot
-                  key={idx}
-                  isAnimating={animIdx === idx}
-                  animPhase={animIdx === idx ? animPhase : null}
-                  isHovered={hoveredIdx === idx}
-                  onHoverEnter={() => { if (animIdx === -1) setHoveredIdx(idx) }}
-                  onHoverExit={() => setHoveredIdx(-1)}
-                  onClick={() => handleBallClick(idx)}
-                />
-              ))}
+        {phase === 'grid' && (
+          <>
+            <div style={styles.gridPanel}>
+              <div style={styles.grid}>
+                {slots.map((slot, idx) => (
+                  <BallSlot
+                    key={idx}
+                    isAnimating={animIdx === idx}
+                    animPhase={animIdx === idx ? animPhase : null}
+                    isHovered={hoveredIdx === idx}
+                    onHoverEnter={() => { if (animIdx === -1) setHoveredIdx(idx) }}
+                    onHoverExit={() => setHoveredIdx(-1)}
+                    onClick={() => handleBallClick(idx)}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
 
-          <div style={styles.clueBar}>
-            {clue
-              ? <span style={styles.clueText}>{clue}</span>
-              : <span style={styles.cluePlaceholder}>Hover a Pokéball for a hint…</span>
-            }
-          </div>
-        </>
-      )}
+            <div style={styles.clueBar}>
+              {clue
+                ? <span style={styles.clueText}>{clue}</span>
+                : <span style={styles.cluePlaceholder}>Hover a Pokéball for a hint…</span>
+              }
+            </div>
+          </>
+        )}
+      </div>
 
       {popup && <CatchPopup slot={popup.slot} gameState={popup.gameState} onClose={handlePopupClose} />}
     </div>
@@ -382,29 +395,39 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
-    gap: '24px',
+    gap: '12px',
     height: '100%',
     overflowY: 'auto',
+    padding: '16px 0 16px',
     backgroundImage: 'url(/sprites/catch-bg.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     borderRadius: 'var(--radius-md)',
   },
+  mainContent: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '16px',
+    width: '100%',
+  },
   filterBar: {
     display: 'flex',
     flexWrap: 'nowrap',
+    alignItems: 'center',
     gap: '6px',
-    background: 'rgba(8, 12, 24, 0.65)',
+    background: 'rgba(8, 12, 24, 0.72)',
     backdropFilter: 'blur(12px)',
     WebkitBackdropFilter: 'blur(12px)',
     border: '1px solid rgba(255,255,255,0.07)',
     borderRadius: '14px',
     padding: '10px 14px',
-    width: '100%',
-    maxWidth: '448px',
+    width: 'min(96%, 700px)',
     boxSizing: 'border-box',
+    flexShrink: 0,
   },
   filterSelect: {
     flex: '1 1 0',
@@ -418,6 +441,9 @@ const styles = {
     cursor: 'pointer',
     outline: 'none',
   },
+  filterSelectWide: {
+    flex: '1.6 1 0',
+  },
   itemsBtn: {
     flexShrink: 0,
     padding: '5px 10px',
@@ -430,6 +456,21 @@ const styles = {
     cursor: 'pointer',
     whiteSpace: 'nowrap',
     transition: 'all 0.15s ease',
+  },
+  resetFilterBtn: {
+    flexShrink: 0,
+    width: '26px',
+    height: '26px',
+    padding: '0',
+    background: 'rgba(255,255,255,0.07)',
+    border: '1px solid rgba(255,255,255,0.15)',
+    borderRadius: '50%',
+    color: 'rgba(255,255,255,0.5)',
+    fontSize: '11px',
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   itemsBtnActive: {
     background: 'rgba(var(--accent-rgb, 99,102,241), 0.25)',
@@ -493,8 +534,14 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     gap: '12px',
+    background: 'rgba(8, 12, 24, 0.80)',
+    backdropFilter: 'blur(16px)',
+    WebkitBackdropFilter: 'blur(16px)',
+    border: '1px solid rgba(255,255,255,0.08)',
+    borderRadius: '20px',
+    padding: '40px 56px',
   },
-  endIcon:  { fontSize: '48px', color: 'var(--accent)', opacity: 0.4 },
+  endIcon:  { fontSize: '48px', color: 'var(--accent-bright)' },
   endTitle: { fontSize: '20px', fontWeight: '700', color: 'var(--text-primary)' },
   endSub:   { fontSize: '13px', color: 'var(--text-secondary)' },
   resetBtn: {

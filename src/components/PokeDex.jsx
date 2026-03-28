@@ -106,6 +106,10 @@ export default function PokeDex({ gameState }) {
   const lowerQuery  = query.toLowerCase()
   const hasFilters  = query || type1 || type2 || region || form || cls
 
+  function resetFilters() {
+    setQuery(''); setType1(''); setType2(''); setRegion(''); setForm(''); setCls('')
+  }
+
   function isUnlocked(p) {
     return gameState?.pokemon[p.id]?.isUnlocked ?? false
   }
@@ -143,14 +147,17 @@ export default function PokeDex({ gameState }) {
           <option value="">Region</option>
           {REGIONS.map(r => <option key={r} value={r}>{r}</option>)}
         </select>
-        <select style={styles.select} value={form} onChange={e => setForm(e.target.value)}>
+        <select style={{ ...styles.select, flex: '1.5 1 0' }} value={form} onChange={e => setForm(e.target.value)}>
           <option value="">Form</option>
           {FORMS.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
         </select>
-        <select style={styles.select} value={cls} onChange={e => setCls(e.target.value)}>
+        <select style={{ ...styles.select, flex: '1.5 1 0' }} value={cls} onChange={e => setCls(e.target.value)}>
           <option value="">Class</option>
           {CLASSES.map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
         </select>
+        {hasFilters && (
+          <button style={styles.resetBtn} onClick={resetFilters} title="Reset filters">✕</button>
+        )}
       </div>
       <div style={styles.grid}>
         {allEntries.map((p, i) => (
@@ -350,6 +357,21 @@ const styles = {
     fontSize: '11px',
     cursor: 'pointer',
     outline: 'none',
+  },
+  resetBtn: {
+    flexShrink: 0,
+    width: '28px',
+    height: '28px',
+    padding: '0',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: '50%',
+    color: 'var(--text-muted)',
+    fontSize: '11px',
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   grid: {
     display: 'grid',
