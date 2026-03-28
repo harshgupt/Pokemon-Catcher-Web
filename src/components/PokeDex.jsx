@@ -50,12 +50,13 @@ function GenderedName({ name }) {
 function PokeCard({ pokemon: p }) {
   const rarityColor = RARITY_COLORS[p.rarity] ?? '#ffffff'
   const displayName = p.displayName ?? p.name
+  const spriteFile  = p.spriteName ?? p.name
 
   return (
     <div style={styles.card}>
       <div style={styles.imageWrap}>
         <img
-          src={`/sprites/pokemon/mid/${p.name}.png`}
+          src={`/sprites/pokemon/mid/${spriteFile}.png`}
           alt={p.name}
           style={styles.image}
           onError={e => { e.target.style.opacity = 0.15 }}

@@ -38,7 +38,8 @@
       "Generation4",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Spiky-Eared Pichu"
   },
   {
     "id": 2,
@@ -1391,7 +1392,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Screamtail"
   },
   {
     "id": 76,
@@ -2611,12 +2613,13 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Sandyshocks"
   },
   {
     "id": 145,
     "dexId": 83,
-    "name": "\"Farfetch\\u2019d\"",
+    "name": "Farfetch'd",
     "spawnCount": 1,
     "rarity": "Sparse",
     "nextForms": "[]",
@@ -2626,12 +2629,13 @@
       "Generation1",
       "EvolutionSingle",
       "RegionalForm"
-    ]
+    ],
+    "spriteName": "Farfetchd"
   },
   {
     "id": 146,
     "dexId": 83,
-    "name": "\"Farfetch\\u2019d-Galarian\"",
+    "name": "Farfetch'd-Galarian",
     "spawnCount": 30,
     "rarity": "Sparse",
     "nextForms": [
@@ -2648,7 +2652,9 @@
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
-    ]
+    ],
+    "spriteName": "Farfetchd-Galarian",
+    "displayName": "Galarian Farfetch'd"
   },
   {
     "id": 147,
@@ -2659,7 +2665,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Sirfetchd"
   },
   {
     "id": 148,
@@ -3711,7 +3718,8 @@
       "EvolutionTriple",
       "EvolutionSplit",
       "RegionalForm"
-    ]
+    ],
+    "spriteName": "MimeJr"
   },
   {
     "id": 208,
@@ -3722,7 +3730,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "MrMime"
   },
   {
     "id": 209,
@@ -3742,7 +3751,8 @@
     "categories": [
       "Full"
     ],
-    "displayName": "Galarian Mr. Mime"
+    "displayName": "Galarian Mr. Mime",
+    "spriteName": "MrMime-Galarian"
   },
   {
     "id": 210,
@@ -3753,7 +3763,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "MrRime"
   },
   {
     "id": 211,
@@ -4391,7 +4402,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Porygonz"
   },
   {
     "id": 248,
@@ -5674,7 +5686,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Fluttermane"
   },
   {
     "id": 322,
@@ -5688,7 +5701,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (A)"
   },
   {
     "id": 323,
@@ -5702,7 +5716,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (B)"
   },
   {
     "id": 324,
@@ -5716,7 +5731,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (C)"
   },
   {
     "id": 325,
@@ -5730,7 +5746,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (D)"
   },
   {
     "id": 326,
@@ -5744,7 +5761,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (E)"
   },
   {
     "id": 327,
@@ -5758,7 +5776,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (F)"
   },
   {
     "id": 328,
@@ -5772,7 +5791,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (G)"
   },
   {
     "id": 329,
@@ -5786,7 +5806,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (H)"
   },
   {
     "id": 330,
@@ -5800,7 +5821,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (I)"
   },
   {
     "id": 331,
@@ -5814,7 +5836,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (J)"
   },
   {
     "id": 332,
@@ -5828,7 +5851,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (K)"
   },
   {
     "id": 333,
@@ -5842,7 +5866,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (L)"
   },
   {
     "id": 334,
@@ -5856,7 +5881,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (M)"
   },
   {
     "id": 335,
@@ -5870,7 +5896,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (N)"
   },
   {
     "id": 336,
@@ -5884,7 +5911,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (O)"
   },
   {
     "id": 337,
@@ -5898,7 +5926,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (P)"
   },
   {
     "id": 338,
@@ -5912,7 +5941,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (Q)"
   },
   {
     "id": 339,
@@ -5926,7 +5956,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (R)"
   },
   {
     "id": 340,
@@ -5940,7 +5971,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (S)"
   },
   {
     "id": 341,
@@ -5954,7 +5986,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (T)"
   },
   {
     "id": 342,
@@ -5968,7 +6001,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (U)"
   },
   {
     "id": 343,
@@ -5982,7 +6016,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (V)"
   },
   {
     "id": 344,
@@ -5996,7 +6031,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (W)"
   },
   {
     "id": 345,
@@ -6010,7 +6046,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (X)"
   },
   {
     "id": 346,
@@ -6024,7 +6061,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (Y)"
   },
   {
     "id": 347,
@@ -6038,7 +6076,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (Z)"
   },
   {
     "id": 348,
@@ -6052,7 +6091,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (?)"
   },
   {
     "id": 349,
@@ -6066,7 +6106,8 @@
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Unown (!)"
   },
   {
     "id": 350,
@@ -6204,7 +6245,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Two-Segment Dudunsparce"
   },
   {
     "id": 358,
@@ -6215,7 +6257,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Three-Segment Dudunsparce"
   },
   {
     "id": 359,
@@ -6519,7 +6562,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Bloodmoon Ursaluna"
   },
   {
     "id": 377,
@@ -6718,7 +6762,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironbundle"
   },
   {
     "id": 389,
@@ -6887,7 +6932,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Greattusk"
   },
   {
     "id": 398,
@@ -6898,7 +6944,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Irontreads"
   },
   {
     "id": 399,
@@ -7049,7 +7096,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironthorns"
   },
   {
     "id": 408,
@@ -7083,7 +7131,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ragingbolt"
   },
   {
     "id": 410,
@@ -7117,7 +7166,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Gougingfire"
   },
   {
     "id": 412,
@@ -7151,7 +7201,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Walkingwake"
   },
   {
     "id": 414,
@@ -7181,7 +7232,8 @@
       "Generation2",
       "EvolutionSingle",
       "ClassLegendary"
-    ]
+    ],
+    "displayName": "Ho-Oh"
   },
   {
     "id": 416,
@@ -7924,7 +7976,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironvaliant"
   },
   {
     "id": 458,
@@ -8195,7 +8248,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironhands"
   },
   {
     "id": 474,
@@ -9277,18 +9331,20 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Sunny Form Castform"
   },
   {
     "id": 539,
     "dexId": 351,
-    "name": "Carstform-Rainy",
+    "name": "Castform-Rainy",
     "spawnCount": 0,
     "rarity": "Singular",
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Rainy Form Castform"
   },
   {
     "id": 540,
@@ -9299,7 +9355,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Snowy Form Castform"
   },
   {
     "id": 541,
@@ -9814,7 +9871,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Roaringmoon"
   },
   {
     "id": 570,
@@ -10666,7 +10724,8 @@
       "EvolutionDouble",
       "EvolutionSplit",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Plant Cloak Burmy"
   },
   {
     "id": 619,
@@ -10677,7 +10736,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Plant Cloak Wormadam"
   },
   {
     "id": 620,
@@ -10700,7 +10760,8 @@
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Sandy Cloak Burmy"
   },
   {
     "id": 621,
@@ -10711,7 +10772,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Sandy Cloak Wormadam"
   },
   {
     "id": 622,
@@ -10734,7 +10796,8 @@
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Trash Cloak Burmy"
   },
   {
     "id": 623,
@@ -10745,7 +10808,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Trash Cloak Wormadam"
   },
   {
     "id": 624,
@@ -10876,7 +10940,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Overcast Form Cherrim"
   },
   {
     "id": 632,
@@ -10887,7 +10952,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Sunshine Form Cherrim"
   },
   {
     "id": 633,
@@ -10910,7 +10976,8 @@
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "West Sea Shellos"
   },
   {
     "id": 634,
@@ -10921,7 +10988,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "West Sea Gastrodon"
   },
   {
     "id": 635,
@@ -10944,7 +11012,8 @@
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "East Sea Shellos"
   },
   {
     "id": 636,
@@ -10955,7 +11024,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "East Sea Gastrodon"
   },
   {
     "id": 637,
@@ -11524,7 +11594,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Heat Rotom"
   },
   {
     "id": 669,
@@ -11535,7 +11606,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Wash Rotom"
   },
   {
     "id": 670,
@@ -11546,7 +11618,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Frost Rotom"
   },
   {
     "id": 671,
@@ -11557,7 +11630,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Fan Rotom"
   },
   {
     "id": 672,
@@ -11568,7 +11642,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Mow Rotom"
   },
   {
     "id": 673,
@@ -12973,7 +13048,8 @@
       "Generation5",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Red-Striped Form Basculin"
   },
   {
     "id": 754,
@@ -12987,7 +13063,8 @@
       "Generation5",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Blue-Striped Form Basculin"
   },
   {
     "id": 755,
@@ -13017,7 +13094,8 @@
       "EvolutionDouble",
       "EvolutionSplit",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "White-Striped Form Basculin"
   },
   {
     "id": 756,
@@ -13802,7 +13880,8 @@
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Spring Form Deerling"
   },
   {
     "id": 802,
@@ -13813,7 +13892,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Spring Form Sawsbuck"
   },
   {
     "id": 803,
@@ -13836,7 +13916,8 @@
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Summer Form Deerling"
   },
   {
     "id": 804,
@@ -13847,7 +13928,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Summer Form Sawsbuck"
   },
   {
     "id": 805,
@@ -13870,7 +13952,8 @@
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Autumn Form Deerling"
   },
   {
     "id": 806,
@@ -13881,7 +13964,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Autumn Form Sawsbuck"
   },
   {
     "id": 807,
@@ -13904,7 +13988,8 @@
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Winter Form Deerling"
   },
   {
     "id": 808,
@@ -13915,7 +14000,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Winter Form Sawsbuck"
   },
   {
     "id": 809,
@@ -14046,7 +14132,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Brutebonnet"
   },
   {
     "id": 817,
@@ -14069,7 +14156,8 @@
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Frillish ♂"
   },
   {
     "id": 818,
@@ -14080,7 +14168,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Jellicent ♂"
   },
   {
     "id": 819,
@@ -14103,7 +14192,8 @@
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Frillish ♀"
   },
   {
     "id": 820,
@@ -14114,7 +14204,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Jellicent ♀"
   },
   {
     "id": 821,
@@ -14850,7 +14941,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Slitherwing"
   },
   {
     "id": 864,
@@ -14861,7 +14953,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironmoth"
   },
   {
     "id": 865,
@@ -14934,7 +15027,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironjugulis"
   },
   {
     "id": 869,
@@ -14969,7 +15063,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironcrown"
   },
   {
     "id": 871,
@@ -15004,7 +15099,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironboulder"
   },
   {
     "id": 873,
@@ -15039,7 +15135,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Ironleaves"
   },
   {
     "id": 875,
@@ -15074,7 +15171,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Resolute Forme Keldeo"
   },
   {
     "id": 877,
@@ -15097,7 +15195,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "ClassLegendary"
-    ]
+    ],
+    "displayName": "Incarnate Forme Tornadus"
   },
   {
     "id": 878,
@@ -15133,7 +15232,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "ClassLegendary"
-    ]
+    ],
+    "displayName": "Incarnate Forme Thundurus"
   },
   {
     "id": 880,
@@ -15169,7 +15269,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "ClassLegendary"
-    ]
+    ],
+    "displayName": "Incarnate Forme Landorus"
   },
   {
     "id": 882,
@@ -15205,7 +15306,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "ClassLegendary"
-    ]
+    ],
+    "displayName": "Incarnate Forme Enamorus"
   },
   {
     "id": 884,
@@ -15252,7 +15354,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Overdrive Reshiram"
   },
   {
     "id": 887,
@@ -15287,7 +15390,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Overdrive Zekrom"
   },
   {
     "id": 889,
@@ -15337,7 +15441,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Black Kyurem"
   },
   {
     "id": 891,
@@ -15348,7 +15453,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Overdrive Black Kyurem"
   },
   {
     "id": 892,
@@ -15367,7 +15473,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "White Kyurem"
   },
   {
     "id": 893,
@@ -15378,7 +15485,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Overdrive White Kyurem"
   },
   {
     "id": 894,
@@ -15417,7 +15525,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "ClassMythical"
-    ]
+    ],
+    "displayName": "Aria Forme Meloetta"
   },
   {
     "id": 896,
@@ -15428,7 +15537,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Pirouette Forme Meloetta"
   },
   {
     "id": 897,
@@ -15917,7 +16027,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Archipelago Pattern Vivillon"
   },
   {
     "id": 916,
@@ -15928,7 +16039,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Continental Pattern Vivillon"
   },
   {
     "id": 917,
@@ -15939,7 +16051,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Elegant Pattern Vivillon"
   },
   {
     "id": 918,
@@ -15950,7 +16063,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Fancy Pattern Vivillon"
   },
   {
     "id": 919,
@@ -15961,7 +16075,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Garden Pattern Vivillon"
   },
   {
     "id": 920,
@@ -15972,7 +16087,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "High Plains Pattern Vivillon"
   },
   {
     "id": 921,
@@ -15983,7 +16099,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Icy Snow Pattern Vivillon"
   },
   {
     "id": 922,
@@ -15994,7 +16111,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Jungle Pattern Vivillon"
   },
   {
     "id": 923,
@@ -16005,7 +16123,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Marine Pattern Vivillon"
   },
   {
     "id": 924,
@@ -16016,7 +16135,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Meadow Pattern Vivillon"
   },
   {
     "id": 925,
@@ -16027,7 +16147,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Modern Pattern Vivillon"
   },
   {
     "id": 926,
@@ -16038,7 +16159,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Monsoon Pattern Vivillon"
   },
   {
     "id": 927,
@@ -16049,18 +16171,20 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Ocean Pattern Vivillon"
   },
   {
     "id": 928,
     "dexId": 666,
-    "name": "\"Vivillon-Pok\\xE9Ball\"",
+    "name": "Vivillon-PokéBall",
     "spawnCount": 0,
     "rarity": "Common",
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Poké Ball Pattern Vivillon"
   },
   {
     "id": 929,
@@ -16071,7 +16195,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Polar Pattern Vivillon"
   },
   {
     "id": 930,
@@ -16082,7 +16207,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "River Pattern Vivillon"
   },
   {
     "id": 931,
@@ -16093,7 +16219,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Sandstorm Pattern Vivillon"
   },
   {
     "id": 932,
@@ -16104,7 +16231,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Savanna Pattern Vivillon"
   },
   {
     "id": 933,
@@ -16115,7 +16243,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Sun Pattern Vivillon"
   },
   {
     "id": 934,
@@ -16126,7 +16255,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Tundra Pattern Vivillon"
   },
   {
     "id": 935,
@@ -16176,7 +16306,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Pyroar ♂"
   },
   {
     "id": 937,
@@ -16195,12 +16326,13 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Pyroar ♀"
   },
   {
     "id": 938,
     "dexId": 669,
-    "name": "\"Flab\\xE9b\\xE9-Red\"",
+    "name": "Flabébé-Red",
     "spawnCount": 25,
     "rarity": "Common",
     "nextForms": [
@@ -16217,7 +16349,9 @@
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
-    ]
+    ],
+    "spriteName": "Flabebe-Red",
+    "displayName": "Red Flower Flabébé"
   },
   {
     "id": 939,
@@ -16236,7 +16370,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Red Flower Floette"
   },
   {
     "id": 940,
@@ -16247,12 +16382,13 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Red Flower Florges"
   },
   {
     "id": 941,
     "dexId": 669,
-    "name": "\"Flab\\xE9b\\xE9-Yellow\"",
+    "name": "Flabébé-Yellow",
     "spawnCount": 25,
     "rarity": "Common",
     "nextForms": [
@@ -16269,7 +16405,9 @@
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
-    ]
+    ],
+    "spriteName": "Flabebe-Yellow",
+    "displayName": "Yellow Flower Flabébé"
   },
   {
     "id": 942,
@@ -16288,7 +16426,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Yellow Flower Floette"
   },
   {
     "id": 943,
@@ -16299,12 +16438,13 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Yellow Flower Florges"
   },
   {
     "id": 944,
     "dexId": 669,
-    "name": "\"Flab\\xE9b\\xE9-Orange\"",
+    "name": "Flabébé-Orange",
     "spawnCount": 25,
     "rarity": "Rare",
     "nextForms": [
@@ -16321,7 +16461,9 @@
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
-    ]
+    ],
+    "spriteName": "Flabebe-Orange",
+    "displayName": "Orange Flower Flabébé"
   },
   {
     "id": 945,
@@ -16340,7 +16482,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Orange Flower Floette"
   },
   {
     "id": 946,
@@ -16351,12 +16494,13 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Orange Flower Florges"
   },
   {
     "id": 947,
     "dexId": 669,
-    "name": "\"Flab\\xE9b\\xE9-Blue\"",
+    "name": "Flabébé-Blue",
     "spawnCount": 25,
     "rarity": "Rare",
     "nextForms": [
@@ -16373,7 +16517,9 @@
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
-    ]
+    ],
+    "spriteName": "Flabebe-Blue",
+    "displayName": "Blue Flower Flabébé"
   },
   {
     "id": 948,
@@ -16392,7 +16538,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Blue Flower Floette"
   },
   {
     "id": 949,
@@ -16403,12 +16550,13 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Blue Flower Florges"
   },
   {
     "id": 950,
     "dexId": 669,
-    "name": "\"Flab\\xE9b\\xE9-White\"",
+    "name": "Flabébé-White",
     "spawnCount": 106,
     "rarity": "Sparse",
     "nextForms": [
@@ -16427,7 +16575,9 @@
       "EvolutionSplit",
       "AlternateForm",
       "MegaEvolution"
-    ]
+    ],
+    "spriteName": "Flabebe-White",
+    "displayName": "White Flower Flabébé"
   },
   {
     "id": 951,
@@ -16453,7 +16603,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "White Flower Floette"
   },
   {
     "id": 952,
@@ -16464,7 +16615,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "White Flower Florges"
   },
   {
     "id": 953,
@@ -16483,7 +16635,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Eternal Flower Floette"
   },
   {
     "id": 954,
@@ -16636,7 +16789,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Heart Trim Furfrou"
   },
   {
     "id": 960,
@@ -16647,7 +16801,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Star Trim Furfrou"
   },
   {
     "id": 961,
@@ -16658,7 +16813,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Diamond Trim Furfrou"
   },
   {
     "id": 962,
@@ -16669,7 +16825,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Debutante Trim Furfrou"
   },
   {
     "id": 963,
@@ -16680,7 +16837,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Matron Trim Furfrou"
   },
   {
     "id": 964,
@@ -16691,7 +16849,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Dandy Trim Furfrou"
   },
   {
     "id": 965,
@@ -16702,7 +16861,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "La Reine Trim Furfrou"
   },
   {
     "id": 966,
@@ -16713,7 +16873,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Kabuki Trim Furfrou"
   },
   {
     "id": 967,
@@ -16724,7 +16885,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Pharaoh Trim Furfrou"
   },
   {
     "id": 968,
@@ -16856,7 +17018,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Blade Forme Aegislash"
   },
   {
     "id": 974,
@@ -16867,7 +17030,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Shield Forme Aegislash"
   },
   {
     "id": 975,
@@ -18092,7 +18256,8 @@
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Baile Style Oricorio"
   },
   {
     "id": 1044,
@@ -18107,7 +18272,8 @@
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Pom-Pom Style Oricorio"
   },
   {
     "id": 1045,
@@ -18122,7 +18288,8 @@
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Pa'u Style Oricorio"
   },
   {
     "id": 1046,
@@ -18137,7 +18304,8 @@
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Sensu Style Oricorio"
   },
   {
     "id": 1047,
@@ -18218,7 +18386,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Midday Form Lycanroc"
   },
   {
     "id": 1051,
@@ -18229,7 +18398,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Midnight Form Lycanroc"
   },
   {
     "id": 1052,
@@ -18240,7 +18410,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Dusk Form Lycanroc"
   },
   {
     "id": 1053,
@@ -18688,7 +18859,7 @@
   {
     "id": 1080,
     "dexId": 772,
-    "name": "'Type: Null'",
+    "name": "Type: Null",
     "spawnCount": 40,
     "rarity": "Singular",
     "nextForms": [
@@ -18706,7 +18877,8 @@
       "EvolutionDouble",
       "AlternateForm",
       "ClassLegendary"
-    ]
+    ],
+    "spriteName": "TypeNull"
   },
   {
     "id": 1081,
@@ -18793,7 +18965,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Red Core Minior"
   },
   {
     "id": 1084,
@@ -18804,7 +18977,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Orange Core Minior"
   },
   {
     "id": 1085,
@@ -18815,7 +18989,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Yellow Core Minior"
   },
   {
     "id": 1086,
@@ -18826,7 +19001,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Green Core Minior"
   },
   {
     "id": 1087,
@@ -18837,7 +19013,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Blue Core Minior"
   },
   {
     "id": 1088,
@@ -18848,7 +19025,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Indigo Core Minior"
   },
   {
     "id": 1089,
@@ -18859,7 +19037,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Violet Core Minior"
   },
   {
     "id": 1090,
@@ -18923,7 +19102,8 @@
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Disguised Form Mimikyu"
   },
   {
     "id": 1094,
@@ -18934,7 +19114,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Busted Form Mimikyu"
   },
   {
     "id": 1095,
@@ -19007,7 +19188,8 @@
       "Generation7",
       "EvolutionTriple",
       "ClassPseudo"
-    ]
+    ],
+    "spriteName": "Jangmoo"
   },
   {
     "id": 1099,
@@ -19026,7 +19208,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Hakamoo"
   },
   {
     "id": 1100,
@@ -19037,7 +19220,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "spriteName": "Kommoo"
   },
   {
     "id": 1101,
@@ -20710,7 +20894,8 @@
       "EvolutionDouble",
       "AlternateForm",
       "ConvergentForm"
-    ]
+    ],
+    "displayName": "Phony Form Sinistea"
   },
   {
     "id": 1196,
@@ -20721,7 +20906,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Phony Form Polteageist"
   },
   {
     "id": 1197,
@@ -20744,7 +20930,8 @@
       "EvolutionDouble",
       "AlternateForm",
       "ConvergentForm"
-    ]
+    ],
+    "displayName": "Antique Form Sinistea"
   },
   {
     "id": 1198,
@@ -20755,7 +20942,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Antique Form Polteageist"
   },
   {
     "id": 1199,
@@ -20985,7 +21173,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Strawberry Sweet Alcremie"
   },
   {
     "id": 1209,
@@ -20996,7 +21185,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Berry Sweet Alcremie"
   },
   {
     "id": 1210,
@@ -21007,7 +21197,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Love Sweet Alcremie"
   },
   {
     "id": 1211,
@@ -21018,7 +21209,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Star Sweet Alcremie"
   },
   {
     "id": 1212,
@@ -21029,7 +21221,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Clover Sweet Alcremie"
   },
   {
     "id": 1213,
@@ -21040,7 +21233,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Flower Sweet Alcremie"
   },
   {
     "id": 1214,
@@ -21051,7 +21245,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Ribbon Sweet Alcremie"
   },
   {
     "id": 1215,
@@ -22146,7 +22341,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Family of Four Maushold"
   },
   {
     "id": 1279,
@@ -22157,7 +22353,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Family of Three Maushold"
   },
   {
     "id": 1280,
@@ -22256,7 +22453,8 @@
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Green Plumage Squawkabilly"
   },
   {
     "id": 1286,
@@ -22271,7 +22469,8 @@
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Blue Plumage Squawkabilly"
   },
   {
     "id": 1287,
@@ -22286,7 +22485,8 @@
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Yellow Plumage Squawkabilly"
   },
   {
     "id": 1288,
@@ -22301,7 +22501,8 @@
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "White Plumage Squawkabilly"
   },
   {
     "id": 1289,
@@ -23089,7 +23290,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "MegaEvolution"
-    ]
+    ],
+    "displayName": "Curly Form Tatsugiri"
   },
   {
     "id": 1336,
@@ -23113,7 +23315,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "MegaEvolution"
-    ]
+    ],
+    "displayName": "Droopy Form Tatsugiri"
   },
   {
     "id": 1337,
@@ -23137,7 +23340,8 @@
       "EvolutionSingle",
       "AlternateForm",
       "MegaEvolution"
-    ]
+    ],
+    "displayName": "Stretchy Form Tatsugiri"
   },
   {
     "id": 1338,
@@ -23223,7 +23427,8 @@
       "EvolutionDouble",
       "AlternateForm",
       "ConvergentForm"
-    ]
+    ],
+    "displayName": "Phony Form Poltchageist"
   },
   {
     "id": 1342,
@@ -23234,7 +23439,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Phony Form Sinistcha"
   },
   {
     "id": 1343,
@@ -23258,7 +23464,8 @@
       "EvolutionDouble",
       "AlternateForm",
       "ConvergentForm"
-    ]
+    ],
+    "displayName": "Antique Form Poltchageist"
   },
   {
     "id": 1344,
@@ -23269,7 +23476,8 @@
     "nextForms": "[]",
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Antique Form Sinistcha"
   },
   {
     "id": 1345,
@@ -23291,7 +23499,8 @@
       "Generation9",
       "EvolutionDouble",
       "AlternateForm"
-    ]
+    ],
+    "displayName": "Roaming Form Gimmighoul"
   },
   {
     "id": 1346,
@@ -23310,7 +23519,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Chest Form Gimmighoul"
   },
   {
     "id": 1347,
@@ -23336,7 +23546,8 @@
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
-    ]
+    ],
+    "spriteName": "Wochien"
   },
   {
     "id": 1349,
@@ -23351,7 +23562,8 @@
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
-    ]
+    ],
+    "spriteName": "Chienpao"
   },
   {
     "id": 1350,
@@ -23366,7 +23578,8 @@
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
-    ]
+    ],
+    "spriteName": "Tinglu"
   },
   {
     "id": 1351,
@@ -23381,7 +23594,8 @@
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
-    ]
+    ],
+    "spriteName": "Chiyu"
   },
   {
     "id": 1352,
@@ -23557,7 +23771,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Ogerpon (Teal Mask)"
   },
   {
     "id": 1361,
@@ -23588,7 +23803,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Ogerpon (Wellspring Mask)"
   },
   {
     "id": 1363,
@@ -23619,7 +23835,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Ogerpon (Hearthflame Mask)"
   },
   {
     "id": 1365,
@@ -23650,7 +23867,8 @@
     ],
     "categories": [
       "Full"
-    ]
+    ],
+    "displayName": "Ogerpon (Cornerstone Mask)"
   },
   {
     "id": 1367,
