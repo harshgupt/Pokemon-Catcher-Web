@@ -1,8 +1,29 @@
 import { useState, useEffect, useRef } from 'react'
 import pokemonData from '../data/pokemon.json'
 import itemsData   from '../data/items.json'
+import filtersData from '../data/pokedex-filters.json'
 import { loadSave, saveGame, deleteSave } from '../lib/save'
 import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from '../lib/spawn'
+
+const TYPES   = ['Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
+const REGIONS = ['Kanto','Johto','Hoenn','Sinnoh','Unova','Kalos','Alola','Galar','Hisui','Paldea']
+const FORMS   = [
+  { value: 'MegaEvolution',  label: 'Mega Evolution'  },
+  { value: 'RegionalForm',   label: 'Regional Form'   },
+  { value: 'Gigantamax',     label: 'Gigantamax'      },
+  { value: 'ConvergentForm', label: 'Convergent Form' },
+  { value: 'AlternateForm',  label: 'Alternate Form'  },
+]
+const CLASSES = [
+  { value: 'Starter',         label: 'Starter'          },
+  { value: 'Baby',            label: 'Baby'             },
+  { value: 'Fossil',          label: 'Fossil'           },
+  { value: 'PseudoLegendary', label: 'Pseudo-Legendary' },
+  { value: 'Legendary',       label: 'Legendary'        },
+  { value: 'Mythical',        label: 'Mythical'         },
+  { value: 'UltraBeast',      label: 'Ultra Beast'      },
+  { value: 'Paradox',         label: 'Paradox'          },
+]
 
 const byPokemonId = Object.fromEntries(pokemonData.map(p => [p.id, p]))
 const byItemId    = Object.fromEntries(itemsData.map(i   => [i.id, i]))
@@ -105,9 +126,19 @@ export default function CatchTab({ gameState, setGameState }) {
   const [popup,     setPopup]     = useState(null)   // { slot, gameState }
   const [phase,     setPhase]     = useState('grid') // 'grid' | 'gameOver' | 'categoryEmpty'
 
-  // Keep ref in sync with prop so callbacks always see latest state
-  const gsRef = useRef(gameState)
-  gsRef.current = gameState
+  // Spawn filters
+  const [type1,     setType1]     = useState('')
+  const [type2,     setType2]     = useState('')
+  const [region,    setRegion]    = useState('')
+  const [form,      setForm]      = useState('')
+  const [cls,       setCls]       = useState('')
+  const [itemsOnly, setItemsOnly] = useState(false)
+
+  // Keep refs in sync so callbacks always see latest values
+  const gsRef     = useRef(gameState)
+  const filterRef = useRef({})
+  gsRef.current     = gameState
+  filterRef.current = { type1, type2, region, form, cls, itemsOnly }
 
   useEffect(() => {
     const onUnload     = () => saveGame(gsRef.current)
@@ -120,13 +151,19 @@ export default function CatchTab({ gameState, setGameState }) {
     }
   }, [])
 
-  useEffect(() => { doGenerateGrid(gsRef.current) }, [])
+  // Regenerate grid on mount and whenever filters change
+  useEffect(() => { doGenerateGrid(gsRef.current) }, [type1, type2, region, form, cls, itemsOnly])
 
   function doGenerateGrid(gs) {
-    if (getGlobalTokens(gs) === 0)    { setPhase('gameOver');      setSlots([]); return }
-    if (getAvailableTokens(gs) === 0) { setPhase('categoryEmpty'); setSlots([]); return }
-    setSlots(generateGrid(gs))
+    const f = filterRef.current
+    if (getGlobalTokens(gs) === 0)        { setPhase('gameOver');      setSlots([]); return }
+    if (getAvailableTokens(gs, f) === 0)  { setPhase('categoryEmpty'); setSlots([]); return }
+    setSlots(generateGrid(gs, f))
     setPhase('grid')
+  }
+
+  function handleItemsOnly() {
+    setItemsOnly(v => !v)
   }
 
   function handleBallClick(idx) {
@@ -165,8 +202,41 @@ export default function CatchTab({ gameState, setGameState }) {
 
   const clue = hoveredIdx !== -1 && slots[hoveredIdx] ? slots[hoveredIdx].clue : null
 
+  const filtersDisabled = itemsOnly
+
   return (
     <div style={styles.root}>
+
+      {phase !== 'gameOver' && (
+        <div style={styles.filterBar}>
+          <select style={styles.filterSelect} value={type1} onChange={e => setType1(e.target.value)} disabled={filtersDisabled}>
+            <option value="">Type 1</option>
+            {TYPES.map(t => <option key={t} value={t}>{t}</option>)}
+          </select>
+          <select style={styles.filterSelect} value={type2} onChange={e => setType2(e.target.value)} disabled={filtersDisabled}>
+            <option value="">Type 2</option>
+            {TYPES.map(t => <option key={t} value={t}>{t}</option>)}
+          </select>
+          <select style={styles.filterSelect} value={region} onChange={e => setRegion(e.target.value)} disabled={filtersDisabled}>
+            <option value="">Region</option>
+            {REGIONS.map(r => <option key={r} value={r}>{r}</option>)}
+          </select>
+          <select style={styles.filterSelect} value={form} onChange={e => setForm(e.target.value)} disabled={filtersDisabled}>
+            <option value="">Form</option>
+            {FORMS.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
+          </select>
+          <select style={styles.filterSelect} value={cls} onChange={e => setCls(e.target.value)} disabled={filtersDisabled}>
+            <option value="">Class</option>
+            {CLASSES.map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
+          </select>
+          <button
+            style={{ ...styles.itemsBtn, ...(itemsOnly ? styles.itemsBtnActive : {}) }}
+            onClick={handleItemsOnly}
+          >
+            Items Only
+          </button>
+        </div>
+      )}
 
       {phase === 'gameOver' && (
         <div style={styles.endPanel}>
@@ -315,11 +385,56 @@ const styles = {
     justifyContent: 'center',
     gap: '24px',
     height: '100%',
+    overflowY: 'auto',
     backgroundImage: 'url(/sprites/catch-bg.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     borderRadius: 'var(--radius-md)',
+  },
+  filterBar: {
+    display: 'flex',
+    flexWrap: 'nowrap',
+    gap: '6px',
+    background: 'rgba(8, 12, 24, 0.65)',
+    backdropFilter: 'blur(12px)',
+    WebkitBackdropFilter: 'blur(12px)',
+    border: '1px solid rgba(255,255,255,0.07)',
+    borderRadius: '14px',
+    padding: '10px 14px',
+    width: '100%',
+    maxWidth: '448px',
+    boxSizing: 'border-box',
+  },
+  filterSelect: {
+    flex: '1 1 0',
+    minWidth: '0',
+    padding: '5px 4px',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: '8px',
+    color: 'var(--text-primary)',
+    fontSize: '11px',
+    cursor: 'pointer',
+    outline: 'none',
+  },
+  itemsBtn: {
+    flexShrink: 0,
+    padding: '5px 10px',
+    background: 'rgba(255,255,255,0.07)',
+    border: '1px solid rgba(255,255,255,0.12)',
+    borderRadius: '8px',
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: '11px',
+    fontWeight: '600',
+    cursor: 'pointer',
+    whiteSpace: 'nowrap',
+    transition: 'all 0.15s ease',
+  },
+  itemsBtnActive: {
+    background: 'rgba(var(--accent-rgb, 99,102,241), 0.25)',
+    border: '1px solid var(--accent)',
+    color: 'var(--accent-bright)',
   },
   gridPanel: {
     background: 'rgba(8, 12, 24, 0.55)',
@@ -414,6 +529,10 @@ const styles = {
     gap: '12px',
     boxShadow: 'var(--shadow-md)',
     minWidth: '300px',
+    maxWidth: '440px',
+    maxHeight: '85vh',
+    overflowY: 'auto',
+    overflowX: 'hidden',
   },
   popupImage:     { width: '280px', height: '280px', objectFit: 'contain', imageRendering: 'pixelated' },
   popupImageItem: { width: '120px', height: '120px', objectFit: 'contain', imageRendering: 'pixelated' },

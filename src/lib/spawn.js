@@ -1,6 +1,7 @@
-// Ports GridSpawner.cs logic exactly (Full category, no category filtering yet)
+// Ports GridSpawner.cs logic exactly
 import pokemonData from '../data/pokemon.json'
 import itemsData   from '../data/items.json'
+import filters     from '../data/pokedex-filters.json'
 
 // ── Rarity weights (matches GetCharacterWeight) ───────────────────────────────
 const CHAR_WEIGHTS = {
@@ -22,7 +23,7 @@ const CHAR_WEIGHTS = {
 
 const ITEM_WEIGHTS = { Common: 25, Uncommon: 10, Rare: 5, Sparse: 1 }
 
-// ── Clue labels (maps pokemon.json category strings → display text) ───────────
+// ── Clue labels ───────────────────────────────────────────────────────────────
 const CLUE_MAP = {
   Grass:    'Grass type',    Fire:      'Fire type',    Water:    'Water type',
   Electric: 'Electric type', Fighting:  'Fighting type', Psychic: 'Psychic type',
@@ -30,12 +31,6 @@ const CLUE_MAP = {
   Dragon:   'Dragon type',   Ice:       'Ice type',     Poison:   'Poison type',
   Bug:      'Bug type',      Flying:    'Flying type',  Rock:     'Rock type',
   Ground:   'Ground type',   Steel:     'Steel type',   Normal:   'Normal type',
-
-  Generation1: 'Generation I',    Generation2: 'Generation II',
-  Generation3: 'Generation III',  Generation4: 'Generation IV',
-  Generation5: 'Generation V',    Generation6: 'Generation VI',
-  Generation7: 'Generation VII',  Generation8: 'Generation VIII',
-  Generation9: 'Generation IX',
 
   ClassStarter:    'Starter Pokémon',
   ClassPseudo:     'Pseudo-Legendary',
@@ -56,6 +51,23 @@ const CLUE_MAP = {
   EvolutionSplit:  'Branched evolution',
 }
 
+// ── Filter lookup sets ────────────────────────────────────────────────────────
+const formSets  = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
+const classSets = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+
+function hasPokemonFilter(f) {
+  return !!(f.type1 || f.type2 || f.region || f.form || f.cls)
+}
+
+function matchesFilter(p, f) {
+  if (f.type1 && !p.types?.includes(f.type1))    return false
+  if (f.type2 && !p.types?.includes(f.type2))    return false
+  if (f.region && p.region !== f.region)          return false
+  if (f.form  && !formSets[f.form]?.has(p.id))   return false
+  if (f.cls   && !classSets[f.cls]?.has(p.id))   return false
+  return true
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function weightedSelect(pool, getWeight) {
   const total = pool.reduce((s, x) => s + (getWeight(x) ?? 1), 0)
@@ -69,6 +81,7 @@ function weightedSelect(pool, getWeight) {
 
 function pokemonClue(p) {
   const pool = []
+  if (p.region) pool.push(p.region + ' Pokémon')
   for (const cat of (p.categories ?? []))
     if (CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])
   return pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : '???'
@@ -76,7 +89,7 @@ function pokemonClue(p) {
 
 // ── Public API ────────────────────────────────────────────────────────────────
 
-/** Total spawnable tokens across all categories (= GetGlobalTokens for Full) */
+/** Total spawnable tokens across all categories (ignores filters) */
 export function getGlobalTokens(gameState) {
   let total = 0
   for (const p    of pokemonData) total += Math.max(0, gameState.pokemon[p.id]?.numberToSpawn ?? 0)
@@ -84,24 +97,45 @@ export function getGlobalTokens(gameState) {
   return total
 }
 
-/** Available tokens for current category (Full = same as global for now) */
-export function getAvailableTokens(gameState) {
-  return getGlobalTokens(gameState)
+/**
+ * Available tokens given the current spawn filter.
+ * - itemsOnly: only item tokens count
+ * - pokemon filter active: only matching pokemon; items excluded
+ * - no filter: all pokemon + items
+ */
+export function getAvailableTokens(gameState, spawnFilter = {}) {
+  if (spawnFilter.itemsOnly) {
+    let total = 0
+    for (const item of itemsData) total += Math.max(0, gameState.items[item.id]?.numberToSpawn ?? 0)
+    return total
+  }
+  let total = 0
+  for (const p of pokemonData) {
+    if ((gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0 && matchesFilter(p, spawnFilter))
+      total += gameState.pokemon[p.id].numberToSpawn
+  }
+  if (!hasPokemonFilter(spawnFilter)) {
+    for (const item of itemsData) total += Math.max(0, gameState.items[item.id]?.numberToSpawn ?? 0)
+  }
+  return total
 }
 
 /**
- * Generates a grid of slots (max 25, exactly getAvailableTokens if fewer).
- * Each slot: { type: 'pokemon'|'item', id, clue }
- * Mirrors GridSpawner.GenerateGrid logic exactly.
+ * Generates a grid of slots (max 25).
+ * spawnFilter: { type1, type2, region, form, cls, itemsOnly }
  */
-export function generateGrid(gameState) {
-  const available = getAvailableTokens(gameState)
+export function generateGrid(gameState, spawnFilter = {}) {
+  const available = getAvailableTokens(gameState, spawnFilter)
   if (available === 0) return []
 
   const gridSize = Math.min(25, available)
+  const pokemonOnly = hasPokemonFilter(spawnFilter) && !spawnFilter.itemsOnly
 
-  let workingChars = pokemonData.filter(p => (gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0)
-  let workingItems = itemsData.filter(i  => (gameState.items[i.id]?.numberToSpawn   ?? 0) > 0)
+  let workingChars = spawnFilter.itemsOnly ? [] :
+    pokemonData.filter(p => (gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0 && matchesFilter(p, spawnFilter))
+
+  let workingItems = pokemonOnly ? [] :
+    itemsData.filter(i => (gameState.items[i.id]?.numberToSpawn ?? 0) > 0)
 
   const charCounts = {}; workingChars.forEach(p => { charCounts[p.id] = gameState.pokemon[p.id].numberToSpawn })
   const itemCounts = {}; workingItems.forEach(i => { itemCounts[i.id] = gameState.items[i.id].numberToSpawn   })
@@ -133,7 +167,6 @@ export function generateGrid(gameState) {
 
 /**
  * Returns a new gameState after collecting the given slot.
- * Mirrors GridSpawner.OnCardCollected + DexManager.CharacterCollected/ItemCollected.
  */
 export function collectToken(gameState, slot) {
   if (slot.type === 'pokemon') {

@@ -593,6 +593,10 @@ const styles = {
     gap: '20px',
     boxShadow: 'var(--shadow-md)',
     minWidth: '320px',
+    maxWidth: '480px',
+    maxHeight: '85vh',
+    overflowY: 'auto',
+    overflowX: 'hidden',
   },
   resultLine: {
     fontSize: '18px',

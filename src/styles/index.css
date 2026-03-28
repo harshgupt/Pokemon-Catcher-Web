@@ -7,6 +7,7 @@
   --bg-hover:       #16163a;
 
   --accent:         #1e6fa8;
+  --accent-rgb:     30, 111, 168;
   --accent-dim:     #0d3d63;
   --accent-bright:  #4d9fd4;
   --accent-glow:    rgba(30, 111, 168, 0.2);
@@ -70,6 +71,16 @@ body {
   border: 2px solid rgba(30, 111, 168, 0.15);
   border-top-color: var(--accent-bright);
   animation: spin 0.7s linear infinite;
+}
+
+/* ─── Native select theming ───────────────────────────────────────────────── */
+select {
+  color-scheme: dark;
+  accent-color: var(--accent);
+}
+select option {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
 }
 
 /* ─── Scrollbar ───────────────────────────────────────────────────────────── */
