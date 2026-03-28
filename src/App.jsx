@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './styles/index.css'
 import Sidebar from './components/Sidebar'
+import ItemDex from './components/ItemDex'
 
 const PAGE_LABELS = {
   catch:    'Catch',
@@ -21,7 +22,8 @@ export default function App() {
           <h1 style={styles.pageTitle}>{PAGE_LABELS[activePage]}</h1>
         </header>
         <div style={styles.content}>
-          <Placeholder page={activePage} />
+          {activePage === 'items'   && <ItemDex />}
+          {activePage !== 'items'   && <Placeholder page={activePage} />}
         </div>
       </main>
     </div>
@@ -64,8 +66,10 @@ const styles = {
   },
   content: {
     flex: 1,
-    overflow: 'auto',
+    overflow: 'hidden',
     padding: '32px',
+    display: 'flex',
+    flexDirection: 'column',
   },
   placeholder: {
     display: 'flex',

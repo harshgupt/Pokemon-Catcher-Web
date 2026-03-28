@@ -157,7 +157,7 @@
   },
   {
     "id": 26,
-    "name": "PokeBall",
+    "name": "Pokeball",
     "spawnCount": 1,
     "rarity": "Common"
   },
@@ -187,7 +187,7 @@
   },
   {
     "id": 31,
-    "name": "Electrizer",
+    "name": "Electirizer",
     "spawnCount": 1,
     "rarity": "Uncommon"
   },
@@ -324,288 +324,6 @@
     "rarity": "Sparse"
   },
   {
-    "id": 54,
-    "name": "Venusaurite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 55,
-    "name": "Charizardite X",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 56,
-    "name": "Charizardite Y",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 57,
-    "name": "Blastoisinite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 58,
-    "name": "Beedrillite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 59,
-    "name": "Pidgeotite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 60,
-    "name": "Alakazite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 61,
-    "name": "Slowbronite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 62,
-    "name": "Gengarite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 63,
-    "name": "Steelixite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 64,
-    "name": "Kangaskhanite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 65,
-    "name": "Scizorite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 66,
-    "name": "Pinsirite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 67,
-    "name": "Gyaradosite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 68,
-    "name": "Aerodactylite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 69,
-    "name": "Mewtwonite X",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 70,
-    "name": "Mewtwonite Y",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 71,
-    "name": "Ampharosite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 72,
-    "name": "Heracronite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 73,
-    "name": "Houndoominite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 74,
-    "name": "Tyranitarite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 75,
-    "name": "Sceptilite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 76,
-    "name": "Blazikenite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 77,
-    "name": "Swampertite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 78,
-    "name": "Gardevoirite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 79,
-    "name": "Galladite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 80,
-    "name": "Sablenite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 81,
-    "name": "Mawilite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 82,
-    "name": "Aggronite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 83,
-    "name": "Medichamite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 84,
-    "name": "Manectite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 85,
-    "name": "Sharpedonite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 86,
-    "name": "Cameruptite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 87,
-    "name": "Altarianite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 88,
-    "name": "Banettite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 89,
-    "name": "Absolite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 90,
-    "name": "Glalitite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 91,
-    "name": "Salamencite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 92,
-    "name": "Metagrossite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 93,
-    "name": "Latiasite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 94,
-    "name": "Latiosite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 95,
-    "name": "Lopunnite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 96,
-    "name": "Lucarionite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 97,
-    "name": "Abomasite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 98,
-    "name": "Garchompite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 99,
-    "name": "Audinite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
-    "id": 100,
-    "name": "Diancite",
-    "spawnCount": 1,
-    "rarity": "Rare"
-  },
-  {
     "id": 101,
     "name": "Rock Star Costume",
     "spawnCount": 1,
@@ -625,7 +343,7 @@
   },
   {
     "id": 104,
-    "name": "Ph.D Costume",
+    "name": "PhD Costume",
     "spawnCount": 1,
     "rarity": "Common"
   },
@@ -637,13 +355,13 @@
   },
   {
     "id": 106,
-    "name": "N-Solarizer",
+    "name": "N Solarizer",
     "spawnCount": 1,
     "rarity": "Sparse"
   },
   {
     "id": 107,
-    "name": "N-Lunarizer",
+    "name": "N Lunarizer",
     "spawnCount": 1,
     "rarity": "Sparse"
   },
@@ -978,208 +696,286 @@
     "rarity": "Rare"
   },
   {
-    "id": 163,
-    "name": "Rage Fist",
+    "id": 54,
+    "name": "Venusaurite",
     "spawnCount": 1,
-    "rarity": "Uncommon"
+    "rarity": "Rare"
   },
   {
-    "id": 164,
-    "name": "Rollout",
+    "id": 55,
+    "name": "Charizardite X",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 165,
-    "name": "Ancient Power",
-    "spawnCount": 3,
-    "rarity": "Common"
-  },
-  {
-    "id": 166,
-    "name": "Mimic",
-    "spawnCount": 3,
-    "rarity": "Common"
-  },
-  {
-    "id": 167,
-    "name": "Baby Doll Eyes",
+    "id": 56,
+    "name": "Charizardite Y",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 168,
-    "name": "Double Hit",
+    "id": 57,
+    "name": "Blastoisinite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 169,
-    "name": "Twin Beam",
+    "id": 58,
+    "name": "Beedrillite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 170,
-    "name": "Hyper Drill",
-    "spawnCount": 2,
-    "rarity": "Common"
-  },
-  {
-    "id": 171,
-    "name": "Barb Barrage",
+    "id": 59,
+    "name": "Pidgeotite",
     "spawnCount": 1,
-    "rarity": "Uncommon"
+    "rarity": "Rare"
   },
   {
-    "id": 172,
-    "name": "Psyshield Bash",
+    "id": 60,
+    "name": "Alakazite",
     "spawnCount": 1,
-    "rarity": "Uncommon"
+    "rarity": "Rare"
   },
   {
-    "id": 173,
-    "name": "Secret Sword",
+    "id": 61,
+    "name": "Slowbronite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 174,
-    "name": "Blue Flare",
+    "id": 62,
+    "name": "Gengarite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 175,
-    "name": "Bolt Strike",
+    "id": 63,
+    "name": "Steelixite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 176,
-    "name": "Fusion Bolt",
+    "id": 64,
+    "name": "Kangaskhanite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 177,
-    "name": "Fusion Flare",
+    "id": 65,
+    "name": "Scizorite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 178,
-    "name": "Relic Song",
+    "id": 66,
+    "name": "Pinsirite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 179,
-    "name": "Light of Ruin",
+    "id": 67,
+    "name": "Gyaradosite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 180,
-    "name": "Taunt",
-    "spawnCount": 2,
-    "rarity": "Common"
-  },
-  {
-    "id": 181,
-    "name": "King's Shield",
+    "id": 68,
+    "name": "Aerodactylite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 182,
-    "name": "Topsy Turvy",
+    "id": 69,
+    "name": "Mewtwonite X",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 183,
-    "name": "Geomancy",
+    "id": 70,
+    "name": "Mewtwonite Y",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 184,
-    "name": "Hyperspace Fury",
+    "id": 71,
+    "name": "Ampharosite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 185,
-    "name": "Stomp",
+    "id": 72,
+    "name": "Heracronite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 186,
-    "name": "Sunsteel Strike",
+    "id": 73,
+    "name": "Houndoominite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 187,
-    "name": "Moongeist Beam",
+    "id": 74,
+    "name": "Tyranitarite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 188,
-    "name": "Dragon Pulse",
+    "id": 75,
+    "name": "Sceptilite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 189,
-    "name": "Spectral Thief",
+    "id": 76,
+    "name": "Blazikenite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
   },
   {
-    "id": 190,
-    "name": "Dragon Cheer",
+    "id": 77,
+    "name": "Swampertite",
     "spawnCount": 1,
-    "rarity": "Uncommon"
+    "rarity": "Rare"
   },
   {
-    "id": 191,
-    "name": "Surf",
+    "id": 78,
+    "name": "Gardevoirite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 192,
-    "name": "Aura Wheel",
+    "id": 79,
+    "name": "Galladite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 193,
-    "name": "Double Shock",
+    "id": 80,
+    "name": "Sablenite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 194,
-    "name": "Revival Blessing",
+    "id": 81,
+    "name": "Mawilite",
     "spawnCount": 1,
-    "rarity": "Common"
+    "rarity": "Rare"
   },
   {
-    "id": 195,
-    "name": "Flip Turn",
+    "id": 82,
+    "name": "Aggronite",
     "spawnCount": 1,
-    "rarity": "Uncommon"
+    "rarity": "Rare"
   },
   {
-    "id": 196,
-    "name": "Tera Starstorm",
+    "id": 83,
+    "name": "Medichamite",
     "spawnCount": 1,
-    "rarity": "Sparse"
+    "rarity": "Rare"
+  },
+  {
+    "id": 84,
+    "name": "Manectite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 85,
+    "name": "Sharpedonite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 86,
+    "name": "Cameruptite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 87,
+    "name": "Altarianite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 88,
+    "name": "Banettite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 89,
+    "name": "Absolite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 90,
+    "name": "Glalitite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 91,
+    "name": "Salamencite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 92,
+    "name": "Metagrossite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 93,
+    "name": "Latiasite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 94,
+    "name": "Latiosite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 95,
+    "name": "Lopunnite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 96,
+    "name": "Lucarionite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 97,
+    "name": "Abomasite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 98,
+    "name": "Garchompite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 99,
+    "name": "Audinite",
+    "spawnCount": 1,
+    "rarity": "Rare"
+  },
+  {
+    "id": 100,
+    "name": "Diancite",
+    "spawnCount": 1,
+    "rarity": "Rare"
   },
   {
     "id": 197,
@@ -1450,5 +1246,243 @@
     "name": "Baxcalibrite",
     "spawnCount": 1,
     "rarity": "Rare"
+  },
+  {
+    "id": 163,
+    "name": "Rage Fist",
+    "spawnCount": 1,
+    "rarity": "Uncommon",
+    "tmType": "Ghost"
+  },
+  {
+    "id": 164,
+    "name": "Rollout",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Rock"
+  },
+  {
+    "id": 165,
+    "name": "Ancient Power",
+    "spawnCount": 3,
+    "rarity": "Common",
+    "tmType": "Rock"
+  },
+  {
+    "id": 166,
+    "name": "Mimic",
+    "spawnCount": 3,
+    "rarity": "Common",
+    "tmType": "Normal"
+  },
+  {
+    "id": 167,
+    "name": "Baby Doll Eyes",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Fairy"
+  },
+  {
+    "id": 168,
+    "name": "Double Hit",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Normal"
+  },
+  {
+    "id": 169,
+    "name": "Twin Beam",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Psychic"
+  },
+  {
+    "id": 170,
+    "name": "Hyper Drill",
+    "spawnCount": 2,
+    "rarity": "Common",
+    "tmType": "Normal"
+  },
+  {
+    "id": 171,
+    "name": "Barb Barrage",
+    "spawnCount": 1,
+    "rarity": "Uncommon",
+    "tmType": "Poison"
+  },
+  {
+    "id": 172,
+    "name": "Psyshield Bash",
+    "spawnCount": 1,
+    "rarity": "Uncommon",
+    "tmType": "Psychic"
+  },
+  {
+    "id": 173,
+    "name": "Secret Sword",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Fighting"
+  },
+  {
+    "id": 174,
+    "name": "Blue Flare",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Fire"
+  },
+  {
+    "id": 175,
+    "name": "Bolt Strike",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Electric"
+  },
+  {
+    "id": 176,
+    "name": "Fusion Bolt",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Electric"
+  },
+  {
+    "id": 177,
+    "name": "Fusion Flare",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Fire"
+  },
+  {
+    "id": 178,
+    "name": "Relic Song",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Normal"
+  },
+  {
+    "id": 179,
+    "name": "Light of Ruin",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Fairy"
+  },
+  {
+    "id": 180,
+    "name": "Taunt",
+    "spawnCount": 2,
+    "rarity": "Common",
+    "tmType": "Dark"
+  },
+  {
+    "id": 181,
+    "name": "King's Shield",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Steel"
+  },
+  {
+    "id": 182,
+    "name": "Topsy Turvy",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Dark"
+  },
+  {
+    "id": 183,
+    "name": "Geomancy",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Fairy"
+  },
+  {
+    "id": 184,
+    "name": "Hyperspace Fury",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Dark"
+  },
+  {
+    "id": 185,
+    "name": "Stomp",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Normal"
+  },
+  {
+    "id": 186,
+    "name": "Sunsteel Strike",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Steel"
+  },
+  {
+    "id": 187,
+    "name": "Moongeist Beam",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Ghost"
+  },
+  {
+    "id": 188,
+    "name": "Dragon Pulse",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Dragon"
+  },
+  {
+    "id": 189,
+    "name": "Spectral Thief",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Ghost"
+  },
+  {
+    "id": 190,
+    "name": "Dragon Cheer",
+    "spawnCount": 1,
+    "rarity": "Uncommon",
+    "tmType": "Dragon"
+  },
+  {
+    "id": 191,
+    "name": "Surf",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Water"
+  },
+  {
+    "id": 192,
+    "name": "Aura Wheel",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Electric"
+  },
+  {
+    "id": 193,
+    "name": "Double Shock",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Electric"
+  },
+  {
+    "id": 194,
+    "name": "Revival Blessing",
+    "spawnCount": 1,
+    "rarity": "Common",
+    "tmType": "Normal"
+  },
+  {
+    "id": 195,
+    "name": "Flip Turn",
+    "spawnCount": 1,
+    "rarity": "Uncommon",
+    "tmType": "Water"
+  },
+  {
+    "id": 196,
+    "name": "Tera Starstorm",
+    "spawnCount": 1,
+    "rarity": "Sparse",
+    "tmType": "Normal"
   }
 ]
