@@ -1,26 +1,26 @@
-/* ─── Theme: Midnight Forest ─────────────────────────────────────────────── */
+/* ─── Theme: Deep Space ───────────────────────────────────────────────────── */
 /* To change theme, edit only the :root variables below.                      */
 :root {
-  --bg-base:        #0d1f0f;
-  --bg-surface:     #111f13;
-  --bg-elevated:    #162b18;
-  --bg-hover:       #1c3620;
+  --bg-base:        #07070f;
+  --bg-surface:     #0d0d1a;
+  --bg-elevated:    #12122b;
+  --bg-hover:       #16163a;
 
-  --accent:         #4caf50;
-  --accent-dim:     #2e7d32;
-  --accent-bright:  #81c784;
-  --accent-glow:    rgba(76, 175, 80, 0.18);
+  --accent:         #1e6fa8;
+  --accent-dim:     #0d3d63;
+  --accent-bright:  #4d9fd4;
+  --accent-glow:    rgba(30, 111, 168, 0.2);
 
-  --text-primary:   #e8f5e9;
-  --text-secondary: #a5d6a7;
-  --text-muted:     #4a7c59;
+  --text-primary:   #dce8f5;
+  --text-secondary: #6b9ec4;
+  --text-muted:     #2a4a6b;
 
-  --border:         rgba(76, 175, 80, 0.12);
-  --border-strong:  rgba(76, 175, 80, 0.28);
+  --border:         rgba(30, 111, 168, 0.15);
+  --border-strong:  rgba(30, 111, 168, 0.3);
 
   --shadow-sm:      0 2px 8px rgba(0, 0, 0, 0.4);
   --shadow-md:      0 4px 20px rgba(0, 0, 0, 0.6);
-  --shadow-glow:    0 0 20px rgba(76, 175, 80, 0.2);
+  --shadow-glow:    0 0 20px rgba(30, 111, 168, 0.25);
 
   --radius-sm:      6px;
   --radius-md:      12px;
