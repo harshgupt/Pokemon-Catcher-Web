@@ -294,7 +294,9 @@ function CatchPopup({ slot, gameState, onClose }) {
                 <img src={ev.fromSrc} alt="" style={styles.evoSprite} />
                 <span style={styles.evoArrow}>→</span>
                 <img src={ev.nextSrc} alt={ev.nextName} style={styles.evoSprite} />
-                <span style={styles.evoCount}>{ev.current} / {ev.required}</span>
+                <span style={{ ...styles.evoCount, color: ev.current >= ev.required ? 'var(--accent-bright)' : '#e57373' }}>
+                  {ev.current} / {ev.required}
+                </span>
               </div>
             ))}
           </div>

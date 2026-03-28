@@ -119,6 +119,18 @@ const TYPE_COLORS = {
 // ── Components ────────────────────────────────────────────────────────────────
 
 
+function injectTestState(setGameState) {
+  setGameState(prev => {
+    const next = { ...prev, pokemon: { ...prev.pokemon }, items: { ...prev.items } }
+    next.pokemon[19] = { ...next.pokemon[19], isUnlocked: true, numberCaught: 16 }  // Bulbasaur
+    next.pokemon[24] = { ...next.pokemon[24], isUnlocked: true, numberCaught: 16 }  // Charmander
+    next.pokemon[2]  = { ...next.pokemon[2],  isUnlocked: true }                    // Pikachu
+    next.pokemon[0]  = { ...next.pokemon[0],  numberCaught: 10 }                    // Pichu (root)
+    next.items[3]    = { ...next.items[3],     numberCollected: 1, isUnlocked: true } // Thunder Stone
+    return next
+  })
+}
+
 export default function EvolveTab({ gameState, setGameState }) {
   const [selected, setSelected] = useState(null)
 
@@ -143,6 +155,7 @@ export default function EvolveTab({ gameState, setGameState }) {
           <span style={styles.emptyIcon}>◈</span>
           <p style={styles.emptyText}>No Pokémon ready to evolve</p>
           <p style={styles.emptySubtext}>Catch more to meet evolution requirements</p>
+          <button style={styles.testBtn} onClick={() => injectTestState(setGameState)}>⚙ Load Test Data</button>
         </div>
       ) : (
         <div style={styles.grid}>
@@ -299,6 +312,16 @@ const styles = {
   emptySubtext: {
     fontSize: '13px',
     color: 'var(--text-muted)',
+  },
+  testBtn: {
+    marginTop: '8px',
+    padding: '6px 14px',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-sm)',
+    color: 'var(--text-muted)',
+    fontSize: '11px',
+    cursor: 'pointer',
   },
   grid: {
     display: 'grid',

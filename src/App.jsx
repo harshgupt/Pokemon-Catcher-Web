@@ -4,7 +4,8 @@ import Sidebar   from './components/Sidebar'
 import ItemDex   from './components/ItemDex'
 import PokeDex   from './components/PokeDex'
 import CatchTab  from './components/CatchTab'
-import EvolveTab from './components/EvolveTab'
+import EvolveTab    from './components/EvolveTab'
+import SettingsTab  from './components/SettingsTab'
 import { loadSave } from './lib/save'
 
 const PAGE_LABELS = {
@@ -30,8 +31,9 @@ export default function App() {
           <div style={activePage === 'catch'   ? styles.page : styles.pageHidden}><CatchTab  gameState={gameState} setGameState={setGameState} /></div>
           <div style={activePage === 'pokedex' ? styles.page : styles.pageHidden}><PokeDex   gameState={gameState} /></div>
           <div style={activePage === 'items'   ? styles.page : styles.pageHidden}><ItemDex   gameState={gameState} /></div>
-          <div style={activePage === 'evolve'  ? styles.page : styles.pageHidden}><EvolveTab gameState={gameState} setGameState={setGameState} /></div>
-          {activePage !== 'catch' && activePage !== 'items' && activePage !== 'pokedex' && activePage !== 'evolve' && <Placeholder page={activePage} />}
+          <div style={activePage === 'evolve'    ? styles.page : styles.pageHidden}><EvolveTab   gameState={gameState} setGameState={setGameState} /></div>
+          <div style={activePage === 'settings'  ? styles.page : styles.pageHidden}><SettingsTab gameState={gameState} setGameState={setGameState} /></div>
+          {activePage !== 'catch' && activePage !== 'items' && activePage !== 'pokedex' && activePage !== 'evolve' && activePage !== 'settings' && <Placeholder page={activePage} />}
         </div>
       </main>
     </div>
