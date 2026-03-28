@@ -1,23 +1,29 @@
+import { useState } from 'react'
 import dexOrder from '../data/dex-order.json'
 import pokemon from '../data/pokemon.json'
 
 const byId = Object.fromEntries(pokemon.map(p => [p.id, p]))
 
-const RARITY_COLORS = {
-  Common:        '#90caf9',
-  Uncommon:      '#a5d6a7',
-  Rare:          '#ce93d8',
-  Sparse:        '#ffb74d',
-  Baby:          '#f48fb1',
-  Singular:      '#80deea',
-  Pseudo:        '#ef9a9a',
-  Fossil:        '#bcaaa4',
-  Starter:       '#fff176',
-  UltraBeast:    '#b39ddb',
-  Legendary:     '#ffcc02',
-  BoxLegendary:  '#ff8a65',
-  StrongLegendary: '#ff5252',
-  Mythical:      '#f06292',
+// Official Pokémon HOME type colours
+const TYPE_COLORS = {
+  Normal:   '#9FA19F',
+  Fire:     '#E62829',
+  Water:    '#2980EF',
+  Electric: '#FAC000',
+  Grass:    '#3FA129',
+  Ice:      '#3DCEF3',
+  Fighting: '#FF8000',
+  Poison:   '#9141CB',
+  Ground:   '#915121',
+  Flying:   '#81B9EF',
+  Psychic:  '#EF4179',
+  Bug:      '#91A119',
+  Rock:     '#AFA981',
+  Ghost:    '#704170',
+  Dragon:   '#5060E1',
+  Dark:     '#624D4E',
+  Steel:    '#60A1B8',
+  Fairy:    '#EF70EF',
 }
 
 export default function PokeDex() {
@@ -47,25 +53,38 @@ function GenderedName({ name }) {
   return <>{name}</>
 }
 
+function TypeBadge({ type }) {
+  const bg = TYPE_COLORS[type] ?? '#9FA19F'
+  return (
+    <span style={{ ...styles.typeBadge, background: bg }}>
+      {type}
+    </span>
+  )
+}
+
 function PokeCard({ pokemon: p }) {
-  const rarityColor = RARITY_COLORS[p.rarity] ?? '#ffffff'
+  const [imgState, setImgState] = useState('loading')
   const displayName = p.displayName ?? p.name
   const spriteFile  = p.spriteName ?? p.name
 
   return (
     <div style={styles.card}>
       <div style={styles.imageWrap}>
+        {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
           src={`/sprites/pokemon/mid/${spriteFile}.png`}
           alt={p.name}
-          style={styles.image}
-          onError={e => { e.target.style.opacity = 0.15 }}
+          style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0 }}
+          onLoad={() => setImgState('loaded')}
+          onError={() => setImgState('error')}
         />
       </div>
       <div style={styles.info}>
         <span style={styles.dexId}>#{String(p.dexId).padStart(4, '0')}</span>
         <span style={styles.name}><GenderedName name={displayName} /></span>
-        <span style={{ ...styles.rarity, color: rarityColor }}>{p.rarity}</span>
+        <div style={styles.types}>
+          {(p.types ?? []).map(t => <TypeBadge key={t} type={t} />)}
+        </div>
       </div>
     </div>
   )
@@ -86,7 +105,7 @@ const styles = {
   },
   grid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(90px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
     gap: '10px',
     overflowY: 'auto',
     paddingRight: '4px',
@@ -102,6 +121,9 @@ const styles = {
     gap: '6px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), background var(--transition)',
+    contentVisibility: 'auto',
+    containIntrinsicSize: '0 140px',
+    height: '140px',
   },
   imageWrap: {
     width: '52px',
@@ -109,6 +131,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    position: 'relative',
   },
   image: {
     width: '100%',
@@ -120,14 +143,15 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    gap: '2px',
     width: '100%',
+    flex: 1,
   },
   dexId: {
     fontSize: '9px',
     color: 'var(--text-muted)',
     fontWeight: '600',
     letterSpacing: '0.04em',
+    marginBottom: '2px',
   },
   name: {
     fontSize: '10px',
@@ -136,12 +160,26 @@ const styles = {
     textAlign: 'center',
     lineHeight: '1.3',
     wordBreak: 'break-word',
+    flex: 1,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
   },
-  rarity: {
-    fontSize: '9px',
-    fontWeight: '600',
+  types: {
+    display: 'flex',
+    gap: '3px',
+    justifyContent: 'center',
+    marginTop: '3px',
+  },
+  typeBadge: {
+    fontSize: '8px',
+    fontWeight: '700',
+    color: '#fff',
+    borderRadius: '3px',
+    padding: '1px 5px',
     textTransform: 'uppercase',
     letterSpacing: '0.04em',
-    opacity: 0.85,
+    whiteSpace: 'nowrap',
   },
 }

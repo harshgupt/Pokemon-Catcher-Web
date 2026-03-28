@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import items from '../data/items.json'
 
 const RARITY_COLORS = {
@@ -21,6 +22,7 @@ export default function ItemDex() {
 }
 
 function ItemCard({ item }) {
+  const [imgState, setImgState] = useState('loading')
   const rarityColor = RARITY_COLORS[item.rarity] ?? '#ffffff'
   const spriteSrc = item.tmType
     ? `/sprites/items/TM ${item.tmType}.png`
@@ -29,11 +31,13 @@ function ItemCard({ item }) {
   return (
     <div style={styles.card}>
       <div style={styles.imageWrap}>
+        {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
           src={spriteSrc}
           alt={item.name}
-          style={styles.image}
-          onError={e => { e.target.style.opacity = 0 }}
+          style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0 }}
+          onLoad={() => setImgState('loaded')}
+          onError={() => setImgState('error')}
         />
       </div>
       <div style={styles.info}>
@@ -74,6 +78,8 @@ const styles = {
     gap: '8px',
     cursor: 'pointer',
     transition: 'border-color var(--transition), transform var(--transition), background var(--transition)',
+    contentVisibility: 'auto',
+    containIntrinsicSize: '0 130px',
   },
   imageWrap: {
     width: '56px',
@@ -81,6 +87,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    position: 'relative',
   },
   image: {
     width: '100%',

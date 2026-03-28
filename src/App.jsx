@@ -23,8 +23,8 @@ export default function App() {
           <h1 style={styles.pageTitle}>{PAGE_LABELS[activePage]}</h1>
         </header>
         <div style={styles.content}>
-          {activePage === 'items'   && <ItemDex />}
-          {activePage === 'pokedex' && <PokeDex />}
+          <div style={activePage === 'pokedex' ? styles.page : styles.pageHidden}><PokeDex /></div>
+          <div style={activePage === 'items'   ? styles.page : styles.pageHidden}><ItemDex /></div>
           {activePage !== 'items' && activePage !== 'pokedex' && <Placeholder page={activePage} />}
         </div>
       </main>
@@ -72,6 +72,15 @@ const styles = {
     padding: '32px',
     display: 'flex',
     flexDirection: 'column',
+  },
+  page: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    overflow: 'hidden',
+  },
+  pageHidden: {
+    display: 'none',
   },
   placeholder: {
     display: 'flex',

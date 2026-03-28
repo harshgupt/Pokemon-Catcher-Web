@@ -46,6 +46,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ─── Sprite spinner ─────────────────────────────────────────────────────── */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.sprite-spinner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(30, 111, 168, 0.15);
+  border-top-color: var(--accent-bright);
+  animation: spin 0.7s linear infinite;
+}
+
 /* ─── Scrollbar ───────────────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
