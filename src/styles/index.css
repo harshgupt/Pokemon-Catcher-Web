@@ -1,0 +1,53 @@
+/* ─── Theme: Midnight Forest ─────────────────────────────────────────────── */
+/* To change theme, edit only the :root variables below.                      */
+:root {
+  --bg-base:        #0d1f0f;
+  --bg-surface:     #111f13;
+  --bg-elevated:    #162b18;
+  --bg-hover:       #1c3620;
+
+  --accent:         #4caf50;
+  --accent-dim:     #2e7d32;
+  --accent-bright:  #81c784;
+  --accent-glow:    rgba(76, 175, 80, 0.18);
+
+  --text-primary:   #e8f5e9;
+  --text-secondary: #a5d6a7;
+  --text-muted:     #4a7c59;
+
+  --border:         rgba(76, 175, 80, 0.12);
+  --border-strong:  rgba(76, 175, 80, 0.28);
+
+  --shadow-sm:      0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md:      0 4px 20px rgba(0, 0, 0, 0.6);
+  --shadow-glow:    0 0 20px rgba(76, 175, 80, 0.2);
+
+  --radius-sm:      6px;
+  --radius-md:      12px;
+  --radius-lg:      18px;
+
+  --sidebar-width:  220px;
+  --transition:     0.18s ease;
+}
+
+/* ─── Reset ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-dim); }
