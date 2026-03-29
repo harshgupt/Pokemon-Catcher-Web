@@ -256,8 +256,8 @@ export default function CatchTab({ gameState, setGameState }) {
   const filtersDisabled = itemsOnly
 
   const bgImage = location
-    ? `url(/sprites/backgrounds/${encodeURIComponent(region)}/${encodeURIComponent(location)}.png)`
-    : `url(/sprites/catch-bg.png)`
+    ? `url("/sprites/backgrounds/${encodeURIComponent(region)}/${encodeURIComponent(location)}.png")`
+    : `url("/sprites/catch-bg.png")`
 
   const bgAnimation = panAxis ? `bg-pan-${panAxis} ${panDuration.toFixed(1)}s linear infinite` : undefined
 
