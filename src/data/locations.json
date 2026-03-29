@@ -1,0 +1,1130 @@
+{
+  "Kanto": {
+    "Pallet Town": [
+      19,
+      24,
+      30
+    ],
+    "Route 1": [
+      43,
+      47
+    ],
+    "Route 22": [
+      62,
+      59,
+      51,
+      100
+    ],
+    "Viridian Forest": [
+      35,
+      39
+    ],
+    "Route 4": [
+      55,
+      53,
+      229
+    ],
+    "Mt. Moon": [
+      124,
+      76,
+      83
+    ],
+    "Route 24": [
+      79,
+      119,
+      111,
+      85,
+      107,
+      168
+    ],
+    "Route 6": [
+      91,
+      203,
+      98
+    ],
+    "Vermilion City": [
+      269
+    ],
+    "Route 11": [
+      166
+    ],
+    "Diglett's Cave": [
+      87
+    ],
+    "Power Plant": [
+      171,
+      141,
+      262
+    ],
+    "Rock Tunnel": [
+      115,
+      163,
+      190
+    ],
+    "Pokemon Tower": [
+      158,
+      178
+    ],
+    "Route 8": [
+      103,
+      68
+    ],
+    "Celadon City": [
+      235,
+      245
+    ],
+    "Saffron City": [
+      232
+    ],
+    "Route 17": [
+      148,
+      130
+    ],
+    "Safari Zone": [
+      175,
+      211,
+      223,
+      257,
+      198,
+      225
+    ],
+    "Route 15": [
+      234
+    ],
+    "Route 13": [
+      145,
+      205,
+      200,
+      134,
+      156
+    ],
+    "Seafoam Islands": [
+      150,
+      260
+    ],
+    "Cinabbar Island": [
+      248,
+      250,
+      252
+    ],
+    "Pokemon Mansion": [
+      187,
+      152
+    ],
+    "Route 21": [
+      196,
+      122
+    ],
+    "Victory Road": [
+      264
+    ],
+    "Cerulean Cave": [
+      185,
+      266
+    ]
+  },
+  "Johto": {
+    "New Bark Town": [
+      270,
+      273,
+      277
+    ],
+    "Headbutt": [
+      354,
+      307,
+      367
+    ],
+    "Route 29": [
+      280,
+      282
+    ],
+    "Route 30": [
+      284,
+      286
+    ],
+    "Dark Cave": [
+      356,
+      366
+    ],
+    "Violet City": [
+      290,
+      377
+    ],
+    "Route 32": [
+      295,
+      304,
+      313,
+      363
+    ],
+    "Ruins of Alph": [
+      293,
+      401,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349
+    ],
+    "Ilex Forest": [
+      1,
+      416
+    ],
+    "Route 34": [
+      361,
+      0,
+      65,
+      72,
+      215,
+      217,
+      220
+    ],
+    "Route 35": [
+      311
+    ],
+    "National Park": [
+      309
+    ],
+    "Route 36": [
+      399
+    ],
+    "Ecruteak City": [
+      412,
+      410,
+      408,
+      415
+    ],
+    "Route 38": [
+      402
+    ],
+    "Olivine City": [
+      288,
+      382
+    ],
+    "Whirl Islands": [
+      385,
+      414
+    ],
+    "Safari Zone": [
+      392,
+      317
+    ],
+    "Mt. Mortar": [
+      181
+    ],
+    "Route 43": [
+      352
+    ],
+    "Ice Path": [
+      379,
+      387,
+      369
+    ],
+    "Route 45": [
+      359,
+      395,
+      373,
+      391
+    ],
+    "Mt. Silver": [
+      403,
+      319
+    ]
+  },
+  "Hoenn": {
+    "Littleroot Town": [
+      417,
+      421,
+      425
+    ],
+    "Route 101": [
+      431,
+      429,
+      436
+    ],
+    "Route 103": [
+      449
+    ],
+    "Route 102": [
+      444,
+      441,
+      451,
+      458
+    ],
+    "Route 104": [
+      447
+    ],
+    "Petalburg Woods": [
+      460,
+      462
+    ],
+    "Rustboro City": [
+      531,
+      533
+    ],
+    "Route 116": [
+      465,
+      476
+    ],
+    "Rustsurf Tunnel": [
+      468
+    ],
+    "Route 115": [
+      527,
+      575
+    ],
+    "Granite Cave": [
+      471,
+      482,
+      480,
+      478,
+      474
+    ],
+    "Route 110": [
+      489,
+      492,
+      493,
+      499
+    ],
+    "Route 117": [
+      494,
+      495,
+      299
+    ],
+    "Route 111": [
+      516,
+      529,
+      513,
+      574
+    ],
+    "Jagged Pass": [
+      506,
+      510
+    ],
+    "Lavaridge Town": [
+      350
+    ],
+    "Fiery Path": [
+      509
+    ],
+    "Route 113": [
+      512
+    ],
+    "Route 114": [
+      518,
+      521,
+      522,
+      525
+    ],
+    "Meteor Falls": [
+      524,
+      523,
+      565
+    ],
+    "Southern Island": [
+      580,
+      582
+    ],
+    "Route 119": [
+      548,
+      537,
+      535,
+      501
+    ],
+    "Route 120": [
+      551,
+      541,
+      576
+    ],
+    "Mt. Pyre": [
+      545,
+      542,
+      486
+    ],
+    "Mossdeep City": [
+      570,
+      504,
+      590
+    ],
+    "Shoal Cave": [
+      557,
+      553
+    ],
+    "Route 126": [
+      560,
+      563
+    ],
+    "Cave of Origin": [
+      586,
+      584
+    ],
+    "Sky Pillar": [
+      588,
+      591
+    ],
+    "Ever Grande City": [
+      564
+    ]
+  },
+  "Sinnoh": {
+    "Twinleaf Town": [
+      595,
+      598,
+      601
+    ],
+    "Route 201": [
+      604,
+      607,
+      609
+    ],
+    "Oreburgh City": [
+      614,
+      616
+    ],
+    "Route 204": [
+      611,
+      496
+    ],
+    "Floaroma Meadow": [
+      625,
+      618,
+      620,
+      622,
+      630,
+      254
+    ],
+    "Valley Windworks": [
+      628,
+      633,
+      627,
+      637
+    ],
+    "Eterna Forest": [
+      639
+    ],
+    "Route 218": [
+      642
+    ],
+    "Mt. Coronet": [
+      549,
+      646
+    ],
+    "Route 206": [
+      644
+    ],
+    "Trophy Garden": [
+      302,
+      207,
+      193
+    ],
+    "Route 222": [
+      648
+    ],
+    "Route 209": [
+      649
+    ],
+    "Wayward Cave": [
+      673
+    ],
+    "Iron Island": [
+      650
+    ],
+    "Ruin Maniac's Cave": [
+      653,
+      655
+    ],
+    "Great Marsh": [
+      657,
+      659,
+      661
+    ],
+    "Route 223": [
+      389
+    ],
+    "Route 216": [
+      664
+    ],
+    "Old Chateau": [
+      667
+    ],
+    "Lake Verity": [
+      681
+    ],
+    "Lavke Valor": [
+      682
+    ],
+    "Lake Acuity": [
+      680
+    ],
+    "Spear Pillar": [
+      683,
+      685,
+      689
+    ],
+    "Stark Mountain": [
+      677
+    ],
+    "Snowpoint Temple": [
+      579
+    ],
+    "Distortion World": [
+      687
+    ],
+    "Full Moon Island": [
+      678
+    ],
+    "Canalave City": [
+      662,
+      679
+    ],
+    "Sandgem Town": [
+      691,
+      690
+    ],
+    "Flower Paradise": [
+      692
+    ],
+    "Route 213": [
+      635
+    ]
+  },
+  "Unova": {
+    "Nuvema Town": [
+      694,
+      697,
+      700
+    ],
+    "Route 1": [
+      704,
+      706
+    ],
+    "Route 2": [
+      709
+    ],
+    "Dreamyard": [
+      711,
+      713,
+      715,
+      717
+    ],
+    "Route 3": [
+      719,
+      723,
+      732
+    ],
+    "Wellspring Cave": [
+      725,
+      728,
+      730
+    ],
+    "Nacrene City": [
+      777,
+      779
+    ],
+    "Pinwheel Forest": [
+      734,
+      737,
+      740,
+      741,
+      742,
+      745,
+      748,
+      750,
+      873
+    ],
+    "Castelia City": [
+      895
+    ],
+    "Liberty Garden": [
+      894
+    ],
+    "Route 4": [
+      817,
+      819,
+      821
+    ],
+    "Desert Resort": [
+      758,
+      761,
+      767,
+      768,
+      770,
+      772
+    ],
+    "Relic Castle": [
+      773
+    ],
+    "Route 5": [
+      781,
+      788,
+      790,
+      793
+    ],
+    "Driftveil Drawbridge": [
+      796
+    ],
+    "Driftveil City": [
+      784
+    ],
+    "Cold Storage": [
+      798
+    ],
+    "Route 6": [
+      801,
+      803,
+      805,
+      807,
+      753,
+      754,
+      809,
+      810,
+      814,
+      812
+    ],
+    "Mistralton Cave": [
+      837,
+      869
+    ],
+    "Chargestone Cave": [
+      822,
+      824,
+      826,
+      829
+    ],
+    "Route 7": [
+      877,
+      879
+    ],
+    "Celestial Tower": [
+      832,
+      834
+    ],
+    "Twist Mountain": [
+      840,
+      842
+    ],
+    "Moor of Icirrus": [
+      843,
+      875
+    ],
+    "Dragonspiral Tower": [
+      845,
+      847,
+      848,
+      885,
+      887
+    ],
+    "Route 9": [
+      850
+    ],
+    "Route 10": [
+      853,
+      854,
+      857
+    ],
+    "Victory Road": [
+      859,
+      860,
+      865,
+      871
+    ],
+    "Giant Chasm": [
+      889
+    ],
+    "Abundant Shrine": [
+      881
+    ],
+    "P2 Laboratory": [
+      861,
+      897
+    ]
+  },
+  "Kalos": {
+    "Aquacorde Town": [
+      898,
+      901,
+      904
+    ],
+    "Route 2": [
+      908,
+      910,
+      913
+    ],
+    "Route 22": [
+      935
+    ],
+    "Route 4": [
+      938,
+      941
+    ],
+    "Route 5": [
+      954,
+      956,
+      958
+    ],
+    "Route 6": [
+      968,
+      971
+    ],
+    "Route 7": [
+      944,
+      947,
+      950,
+      975,
+      977
+    ],
+    "Route 8": [
+      981,
+      983,
+      985,
+      979
+    ],
+    "Route 9": [
+      987
+    ],
+    "Ambrette Town": [
+      989,
+      991
+    ],
+    "Route 10": [
+      993
+    ],
+    "Route 11": [
+      994
+    ],
+    "Reflection Cave": [
+      995,
+      1018
+    ],
+    "Kalos Power Plant": [
+      1022
+    ],
+    "Route 14": [
+      1006,
+      1020
+    ],
+    "Route 16": [
+      996,
+      997,
+      999
+    ],
+    "Frost Cavern": [
+      1001
+    ],
+    "Terminus Cave": [
+      1004,
+      1014
+    ],
+    "Team Flare's Lab": [
+      1011,
+      1013
+    ]
+  },
+  "Alola": {
+    "Iki Town": [
+      1023,
+      1027,
+      1030
+    ],
+    "Route 1": [
+      1033,
+      1038
+    ],
+    "Route 2": [
+      1041
+    ],
+    "Verdant Cavern": [
+      49,
+      1036
+    ],
+    "Melemele Meadow": [
+      1044,
+      1047
+    ],
+    "Ten Carat Hill": [
+      1049
+    ],
+    "Ruins of Conflict": [
+      1101
+    ],
+    "Paniola Ranch": [
+      1057
+    ],
+    "Brooklet Hill": [
+      1053,
+      1059
+    ],
+    "Lush Jungle": [
+      1061,
+      1063,
+      1069,
+      1072,
+      1073,
+      1074
+    ],
+    "Route 6": [
+      1045
+    ],
+    "Wela Volcano Park": [
+      1065
+    ],
+    "Route 8": [
+      1067,
+      1075
+    ],
+    "Diglett's Tunnel": [
+      89
+    ],
+    "Route 9": [
+      1055
+    ],
+    "Hano Beach": [
+      1077,
+      1079
+    ],
+    "Ruins of Life": [
+      1102
+    ],
+    "Aether Paradise": [
+      1080,
+      1126,
+      1131
+    ],
+    "Malie Garden": [
+      94
+    ],
+    "Malie City": [
+      154
+    ],
+    "Mount Hokulani": [
+      1082
+    ],
+    "Route 11": [
+      1090
+    ],
+    "Blush Mountain": [
+      127,
+      1091,
+      1092
+    ],
+    "Route 13": [
+      1095
+    ],
+    "Mount Lanakila": [
+      57,
+      70,
+      1096
+    ],
+    "Thrifty Megamart": [
+      1093
+    ],
+    "Ula'ula Meadow": [
+      1043
+    ],
+    "Ruins of Abundance": [
+      1103
+    ],
+    "Seafolk Village": [
+      1097
+    ],
+    "Vast Poni Canyon": [
+      1098
+    ],
+    "Poni Meadow": [
+      1046,
+      1128
+    ],
+    "Ruins of Hope": [
+      1104
+    ],
+    "Lake of the Sunne/Moone": [
+      1105
+    ],
+    "Ultra Space": [
+      1115,
+      1116,
+      1117,
+      1118,
+      1119,
+      1120,
+      1121,
+      1111,
+      1122,
+      1124,
+      1125,
+      1130
+    ]
+  },
+  "Galar": {
+    "Postwick": [
+      1134,
+      1138,
+      1142
+    ],
+    "Route 1": [
+      1146,
+      1148,
+      1152,
+      1156,
+      1160
+    ],
+    "Route 2": [
+      433,
+      1158,
+      1162,
+      1165
+    ],
+    "Axew's Eye": [
+      1181
+    ],
+    "Galar Mine": [
+      1167
+    ],
+    "Route 4": [
+      96,
+      1207
+    ],
+    "Route 5": [
+      146,
+      1171,
+      1186
+    ],
+    "Hulbury": [
+      1184
+    ],
+    "Galar Mine No. 2": [
+      844
+    ],
+    "Motostoke": [
+      1190
+    ],
+    "Bridge Field": [
+      1227
+    ],
+    "Giant's Mirror": [
+      383
+    ],
+    "Route 6": [
+      775,
+      1178,
+      1230,
+      1231,
+      1232,
+      1233
+    ],
+    "Glimwood Tangle": [
+      132,
+      1195,
+      1197,
+      1199,
+      1203,
+      1223,
+      1224
+    ],
+    "Route 7": [
+      1225
+    ],
+    "Route 8": [
+      1216,
+      1218
+    ],
+    "Route 9": [
+      1193,
+      1217
+    ],
+    "Route 10": [
+      764,
+      1220,
+      1221,
+      1234
+    ],
+    "Lake of Outrage": [
+      1237
+    ],
+    "Slumbering Weald": [
+      1240,
+      1242
+    ],
+    "Hammerlocke": [
+      1244
+    ],
+    "Fields of Honor": [
+      138
+    ],
+    "Master Dojo": [
+      1246
+    ],
+    "Forest of Focus": [
+      1251
+    ],
+    "Split-Decision Ruins": [
+      577,
+      578
+    ],
+    "Dyna Tree Hill": [
+      261,
+      263,
+      265
+    ],
+    "Crown Shrine": [
+      1253,
+      1254,
+      1255
+    ]
+  },
+  "Hisui": {
+    "Ramanas Island": [
+      364
+    ],
+    "Scarlet Bog": [
+      883
+    ],
+    "Veilstone Cape": [
+      105
+    ],
+    "Sacred Plaza": [
+      173
+    ],
+    "Glacier Terrace": [
+      371
+    ],
+    "Icepeak Cavern": [
+      786
+    ],
+    "Heart's Crag": [
+      755
+    ]
+  },
+  "Paldea": {
+    "Cabo Poco": [
+      1258,
+      1261,
+      1264
+    ],
+    "South Province Area One": [
+      315,
+      1267,
+      1270,
+      1274,
+      1317,
+      1348
+    ],
+    "South Province Area Two": [
+      1280,
+      1282,
+      1299
+    ],
+    "South Province Area Three": [
+      1289,
+      1307,
+      1314
+    ],
+    "West Province Area One": [
+      1272,
+      1292,
+      1308,
+      1319,
+      1349
+    ],
+    "West Province Area Two": [
+      226,
+      227,
+      228
+    ],
+    "East Province Area One": [
+      1285,
+      1286,
+      1287,
+      1288
+    ],
+    "East Province Area Two": [
+      1277,
+      1295,
+      1297,
+      1320,
+      1352
+    ],
+    "East Province Area Three": [
+      1303,
+      1323,
+      1325
+    ],
+    "Tagtree Thicket": [
+      1301
+    ],
+    "Asado Desert": [
+      1310
+    ],
+    "South Province Area Five": [
+      1330
+    ],
+    "Glaseado Mountain": [
+      1328,
+      1331,
+      1338
+    ],
+    "South Province Area Six": [
+      1312,
+      1345
+    ],
+    "Caseroya Lake": [
+      1333,
+      1334,
+      1335,
+      1336,
+      1337
+    ],
+    "Socarrat Trail": [
+      1305,
+      1350
+    ],
+    "North Province Area Two": [
+      1351
+    ],
+    "Area Zero": [
+      1326,
+      1368
+    ],
+    "Mossfell Confluence": [
+      1341,
+      1343
+    ],
+    "Wistful Fields": [
+      1356
+    ],
+    "Paradise Barrens": [
+      1355
+    ],
+    "Oni Mountain": [
+      1357
+    ],
+    "Dreaded Den": [
+      1359
+    ],
+    "Loyalty Plaza": [
+      1358
+    ]
+  }
+}

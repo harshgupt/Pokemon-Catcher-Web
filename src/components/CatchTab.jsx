@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
-import pokemonData from '../data/pokemon.json'
-import itemsData   from '../data/items.json'
-import filtersData from '../data/pokedex-filters.json'
+import pokemonData  from '../data/pokemon.json'
+import itemsData    from '../data/items.json'
+import filtersData  from '../data/pokedex-filters.json'
+import locationsData from '../data/locations.json'
 import { loadSave, saveGame, deleteSave } from '../lib/save'
 import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from '../lib/spawn'
 
@@ -130,15 +131,18 @@ export default function CatchTab({ gameState, setGameState }) {
   const [type1,     setType1]     = useState('')
   const [type2,     setType2]     = useState('')
   const [region,    setRegion]    = useState('')
+  const [location,  setLocation]  = useState('')
   const [form,      setForm]      = useState('')
   const [cls,       setCls]       = useState('')
   const [itemsOnly, setItemsOnly] = useState(false)
+
+  const regionLocations = region ? Object.keys(locationsData[region] ?? {}) : []
 
   // Keep refs in sync so callbacks always see latest values
   const gsRef     = useRef(gameState)
   const filterRef = useRef({})
   gsRef.current     = gameState
-  filterRef.current = { type1, type2, region, form, cls, itemsOnly }
+  filterRef.current = { type1, type2, region, location, form, cls, itemsOnly }
 
   useEffect(() => {
     const onUnload     = () => saveGame(gsRef.current)
@@ -152,7 +156,7 @@ export default function CatchTab({ gameState, setGameState }) {
   }, [])
 
   // Regenerate grid on mount and whenever filters change
-  useEffect(() => { doGenerateGrid(gsRef.current) }, [type1, type2, region, form, cls, itemsOnly])
+  useEffect(() => { doGenerateGrid(gsRef.current) }, [type1, type2, region, location, form, cls, itemsOnly])
 
   function doGenerateGrid(gs) {
     const f = filterRef.current
@@ -167,10 +171,15 @@ export default function CatchTab({ gameState, setGameState }) {
   }
 
   function handleResetFilters() {
-    setType1(''); setType2(''); setRegion(''); setForm(''); setCls(''); setItemsOnly(false)
+    setType1(''); setType2(''); setRegion(''); setLocation(''); setForm(''); setCls(''); setItemsOnly(false)
   }
 
-  const anyFilterActive = type1 || type2 || region || form || cls || itemsOnly
+  function handleRegionChange(r) {
+    setRegion(r)
+    setLocation('') // clear location whenever region changes
+  }
+
+  const anyFilterActive = type1 || type2 || region || location || form || cls || itemsOnly
 
   function handleBallClick(idx) {
     if (animIdx !== -1) return
@@ -224,10 +233,16 @@ export default function CatchTab({ gameState, setGameState }) {
             <option value="">Type 2</option>
             {TYPES.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
-          <select style={styles.filterSelect} value={region} onChange={e => setRegion(e.target.value)} disabled={filtersDisabled}>
+          <select style={styles.filterSelect} value={region} onChange={e => handleRegionChange(e.target.value)} disabled={filtersDisabled}>
             <option value="">Region</option>
             {REGIONS.map(r => <option key={r} value={r}>{r}</option>)}
           </select>
+          {region && (
+            <select style={styles.filterSelect} value={location} onChange={e => setLocation(e.target.value)} disabled={filtersDisabled}>
+              <option value="">Location</option>
+              {regionLocations.map(l => <option key={l} value={l}>{l}</option>)}
+            </select>
+          )}
           <select style={{ ...styles.filterSelect, ...styles.filterSelectWide }} value={form} onChange={e => setForm(e.target.value)} disabled={filtersDisabled}>
             <option value="">Form</option>
             {FORMS.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}

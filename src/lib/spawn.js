@@ -1,7 +1,8 @@
 // Ports GridSpawner.cs logic exactly
 import pokemonData from '../data/pokemon.json'
 import itemsData   from '../data/items.json'
-import filters     from '../data/pokedex-filters.json'
+import filters   from '../data/pokedex-filters.json'
+import locations from '../data/locations.json'
 
 // ── Rarity weights (matches GetCharacterWeight) ───────────────────────────────
 const CHAR_WEIGHTS = {
@@ -52,19 +53,31 @@ const CLUE_MAP = {
 }
 
 // ── Filter lookup sets ────────────────────────────────────────────────────────
-const formSets  = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
-const classSets = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+const formSets     = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
+const classSets    = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+// locationSets[region][location] = Set of ids
+const locationSets = Object.fromEntries(
+  Object.entries(locations).map(([region, locs]) => [
+    region,
+    Object.fromEntries(Object.entries(locs).map(([loc, ids]) => [loc, new Set(ids)]))
+  ])
+)
 
 function hasPokemonFilter(f) {
-  return !!(f.type1 || f.type2 || f.region || f.form || f.cls)
+  return !!(f.type1 || f.type2 || f.region || f.location || f.form || f.cls)
 }
 
 function matchesFilter(p, f) {
-  if (f.type1 && !p.types?.includes(f.type1))    return false
-  if (f.type2 && !p.types?.includes(f.type2))    return false
-  if (f.region && p.region !== f.region)          return false
-  if (f.form  && !formSets[f.form]?.has(p.id))   return false
-  if (f.cls   && !classSets[f.cls]?.has(p.id))   return false
+  if (f.type1 && !p.types?.includes(f.type1))                          return false
+  if (f.type2 && !p.types?.includes(f.type2))                          return false
+  // location is a subset of region — if location set, use it; otherwise fall back to region
+  if (f.location && f.region) {
+    if (!locationSets[f.region]?.[f.location]?.has(p.id))              return false
+  } else if (f.region) {
+    if (p.region !== f.region)                                          return false
+  }
+  if (f.form  && !formSets[f.form]?.has(p.id))                         return false
+  if (f.cls   && !classSets[f.cls]?.has(p.id))                         return false
   return true
 }
 
