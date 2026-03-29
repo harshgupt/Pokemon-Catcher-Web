@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import pokemonData  from '../data/pokemon.json'
 import itemsData    from '../data/items.json'
-import filtersData  from '../data/pokedex-filters.json'
 import locationsData from '../data/locations.json'
 import { loadSave, saveGame, deleteSave } from '../lib/save'
 import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from '../lib/spawn'
@@ -122,7 +121,7 @@ function slotData(slot) {
 export default function CatchTab({ gameState, setGameState }) {
   const [slots,     setSlots]     = useState([])
   const [animIdx,   setAnimIdx]   = useState(-1)
-  const [animPhase, setAnimPhase] = useState(null)   // 'shake' | 'burst'
+  const [, setAnimPhase] = useState(null)
   const [hoveredIdx,setHoveredIdx]= useState(-1)
   const [popup,     setPopup]     = useState(null)   // { slot, gameState }
   const [phase,     setPhase]     = useState('grid') // 'grid' | 'gameOver' | 'categoryEmpty'
@@ -219,8 +218,12 @@ export default function CatchTab({ gameState, setGameState }) {
 
   const filtersDisabled = itemsOnly
 
+  const bgImage = location
+    ? `url(/sprites/backgrounds/${region}/${location}.png)`
+    : `url(/sprites/catch-bg.png)`
+
   return (
-    <div style={styles.root}>
+    <div style={{ ...styles.root, backgroundImage: bgImage }}>
 
       {/* Filter bar — always anchored at top (hidden only on game over) */}
       {phase !== 'gameOver' && (
@@ -290,7 +293,6 @@ export default function CatchTab({ gameState, setGameState }) {
                   <BallSlot
                     key={idx}
                     isAnimating={animIdx === idx}
-                    animPhase={animIdx === idx ? animPhase : null}
                     isHovered={hoveredIdx === idx}
                     onHoverEnter={() => { if (animIdx === -1) setHoveredIdx(idx) }}
                     onHoverExit={() => setHoveredIdx(-1)}
@@ -316,7 +318,7 @@ export default function CatchTab({ gameState, setGameState }) {
 }
 
 // ── BallSlot ──────────────────────────────────────────────────────────────────
-function BallSlot({ isAnimating, animPhase, isHovered, onHoverEnter, onHoverExit, onClick }) {
+function BallSlot({ isAnimating, isHovered, onHoverEnter, onHoverExit, onClick }) {
   const imgStyle = {
     width: '68px',
     height: '68px',
@@ -412,9 +414,8 @@ const styles = {
     alignItems: 'center',
     gap: '12px',
     height: '100%',
-    overflowY: 'auto',
-    padding: '16px 0 16px',
-    backgroundImage: 'url(/sprites/catch-bg.png)',
+    overflow: 'hidden',
+    padding: '16px 0',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
