@@ -384,12 +384,13 @@ function BallSlot({ isAnimating, isHovered, onHoverEnter, onHoverExit, onClick }
     height: '68px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
-    transform: isHovered && !isAnimating ? 'scale(1.12)' : 'scale(1)',
-    transition: isAnimating ? 'none' : 'transform 0.15s ease',
-    ...(isAnimating && {
-      animation: 'pb-burst 0.28s ease-out forwards',
-      transformOrigin: 'center',
-    }),
+    transformOrigin: 'center',
+    ...(isAnimating
+      ? { animation: 'pb-burst 0.28s ease-out forwards' }
+      : isHovered
+        ? { animation: 'pb-wiggle 0.5s ease-in-out infinite' }
+        : { transform: 'scale(1)', transition: 'transform 0.15s ease' }
+    ),
   }
 
   return (
@@ -419,8 +420,8 @@ function CatchPopup({ slot, gameState, isFirstCatch, onClose }) {
   }
 
   return (
-    <div style={styles.overlay} onClick={onClose}>
-      <div style={{ ...styles.popup, ...(isFirstCatch ? styles.popupFirstCatch : {}) }} onClick={e => e.stopPropagation()}>
+    <div style={{ ...styles.overlay, perspective: '1200px' }} onClick={onClose}>
+      <div style={{ ...styles.popup, ...(isFirstCatch ? styles.popupFirstCatch : {}), animation: 'popup-flip-in 0.35s ease-out' }} onClick={e => e.stopPropagation()}>
         <img
           src={d.largeSrc}
           alt={d.name}

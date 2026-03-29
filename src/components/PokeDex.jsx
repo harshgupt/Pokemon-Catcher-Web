@@ -93,6 +93,17 @@ const TYPE_COLORS = {
   Fairy:    '#EF70EF',
 }
 
+function isEvoReady(p, gameState) {
+  if (!gameState?.pokemon[p.id]?.isUnlocked) return false
+  if (!Array.isArray(p.nextForms) || p.nextForms.length === 0) return false
+  const rootId     = getBaseId(p.id)
+  const rootCaught = gameState?.pokemon[rootId]?.numberCaught ?? 0
+  return p.nextForms.some(nf =>
+    !(gameState?.pokemon[nf.nextCharacterID]?.isUnlocked ?? false) &&
+    rootCaught >= nf.characterCount
+  )
+}
+
 export default function PokeDex({ gameState }) {
   const [query,       setQuery]       = useState('')
   const [type1,       setType1]       = useState('')
@@ -174,7 +185,7 @@ export default function PokeDex({ gameState }) {
       </div>
       <div style={styles.grid}>
         {allEntries.map((p, i) => (
-          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} unlocked={isUnlocked(p)} onSelect={setSelected} />
+          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} unlocked={isUnlocked(p)} evoReady={isEvoReady(p, gameState)} onSelect={setSelected} />
         ))}
       </div>
 
@@ -307,13 +318,13 @@ function TypeBadge({ type, large }) {
   )
 }
 
-function PokeCard({ pokemon: p, hidden, unlocked, onSelect }) {
+function PokeCard({ pokemon: p, hidden, unlocked, evoReady, onSelect }) {
   const [imgState, setImgState] = useState('loading')
   const displayName = unlocked ? (p.displayName ?? p.name) : '?????'
   const spriteFile  = p.spriteName ?? p.name
 
   return (
-    <div style={hidden ? { ...styles.card, display: 'none' } : styles.card} onClick={() => onSelect(p)}>
+    <div style={hidden ? { ...styles.card, display: 'none' } : evoReady ? { ...styles.card, animation: 'evo-ready-pulse 2s ease-in-out infinite' } : styles.card} onClick={() => onSelect(p)}>
       <div style={styles.imageWrap}>
         {imgState === 'loading' && <div className="sprite-spinner" />}
         <img

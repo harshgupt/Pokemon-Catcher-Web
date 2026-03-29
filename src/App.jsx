@@ -86,6 +86,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     overflow: 'hidden',
+    animation: 'tab-fade-in 0.2s ease-out',
   },
   pageHidden: {
     display: 'none',
