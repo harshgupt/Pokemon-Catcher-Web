@@ -7,6 +7,11 @@ import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from 
 
 const TYPES   = ['Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
 const REGIONS = ['Kanto','Johto','Hoenn','Sinnoh','Unova','Kalos','Alola','Galar','Hisui','Paldea']
+
+const REGIONS_WITH_BGS = new Set(['Kanto','Johto','Hoenn','Sinnoh','Unova'])
+const BG_POOL = Object.entries(locationsData)
+  .filter(([r]) => REGIONS_WITH_BGS.has(r))
+  .flatMap(([r, locs]) => Object.keys(locs).map(l => ({ region: r, location: l })))
 const FORMS   = [
   { value: 'MegaEvolution',  label: 'Mega Evolution'  },
   { value: 'RegionalForm',   label: 'Regional Form'   },
@@ -139,6 +144,7 @@ export default function CatchTab({ gameState, setGameState }) {
 
   const [panAxis,     setPanAxis]     = useState(null) // 'x' | 'y' | null
   const [panDuration, setPanDuration] = useState(40)
+  const [fallbackBg,  setFallbackBg]  = useState(null) // {region, location} for unsupported regions
   const rootRef = useRef(null)
 
   // Keep refs in sync so callbacks always see latest values
@@ -161,8 +167,17 @@ export default function CatchTab({ gameState, setGameState }) {
   // Detect which axis overflows and compute duration for constant scroll speed
   const SCROLL_PX_PER_SEC = 15
   useEffect(() => {
-    const src = location
-      ? `/sprites/backgrounds/${encodeURIComponent(region)}/${encodeURIComponent(location)}.png`
+    let bgRegion = region, bgLocation = location
+    if (location && !REGIONS_WITH_BGS.has(region)) {
+      const pick = BG_POOL[Math.floor(Math.random() * BG_POOL.length)]
+      bgRegion = pick.region
+      bgLocation = pick.location
+      setFallbackBg(pick)
+    } else {
+      setFallbackBg(null)
+    }
+    const src = bgLocation
+      ? `/sprites/backgrounds/${encodeURIComponent(bgRegion)}/${encodeURIComponent(bgLocation)}.png`
       : `/sprites/catch-bg.png`
     const img = new Image()
     img.onload = () => {
@@ -255,8 +270,10 @@ export default function CatchTab({ gameState, setGameState }) {
 
   const filtersDisabled = itemsOnly
 
-  const bgImage = location
-    ? `url("/sprites/backgrounds/${encodeURIComponent(region)}/${encodeURIComponent(location)}.png")`
+  const bgRegion   = fallbackBg?.region   ?? region
+  const bgLocation = fallbackBg?.location ?? location
+  const bgImage = bgLocation
+    ? `url("/sprites/backgrounds/${encodeURIComponent(bgRegion)}/${encodeURIComponent(bgLocation)}.png")`
     : `url("/sprites/catch-bg.png")`
 
   const bgAnimation = panAxis ? `bg-pan-${panAxis} ${panDuration.toFixed(1)}s linear infinite` : undefined
