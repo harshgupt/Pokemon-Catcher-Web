@@ -122,7 +122,7 @@ Sinnoh/Route 223.png
 Sinnoh/Route 216.png
 Sinnoh/Old Chateau.png
 Sinnoh/Lake Verity.png
-Sinnoh/Lavke Valor.png
+Sinnoh/Lake Valor.png
 Sinnoh/Lake Acuity.png
 Sinnoh/Spear Pillar.png
 Sinnoh/Stark Mountain.png
