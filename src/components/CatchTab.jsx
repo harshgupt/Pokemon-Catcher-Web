@@ -137,6 +137,10 @@ export default function CatchTab({ gameState, setGameState }) {
 
   const regionLocations = region ? Object.keys(locationsData[region] ?? {}) : []
 
+  const [panAxis,     setPanAxis]     = useState(null) // 'x' | 'y' | null
+  const [panDuration, setPanDuration] = useState(40)
+  const rootRef = useRef(null)
+
   // Keep refs in sync so callbacks always see latest values
   const gsRef     = useRef(gameState)
   const filterRef = useRef({})
@@ -153,6 +157,39 @@ export default function CatchTab({ gameState, setGameState }) {
       document.removeEventListener('visibilitychange', onVisibility)
     }
   }, [])
+
+  // Detect which axis overflows and compute duration for constant scroll speed
+  const SCROLL_PX_PER_SEC = 15
+  useEffect(() => {
+    const src = location
+      ? `/sprites/backgrounds/${region}/${location}.png`
+      : `/sprites/catch-bg.png`
+    const img = new Image()
+    img.onload = () => {
+      const el = rootRef.current
+      if (!el) return
+      const { clientWidth: cw, clientHeight: ch } = el
+      const iw = img.naturalWidth, ih = img.naturalHeight
+      const imgRatio = iw / ih
+      const containerRatio = cw / ch
+      let axis, overflow
+      if (imgRatio > containerRatio) {
+        // wider than container — scale by height, pan x
+        overflow = (iw * ch / ih) - cw
+        axis = 'x'
+      } else {
+        // taller than container — scale by width, pan y
+        overflow = (ih * cw / iw) - ch
+        axis = 'y'
+      }
+      // duration covers one full back-and-forth; one-way = overflow / speed
+      const duration = Math.max(5, (overflow / SCROLL_PX_PER_SEC) * 2)
+      setPanAxis(axis)
+      setPanDuration(duration)
+    }
+    img.onerror = () => { setPanAxis(null) }
+    img.src = src
+  }, [region, location])
 
   // Regenerate grid on mount and whenever filters change
   useEffect(() => { doGenerateGrid(gsRef.current) }, [type1, type2, region, location, form, cls, itemsOnly])
@@ -222,8 +259,10 @@ export default function CatchTab({ gameState, setGameState }) {
     ? `url(/sprites/backgrounds/${region}/${location}.png)`
     : `url(/sprites/catch-bg.png)`
 
+  const bgAnimation = panAxis ? `bg-pan-${panAxis} ${panDuration.toFixed(1)}s ease-in-out infinite` : undefined
+
   return (
-    <div style={{ ...styles.root, backgroundImage: bgImage }}>
+    <div ref={rootRef} style={{ ...styles.root, backgroundImage: bgImage, animation: bgAnimation }}>
 
       {/* Filter bar — always anchored at top (hidden only on game over) */}
       {phase !== 'gameOver' && (
@@ -289,7 +328,7 @@ export default function CatchTab({ gameState, setGameState }) {
           <>
             <div style={styles.gridPanel}>
               <div style={styles.grid}>
-                {slots.map((slot, idx) => (
+                {slots.map((_slot, idx) => (
                   <BallSlot
                     key={idx}
                     isAnimating={animIdx === idx}
@@ -419,6 +458,7 @@ const styles = {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
+    imageRendering: 'pixelated',
     borderRadius: 'var(--radius-md)',
   },
   mainContent: {

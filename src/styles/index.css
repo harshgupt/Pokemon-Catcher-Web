@@ -47,6 +47,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ─── Background pan animations ──────────────────────────────────────────── */
+@keyframes bg-pan-x {
+  0%, 100% { background-position: 0% center; }
+  50%       { background-position: 100% center; }
+}
+@keyframes bg-pan-y {
+  0%, 100% { background-position: center 0%; }
+  50%       { background-position: center 100%; }
+}
+
 /* ─── Pokeball animations ─────────────────────────────────────────────────── */
 @keyframes pb-shake {
   0%, 100% { transform: translateX(0); }
