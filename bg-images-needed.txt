@@ -31,7 +31,7 @@ Kanto/Safari Zone.png
 Kanto/Route 15.png
 Kanto/Route 13.png
 Kanto/Seafoam Islands.png
-Kanto/Cinabbar Island.png
+Kanto/Cinnabar Island.png
 Kanto/Pokemon Mansion.png
 Kanto/Route 21.png
 Kanto/Victory Road.png
