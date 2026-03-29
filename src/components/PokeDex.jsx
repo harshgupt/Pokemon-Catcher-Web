@@ -94,20 +94,23 @@ const TYPE_COLORS = {
 }
 
 export default function PokeDex({ gameState }) {
-  const [query,   setQuery]   = useState('')
-  const [type1,   setType1]   = useState('')
-  const [type2,   setType2]   = useState('')
-  const [region,  setRegion]  = useState('')
-  const [form,    setForm]    = useState('')
-  const [cls,     setCls]     = useState('')
-  const [selected, setSelected] = useState(null) // pokemon entry for popup
+  const [query,       setQuery]       = useState('')
+  const [type1,       setType1]       = useState('')
+  const [type2,       setType2]       = useState('')
+  const [region,      setRegion]      = useState('')
+  const [form,        setForm]        = useState('')
+  const [cls,         setCls]         = useState('')
+  const [showCaught,  setShowCaught]  = useState(false)
+  const [showUncaught,setShowUncaught]= useState(false)
+  const [selected,    setSelected]    = useState(null)
 
   const allEntries  = dexOrder.map(id => byId[id]).filter(Boolean)
   const lowerQuery  = query.toLowerCase()
-  const hasFilters  = query || type1 || type2 || region || form || cls
+  const hasFilters  = query || type1 || type2 || region || form || cls || showCaught || showUncaught
 
   function resetFilters() {
     setQuery(''); setType1(''); setType2(''); setRegion(''); setForm(''); setCls('')
+    setShowCaught(true); setShowUncaught(true)
   }
 
   function isUnlocked(p) {
@@ -115,7 +118,9 @@ export default function PokeDex({ gameState }) {
   }
 
   function isHidden(p) {
-    if (!hasFilters) return false
+    const caught = isUnlocked(p)
+    if (showCaught && !showUncaught && !caught) return true
+    if (showUncaught && !showCaught && caught)  return true
     if (query  && !(p.displayName ?? p.name).toLowerCase().includes(lowerQuery)) return true
     if (type1  && !p.types?.includes(type1))              return true
     if (type2  && !p.types?.includes(type2))              return true
@@ -155,6 +160,14 @@ export default function PokeDex({ gameState }) {
           <option value="">Class</option>
           {CLASSES.map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
         </select>
+        <button
+          style={{ ...styles.toggleBtn, ...(showCaught ? styles.toggleBtnActive : {}) }}
+          onClick={() => setShowCaught(v => !v)}
+        >Caught</button>
+        <button
+          style={{ ...styles.toggleBtn, ...(showUncaught ? styles.toggleBtnActive : {}) }}
+          onClick={() => setShowUncaught(v => !v)}
+        >Uncaught</button>
         {hasFilters && (
           <button style={styles.resetBtn} onClick={resetFilters} title="Reset filters">✕</button>
         )}
@@ -357,6 +370,23 @@ const styles = {
     fontSize: '11px',
     cursor: 'pointer',
     outline: 'none',
+  },
+  toggleBtn: {
+    flexShrink: 0,
+    padding: '5px 10px',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-sm)',
+    color: 'var(--text-secondary)',
+    fontSize: '11px',
+    fontWeight: '600',
+    cursor: 'pointer',
+    whiteSpace: 'nowrap',
+  },
+  toggleBtnActive: {
+    background: 'color-mix(in srgb, var(--accent) 20%, transparent)',
+    border: '1px solid var(--accent)',
+    color: 'var(--accent-bright)',
   },
   resetBtn: {
     flexShrink: 0,

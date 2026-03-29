@@ -47,6 +47,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ─── First catch effects ─────────────────────────────────────────────────── */
+@keyframes first-catch-glow {
+  0%, 100% { filter: drop-shadow(0 0 0px  rgba(255, 215, 0, 0.0)); }
+  50%       { filter: drop-shadow(0 0 18px rgba(255, 215, 0, 0.9)); }
+}
+
 /* ─── Background pan animations ──────────────────────────────────────────── */
 @keyframes bg-pan-x {
   0%, 100% { background-position: 0% center; }

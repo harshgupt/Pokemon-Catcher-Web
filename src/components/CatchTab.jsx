@@ -243,12 +243,16 @@ export default function CatchTab({ gameState, setGameState }) {
       setAnimIdx(-1)
       setAnimPhase(null)
 
-      const slot  = slots[idx]
-      const newGs = collectToken(gsRef.current, slot)
+      const slot       = slots[idx]
+      const wasUnlocked = slot.type === 'pokemon'
+        ? (gsRef.current.pokemon[slot.id]?.isUnlocked ?? false)
+        : (gsRef.current.items[slot.id]?.isUnlocked   ?? false)
+      const newGs      = collectToken(gsRef.current, slot)
+      const isFirstCatch = !wasUnlocked
       setGameState(newGs)
       saveGame(newGs)
 
-      setPopup({ slot, gameState: newGs })
+      setPopup({ slot, gameState: newGs, isFirstCatch })
     }, 300)
   }
 
@@ -368,7 +372,7 @@ export default function CatchTab({ gameState, setGameState }) {
         )}
       </div>
 
-      {popup && <CatchPopup slot={popup.slot} gameState={popup.gameState} onClose={handlePopupClose} />}
+      {popup && <CatchPopup slot={popup.slot} gameState={popup.gameState} isFirstCatch={popup.isFirstCatch} onClose={handlePopupClose} />}
     </div>
   )
 }
@@ -401,7 +405,7 @@ function BallSlot({ isAnimating, isHovered, onHoverEnter, onHoverExit, onClick }
 }
 
 // ── CatchPopup ────────────────────────────────────────────────────────────────
-function CatchPopup({ slot, gameState, onClose }) {
+function CatchPopup({ slot, gameState, isFirstCatch, onClose }) {
   const d = slotData(slot)
   const catchLine = d.isItem ? `You found ${d.name}!` : `You caught ${d.name}!`
 
@@ -416,11 +420,14 @@ function CatchPopup({ slot, gameState, onClose }) {
 
   return (
     <div style={styles.overlay} onClick={onClose}>
-      <div style={styles.popup} onClick={e => e.stopPropagation()}>
+      <div style={{ ...styles.popup, ...(isFirstCatch ? styles.popupFirstCatch : {}) }} onClick={e => e.stopPropagation()}>
         <img
           src={d.largeSrc}
           alt={d.name}
-          style={d.isItem ? styles.popupImageItem : styles.popupImage}
+          style={isFirstCatch
+            ? { ...(d.isItem ? styles.popupImageItem : styles.popupImage), animation: 'first-catch-glow 2.5s ease-in-out 1 forwards' }
+            : (d.isItem ? styles.popupImageItem : styles.popupImage)
+          }
           onError={e => {
             if (d.largeFallback && e.target.src !== d.largeFallback) {
               e.target.onerror = null
@@ -638,7 +645,12 @@ const styles = {
     justifyContent: 'center',
     zIndex: 100,
   },
+  popupFirstCatch: {
+    border: '2px solid #FFD700',
+    boxShadow: '0 0 32px rgba(255, 215, 0, 0.25), var(--shadow-md)',
+  },
   popup: {
+    position: 'relative',
     background: 'var(--bg-elevated)',
     border: '1px solid var(--border-strong)',
     borderRadius: 'var(--radius-lg)',

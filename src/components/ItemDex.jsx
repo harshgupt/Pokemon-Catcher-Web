@@ -3,23 +3,46 @@ import allItems from '../data/items.json'
 
 
 export default function ItemDex({ gameState }) {
-  const [query, setQuery] = useState('')
+  const [query,        setQuery]        = useState('')
+  const [showCaught,   setShowCaught]   = useState(false)
+  const [showUncaught, setShowUncaught] = useState(false)
   const lowerQuery = query.toLowerCase()
+  const hasFilters = query || showCaught || showUncaught
+
+  function resetFilters() {
+    setQuery(''); setShowCaught(true); setShowUncaught(true)
+  }
 
   return (
     <div style={styles.root}>
-      <input
-        style={styles.search}
-        type="text"
-        placeholder="Search items…"
-        value={query}
-        onChange={e => setQuery(e.target.value)}
-      />
+      <div style={styles.filterBar}>
+        <input
+          style={styles.search}
+          type="text"
+          placeholder="Search items…"
+          value={query}
+          onChange={e => setQuery(e.target.value)}
+        />
+        <button
+          style={{ ...styles.toggleBtn, ...(showCaught ? styles.toggleBtnActive : {}) }}
+          onClick={() => setShowCaught(v => !v)}
+        >Collected</button>
+        <button
+          style={{ ...styles.toggleBtn, ...(showUncaught ? styles.toggleBtnActive : {}) }}
+          onClick={() => setShowUncaught(v => !v)}
+        >Not Yet</button>
+        {hasFilters && (
+          <button style={styles.resetBtn} onClick={resetFilters} title="Reset filters">✕</button>
+        )}
+      </div>
       <div style={styles.grid}>
         {allItems.map(item => {
-          const hidden    = query && !(item.displayName ?? item.name).toLowerCase().includes(lowerQuery)
           const unlocked  = gameState?.items[item.id]?.isUnlocked  ?? false
           const collected = gameState?.items[item.id]?.numberCollected ?? 0
+          const hidden =
+            (query && !(item.displayName ?? item.name).toLowerCase().includes(lowerQuery)) ||
+            (showCaught && !showUncaught && !unlocked) ||
+            (showUncaught && !showCaught && unlocked)
           return <ItemCard key={item.id} item={item} hidden={hidden} unlocked={unlocked} collected={collected} />
         })}
       </div>
@@ -58,12 +81,18 @@ const styles = {
   root: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '16px',
+    gap: '8px',
     height: '100%',
   },
-  search: {
+  filterBar: {
+    display: 'flex',
+    gap: '6px',
     flexShrink: 0,
-    width: '100%',
+    alignItems: 'center',
+  },
+  search: {
+    flex: 1,
+    minWidth: 0,
     padding: '6px 10px',
     background: 'var(--bg-elevated)',
     border: '1px solid var(--border-strong)',
@@ -71,6 +100,39 @@ const styles = {
     color: 'var(--text-primary)',
     fontSize: '13px',
     outline: 'none',
+  },
+  toggleBtn: {
+    flexShrink: 0,
+    alignSelf: 'stretch',
+    padding: '0 10px',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-sm)',
+    color: 'var(--text-secondary)',
+    fontSize: '11px',
+    fontWeight: '600',
+    cursor: 'pointer',
+    whiteSpace: 'nowrap',
+  },
+  toggleBtnActive: {
+    background: 'color-mix(in srgb, var(--accent) 20%, transparent)',
+    border: '1px solid var(--accent)',
+    color: 'var(--accent-bright)',
+  },
+  resetBtn: {
+    flexShrink: 0,
+    width: '28px',
+    height: '28px',
+    padding: '0',
+    background: 'var(--bg-elevated)',
+    border: '1px solid var(--border-strong)',
+    borderRadius: '50%',
+    color: 'var(--text-muted)',
+    fontSize: '11px',
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   grid: {
     display: 'grid',

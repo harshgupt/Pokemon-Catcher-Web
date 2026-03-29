@@ -156,7 +156,7 @@ export default function EvolveTab({ gameState, setGameState }) {
           <span style={styles.emptyIcon}>◈</span>
           <p style={styles.emptyText}>No Pokémon ready to evolve</p>
           <p style={styles.emptySubtext}>Catch more to meet evolution requirements</p>
-          <button style={styles.testBtn} onClick={() => injectTestState(setGameState)}>⚙ Load Test Data</button>
+          {/* <button style={styles.testBtn} onClick={() => injectTestState(setGameState)}>⚙ Load Test Data</button> */}
         </div>
       ) : (
         <div style={styles.grid}>
