@@ -162,7 +162,7 @@ export default function CatchTab({ gameState, setGameState }) {
   const SCROLL_PX_PER_SEC = 15
   useEffect(() => {
     const src = location
-      ? `/sprites/backgrounds/${region}/${location}.png`
+      ? `/sprites/backgrounds/${encodeURIComponent(region)}/${encodeURIComponent(location)}.png`
       : `/sprites/catch-bg.png`
     const img = new Image()
     img.onload = () => {
@@ -256,10 +256,10 @@ export default function CatchTab({ gameState, setGameState }) {
   const filtersDisabled = itemsOnly
 
   const bgImage = location
-    ? `url(/sprites/backgrounds/${region}/${location}.png)`
+    ? `url(/sprites/backgrounds/${encodeURIComponent(region)}/${encodeURIComponent(location)}.png)`
     : `url(/sprites/catch-bg.png)`
 
-  const bgAnimation = panAxis ? `bg-pan-${panAxis} ${panDuration.toFixed(1)}s ease-in-out infinite` : undefined
+  const bgAnimation = panAxis ? `bg-pan-${panAxis} ${panDuration.toFixed(1)}s linear infinite` : undefined
 
   return (
     <div ref={rootRef} style={{ ...styles.root, backgroundImage: bgImage, animation: bgAnimation }}>
@@ -481,7 +481,7 @@ const styles = {
     border: '1px solid rgba(255,255,255,0.07)',
     borderRadius: '14px',
     padding: '10px 14px',
-    width: 'min(96%, 700px)',
+    width: 'min(96%, 900px)',
     boxSizing: 'border-box',
     flexShrink: 0,
   },
