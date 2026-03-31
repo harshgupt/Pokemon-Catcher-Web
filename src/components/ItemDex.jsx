@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import allItems from '../data/items.json'
+import { assetUrl } from '../lib/assetUrl'
 
 
 export default function ItemDex({ gameState }) {
@@ -53,8 +54,8 @@ export default function ItemDex({ gameState }) {
 function ItemCard({ item, hidden, unlocked, collected }) {
   const [imgState, setImgState] = useState('loading')
   const spriteSrc = item.tmType
-    ? `/sprites/items/TM ${item.tmType}.png`
-    : `/sprites/items/${item.name}.png`
+    ? assetUrl(`/sprites/items/TM ${item.tmType}.png`)
+    : assetUrl(`/sprites/items/${item.name}.png`)
   const displayName = unlocked ? (item.displayName ?? item.name) : '?????'
 
   return (

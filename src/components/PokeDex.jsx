@@ -3,6 +3,7 @@ import dexOrder   from '../data/dex-order.json'
 import pokemon    from '../data/pokemon.json'
 import itemsData  from '../data/items.json'
 import filters    from '../data/pokedex-filters.json'
+import { assetUrl } from '../lib/assetUrl'
 
 const byId     = Object.fromEntries(pokemon.map(p   => [p.id,   p]))
 const byItemId = Object.fromEntries(itemsData.map(i => [i.id,   i]))
@@ -202,10 +203,10 @@ export default function PokeDex({ gameState }) {
 
               {/* ── Sprite + dex ID + name + types ── */}
               <img
-                src={`/sprites/pokemon/large/${selected.spriteName ?? selected.name}.png`}
+                src={assetUrl(`/sprites/pokemon/large/${selected.spriteName ?? selected.name}.png`)}
                 alt={selected.name}
                 style={{ ...styles.popupImage, filter: selUnlocked ? 'none' : 'brightness(0)' }}
-                onError={e => { e.target.onerror = null; e.target.src = `/sprites/pokemon/large/${selected.name}.png` }}
+                onError={e => { e.target.onerror = null; e.target.src = assetUrl(`/sprites/pokemon/large/${selected.name}.png`) }}
               />
               {selUnlocked && <div style={styles.popupDexId}>#{String(selected.dexId).padStart(4, '0')}</div>}
               <div style={styles.popupName}><GenderedName name={selName} /></div>
@@ -245,9 +246,9 @@ export default function PokeDex({ gameState }) {
                       // Context row — sprites only
                       return (
                         <div key={i} style={{ ...styles.evoRow, opacity: 0.5 }}>
-                          {fromFile && <img src={`/sprites/pokemon/mid/${fromFile}.png`} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
+                          {fromFile && <img src={assetUrl(`/sprites/pokemon/mid/${fromFile}.png`)} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
                           <span style={styles.evoArrow}>→</span>
-                          {toFile   && <img src={`/sprites/pokemon/mid/${toFile}.png`}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
+                          {toFile   && <img src={assetUrl(`/sprites/pokemon/mid/${toFile}.png`)}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
                         </div>
                       )
                     }
@@ -259,7 +260,7 @@ export default function PokeDex({ gameState }) {
                     const needsItem   = ev.evolutionMethod === 'Item' || ev.evolutionMethod === 'ItemAndCharacterRequired'
                     const needsChar   = ev.evolutionMethod === 'CharacterRequired' || ev.evolutionMethod === 'ItemAndCharacterRequired'
                     const item        = needsItem ? byItemId[ev.evolutionItemID] : null
-                    const itemSrc     = item ? (item.tmType ? `/sprites/items/TM ${item.tmType}.png` : `/sprites/items/${item.name}.png`) : null
+                    const itemSrc     = item ? (item.tmType ? assetUrl(`/sprites/items/TM ${item.tmType}.png`) : assetUrl(`/sprites/items/${item.name}.png`)) : null
                     const hasItem     = needsItem ? (gameState?.items[ev.evolutionItemID]?.numberCollected ?? 0) > 0 : true
                     const reqChar     = (needsChar && ev.characterRequiredID) ? byId[ev.characterRequiredID] : null
                     const reqCharFile = reqChar ? (reqChar.spriteName ?? reqChar.name) : null
@@ -268,9 +269,9 @@ export default function PokeDex({ gameState }) {
 
                     return (
                       <div key={i} style={styles.evoRow}>
-                        {fromFile && <img src={`/sprites/pokemon/mid/${fromFile}.png`} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
+                        {fromFile && <img src={assetUrl(`/sprites/pokemon/mid/${fromFile}.png`)} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
                         <span style={styles.evoArrow}>→</span>
-                        {toFile   && <img src={`/sprites/pokemon/mid/${toFile}.png`}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
+                        {toFile   && <img src={assetUrl(`/sprites/pokemon/mid/${toFile}.png`)}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
                         <span style={{ ...styles.evoCount, color: countMet ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
                           {rootCaught} / {ev.characterCount}
                         </span>
@@ -280,7 +281,7 @@ export default function PokeDex({ gameState }) {
                             style={{ ...styles.evoReqSprite, filter: hasItem ? 'none' : 'brightness(0.3)' }} />
                         )}
                         {needsChar && reqCharFile && (
-                          <img src={`/sprites/pokemon/mid/${reqCharFile}.png`} alt={reqChar?.name} title={reqChar?.displayName ?? reqChar?.name}
+                          <img src={assetUrl(`/sprites/pokemon/mid/${reqCharFile}.png`)} alt={reqChar?.name} title={reqChar?.displayName ?? reqChar?.name}
                             style={{ ...styles.evoReqSprite, filter: reqCharUnlocked ? 'none' : 'brightness(0)' }} />
                         )}
                       </div>
@@ -328,7 +329,7 @@ function PokeCard({ pokemon: p, hidden, unlocked, evoReady, onSelect }) {
       <div style={styles.imageWrap}>
         {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
-          src={`/sprites/pokemon/mid/${spriteFile}.png`}
+          src={assetUrl(`/sprites/pokemon/mid/${spriteFile}.png`)}
           alt={p.name}
           style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0, filter: unlocked ? 'none' : 'brightness(0)' }}
           onLoad={() => setImgState('loaded')}

@@ -6,6 +6,7 @@ import { loadSave, saveGame, deleteSave } from '../lib/save'
 import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from '../lib/spawn'
 import { canEvolveInto, performEvolve, getBaseId } from '../lib/evolve'
 import { EvolveResultPopup } from './EvolveTab'
+import { assetUrl } from '../lib/assetUrl'
 
 const TYPES   = ['Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
 const REGIONS = ['Kanto','Johto','Hoenn','Sinnoh','Unova','Kalos','Alola','Galar','Hisui','Paldea']
@@ -66,8 +67,8 @@ function getEvolutionFrontier(caughtId, gameState) {
           evolutionMethod: nf.evolutionMethod,
           evolutionItemID: nf.evolutionItemID,
           characterRequiredID: nf.characterRequiredID,
-          fromSrc:  fromPoke ? `/sprites/pokemon/mid/${fromPoke.spriteName ?? fromPoke.name}.png` : '',
-          nextSrc:  nextPoke ? `/sprites/pokemon/mid/${nextPoke.spriteName ?? nextPoke.name}.png` : '',
+          fromSrc:  fromPoke ? assetUrl(`/sprites/pokemon/mid/${fromPoke.spriteName ?? fromPoke.name}.png`) : '',
+          nextSrc:  nextPoke ? assetUrl(`/sprites/pokemon/mid/${nextPoke.spriteName ?? nextPoke.name}.png`) : '',
           nextName: nextPoke ? (nextPoke.displayName ?? nextPoke.name) : '???',
           current:  gameState.pokemon[rootId]?.numberCaught ?? 0,
           required: nf.characterCount,
@@ -99,8 +100,8 @@ function slotData(slot) {
     const p    = byPokemonId[slot.id]
     const file = p.spriteName ?? p.name
     return {
-      largeSrc:      `/sprites/pokemon/large/${file}.png`,
-      largeFallback: `/sprites/pokemon/large/${p.name}.png`,
+      largeSrc:      assetUrl(`/sprites/pokemon/large/${file}.png`),
+      largeFallback: assetUrl(`/sprites/pokemon/large/${p.name}.png`),
       name:  p.displayName ?? p.name,
       types: p.types ?? [],
       isItem: false,
@@ -109,8 +110,8 @@ function slotData(slot) {
   if (slot.type === 'item') {
     const item = byItemId[slot.id]
     const src  = item.tmType
-      ? `/sprites/items/TM ${item.tmType}.png`
-      : `/sprites/items/${item.name}.png`
+      ? assetUrl(`/sprites/items/TM ${item.tmType}.png`)
+      : assetUrl(`/sprites/items/${item.name}.png`)
     return { largeSrc: src, largeFallback: null,
              name: item.displayName ?? item.name, types: [], isItem: true }
   }
@@ -174,8 +175,8 @@ export default function CatchTab({ gameState, setGameState }) {
       setFallbackBg(null)
     }
     const src = bgLocation
-      ? `/sprites/backgrounds/${encodeURIComponent(bgRegion)}/${encodeURIComponent(bgLocation)}.png`
-      : `/sprites/catch-bg.png`
+      ? assetUrl(`/sprites/backgrounds/${encodeURIComponent(bgRegion)}/${encodeURIComponent(bgLocation)}.png`)
+      : assetUrl(`/sprites/catch-bg.png`)
     const img = new Image()
     img.onload = () => {
       const el = rootRef.current
@@ -290,8 +291,8 @@ export default function CatchTab({ gameState, setGameState }) {
   const bgRegion   = fallbackBg?.region   ?? region
   const bgLocation = fallbackBg?.location ?? location
   const bgImage = bgLocation
-    ? `url("/sprites/backgrounds/${encodeURIComponent(bgRegion)}/${encodeURIComponent(bgLocation)}.png")`
-    : `url("/sprites/catch-bg.png")`
+    ? `url("${assetUrl(`/sprites/backgrounds/${encodeURIComponent(bgRegion)}/${encodeURIComponent(bgLocation)}.png`)}")`
+    : `url("${assetUrl('/sprites/catch-bg.png')}")`
 
   const bgAnimation = panAxis ? `bg-pan-${panAxis} ${panDuration.toFixed(1)}s linear infinite` : undefined
 
@@ -430,7 +431,7 @@ function BallSlot({ isAnimating, isHovered, onHoverEnter, onHoverExit, onClick }
       onMouseLeave={onHoverExit}
       onClick={onClick}
     >
-      <img src="/sprites/pokeball.png" alt="Pokéball" style={imgStyle} draggable={false} />
+      <img src={assetUrl('/sprites/pokeball.png')} alt="Pokéball" style={imgStyle} draggable={false} />
     </div>
   )
 }
@@ -443,12 +444,12 @@ function HintPanel({ hintSlots }) {
         let src
         if (slot.type === 'pokemon') {
           const p = byPokemonId[slot.id]
-          src = `/sprites/pokemon/mid/${p.spriteName ?? p.name}.png`
+          src = assetUrl(`/sprites/pokemon/mid/${p.spriteName ?? p.name}.png`)
         } else {
           const item = byItemId[slot.id]
           src = item.tmType
-            ? `/sprites/items/TM ${item.tmType}.png`
-            : `/sprites/items/${item.name}.png`
+            ? assetUrl(`/sprites/items/TM ${item.tmType}.png`)
+            : assetUrl(`/sprites/items/${item.name}.png`)
         }
         return (
           <img
@@ -491,7 +492,7 @@ function CatchPopup({ slot, gameState, isFirstCatch, onClose, onEvolve }) {
           onError={e => {
             if (d.largeFallback && e.target.src !== d.largeFallback) {
               e.target.onerror = null
-              e.target.src = d.largeFallback
+              e.target.src = d.largeFallback  // already wrapped by assetUrl via slotData()
             }
           }}
           draggable={false}

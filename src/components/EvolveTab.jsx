@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import pokemonData from '../data/pokemon.json'
 import { saveGame } from '../lib/save'
 import { byId, byItemId, getBaseId, canEvolveInto, performEvolve } from '../lib/evolve'
+import { assetUrl } from '../lib/assetUrl'
 
 /** Returns all evolution options for a pokemon that currently pass CanEvolve. */
 function getAvailableEvolutions(p, gameState) {
@@ -91,7 +92,7 @@ function EvolveCard({ pokemon: p, gameState, onSelect }) {
       <div style={styles.imageWrap}>
         {imgState === 'loading' && <div className="sprite-spinner" />}
         <img
-          src={`/sprites/pokemon/mid/${spriteFile}.png`}
+          src={assetUrl(`/sprites/pokemon/mid/${spriteFile}.png`)}
           alt={p.name}
           style={{ ...styles.image, opacity: imgState === 'loaded' ? 1 : 0 }}
           onLoad={() => setImgState('loaded')}
@@ -119,7 +120,7 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
         {/* Header */}
         <div style={styles.popupHeader}>
           <img
-            src={`/sprites/pokemon/mid/${spriteFile}.png`}
+            src={assetUrl(`/sprites/pokemon/mid/${spriteFile}.png`)}
             alt={p.name}
             style={styles.popupHeaderSprite}
           />
@@ -142,7 +143,7 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
             const toPoke     = byId[nf.nextCharacterID]
             const toFile     = toPoke ? (toPoke.spriteName ?? toPoke.name) : null
             const item       = nf.evolutionItemID ? byItemId[nf.evolutionItemID] : null
-            const itemSrc    = item ? (item.tmType ? `/sprites/items/TM ${item.tmType}.png` : `/sprites/items/${item.name}.png`) : null
+            const itemSrc    = item ? (item.tmType ? assetUrl(`/sprites/items/TM ${item.tmType}.png`) : assetUrl(`/sprites/items/${item.name}.png`)) : null
             const reqChar    = nf.characterRequiredID ? byId[nf.characterRequiredID] : null
             const reqFile    = reqChar ? (reqChar.spriteName ?? reqChar.name) : null
             const methodLabel = { LevelUp: 'Level Up', Item: 'Item', CharacterRequired: 'Pokémon', ItemAndCharacterRequired: 'Item + Pokémon' }[nf.evolutionMethod] ?? nf.evolutionMethod
@@ -151,9 +152,9 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
               <div key={i} style={styles.evoOption}>
                 {/* From → To sprites */}
                 <div style={styles.evoSprites}>
-                  <img src={`/sprites/pokemon/mid/${spriteFile}.png`} alt={p.name} style={styles.evoSprite} />
+                  <img src={assetUrl(`/sprites/pokemon/mid/${spriteFile}.png`)} alt={p.name} style={styles.evoSprite} />
                   <span style={styles.evoArrow}>→</span>
-                  {toFile && <img src={`/sprites/pokemon/mid/${toFile}.png`} alt={toPoke?.name} style={styles.evoSprite} />}
+                  {toFile && <img src={assetUrl(`/sprites/pokemon/mid/${toFile}.png`)} alt={toPoke?.name} style={styles.evoSprite} />}
                 </div>
 
                 {/* Details */}
@@ -168,7 +169,7 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
                       <img src={itemSrc} alt={item?.name} title={item?.displayName ?? item?.name} style={styles.reqSprite} />
                     )}
                     {reqFile && (
-                      <img src={`/sprites/pokemon/mid/${reqFile}.png`} alt={reqChar?.name} title={reqChar?.displayName ?? reqChar?.name} style={styles.reqSprite} />
+                      <img src={assetUrl(`/sprites/pokemon/mid/${reqFile}.png`)} alt={reqChar?.name} title={reqChar?.displayName ?? reqChar?.name} style={styles.reqSprite} />
                     )}
                   </div>
                 </div>
@@ -202,8 +203,8 @@ export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
   const toFile   = toPoke   ? (toPoke.spriteName    ?? toPoke.name)   : null
   const fromName = fromPoke ? (fromPoke.displayName ?? fromPoke.name) : '???'
   const toName   = toPoke   ? (toPoke.displayName   ?? toPoke.name)   : '???'
-  const fromSrc  = fromFile ? `/sprites/pokemon/large/${fromFile}.png` : ''
-  const toSrc    = toFile   ? `/sprites/pokemon/large/${toFile}.png`   : ''
+  const fromSrc  = fromFile ? assetUrl(`/sprites/pokemon/large/${fromFile}.png`) : ''
+  const toSrc    = toFile   ? assetUrl(`/sprites/pokemon/large/${toFile}.png`)   : ''
 
   return (
     <div style={styles.overlay} onClick={() => phase < 4 ? setPhase(4) : onClose()}>
@@ -245,7 +246,7 @@ export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
                     ? 'evo-from-white 0.9s ease-out both'
                     : 'none',
               }}
-              onError={e => { e.target.onerror = null; e.target.src = `/sprites/pokemon/large/${toPoke.name}.png` }}
+              onError={e => { e.target.onerror = null; e.target.src = assetUrl(`/sprites/pokemon/large/${toPoke.name}.png`) }}
             />
           )}
         </div>
