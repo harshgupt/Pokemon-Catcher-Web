@@ -113,7 +113,7 @@ export function getGlobalTokens(gameState) {
 /**
  * Available tokens given the current spawn filter.
  * - itemsOnly: only item tokens count
- * - pokemon filter active: only matching pokemon; items excluded
+ * - pokemon filter active: matching pokemon + items (always at ~10%)
  * - no filter: all pokemon + items
  */
 export function getAvailableTokens(gameState, spawnFilter = {}) {
@@ -127,9 +127,8 @@ export function getAvailableTokens(gameState, spawnFilter = {}) {
     if ((gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0 && matchesFilter(p, spawnFilter))
       total += gameState.pokemon[p.id].numberToSpawn
   }
-  if (!hasPokemonFilter(spawnFilter)) {
-    for (const item of itemsData) total += Math.max(0, gameState.items[item.id]?.numberToSpawn ?? 0)
-  }
+  // Items always included (alongside any pokemon filter)
+  for (const item of itemsData) total += Math.max(0, gameState.items[item.id]?.numberToSpawn ?? 0)
   return total
 }
 
@@ -142,13 +141,11 @@ export function generateGrid(gameState, spawnFilter = {}) {
   if (available === 0) return []
 
   const gridSize = Math.min(25, available)
-  const pokemonOnly = hasPokemonFilter(spawnFilter) && !spawnFilter.itemsOnly
-
   let workingChars = spawnFilter.itemsOnly ? [] :
     pokemonData.filter(p => (gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0 && matchesFilter(p, spawnFilter))
 
-  let workingItems = pokemonOnly ? [] :
-    itemsData.filter(i => (gameState.items[i.id]?.numberToSpawn ?? 0) > 0)
+  // Items always included unless itemsOnly (which already handles the all-items case)
+  let workingItems = itemsData.filter(i => (gameState.items[i.id]?.numberToSpawn ?? 0) > 0)
 
   const charCounts = {}; workingChars.forEach(p => { charCounts[p.id] = gameState.pokemon[p.id].numberToSpawn })
   const itemCounts = {}; workingItems.forEach(i => { itemCounts[i.id] = gameState.items[i.id].numberToSpawn   })

@@ -1,52 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import pokemonData from '../data/pokemon.json'
-import itemsData   from '../data/items.json'
 import { saveGame } from '../lib/save'
-
-const byId     = Object.fromEntries(pokemonData.map(p => [p.id, p]))
-const byItemId = Object.fromEntries(itemsData.map(i   => [i.id, i]))
-
-// ── Chain root helper ─────────────────────────────────────────────────────────
-const parentOf = {}
-pokemonData.forEach(p => {
-  if (Array.isArray(p.nextForms)) {
-    p.nextForms.forEach(nf => {
-      if (parentOf[nf.nextCharacterID] === undefined)
-        parentOf[nf.nextCharacterID] = p.id
-    })
-  }
-})
-
-function getBaseId(id, seen = new Set()) {
-  if (seen.has(id)) return id
-  seen.add(id)
-  return parentOf[id] !== undefined ? getBaseId(parentOf[id], seen) : id
-}
-
-// ── Evolution logic (mirrors Unity DexManager.CanEvolveAny / CanEvolve) ──────
-
-function canEvolveInto(nf, gameState) {
-  // Block if next form already unlocked
-  if (gameState.pokemon[nf.nextCharacterID]?.isUnlocked) return false
-
-  const rootId    = getBaseId(nf.fromId)
-  const rootCaught = gameState.pokemon[rootId]?.numberCaught ?? 0
-  const hasEnoughCount = rootCaught >= nf.characterCount
-
-  const hasItem = !nf.evolutionItemID
-    || (gameState.items[nf.evolutionItemID]?.numberCollected ?? 0) > 0
-
-  const hasRequiredChar = !nf.characterRequiredID
-    || (gameState.pokemon[nf.characterRequiredID]?.isUnlocked ?? false)
-
-  switch (nf.evolutionMethod) {
-    case 'LevelUp':                 return hasEnoughCount
-    case 'Item':                    return hasEnoughCount && hasItem
-    case 'CharacterRequired':       return hasEnoughCount && hasRequiredChar
-    case 'ItemAndCharacterRequired':return hasEnoughCount && hasItem && hasRequiredChar
-    default:                        return hasEnoughCount
-  }
-}
+import { byId, byItemId, getBaseId, canEvolveInto, performEvolve } from '../lib/evolve'
 
 /** Returns all evolution options for a pokemon that currently pass CanEvolve. */
 function getAvailableEvolutions(p, gameState) {
@@ -55,56 +10,6 @@ function getAvailableEvolutions(p, gameState) {
   return p.nextForms
     .map(nf => ({ ...nf, fromId: p.id }))
     .filter(nf => canEvolveInto(nf, gameState))
-}
-
-/** Returns new gameState after performing one evolution. */
-function performEvolve(gameState, nf) {
-  const rootId   = getBaseId(nf.fromId)
-  let gs = gameState
-
-  // 1. Unlock / increment next form
-  const nextCur = gs.pokemon[nf.nextCharacterID] ?? {}
-  gs = {
-    ...gs,
-    pokemon: {
-      ...gs.pokemon,
-      [nf.nextCharacterID]: {
-        ...nextCur,
-        numberCaught: (nextCur.numberCaught ?? 0) + 1,
-        isUnlocked:   true,
-      },
-    },
-  }
-
-  // 2. Consume root catches
-  const rootCur = gs.pokemon[rootId] ?? {}
-  gs = {
-    ...gs,
-    pokemon: {
-      ...gs.pokemon,
-      [rootId]: {
-        ...rootCur,
-        numberCaught: Math.max(0, (rootCur.numberCaught ?? 0) - nf.characterCount),
-      },
-    },
-  }
-
-  // 3. Consume item (if applicable)
-  if (nf.evolutionItemID && (nf.evolutionMethod === 'Item' || nf.evolutionMethod === 'ItemAndCharacterRequired')) {
-    const itemCur = gs.items[nf.evolutionItemID] ?? {}
-    gs = {
-      ...gs,
-      items: {
-        ...gs.items,
-        [nf.evolutionItemID]: {
-          ...itemCur,
-          numberCollected: Math.max(0, (itemCur.numberCollected ?? 0) - 1),
-        },
-      },
-    }
-  }
-
-  return gs
 }
 
 // ── Type colours (same as PokeDex) ───────────────────────────────────────────
@@ -119,17 +24,6 @@ const TYPE_COLORS = {
 // ── Components ────────────────────────────────────────────────────────────────
 
 
-function injectTestState(setGameState) {
-  setGameState(prev => {
-    const next = { ...prev, pokemon: { ...prev.pokemon }, items: { ...prev.items } }
-    next.pokemon[19] = { ...next.pokemon[19], isUnlocked: true, numberCaught: 16 }  // Bulbasaur
-    next.pokemon[24] = { ...next.pokemon[24], isUnlocked: true, numberCaught: 16 }  // Charmander
-    next.pokemon[2]  = { ...next.pokemon[2],  isUnlocked: true }                    // Pikachu
-    next.pokemon[0]  = { ...next.pokemon[0],  numberCaught: 10 }                    // Pichu (root)
-    next.items[3]    = { ...next.items[3],     numberCollected: 1, isUnlocked: true } // Thunder Stone
-    return next
-  })
-}
 
 export default function EvolveTab({ gameState, setGameState }) {
   const [selected,   setSelected]   = useState(null) // pokemon for evolve options popup
@@ -292,39 +186,73 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
   )
 }
 
-function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
-  const toFile   = toPoke   ? (toPoke.spriteName   ?? toPoke.name)   : null
+// Phases: 1=fade-to-white  2=swap  3=fade-to-color  4=done
+const PHASE_DURATION = { 1: 800, 2: 900, 3: 900 }
+
+export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
+  const [phase, setPhase] = useState(1)
+
+  useEffect(() => {
+    if (phase >= 4) return
+    const t = setTimeout(() => setPhase(p => p + 1), PHASE_DURATION[phase])
+    return () => clearTimeout(t)
+  }, [phase])
+
   const fromFile = fromPoke ? (fromPoke.spriteName  ?? fromPoke.name) : null
-  const toName   = toPoke   ? (toPoke.displayName   ?? toPoke.name)   : '???'
+  const toFile   = toPoke   ? (toPoke.spriteName    ?? toPoke.name)   : null
   const fromName = fromPoke ? (fromPoke.displayName ?? fromPoke.name) : '???'
+  const toName   = toPoke   ? (toPoke.displayName   ?? toPoke.name)   : '???'
+  const fromSrc  = fromFile ? `/sprites/pokemon/large/${fromFile}.png` : ''
+  const toSrc    = toFile   ? `/sprites/pokemon/large/${toFile}.png`   : ''
 
   return (
-    <div style={styles.overlay} onClick={onClose}>
+    <div style={styles.overlay} onClick={() => phase < 4 ? setPhase(4) : onClose()}>
       <div style={styles.resultPopup} onClick={e => e.stopPropagation()}>
+
         <p style={styles.resultLine}>
           <span style={styles.resultFrom}>{fromName}</span>
           <span style={styles.resultArrow}> evolved into </span>
           <span style={styles.resultTo}>{toName}!</span>
         </p>
-        <div style={styles.resultSprites}>
-          {fromFile && (
+
+        {/* Animation stage */}
+        <div style={styles.evoStage}>
+          {/* From sprite — visible during phases 1–2 */}
+          {phase <= 2 && fromFile && (
             <img
-              src={`/sprites/pokemon/mid/${fromFile}.png`}
+              key={`from-${phase}`}
+              src={fromSrc}
               alt={fromName}
-              style={{ ...styles.resultSprite, opacity: 0.4, filter: 'brightness(0.6)' }}
+              style={{
+                ...styles.evoStageLarge,
+                animation: phase === 1
+                  ? 'evo-to-white 0.8s ease-in both'
+                  : 'evo-scale-out 0.9s ease-in both',
+              }}
             />
           )}
-          <span style={styles.resultSpriteArrow}>→</span>
-          {toFile && (
+          {/* To sprite — visible during phases 2–4 */}
+          {phase >= 2 && toFile && (
             <img
-              src={`/sprites/pokemon/large/${toFile}.png`}
+              key={phase === 2 ? 'to-anim' : 'to-done'}
+              src={toSrc}
               alt={toName}
-              style={styles.resultLargeSprite}
+              style={{
+                ...styles.evoStageLarge,
+                animation: phase === 2
+                  ? 'evo-scale-in 0.9s ease-out both'
+                  : phase === 3
+                    ? 'evo-from-white 0.9s ease-out both'
+                    : 'none',
+              }}
               onError={e => { e.target.onerror = null; e.target.src = `/sprites/pokemon/large/${toPoke.name}.png` }}
             />
           )}
         </div>
-        <p style={styles.resultDismiss}>Click anywhere to close</p>
+
+        <p style={styles.resultDismiss}>
+          {phase < 4 ? 'Tap to skip…' : 'Click anywhere to close'}
+        </p>
       </div>
     </div>
   )
@@ -614,25 +542,18 @@ const styles = {
     color: 'var(--accent-bright)',
     fontWeight: '700',
   },
-  resultSprites: {
+  evoStage: {
+    position: 'relative',
+    width: '220px',
+    height: '220px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: '16px',
   },
-  resultSprite: {
-    width: '56px',
-    height: '56px',
-    objectFit: 'contain',
-    imageRendering: 'pixelated',
-  },
-  resultSpriteArrow: {
-    fontSize: '24px',
-    color: 'var(--text-muted)',
-  },
-  resultLargeSprite: {
-    width: '200px',
-    height: '200px',
+  evoStageLarge: {
+    position: 'absolute',
+    width: '220px',
+    height: '220px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
