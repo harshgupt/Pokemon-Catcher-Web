@@ -4,6 +4,7 @@ import pokemon    from '../data/pokemon.json'
 import itemsData  from '../data/items.json'
 import filters    from '../data/pokedex-filters.json'
 import { assetUrl } from '../lib/assetUrl'
+import { canEvolveInto, countUnlockedInChain, countChainForms } from '../lib/evolve'
 
 const byId     = Object.fromEntries(pokemon.map(p   => [p.id,   p]))
 const byItemId = Object.fromEntries(itemsData.map(i => [i.id,   i]))
@@ -94,18 +95,15 @@ const TYPE_COLORS = {
   Fairy:    '#EF70EF',
 }
 
-function isEvoReady(p, gameState) {
+function isEvoReady(p, gameState, gameMode = 'easy') {
   if (!gameState?.pokemon[p.id]?.isUnlocked) return false
   if (!Array.isArray(p.nextForms) || p.nextForms.length === 0) return false
-  const rootId     = getBaseId(p.id)
-  const rootCaught = gameState?.pokemon[rootId]?.numberCaught ?? 0
   return p.nextForms.some(nf =>
-    !(gameState?.pokemon[nf.nextCharacterID]?.isUnlocked ?? false) &&
-    rootCaught >= nf.characterCount
+    canEvolveInto({ ...nf, fromId: p.id }, gameState, gameMode)
   )
 }
 
-export default function PokeDex({ gameState }) {
+export default function PokeDex({ gameState, gameMode = 'easy' }) {
   const [query,       setQuery]       = useState('')
   const [type1,       setType1]       = useState('')
   const [type2,       setType2]       = useState('')
@@ -186,14 +184,17 @@ export default function PokeDex({ gameState }) {
       </div>
       <div style={styles.grid}>
         {allEntries.map((p, i) => (
-          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} unlocked={isUnlocked(p)} evoReady={isEvoReady(p, gameState)} onSelect={setSelected} />
+          <PokeCard key={`${p.id}-${i}`} pokemon={p} hidden={isHidden(p)} unlocked={isUnlocked(p)} evoReady={isEvoReady(p, gameState, gameMode)} onSelect={setSelected} />
         ))}
       </div>
 
       {selected && (() => {
         const selUnlocked  = isUnlocked(selected)
         const selName      = selUnlocked ? (selected.displayName ?? selected.name) : '?????'
-        const remaining    = gameState?.pokemon[selected.id]?.numberToSpawn ?? 0
+        const rawRemaining = gameState?.pokemon[selected.id]?.numberToSpawn ?? 0
+        const remaining    = gameMode === 'easy'
+          ? Math.min(rawRemaining, countChainForms(selected.id))
+          : rawRemaining
         const numberCaught = gameState?.pokemon[selected.id]?.numberCaught  ?? 0
         const evolutions   = getAllChainEvolutions(selected.id)
 
@@ -265,16 +266,21 @@ export default function PokeDex({ gameState }) {
                     const reqChar     = (needsChar && ev.characterRequiredID) ? byId[ev.characterRequiredID] : null
                     const reqCharFile = reqChar ? (reqChar.spriteName ?? reqChar.name) : null
                     const reqCharUnlocked = needsChar ? (gameState?.pokemon[ev.characterRequiredID]?.isUnlocked ?? false) : true
-                    const countMet    = rootCaught >= ev.characterCount
+                    const easyRequired = countUnlockedInChain(rootId, gameState) + 1
+                    const countMet    = gameMode === 'easy'
+                      ? rootCaught >= easyRequired
+                      : rootCaught >= ev.characterCount
 
                     return (
                       <div key={i} style={styles.evoRow}>
                         {fromFile && <img src={assetUrl(`/sprites/pokemon/mid/${fromFile}.png`)} style={{ ...styles.evoSprite, filter: fromLocked ? 'brightness(0)' : 'none' }} alt="" />}
                         <span style={styles.evoArrow}>→</span>
                         {toFile   && <img src={assetUrl(`/sprites/pokemon/mid/${toFile}.png`)}   style={{ ...styles.evoSprite, filter: toLocked   ? 'brightness(0)' : 'none' }} alt={toPoke?.name} />}
-                        <span style={{ ...styles.evoCount, color: countMet ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
-                          {rootCaught} / {ev.characterCount}
-                        </span>
+                        {gameMode !== 'easy' && (
+                          <span style={{ ...styles.evoCount, color: countMet ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
+                            {rootCaught} / {ev.characterCount}
+                          </span>
+                        )}
                         <span style={styles.methodBadge}>{methodLabel}</span>
                         {needsItem && itemSrc && (
                           <img src={itemSrc} alt={item?.name} title={item?.displayName ?? item?.name}

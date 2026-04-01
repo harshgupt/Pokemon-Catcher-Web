@@ -3,6 +3,33 @@ import itemsData from '../data/items.json'
 
 const SAVE_KEY = 'cc-save-v1'
 
+// Build parent map to identify root pokemon
+const parentOf = {}
+pokemonData.forEach(p => {
+  if (Array.isArray(p.nextForms)) {
+    p.nextForms.forEach(nf => {
+      if (parentOf[nf.nextCharacterID] === undefined)
+        parentOf[nf.nextCharacterID] = p.id
+    })
+  }
+})
+
+const byId = Object.fromEntries(pokemonData.map(p => [p.id, p]))
+
+function safeNextForms(id) {
+  const nf = byId[id]?.nextForms
+  return Array.isArray(nf) ? nf : []
+}
+
+function countChainForms(id, seen = new Set()) {
+  if (seen.has(id)) return 0
+  seen.add(id)
+  let count = 1
+  for (const nf of safeNextForms(id))
+    count += countChainForms(nf.nextCharacterID, seen)
+  return count
+}
+
 function createDefaults() {
   const pokemon = {}
   for (const p of pokemonData) {
@@ -20,7 +47,20 @@ function createDefaults() {
       isUnlocked:      false,
     }
   }
-  return { pokemon, items }
+  return { pokemon, items, gameMode: 'easy' }
+}
+
+export function newGame(gameMode = 'easy') {
+  const gs = createDefaults()
+  gs.gameMode = gameMode
+  if (gameMode === 'easy') {
+    for (const p of pokemonData) {
+      if (parentOf[p.id] !== undefined) continue // not a root pokemon
+      if (p.spawnCount <= 0) continue             // doesn't spawn
+      gs.pokemon[p.id].numberToSpawn = countChainForms(p.id)
+    }
+  }
+  return gs
 }
 
 export function loadSave() {
@@ -41,12 +81,24 @@ export function loadSave() {
             Object.assign(defaults.items[id], data)
         }
       }
+      if (saved.gameMode) defaults.gameMode = saved.gameMode
+      // Cap spawn counts for easy mode saves that may have old full-mode values
+      if (defaults.gameMode === 'easy') {
+        for (const p of pokemonData) {
+          if (parentOf[p.id] !== undefined) continue
+          if (defaults.pokemon[p.id])
+            defaults.pokemon[p.id].numberToSpawn = Math.min(
+              defaults.pokemon[p.id].numberToSpawn,
+              countChainForms(p.id)
+            )
+        }
+      }
       return defaults
     } catch (_) {
       // corrupted — fall through to defaults
     }
   }
-  return createDefaults()
+  return newGame()
 }
 
 export function saveGame(state) {

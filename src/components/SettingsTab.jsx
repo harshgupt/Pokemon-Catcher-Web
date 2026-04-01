@@ -1,9 +1,12 @@
 import { useState, useRef } from 'react'
-import { loadSave, saveGame, deleteSave } from '../lib/save'
+import { loadSave, saveGame, deleteSave, newGame } from '../lib/save'
+import ConfirmDialog from './ConfirmDialog'
 
 export default function SettingsTab({ gameState, setGameState }) {
-  const [toast, setToast]   = useState(null)
-  const importRef           = useRef(null)
+  const [toast, setToast]           = useState(null)
+  const [confirmAction, setConfirmAction] = useState(null) // { title, message, onConfirm, variant? }
+  const importRef                   = useRef(null)
+  const currentMode                 = gameState.gameMode ?? 'easy'
 
   function showToast(message, type = 'success') {
     setToast({ message, type })
@@ -22,11 +25,33 @@ export default function SettingsTab({ gameState, setGameState }) {
   }
 
   function handleReset() {
-    if (!confirm('Reset all progress? This cannot be undone.')) return
-    deleteSave()
-    const fresh = loadSave()
-    setGameState(fresh)
-    showToast('Game reset.', 'warn')
+    setConfirmAction({
+      title: 'Reset Game?',
+      message: 'All progress will be permanently deleted. This cannot be undone.',
+      variant: 'danger',
+      onConfirm: () => {
+        deleteSave()
+        setGameState(loadSave())
+        setConfirmAction(null)
+        showToast('Game reset.', 'warn')
+      },
+    })
+  }
+
+  function handleModeSwitch(mode) {
+    if (mode === currentMode) return
+    setConfirmAction({
+      title: `Switch to ${mode === 'easy' ? 'Easy' : 'Full'} Mode?`,
+      message: 'This will start a new game and all current progress will be lost.',
+      variant: 'danger',
+      onConfirm: () => {
+        const fresh = newGame(mode)
+        saveGame(fresh)
+        setGameState(fresh)
+        setConfirmAction(null)
+        showToast(`Switched to ${mode === 'easy' ? 'Easy' : 'Full'} mode.`)
+      },
+    })
   }
 
   function handleExport() {
@@ -64,6 +89,29 @@ export default function SettingsTab({ gameState, setGameState }) {
     <div style={styles.root}>
       <input ref={importRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImportFile} />
       <div style={styles.sections}>
+
+        <Section title="Gameplay">
+          <div style={styles.actionRow}>
+            <div style={styles.actionInfo}>
+              <span style={styles.actionLabel}>Game Mode</span>
+              <span style={styles.actionDesc}>
+                {currentMode === 'full'
+                  ? 'Full — evolution requires catching the amount specified in the Pokédex.'
+                  : 'Easy — each evolution costs one additional catch of the base form.'}
+              </span>
+            </div>
+            <div style={styles.modeToggle}>
+              <button
+                style={{ ...styles.modeBtn, ...(currentMode === 'full' ? styles.modeBtnActive : {}) }}
+                onClick={() => handleModeSwitch('full')}
+              >Full</button>
+              <button
+                style={{ ...styles.modeBtn, ...(currentMode === 'easy' ? styles.modeBtnActive : {}) }}
+                onClick={() => handleModeSwitch('easy')}
+              >Easy</button>
+            </div>
+          </div>
+        </Section>
 
         <Section title="Save Data">
           <ActionRow
@@ -107,6 +155,16 @@ export default function SettingsTab({ gameState, setGameState }) {
         </Section>
 
       </div>
+
+      {confirmAction && (
+        <ConfirmDialog
+          title={confirmAction.title}
+          message={confirmAction.message}
+          variant={confirmAction.variant}
+          onConfirm={confirmAction.onConfirm}
+          onCancel={() => setConfirmAction(null)}
+        />
+      )}
 
       {toast && (
         <div style={{ ...styles.toast, ...(toast.type === 'warn' ? styles.toastWarn : styles.toastSuccess) }}>
@@ -224,6 +282,27 @@ const styles = {
     background: 'transparent',
     color: '#e57373',
     border: '1px solid #e57373',
+  },
+  modeToggle: {
+    display: 'flex',
+    flexShrink: 0,
+    border: '1px solid var(--border-strong)',
+    borderRadius: 'var(--radius-sm)',
+    overflow: 'hidden',
+  },
+  modeBtn: {
+    padding: '7px 20px',
+    border: 'none',
+    background: 'var(--bg-surface)',
+    color: 'var(--text-muted)',
+    fontSize: '13px',
+    fontWeight: '600',
+    cursor: 'pointer',
+    transition: 'all 0.15s ease',
+  },
+  modeBtnActive: {
+    background: 'var(--accent)',
+    color: '#fff',
   },
   toast: {
     position: 'absolute',

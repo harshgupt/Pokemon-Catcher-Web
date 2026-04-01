@@ -28,10 +28,10 @@ export default function App() {
           <h1 style={styles.pageTitle}>{PAGE_LABELS[activePage]}</h1>
         </header>
         <div style={styles.content}>
-          <div style={activePage === 'catch'   ? styles.page : styles.pageHidden}><CatchTab  gameState={gameState} setGameState={setGameState} /></div>
-          <div style={activePage === 'pokedex' ? styles.page : styles.pageHidden}><PokeDex   gameState={gameState} /></div>
+          <div style={activePage === 'catch'   ? styles.page : styles.pageHidden}><CatchTab  gameState={gameState} setGameState={setGameState} gameMode={gameState.gameMode ?? 'easy'} /></div>
+          <div style={activePage === 'pokedex' ? styles.page : styles.pageHidden}><PokeDex   gameState={gameState} gameMode={gameState.gameMode ?? 'easy'} /></div>
           <div style={activePage === 'items'   ? styles.page : styles.pageHidden}><ItemDex   gameState={gameState} /></div>
-          <div style={activePage === 'evolve'    ? styles.page : styles.pageHidden}><EvolveTab   gameState={gameState} setGameState={setGameState} /></div>
+          <div style={activePage === 'evolve'    ? styles.page : styles.pageHidden}><EvolveTab   gameState={gameState} setGameState={setGameState} gameMode={gameState.gameMode ?? 'easy'} /></div>
           <div style={activePage === 'settings'  ? styles.page : styles.pageHidden}><SettingsTab gameState={gameState} setGameState={setGameState} /></div>
           {activePage !== 'catch' && activePage !== 'items' && activePage !== 'pokedex' && activePage !== 'evolve' && activePage !== 'settings' && <Placeholder page={activePage} />}
         </div>

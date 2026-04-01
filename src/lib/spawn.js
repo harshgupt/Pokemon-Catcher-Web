@@ -113,8 +113,7 @@ export function getGlobalTokens(gameState) {
 /**
  * Available tokens given the current spawn filter.
  * - itemsOnly: only item tokens count
- * - pokemon filter active: matching pokemon + items (always at ~10%)
- * - no filter: all pokemon + items
+ * - otherwise: matching pokemon tokens only (items are a bonus and don't inflate grid size)
  */
 export function getAvailableTokens(gameState, spawnFilter = {}) {
   if (spawnFilter.itemsOnly) {
@@ -127,8 +126,6 @@ export function getAvailableTokens(gameState, spawnFilter = {}) {
     if ((gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0 && matchesFilter(p, spawnFilter))
       total += gameState.pokemon[p.id].numberToSpawn
   }
-  // Items always included (alongside any pokemon filter)
-  for (const item of itemsData) total += Math.max(0, gameState.items[item.id]?.numberToSpawn ?? 0)
   return total
 }
 

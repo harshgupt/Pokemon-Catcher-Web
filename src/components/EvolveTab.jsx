@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react'
 import pokemonData from '../data/pokemon.json'
 import { saveGame } from '../lib/save'
-import { byId, byItemId, getBaseId, canEvolveInto, performEvolve } from '../lib/evolve'
+import { byId, byItemId, getBaseId, canEvolveInto, performEvolve, countUnlockedInChain } from '../lib/evolve'
 import { assetUrl } from '../lib/assetUrl'
 
 /** Returns all evolution options for a pokemon that currently pass CanEvolve. */
-function getAvailableEvolutions(p, gameState) {
+function getAvailableEvolutions(p, gameState, gameMode = 'easy') {
   if (!gameState.pokemon[p.id]?.isUnlocked) return []
   if (!Array.isArray(p.nextForms)) return []
   return p.nextForms
     .map(nf => ({ ...nf, fromId: p.id }))
-    .filter(nf => canEvolveInto(nf, gameState))
+    .filter(nf => canEvolveInto(nf, gameState, gameMode))
 }
 
 // ── Type colours (same as PokeDex) ───────────────────────────────────────────
@@ -26,14 +26,14 @@ const TYPE_COLORS = {
 
 
 
-export default function EvolveTab({ gameState, setGameState }) {
+export default function EvolveTab({ gameState, setGameState, gameMode = 'easy' }) {
   const [selected,   setSelected]   = useState(null) // pokemon for evolve options popup
   const [evolved,    setEvolved]    = useState(null) // { fromPoke, toPoke } for result popup
 
-  const evolvable = pokemonData.filter(p => getAvailableEvolutions(p, gameState).length > 0)
+  const evolvable = pokemonData.filter(p => getAvailableEvolutions(p, gameState, gameMode).length > 0)
 
   function handleEvolve(nf) {
-    const newGs   = performEvolve(gameState, nf)
+    const newGs   = performEvolve(gameState, nf, gameMode)
     setGameState(newGs)
     saveGame(newGs)
     setSelected(null)
@@ -56,7 +56,7 @@ export default function EvolveTab({ gameState, setGameState }) {
       ) : (
         <div style={styles.grid}>
           {evolvable.map(p => (
-            <EvolveCard key={p.id} pokemon={p} gameState={gameState} onSelect={setSelected} />
+            <EvolveCard key={p.id} pokemon={p} gameState={gameState} gameMode={gameMode} onSelect={setSelected} />
           ))}
         </div>
       )}
@@ -65,6 +65,7 @@ export default function EvolveTab({ gameState, setGameState }) {
         <EvolvePopup
           pokemon={selected}
           gameState={gameState}
+          gameMode={gameMode}
           onEvolve={handleEvolve}
           onClose={() => setSelected(null)}
         />
@@ -81,7 +82,7 @@ export default function EvolveTab({ gameState, setGameState }) {
   )
 }
 
-function EvolveCard({ pokemon: p, gameState, onSelect }) {
+function EvolveCard({ pokemon: p, gameState, gameMode = 'easy', onSelect }) {
   const [imgState, setImgState] = useState('loading')
   const rootId    = getBaseId(p.id)
   const rootCaught = gameState.pokemon[rootId]?.numberCaught ?? 0
@@ -101,16 +102,19 @@ function EvolveCard({ pokemon: p, gameState, onSelect }) {
       </div>
       <div style={styles.cardInfo}>
         <span style={styles.cardName}>{p.displayName ?? p.name}</span>
-        <span style={styles.cardCount}>×{rootCaught} caught</span>
+        {gameMode !== 'easy' && <span style={styles.cardCount}>×{rootCaught} caught</span>}
       </div>
     </div>
   )
 }
 
-function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
-  const evolutions = getAvailableEvolutions(p, gameState)
+function EvolvePopup({ pokemon: p, gameState, gameMode = 'easy', onEvolve, onClose }) {
+  const evolutions = getAvailableEvolutions(p, gameState, gameMode)
   const rootId     = getBaseId(p.id)
   const rootCaught = gameState.pokemon[rootId]?.numberCaught ?? 0
+  const requiredCount = gameMode === 'easy'
+    ? countUnlockedInChain(rootId, gameState) + 1
+    : null // each nf has its own characterCount in full mode
   const spriteFile = p.spriteName ?? p.name
 
   return (
@@ -162,9 +166,11 @@ function EvolvePopup({ pokemon: p, gameState, onEvolve, onClose }) {
                   <span style={styles.evoToName}>{toPoke?.displayName ?? toPoke?.name ?? '???'}</span>
                   <div style={styles.evoMeta}>
                     <span style={styles.methodBadge}>{methodLabel}</span>
-                    <span style={{ ...styles.countBadge, color: rootCaught >= nf.characterCount ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
-                      {rootCaught} / {nf.characterCount}
-                    </span>
+                    {gameMode !== 'easy' && (
+                      <span style={{ ...styles.countBadge, color: rootCaught >= nf.characterCount ? 'var(--accent-bright)' : 'var(--text-secondary)' }}>
+                        {rootCaught} / {nf.characterCount}
+                      </span>
+                    )}
                     {itemSrc && (
                       <img src={itemSrc} alt={item?.name} title={item?.displayName ?? item?.name} style={styles.reqSprite} />
                     )}

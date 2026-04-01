@@ -4,9 +4,10 @@ import itemsData    from '../data/items.json'
 import locationsData from '../data/locations.json'
 import { loadSave, saveGame, deleteSave } from '../lib/save'
 import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from '../lib/spawn'
-import { canEvolveInto, performEvolve, getBaseId } from '../lib/evolve'
+import { canEvolveInto, performEvolve, getBaseId, countUnlockedInChain, countChainForms } from '../lib/evolve'
 import { EvolveResultPopup } from './EvolveTab'
 import { assetUrl } from '../lib/assetUrl'
+import ConfirmDialog from './ConfirmDialog'
 
 const TYPES   = ['Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
 const REGIONS = ['Kanto','Johto','Hoenn','Sinnoh','Unova','Kalos','Alola','Galar','Hisui','Paldea']
@@ -41,7 +42,7 @@ const byItemId    = Object.fromEntries(itemsData.map(i   => [i.id, i]))
  * any unlocked form → not-yet-unlocked next form.
  * Mirrors the logic in DexCharacterPanel.SetupEvolutions + DexManager.GetChainRoot.
  */
-function getEvolutionFrontier(caughtId, gameState) {
+function getEvolutionFrontier(caughtId, gameState, gameMode = 'easy') {
   const result  = []
   const visited = new Set()
 
@@ -71,8 +72,8 @@ function getEvolutionFrontier(caughtId, gameState) {
           nextSrc:  nextPoke ? assetUrl(`/sprites/pokemon/mid/${nextPoke.spriteName ?? nextPoke.name}.png`) : '',
           nextName: nextPoke ? (nextPoke.displayName ?? nextPoke.name) : '???',
           current:  gameState.pokemon[rootId]?.numberCaught ?? 0,
-          required: nf.characterCount,
-          canEvolve: canEvolveInto(nfWithFrom, gameState),
+          required: gameMode === 'easy' ? countUnlockedInChain(rootId, gameState) + 1 : nf.characterCount,
+          canEvolve: canEvolveInto(nfWithFrom, gameState, gameMode),
         })
       } else {
         walk(nextId)
@@ -119,7 +120,7 @@ function slotData(slot) {
 }
 
 // ── Main component ────────────────────────────────────────────────────────────
-export default function CatchTab({ gameState, setGameState }) {
+export default function CatchTab({ gameState, setGameState, gameMode = 'easy' }) {
   const [slots,     setSlots]     = useState([])
   const [hintSlots, setHintSlots] = useState([])
   const [animIdx,   setAnimIdx]   = useState(-1)
@@ -128,6 +129,7 @@ export default function CatchTab({ gameState, setGameState }) {
   const [popup,     setPopup]     = useState(null)   // { slot, gameState }
   const [phase,     setPhase]     = useState('grid') // 'grid' | 'gameOver' | 'categoryEmpty'
   const [evolving,  setEvolving]  = useState(null)   // { fromPoke, toPoke }
+  const [confirmReset, setConfirmReset] = useState(false)
 
   // Spawn filters
   const [type1,     setType1]     = useState('')
@@ -179,6 +181,7 @@ export default function CatchTab({ gameState, setGameState }) {
       : assetUrl(`/sprites/catch-bg.png`)
     const img = new Image()
     img.onload = () => {
+      requestAnimationFrame(() => {
       const el = rootRef.current
       if (!el) return
       const { clientWidth: cw, clientHeight: ch } = el
@@ -199,6 +202,7 @@ export default function CatchTab({ gameState, setGameState }) {
       const duration = Math.max(5, (overflow / SCROLL_PX_PER_SEC) * 2)
       setPanAxis(axis)
       setPanDuration(duration)
+      }) // end requestAnimationFrame
     }
     img.onerror = () => { setPanAxis(null) }
     img.src = src
@@ -267,7 +271,7 @@ export default function CatchTab({ gameState, setGameState }) {
   }
 
   function handleEvolveFromPopup(ev) {
-    const newGs = performEvolve(gsRef.current, ev)
+    const newGs = performEvolve(gsRef.current, ev, gameMode)
     gsRef.current = newGs
     setGameState(newGs)
     saveGame(newGs)
@@ -276,11 +280,15 @@ export default function CatchTab({ gameState, setGameState }) {
   }
 
   function handleReset() {
-    if (!confirm('Reset all progress? This cannot be undone.')) return
+    setConfirmReset(true)
+  }
+
+  function handleResetConfirm() {
     deleteSave()
     const fresh = loadSave()
-    gsRef.current = fresh   // sync ref before generateGrid reads it
+    gsRef.current = fresh
     setGameState(fresh)
+    setConfirmReset(false)
     doGenerateGrid(fresh)
   }
 
@@ -393,6 +401,7 @@ export default function CatchTab({ gameState, setGameState }) {
           slot={popup.slot}
           gameState={popup.gameState}
           isFirstCatch={popup.isFirstCatch}
+          gameMode={gameMode}
           onClose={handlePopupClose}
           onEvolve={handleEvolveFromPopup}
         />
@@ -402,6 +411,14 @@ export default function CatchTab({ gameState, setGameState }) {
           fromPoke={evolving.fromPoke}
           toPoke={evolving.toPoke}
           onClose={() => { setEvolving(null); doGenerateGrid(gsRef.current) }}
+        />
+      )}
+      {confirmReset && (
+        <ConfirmDialog
+          title="Start New Game?"
+          message="All progress will be permanently deleted. This cannot be undone."
+          onConfirm={handleResetConfirm}
+          onCancel={() => setConfirmReset(false)}
         />
       )}
     </div>
@@ -466,7 +483,7 @@ function HintPanel({ hintSlots }) {
 }
 
 // ── CatchPopup ────────────────────────────────────────────────────────────────
-function CatchPopup({ slot, gameState, isFirstCatch, onClose, onEvolve }) {
+function CatchPopup({ slot, gameState, isFirstCatch, gameMode = 'easy', onClose, onEvolve }) {
   const d = slotData(slot)
   const catchLine = d.isItem ? `You found ${d.name}!` : `You caught ${d.name}!`
 
@@ -475,8 +492,11 @@ function CatchPopup({ slot, gameState, isFirstCatch, onClose, onEvolve }) {
   let evolutions   = []
 
   if (slot.type === 'pokemon') {
-    remaining  = gameState.pokemon[slot.id]?.numberToSpawn ?? 0
-    evolutions = getEvolutionFrontier(slot.id, gameState)
+    const rawRemaining = gameState.pokemon[slot.id]?.numberToSpawn ?? 0
+    remaining = gameMode === 'easy'
+      ? Math.min(rawRemaining, countChainForms(slot.id))
+      : rawRemaining
+    evolutions = getEvolutionFrontier(slot.id, gameState, gameMode)
   }
 
   return (
@@ -518,9 +538,11 @@ function CatchPopup({ slot, gameState, isFirstCatch, onClose, onEvolve }) {
                 <img src={ev.fromSrc} alt="" style={styles.evoSprite} />
                 <span style={styles.evoArrow}>→</span>
                 <img src={ev.nextSrc} alt={ev.nextName} style={styles.evoSprite} />
-                <span style={{ ...styles.evoCount, color: ev.current >= ev.required ? 'var(--accent-bright)' : '#e57373' }}>
-                  {ev.current} / {ev.required}
-                </span>
+                {gameMode !== 'easy' && (
+                  <span style={{ ...styles.evoCount, color: ev.current >= ev.required ? 'var(--accent-bright)' : '#e57373' }}>
+                    {ev.current} / {ev.required}
+                  </span>
+                )}
                 {ev.canEvolve && (
                   <button className="btn-evolve-golden" onClick={e => { e.stopPropagation(); onEvolve(ev) }}>
                     Evolve
