@@ -146,7 +146,7 @@ function EvolvePopup({ pokemon: p, gameState, gameMode = 'easy', onEvolve, onClo
           {evolutions.map((nf, i) => {
             const toPoke     = byId[nf.nextCharacterID]
             const toFile     = toPoke ? (toPoke.spriteName ?? toPoke.name) : null
-            const item       = nf.evolutionItemID ? byItemId[nf.evolutionItemID] : null
+            const item       = nf.evolutionItemID != null ? byItemId[nf.evolutionItemID] : null
             const itemSrc    = item ? (item.tmType ? assetUrl(`/sprites/items/TM ${item.tmType}.png`) : assetUrl(`/sprites/items/${item.name}.png`)) : null
             const reqChar    = nf.characterRequiredID ? byId[nf.characterRequiredID] : null
             const reqFile    = reqChar ? (reqChar.spriteName ?? reqChar.name) : null
@@ -212,9 +212,11 @@ export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
   const fromSrc  = fromFile ? assetUrl(`/sprites/pokemon/large/${fromFile}.png`) : ''
   const toSrc    = toFile   ? assetUrl(`/sprites/pokemon/large/${toFile}.png`)   : ''
 
+  const done = phase >= 3
+
   return (
     <div style={styles.overlay} onClick={() => phase < 4 ? setPhase(4) : onClose()}>
-      <div style={styles.resultPopup} onClick={e => e.stopPropagation()}>
+      <div style={{ ...styles.resultPopup, ...(done ? styles.resultPopupGold : {}) }} onClick={e => e.stopPropagation()}>
 
         <p style={styles.resultLine}>
           <span style={styles.resultFrom}>{fromName}</span>
@@ -249,8 +251,8 @@ export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
                 animation: phase === 2
                   ? 'evo-scale-in 0.9s ease-out both'
                   : phase === 3
-                    ? 'evo-from-white 0.9s ease-out both'
-                    : 'none',
+                    ? 'evo-from-white 0.9s ease-out both, first-catch-glow 2.5s ease-in-out infinite'
+                    : 'first-catch-glow 2.5s ease-in-out infinite',
               }}
               onError={e => { e.target.onerror = null; e.target.src = assetUrl(`/sprites/pokemon/large/${toPoke.name}.png`) }}
             />
@@ -394,8 +396,8 @@ const styles = {
     gap: '16px',
   },
   popupHeaderSprite: {
-    width: '72px',
-    height: '72px',
+    width: '120px',
+    height: '120px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
     flexShrink: 0,
@@ -455,8 +457,8 @@ const styles = {
     flexShrink: 0,
   },
   evoSprite: {
-    width: '48px',
-    height: '48px',
+    width: '96px',
+    height: '96px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
@@ -500,8 +502,8 @@ const styles = {
     fontWeight: '700',
   },
   reqSprite: {
-    width: '24px',
-    height: '24px',
+    width: '48px',
+    height: '48px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
@@ -517,9 +519,14 @@ const styles = {
     cursor: 'pointer',
     transition: 'opacity var(--transition)',
   },
+  resultPopupGold: {
+    borderColor: '#FFD700',
+    boxShadow: '0 0 32px rgba(255, 215, 0, 0.25)',
+  },
   resultPopup: {
     background: 'var(--bg-elevated)',
-    border: '1px solid var(--border-strong)',
+    border: '2px solid var(--border-strong)',
+    transition: 'border-color 0.6s ease-out, box-shadow 0.6s ease-out',
     borderRadius: 'var(--radius-lg)',
     padding: '40px 56px 32px',
     display: 'flex',

@@ -375,6 +375,7 @@ export default function CatchTab({ gameState, setGameState, gameMode = 'easy' })
           {anyFilterActive && (
             <button style={styles.resetFilterBtn} onClick={handleResetFilters} title="Reset filters">✕</button>
           )}
+          <button style={styles.refreshBtn} onClick={() => doGenerateGrid(gsRef.current)} title="Refresh grid">↻</button>
         </div>
       )}
 
@@ -563,23 +564,41 @@ function CatchPopup({ slot, gameState, isFirstCatch, gameMode = 'easy', onClose,
             <span style={styles.statChip}>
               {remaining === 0 ? 'None left in the wild' : `${remaining} left in the wild`}
             </span>
-            {evolutions.map((ev, i) => (
-              <div key={i} style={styles.evoChip}>
-                <img src={ev.fromSrc} alt="" style={styles.evoSprite} />
-                <span style={styles.evoArrow}>→</span>
-                <img src={ev.nextSrc} alt={ev.nextName} style={styles.evoSprite} />
-                {gameMode !== 'easy' && (
-                  <span style={{ ...styles.evoCount, color: ev.current >= ev.required ? 'var(--accent-bright)' : '#e57373' }}>
-                    {ev.current} / {ev.required}
-                  </span>
-                )}
-                {ev.canEvolve && (
-                  <button className="btn-evolve-golden" onClick={e => { e.stopPropagation(); onEvolve(ev) }}>
-                    Evolve
-                  </button>
-                )}
-              </div>
-            ))}
+            {evolutions.map((ev, i) => {
+              const needsItem = ev.evolutionItemID != null && (ev.evolutionMethod === 'Item' || ev.evolutionMethod === 'ItemAndCharacterRequired')
+              const needsChar = !!ev.characterRequiredID && (ev.evolutionMethod === 'CharacterRequired' || ev.evolutionMethod === 'ItemAndCharacterRequired')
+              const item      = needsItem ? byItemId[ev.evolutionItemID] : null
+              const reqChar   = needsChar ? byPokemonId[ev.characterRequiredID] : null
+              const itemSrc   = item ? (item.tmType ? assetUrl(`/sprites/items/TM ${item.tmType}.png`) : assetUrl(`/sprites/items/${item.name}.png`)) : null
+              const reqSrc    = reqChar ? assetUrl(`/sprites/pokemon/mid/${reqChar.spriteName ?? reqChar.name}.png`) : null
+              const itemHeld  = item ? (gameState.items[item.id]?.numberCollected ?? 0) > 0 : true
+              const charMet   = reqChar ? (gameState.pokemon[reqChar.id]?.isUnlocked ?? false) : true
+              return (
+                <div key={i} style={styles.evoChip}>
+                  <img src={ev.fromSrc} alt="" style={styles.evoSprite} />
+                  <span style={styles.evoArrow}>→</span>
+                  <img src={ev.nextSrc} alt={ev.nextName} style={styles.evoSprite} />
+                  {gameMode !== 'easy' && (
+                    <span style={{ ...styles.evoCount, color: ev.current >= ev.required ? 'var(--accent-bright)' : '#e57373' }}>
+                      {ev.current} / {ev.required}
+                    </span>
+                  )}
+                  {itemSrc && (
+                    <img src={itemSrc} alt={item.name} title={item.displayName ?? item.name}
+                      style={{ ...styles.evoSprite, opacity: itemHeld ? 1 : 0.35 }} />
+                  )}
+                  {reqSrc && (
+                    <img src={reqSrc} alt={reqChar.name} title={reqChar.displayName ?? reqChar.name}
+                      style={{ ...styles.evoSprite, opacity: charMet ? 1 : 0.35 }} />
+                  )}
+                  {ev.canEvolve && (
+                    <button className="btn-evolve-golden" onClick={e => { e.stopPropagation(); onEvolve(ev) }}>
+                      Evolve
+                    </button>
+                  )}
+                </div>
+              )
+            })}
           </div>
         )}
       </div>
@@ -655,6 +674,22 @@ const styles = {
     cursor: 'pointer',
     whiteSpace: 'nowrap',
     transition: 'all 0.15s ease',
+  },
+  refreshBtn: {
+    marginLeft: 'auto',
+    flexShrink: 0,
+    width: '26px',
+    height: '26px',
+    padding: '0',
+    background: 'rgba(255,255,255,0.07)',
+    border: '1px solid rgba(255,255,255,0.15)',
+    borderRadius: '50%',
+    color: 'rgba(255,255,255,0.5)',
+    fontSize: '14px',
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   resetFilterBtn: {
     flexShrink: 0,

@@ -92,11 +92,26 @@ function weightedSelect(pool, getWeight) {
   return pool[pool.length - 1]
 }
 
-function pokemonClue(p) {
+// Maps filter values → category keys used in p.categories
+const FORM_TO_CAT = { Gigantamax: 'GigantamaxForm' } // all others are same key
+const CLS_TO_CAT  = {
+  Starter: 'ClassStarter', PseudoLegendary: 'ClassPseudo',
+  UltraBeast: 'ClassUltraBeast', Legendary: 'ClassLegendary',
+  Mythical: 'ClassMythical', Paradox: 'ClassParadox',
+  Baby: 'ClassBaby', Fossil: 'ClassFossil',
+}
+
+function pokemonClue(p, spawnFilter = {}) {
+  const suppress = new Set()
+  if (spawnFilter.type1) suppress.add(spawnFilter.type1)
+  if (spawnFilter.type2) suppress.add(spawnFilter.type2)
+  if (spawnFilter.form)  suppress.add(FORM_TO_CAT[spawnFilter.form] ?? spawnFilter.form)
+  if (spawnFilter.cls)   suppress.add(CLS_TO_CAT[spawnFilter.cls]   ?? ('Class' + spawnFilter.cls))
+
   const pool = []
-  if (p.region) pool.push(p.region + ' Pokémon')
+  if (p.region && !spawnFilter.region) pool.push(p.region + ' Pokémon')
   for (const cat of (p.categories ?? []))
-    if (CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])
+    if (!suppress.has(cat) && CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])
   return pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : '???'
 }
 
@@ -163,7 +178,7 @@ export function generateGrid(gameState, spawnFilter = {}) {
       if (itemCounts[item.id] <= 0) workingItems = workingItems.filter(x => x.id !== item.id)
     } else {
       const poke = weightedSelect(workingChars, x => CHAR_WEIGHTS[x.rarity] ?? 1)
-      slots.push({ type: 'pokemon', id: poke.id, clue: pokemonClue(poke) })
+      slots.push({ type: 'pokemon', id: poke.id, clue: pokemonClue(poke, spawnFilter) })
       charCounts[poke.id]--
       if (charCounts[poke.id] <= 0) workingChars = workingChars.filter(x => x.id !== poke.id)
     }

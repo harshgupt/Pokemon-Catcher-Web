@@ -53,7 +53,7 @@ export function canEvolveInto(nf, gameState, gameMode = 'easy') {
     ? countUnlockedInChain(rootId, gameState) + 1
     : nf.characterCount
   const hasCount   = rootCaught >= required
-  const hasItem    = !nf.evolutionItemID
+  const hasItem    = (nf.evolutionItemID == null)
     || (gameState.items[nf.evolutionItemID]?.numberCollected ?? 0) > 0
   const hasChar    = !nf.characterRequiredID
     || (gameState.pokemon[nf.characterRequiredID]?.isUnlocked ?? false)
@@ -78,7 +78,7 @@ export function performEvolve(gameState, nf, gameMode = 'easy') {
     gs = { ...gs, pokemon: { ...gs.pokemon, [rootId]: { ...rootCur, numberCaught: Math.max(0, (rootCur.numberCaught ?? 0) - nf.characterCount) } } }
   }
 
-  if (nf.evolutionItemID && (nf.evolutionMethod === 'Item' || nf.evolutionMethod === 'ItemAndCharacterRequired')) {
+  if (nf.evolutionItemID != null && (nf.evolutionMethod === 'Item' || nf.evolutionMethod === 'ItemAndCharacterRequired')) {
     const itemCur = gs.items[nf.evolutionItemID] ?? {}
     gs = { ...gs, items: { ...gs.items, [nf.evolutionItemID]: { ...itemCur, numberCollected: Math.max(0, (itemCur.numberCollected ?? 0) - 1) } } }
   }
