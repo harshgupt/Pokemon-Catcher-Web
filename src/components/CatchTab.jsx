@@ -242,8 +242,12 @@ export default function CatchTab({ gameState, setGameState, gameMode = 'easy' })
   useEffect(() => { doGenerateGrid(gsRef.current) }, [type1, type2, region, location, form, cls, itemsOnly])
 
   function pickHints(pool) {
-    const shuffled = [...pool].sort(() => Math.random() - 0.5)
-    return shuffled.slice(0, 5)
+    const arr = [...pool]
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    return arr.slice(0, 5)
   }
 
   function doGenerateGrid(gs) {

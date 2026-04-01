@@ -146,7 +146,7 @@ function EvolvePopup({ pokemon: p, gameState, gameMode = 'easy', onEvolve, onClo
           {evolutions.map((nf, i) => {
             const toPoke     = byId[nf.nextCharacterID]
             const toFile     = toPoke ? (toPoke.spriteName ?? toPoke.name) : null
-            const item       = nf.evolutionItemID != null ? byItemId[nf.evolutionItemID] : null
+            const item       = (nf.evolutionItemID != null && (nf.evolutionMethod === 'Item' || nf.evolutionMethod === 'ItemAndCharacterRequired')) ? byItemId[nf.evolutionItemID] : null
             const itemSrc    = item ? (item.tmType ? assetUrl(`/sprites/items/TM ${item.tmType}.png`) : assetUrl(`/sprites/items/${item.name}.png`)) : null
             const reqChar    = nf.characterRequiredID ? byId[nf.characterRequiredID] : null
             const reqFile    = reqChar ? (reqChar.spriteName ?? reqChar.name) : null
@@ -216,7 +216,7 @@ export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
 
   return (
     <div style={styles.overlay} onClick={() => phase < 4 ? setPhase(4) : onClose()}>
-      <div style={{ ...styles.resultPopup, ...(done ? styles.resultPopupGold : {}) }} onClick={e => e.stopPropagation()}>
+      <div style={{ ...styles.resultPopup, ...styles.resultPopupGold }} onClick={e => e.stopPropagation()}>
 
         <p style={styles.resultLine}>
           <span style={styles.resultFrom}>{fromName}</span>
@@ -243,13 +243,13 @@ export function EvolveResultPopup({ fromPoke, toPoke, onClose }) {
           {/* To sprite — visible during phases 2–4 */}
           {phase >= 2 && toFile && (
             <img
-              key={phase === 2 ? 'to-anim' : 'to-done'}
+              key="to"
               src={toSrc}
               alt={toName}
               style={{
                 ...styles.evoStageLarge,
                 animation: phase === 2
-                  ? 'evo-scale-in 0.9s ease-out both'
+                  ? 'evo-scale-in 0.9s ease-out both, first-catch-glow 2.5s ease-in-out infinite'
                   : phase === 3
                     ? 'evo-from-white 0.9s ease-out both, first-catch-glow 2.5s ease-in-out infinite'
                     : 'first-catch-glow 2.5s ease-in-out infinite',
@@ -502,8 +502,8 @@ const styles = {
     fontWeight: '700',
   },
   reqSprite: {
-    width: '48px',
-    height: '48px',
+    width: '36px',
+    height: '36px',
     objectFit: 'contain',
     imageRendering: 'pixelated',
   },
@@ -526,7 +526,6 @@ const styles = {
   resultPopup: {
     background: 'var(--bg-elevated)',
     border: '2px solid var(--border-strong)',
-    transition: 'border-color 0.6s ease-out, box-shadow 0.6s ease-out',
     borderRadius: 'var(--radius-lg)',
     padding: '40px 56px 32px',
     display: 'flex',
