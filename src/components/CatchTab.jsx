@@ -1,9 +1,9 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import pokemonData  from '../data/pokemon.json'
 import itemsData    from '../data/items.json'
 import locationsData from '../data/locations.json'
 import { loadSave, saveGame, deleteSave } from '../lib/save'
-import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens } from '../lib/spawn'
+import { generateGrid, collectToken, getAvailableTokens, getGlobalTokens, formSets, classSets, locationSets } from '../lib/spawn'
 import { canEvolveInto, performEvolve, getBaseId, countUnlockedInChain, countChainForms } from '../lib/evolve'
 import { EvolveResultPopup } from './EvolveTab'
 import { assetUrl } from '../lib/assetUrl'
@@ -164,7 +164,37 @@ export default function CatchTab({ gameState, setGameState, gameMode = 'easy' })
     }
   }, [])
 
-  // Detect which axis overflows and compute duration for constant scroll speed
+  // Compute which filter options have remaining tokens
+  const availableFilters = useMemo(() => {
+    const activeIds = new Set(
+      pokemonData.filter(p => (gameState.pokemon[p.id]?.numberToSpawn ?? 0) > 0).map(p => p.id)
+    )
+    const types = new Set()
+    const regions = new Set()
+    for (const p of pokemonData) {
+      if (!activeIds.has(p.id)) continue
+      for (const t of (p.types ?? [])) types.add(t)
+      if (p.region) regions.add(p.region)
+    }
+    const forms = new Set(
+      FORMS.map(f => f.value).filter(v => formSets[v] && [...formSets[v]].some(id => activeIds.has(id)))
+    )
+    const classes = new Set(
+      CLASSES.map(c => c.value).filter(v => classSets[v] && [...classSets[v]].some(id => activeIds.has(id)))
+    )
+    const locs = {}
+    for (const [reg, locMap] of Object.entries(locationSets)) {
+      for (const [loc, ids] of Object.entries(locMap)) {
+        if ([...ids].some(id => activeIds.has(id))) {
+          if (!locs[reg]) locs[reg] = new Set()
+          locs[reg].add(loc)
+        }
+      }
+    }
+    return { types, regions, forms, classes, locs }
+  }, [gameState.pokemon])
+
+// Detect which axis overflows and compute duration for constant scroll speed
   const SCROLL_PX_PER_SEC = 15
   useEffect(() => {
     let bgRegion = region, bgLocation = location
@@ -312,29 +342,29 @@ export default function CatchTab({ gameState, setGameState, gameMode = 'easy' })
         <div style={styles.filterBar}>
           <select style={styles.filterSelect} value={type1} onChange={e => setType1(e.target.value)} disabled={filtersDisabled}>
             <option value="">Type 1</option>
-            {TYPES.map(t => <option key={t} value={t}>{t}</option>)}
+            {TYPES.filter(t => availableFilters.types.has(t)).map(t => <option key={t} value={t}>{t}</option>)}
           </select>
           <select style={styles.filterSelect} value={type2} onChange={e => setType2(e.target.value)} disabled={filtersDisabled}>
             <option value="">Type 2</option>
-            {TYPES.map(t => <option key={t} value={t}>{t}</option>)}
+            {TYPES.filter(t => availableFilters.types.has(t)).map(t => <option key={t} value={t}>{t}</option>)}
           </select>
           <select style={styles.filterSelect} value={region} onChange={e => handleRegionChange(e.target.value)} disabled={filtersDisabled}>
             <option value="">Region</option>
-            {REGIONS.map(r => <option key={r} value={r}>{r}</option>)}
+            {REGIONS.filter(r => availableFilters.regions.has(r)).map(r => <option key={r} value={r}>{r}</option>)}
           </select>
           {region && (
             <select style={styles.filterSelect} value={location} onChange={e => setLocation(e.target.value)} disabled={filtersDisabled}>
               <option value="">Location</option>
-              {regionLocations.map(l => <option key={l} value={l}>{l}</option>)}
+              {regionLocations.filter(l => availableFilters.locs[region]?.has(l)).map(l => <option key={l} value={l}>{l}</option>)}
             </select>
           )}
           <select style={{ ...styles.filterSelect, ...styles.filterSelectWide }} value={form} onChange={e => setForm(e.target.value)} disabled={filtersDisabled}>
             <option value="">Form</option>
-            {FORMS.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
+            {FORMS.filter(f => availableFilters.forms.has(f.value)).map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
           </select>
           <select style={{ ...styles.filterSelect, ...styles.filterSelectWide }} value={cls} onChange={e => setCls(e.target.value)} disabled={filtersDisabled}>
             <option value="">Class</option>
-            {CLASSES.map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
+            {CLASSES.filter(c => availableFilters.classes.has(c.value)).map(c => <option key={c.value} value={c.value}>{c.label}</option>)}
           </select>
           <button
             style={{ ...styles.itemsBtn, ...(itemsOnly ? styles.itemsBtnActive : {}) }}

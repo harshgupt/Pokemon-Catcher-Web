@@ -53,10 +53,10 @@ const CLUE_MAP = {
 }
 
 // ── Filter lookup sets ────────────────────────────────────────────────────────
-const formSets     = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
-const classSets    = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+export const formSets     = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
+export const classSets    = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
 // locationSets[region][location] = Set of ids
-const locationSets = Object.fromEntries(
+export const locationSets = Object.fromEntries(
   Object.entries(locations).map(([region, locs]) => [
     region,
     Object.fromEntries(Object.entries(locs).map(([loc, ids]) => [loc, new Set(ids)]))
