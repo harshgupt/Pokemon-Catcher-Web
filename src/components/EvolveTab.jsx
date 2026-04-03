@@ -436,6 +436,7 @@ const styles = {
 		display: "grid",
 		gridTemplateColumns: "repeat(auto-fill, minmax(110px, 1fr))",
 		alignItems: "start",
+		alignContent: "start",
 		gap: "10px",
 		overflowY: "auto",
 		paddingRight: "4px",
