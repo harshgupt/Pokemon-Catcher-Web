@@ -638,7 +638,7 @@ export default function CatchTab({
 
 				{phase === "grid" && (
 					<>
-						<HintPanel hintSlots={hintSlots} />
+						<HintPanel hintSlots={hintSlots} gameState={gameState} />
 
 						<div style={styles.gridPanel}>
 							<div style={styles.grid}>
@@ -743,11 +743,14 @@ function BallSlot({
 }
 
 // ── HintPanel ─────────────────────────────────────────────────────────────────
-function HintPanel({ hintSlots }) {
+function HintPanel({ hintSlots, gameState }) {
 	return (
 		<div style={styles.hintPanel}>
 			{hintSlots.map((slot, i) => {
 				let src;
+				const isUnlocked = slot.type === "pokemon"
+					? gameState?.pokemon[slot.id]?.isUnlocked ?? false
+					: gameState?.items[slot.id]?.isUnlocked ?? false;
 				if (slot.type === "pokemon") {
 					const p = byPokemonId[slot.id];
 					src = assetUrl(`/sprites/pokemon/mid/${p.spriteName ?? p.name}.png`);
@@ -757,16 +760,15 @@ function HintPanel({ hintSlots }) {
 						? assetUrl(`/sprites/items/TM ${item.tmType}.png`)
 						: assetUrl(`/sprites/items/${item.name}.png`);
 				}
+				const baseStyle = slot.type === "pokemon"
+					? styles.hintSpritePokemon
+					: styles.hintSpriteItem;
 				return (
 					<img
 						key={i}
 						src={src}
 						alt=""
-						style={
-							slot.type === "pokemon"
-								? styles.hintSpritePokemon
-								: styles.hintSpriteItem
-						}
+						style={isUnlocked ? { ...baseStyle, filter: "none", opacity: 1 } : baseStyle}
 						draggable={false}
 					/>
 				);
@@ -1061,12 +1063,14 @@ const styles = {
 		WebkitBackdropFilter: "blur(12px)",
 		border: "1px solid rgba(255,255,255,0.07)",
 		borderRadius: "20px",
-		padding: "10px 14px",
+		padding: "0 10px",
 		boxShadow: "0 8px 32px rgba(0,0,0,0.4)",
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
-		justifyContent: "space-evenly",
+		justifyContent: "center",
+		gap: "8px",
+		width: "96px",
 		height: "428px",
 	},
 	hintSpritePokemon: {
@@ -1078,8 +1082,8 @@ const styles = {
 		opacity: 0.65,
 	},
 	hintSpriteItem: {
-		width: "68px",
-		height: "68px",
+		width: "56px",
+		height: "56px",
 		objectFit: "contain",
 		imageRendering: "pixelated",
 		filter: "brightness(0)",
