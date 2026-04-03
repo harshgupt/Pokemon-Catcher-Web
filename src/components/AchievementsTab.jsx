@@ -84,13 +84,12 @@ function AchievementCard({ ach, done, onClick }) {
 			style={{ ...styles.card, ...(done ? styles.cardDone : styles.cardLocked) }}
 			onClick={onClick}
 		>
-			<span style={{ ...styles.cardName, ...(done ? {} : styles.cardNameLocked) }}>
-				{ach.name}
+			<span style={styles.cardInner}>
+				<span style={done ? styles.diamondDone : styles.diamondLocked}>◆</span>
+				<span style={{ ...styles.cardName, ...(done ? {} : styles.cardNameLocked) }}>
+					{ach.name}
+				</span>
 			</span>
-			{done && ach.flavorText && (
-				<span style={styles.cardFlavor}>{ach.flavorText}</span>
-			)}
-			{!done && <span style={styles.lockIcon}>◇</span>}
 		</div>
 	);
 }
@@ -196,14 +195,25 @@ const styles = {
 	},
 	card: {
 		borderRadius: "var(--radius-md)",
-		padding: "12px 14px",
+		padding: "8px 12px",
 		cursor: "pointer",
-		display: "flex",
-		flexDirection: "column",
-		gap: "6px",
 		transition: "border-color var(--transition), background var(--transition)",
-		minHeight: "64px",
 		boxSizing: "border-box",
+	},
+	cardInner: {
+		display: "flex",
+		alignItems: "center",
+		gap: "7px",
+	},
+	diamondDone: {
+		fontSize: "8px",
+		color: "#FFD700",
+		flexShrink: 0,
+	},
+	diamondLocked: {
+		fontSize: "8px",
+		color: "var(--text-muted)",
+		flexShrink: 0,
 	},
 	cardDone: {
 		background: "var(--bg-elevated)",
@@ -222,20 +232,6 @@ const styles = {
 	},
 	cardNameLocked: {
 		color: "var(--text-muted)",
-	},
-	cardFlavor: {
-		fontSize: "10px",
-		color: "var(--text-secondary)",
-		lineHeight: "1.4",
-		overflow: "hidden",
-		display: "-webkit-box",
-		WebkitLineClamp: 2,
-		WebkitBoxOrient: "vertical",
-	},
-	lockIcon: {
-		fontSize: "11px",
-		color: "var(--text-muted)",
-		opacity: 0.5,
 	},
 	// Popup
 	overlay: {
