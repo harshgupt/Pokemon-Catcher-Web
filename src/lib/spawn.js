@@ -184,6 +184,13 @@ export function generateGrid(gameState, spawnFilter = {}) {
     }
   }
 
+  // Shuffle so the weighted selection order doesn't create a rarity gradient
+  // (common tends to be picked first → appears at top without this)
+  for (let i = slots.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [slots[i], slots[j]] = [slots[j], slots[i]]
+  }
+
   return slots
 }
 
