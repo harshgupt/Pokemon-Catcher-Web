@@ -1,10 +1,11 @@
 import { useState } from 'react'
 
 const NAV_ITEMS = [
-  { id: 'catch',    label: 'Catch',    icon: '⬡' },
-  { id: 'pokedex',  label: 'Pokédex',  icon: '◉' },
-  { id: 'items',    label: 'Items',    icon: '◈' },
-  { id: 'evolve',   label: 'Evolve',   icon: '⟳' },
+  { id: 'catch',        label: 'Catch',        icon: '⬡' },
+  { id: 'pokedex',      label: 'Pokédex',      icon: '◉' },
+  { id: 'items',        label: 'Items',        icon: '◈' },
+  { id: 'evolve',       label: 'Evolve',       icon: '⟳' },
+  { id: 'achievements', label: 'Achievements', icon: '◆' },
 ]
 
 const BOTTOM_ITEMS = [

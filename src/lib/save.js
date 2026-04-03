@@ -47,7 +47,7 @@ function createDefaults() {
       isUnlocked:      false,
     }
   }
-  return { pokemon, items, gameMode: 'easy' }
+  return { pokemon, items, gameMode: 'easy', completedAchievements: [], evolutionCount: 0 }
 }
 
 export function newGame(gameMode = 'easy') {
@@ -82,6 +82,8 @@ export function loadSave() {
         }
       }
       if (saved.gameMode) defaults.gameMode = saved.gameMode
+      if (saved.completedAchievements) defaults.completedAchievements = saved.completedAchievements
+      if (saved.evolutionCount) defaults.evolutionCount = saved.evolutionCount
       // Cap spawn counts for easy mode saves that may have old full-mode values
       if (defaults.gameMode === 'easy') {
         for (const p of pokemonData) {

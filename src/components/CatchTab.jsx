@@ -3,6 +3,7 @@ import pokemonData from "../data/pokemon.json";
 import itemsData from "../data/items.json";
 import locationsData from "../data/locations.json";
 import { loadSave, saveGame, deleteSave } from "../lib/save";
+import { checkAchievements, applyAchievements, achievementsData } from "../lib/achievements";
 import {
 	generateGrid,
 	collectToken,
@@ -208,10 +209,21 @@ function slotData(slot) {
 }
 
 // ── Main component ────────────────────────────────────────────────────────────
+function fireAchievements(gs, context, pushAchievement) {
+	const newIds = checkAchievements(gs, context);
+	if (!newIds.length) return gs;
+	newIds.forEach(id => {
+		const ach = achievementsData.find(a => a.id === id);
+		if (ach) pushAchievement?.({ icon: '🏆', title: ach.name, description: ach.flavorText });
+	});
+	return applyAchievements(gs, newIds);
+}
+
 export default function CatchTab({
 	gameState,
 	setGameState,
 	gameMode = "easy",
+	pushAchievement,
 }) {
 	const [slots, setSlots] = useState([]);
 	const [hintSlots, setHintSlots] = useState([]);
@@ -419,8 +431,10 @@ export default function CatchTab({
 				slot.type === "pokemon"
 					? (gsRef.current.pokemon[slot.id]?.isUnlocked ?? false)
 					: (gsRef.current.items[slot.id]?.isUnlocked ?? false);
-			const newGs = collectToken(gsRef.current, slot);
+			const collected = collectToken(gsRef.current, slot);
 			const isFirstCatch = !wasUnlocked;
+			const newGs = fireAchievements(collected, {}, pushAchievement);
+			gsRef.current = newGs;
 			setGameState(newGs);
 			saveGame(newGs);
 
@@ -434,14 +448,21 @@ export default function CatchTab({
 	}
 
 	function handleEvolveFromPopup(ev) {
-		const newGs = performEvolve(gsRef.current, ev, gameMode);
+		const toPoke = byPokemonId[ev.nextId];
+		const context = {
+			evolutionPerformed: true,
+			isMega: toPoke?.categories?.includes('MegaEvolution') ?? false,
+			isGiga: toPoke?.categories?.includes('GigantamaxForm') ?? false,
+		};
+		const evolved = performEvolve(gsRef.current, ev, gameMode);
+		const newGs = fireAchievements(evolved, context, pushAchievement);
 		gsRef.current = newGs;
 		setGameState(newGs);
 		saveGame(newGs);
 		setPopup(null);
 		setEvolving({
 			fromPoke: byPokemonId[ev.fromId],
-			toPoke: byPokemonId[ev.nextId],
+			toPoke,
 		});
 	}
 

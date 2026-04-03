@@ -83,5 +83,7 @@ export function performEvolve(gameState, nf, gameMode = 'easy') {
     gs = { ...gs, items: { ...gs.items, [nf.evolutionItemID]: { ...itemCur, numberCollected: Math.max(0, (itemCur.numberCollected ?? 0) - 1) } } }
   }
 
+  gs = { ...gs, evolutionCount: (gs.evolutionCount ?? 0) + 1 }
+
   return gs
 }

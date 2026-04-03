@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import pokemonData from "../data/pokemon.json";
 import { saveGame } from "../lib/save";
+import { checkAchievements, applyAchievements, achievementsData } from "../lib/achievements";
 import {
 	byId,
 	byItemId,
@@ -48,6 +49,7 @@ export default function EvolveTab({
 	gameState,
 	setGameState,
 	gameMode = "easy",
+	pushAchievement,
 }) {
 	const [selected, setSelected] = useState(null); // pokemon for evolve options popup
 	const [evolved, setEvolved] = useState(null); // { fromPoke, toPoke } for result popup
@@ -57,11 +59,23 @@ export default function EvolveTab({
 	);
 
 	function handleEvolve(nf) {
-		const newGs = performEvolve(gameState, nf, gameMode);
-		setGameState(newGs);
-		saveGame(newGs);
+		const toPoke = byId[nf.nextCharacterID];
+		const context = {
+			evolutionPerformed: true,
+			isMega: toPoke?.categories?.includes('MegaEvolution') ?? false,
+			isGiga: toPoke?.categories?.includes('GigantamaxForm') ?? false,
+		};
+		const evolved = performEvolve(gameState, nf, gameMode);
+		const newIds = checkAchievements(evolved, context);
+		const finalGs = applyAchievements(evolved, newIds);
+		setGameState(finalGs);
+		saveGame(finalGs);
+		newIds.forEach(id => {
+			const ach = achievementsData.find(a => a.id === id);
+			if (ach) pushAchievement?.({ icon: '🏆', title: ach.name, description: ach.flavorText });
+		});
 		setSelected(null);
-		setEvolved({ fromPoke: byId[nf.fromId], toPoke: byId[nf.nextCharacterID] });
+		setEvolved({ fromPoke: byId[nf.fromId], toPoke });
 	}
 
 	function handleResultClose() {
