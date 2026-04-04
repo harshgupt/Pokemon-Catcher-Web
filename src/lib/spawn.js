@@ -1,8 +1,9 @@
 // Ports GridSpawner.cs logic exactly
-import pokemonData from '../data/pokemon.json'
-import itemsData   from '../data/items.json'
-import filters   from '../data/pokedex-filters.json'
-import locations from '../data/locations.json'
+import pokemonData    from '../data/pokemon.json'
+import itemsData      from '../data/items.json'
+import filters        from '../data/pokedex-filters.json'
+import catchFilters   from '../data/catch-filters.json'
+import locations      from '../data/locations.json'
 
 // ── Rarity weights (matches GetCharacterWeight) ───────────────────────────────
 const CHAR_WEIGHTS = {
@@ -34,6 +35,14 @@ const TYPE_CLUE_MAP = {
   Ground: 'Ground type', Steel: 'Steel type', Normal: 'Normal type',
 }
 
+const FORM_CLUE_MAP = {
+  AlternateForm:  'Alternate Form',
+  RegionalForm:   'Regional Form',
+  ConvergentForm: 'Convergent Form',
+  MegaEvolution:  'Mega Evolution',
+  GigantamaxForm: 'Gigantamax',
+}
+
 const CLUE_MAP = {
   ClassStarter:    'Starter Pokémon',
   ClassPseudo:     'Pseudo-Legendary',
@@ -41,12 +50,6 @@ const CLUE_MAP = {
   ClassParadox:    'Paradox Pokémon',
   ClassLegendary:  'Legendary Pokémon',
   ClassMythical:   'Mythical Pokémon',
-
-  AlternateForm:  'Alternate Form',
-  RegionalForm:   'Regional Form',
-  ConvergentForm: 'Convergent Form',
-  MegaEvolution:  'Mega Evolution',
-  GigantamaxForm: 'Gigantamax',
 
   EvolutionSingle: 'Does not evolve',
   EvolutionDouble: 'Two-stage evolution',
@@ -56,7 +59,8 @@ const CLUE_MAP = {
 
 // ── Filter lookup sets ────────────────────────────────────────────────────────
 export const formSets     = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
-export const classSets    = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+export const classSets       = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+export const catchFormSets   = Object.fromEntries(Object.entries(catchFilters).map(([k, ids]) => [k, new Set(ids)]))
 // locationSets[region][location] = Set of ids
 export const locationSets = Object.fromEntries(
   Object.entries(locations).map(([region, locs]) => [
@@ -78,7 +82,7 @@ function matchesFilter(p, f) {
   } else if (f.region) {
     if (p.region !== f.region)                                          return false
   }
-  if (f.form  && !formSets[f.form]?.has(p.id))                         return false
+  if (f.form  && !catchFormSets[f.form]?.has(p.id))                    return false
   if (f.cls   && !classSets[f.cls]?.has(p.id))                         return false
   return true
 }
@@ -94,8 +98,8 @@ function weightedSelect(pool, getWeight) {
   return pool[pool.length - 1]
 }
 
-// Maps filter values → category keys used in p.categories
-const FORM_TO_CAT = { Gigantamax: 'GigantamaxForm' } // all others are same key
+// Maps spawn filter form values → p.forms keys
+const FORM_FILTER_MAP = { Gigantamax: 'GigantamaxForm' } // all others are same key
 const CLS_TO_CAT  = {
   Starter: 'ClassStarter', PseudoLegendary: 'ClassPseudo',
   UltraBeast: 'ClassUltraBeast', Legendary: 'ClassLegendary',
@@ -107,13 +111,15 @@ function pokemonClue(p, spawnFilter = {}) {
   const suppress = new Set()
   if (spawnFilter.type1) suppress.add(spawnFilter.type1)
   if (spawnFilter.type2) suppress.add(spawnFilter.type2)
-  if (spawnFilter.form)  suppress.add(FORM_TO_CAT[spawnFilter.form] ?? spawnFilter.form)
+  if (spawnFilter.form)  suppress.add(FORM_FILTER_MAP[spawnFilter.form] ?? spawnFilter.form)
   if (spawnFilter.cls)   suppress.add(CLS_TO_CAT[spawnFilter.cls]   ?? ('Class' + spawnFilter.cls))
 
   const pool = []
   if (p.region && !spawnFilter.region) pool.push(p.region + ' Pokémon')
   for (const type of (p.types ?? []))
     if (!suppress.has(type) && TYPE_CLUE_MAP[type]) pool.push(TYPE_CLUE_MAP[type])
+  for (const form of (p.forms ?? []))
+    if (!suppress.has(form) && FORM_CLUE_MAP[form]) pool.push(FORM_CLUE_MAP[form])
   for (const cat of (p.categories ?? []))
     if (!suppress.has(cat) && CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])
   return pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : '???'

@@ -9,7 +9,7 @@ import {
 	collectToken,
 	getAvailableTokens,
 	getGlobalTokens,
-	formSets,
+	catchFormSets,
 	classSets,
 	locationSets,
 } from "../lib/spawn";
@@ -71,8 +71,8 @@ const BG_POOL = Object.entries(locationsData)
 	);
 const FORMS = [
 	{ value: "MegaEvolution", label: "Mega Evolution" },
+	{ value: "GigantamaxForm", label: "Gigantamax" },
 	{ value: "RegionalForm", label: "Regional Form" },
-	{ value: "Gigantamax", label: "Gigantamax" },
 	{ value: "ConvergentForm", label: "Convergent Form" },
 	{ value: "AlternateForm", label: "Alternate Form" },
 ];
@@ -288,7 +288,7 @@ export default function CatchTab({
 		}
 		const forms = new Set(
 			FORMS.map((f) => f.value).filter(
-				(v) => formSets[v] && [...formSets[v]].some((id) => activeIds.has(id)),
+				(v) => catchFormSets[v] && [...catchFormSets[v]].some((id) => activeIds.has(id)),
 			),
 		);
 		const classes = new Set(
@@ -451,8 +451,8 @@ export default function CatchTab({
 		const toPoke = byPokemonId[ev.nextId];
 		const context = {
 			evolutionPerformed: true,
-			isMega: toPoke?.categories?.includes('MegaEvolution') ?? false,
-			isGiga: toPoke?.categories?.includes('GigantamaxForm') ?? false,
+			isMega: toPoke?.forms?.includes('MegaEvolution') ?? false,
+			isGiga: toPoke?.forms?.includes('GigantamaxForm') ?? false,
 		};
 		const evolved = performEvolve(gsRef.current, ev, gameMode);
 		const newGs = fireAchievements(evolved, context, pushAchievement);

@@ -62,8 +62,8 @@ export default function EvolveTab({
 		const toPoke = byId[nf.nextCharacterID];
 		const context = {
 			evolutionPerformed: true,
-			isMega: toPoke?.categories?.includes('MegaEvolution') ?? false,
-			isGiga: toPoke?.categories?.includes('GigantamaxForm') ?? false,
+			isMega: toPoke?.forms?.includes('MegaEvolution') ?? false,
+			isGiga: toPoke?.forms?.includes('GigantamaxForm') ?? false,
 		};
 		const evolved = performEvolve(gameState, nf, gameMode);
 		const newIds = checkAchievements(evolved, context);
