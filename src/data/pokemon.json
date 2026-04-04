@@ -1806,8 +1806,7 @@
       "Ground"
     ],
     "forms": [
-      "RegionalForm",
-      "ConvergentForm"
+      "RegionalForm"
     ]
   },
   {
@@ -1846,8 +1845,7 @@
       "Steel"
     ],
     "forms": [
-      "RegionalForm",
-      "ConvergentForm"
+      "RegionalForm"
     ]
   },
   {
@@ -2503,9 +2501,6 @@
     "types": [
       "Water",
       "Poison"
-    ],
-    "forms": [
-      "ConvergentForm"
     ]
   },
   {
@@ -23772,8 +23767,7 @@
       "Ghost"
     ],
     "forms": [
-      "AlternateForm",
-      "ConvergentForm"
+      "AlternateForm"
     ]
   },
   {
@@ -23813,8 +23807,7 @@
       "Ghost"
     ],
     "forms": [
-      "AlternateForm",
-      "ConvergentForm"
+      "AlternateForm"
     ]
   },
   {
@@ -25915,6 +25908,9 @@
     "types": [
       "Ground",
       "Grass"
+    ],
+    "forms": [
+      "ConvergentForm"
     ]
   },
   {
@@ -26152,6 +26148,9 @@
     ],
     "types": [
       "Water"
+    ],
+    "forms": [
+      "ConvergentForm"
     ]
   },
   {
@@ -26709,6 +26708,9 @@
     "types": [
       "Grass",
       "Ghost"
+    ],
+    "forms": [
+      "ConvergentForm"
     ]
   },
   {
@@ -26752,6 +26754,9 @@
     "types": [
       "Grass",
       "Ghost"
+    ],
+    "forms": [
+      "ConvergentForm"
     ]
   },
   {
