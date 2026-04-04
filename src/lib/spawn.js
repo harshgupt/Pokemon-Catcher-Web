@@ -98,8 +98,6 @@ function weightedSelect(pool, getWeight) {
   return pool[pool.length - 1]
 }
 
-// Maps spawn filter form values → p.forms keys
-const FORM_FILTER_MAP = { Gigantamax: 'GigantamaxForm' } // all others are same key
 const CLS_TO_CAT  = {
   Starter: 'ClassStarter', PseudoLegendary: 'ClassPseudo',
   UltraBeast: 'ClassUltraBeast', Legendary: 'ClassLegendary',
@@ -111,7 +109,7 @@ function pokemonClue(p, spawnFilter = {}) {
   const suppress = new Set()
   if (spawnFilter.type1) suppress.add(spawnFilter.type1)
   if (spawnFilter.type2) suppress.add(spawnFilter.type2)
-  if (spawnFilter.form)  suppress.add(FORM_FILTER_MAP[spawnFilter.form] ?? spawnFilter.form)
+  if (spawnFilter.form)  suppress.add(spawnFilter.form)
   if (spawnFilter.cls)   suppress.add(CLS_TO_CAT[spawnFilter.cls]   ?? ('Class' + spawnFilter.cls))
 
   const pool = []

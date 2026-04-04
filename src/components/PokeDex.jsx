@@ -84,7 +84,7 @@ const REGIONS = [
 const FORMS = [
 	{ value: "MegaEvolution", label: "Mega Evolution" },
 	{ value: "RegionalForm", label: "Regional Form" },
-	{ value: "Gigantamax", label: "Gigantamax" },
+	{ value: "GigantamaxForm", label: "Gigantamax" },
 	{ value: "ConvergentForm", label: "Convergent Form" },
 	{ value: "AlternateForm", label: "Alternate Form" },
 ];
@@ -101,11 +101,9 @@ const CLASSES = [
 
 // Pre-build Sets for O(1) lookup
 // MegaEvolution derived from pokemon.json forms field; others from pokedex-filters.json
-const megaEvolutionSet = new Set(
-	pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('MegaEvolution')).map(p => p.id)
-);
 const formSets = {
-	MegaEvolution: megaEvolutionSet,
+	MegaEvolution:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('MegaEvolution')).map(p => p.id)),
+	GigantamaxForm: new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('GigantamaxForm')).map(p => p.id)),
 	...Object.fromEntries(Object.entries(filters.forms).map(([k, ids]) => [k, new Set(ids)])),
 };
 const classSets = Object.fromEntries(

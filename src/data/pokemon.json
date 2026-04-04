@@ -24,8 +24,7 @@
     ],
     "forms": [
       "AlternateForm",
-      "RegionalForm",
-      "GigantamaxForm"
+      "RegionalForm"
     ]
   },
   {
@@ -169,6 +168,9 @@
     "displayName": "Gigantamax Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -445,9 +447,6 @@
     "types": [
       "Grass",
       "Poison"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -528,6 +527,9 @@
     "types": [
       "Grass",
       "Poison"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -550,9 +552,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -656,6 +655,9 @@
     "types": [
       "Fire",
       "Flying"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -678,9 +680,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -757,6 +756,9 @@
     "displayName": "Gigantamax Blastoise",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -778,9 +780,6 @@
     ],
     "types": [
       "Bug"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -836,6 +835,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -1890,8 +1892,7 @@
       "Normal"
     ],
     "forms": [
-      "RegionalForm",
-      "GigantamaxForm"
+      "RegionalForm"
     ]
   },
   {
@@ -1906,6 +1907,9 @@
     "displayName": "Gigantamax Meowth",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -2340,9 +2344,6 @@
     ],
     "types": [
       "Fighting"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -2397,6 +2398,9 @@
     "displayName": "Gigantamax Machamp",
     "types": [
       "Fighting"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -3211,9 +3215,6 @@
     "types": [
       "Ghost",
       "Poison"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -3295,6 +3296,9 @@
     "types": [
       "Ghost",
       "Poison"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -3412,9 +3416,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -3449,6 +3450,9 @@
     "displayName": "Gigantamax Kingler",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -4667,9 +4671,6 @@
     "types": [
       "Water",
       "Ice"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -4685,6 +4686,9 @@
     "types": [
       "Water",
       "Ice"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -4772,9 +4776,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -4789,6 +4790,9 @@
     "displayName": "Gigantamax Eevee",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -5084,9 +5088,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -5121,6 +5122,9 @@
     "displayName": "Gigantamax Snorlax",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -15345,9 +15349,6 @@
     ],
     "types": [
       "Poison"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -15382,6 +15383,9 @@
     "displayName": "Gigantamax Garbodor",
     "types": [
       "Poison"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -22516,9 +22520,6 @@
     ],
     "types": [
       "Steel"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -22553,6 +22554,9 @@
     "displayName": "Gigantamax Melmetal",
     "types": [
       "Steel"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -22575,9 +22579,6 @@
     ],
     "types": [
       "Grass"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -22631,6 +22632,9 @@
     "displayName": "Gigantamax Rillaboom",
     "types": [
       "Grass"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -22653,9 +22657,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -22709,6 +22710,9 @@
     "displayName": "Gigantamax Cinderace",
     "types": [
       "Fire"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -22731,9 +22735,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -22787,6 +22788,9 @@
     "displayName": "Gigantamax Inteleon",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -22842,9 +22846,6 @@
     ],
     "types": [
       "Flying"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -22900,6 +22901,9 @@
     "types": [
       "Flying",
       "Steel"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -22921,9 +22925,6 @@
     ],
     "types": [
       "Bug"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -22980,6 +22981,9 @@
     "types": [
       "Bug",
       "Psychic"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23103,9 +23107,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23142,6 +23143,9 @@
     "types": [
       "Water",
       "Rock"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23197,9 +23201,6 @@
     ],
     "types": [
       "Rock"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23256,6 +23257,9 @@
     "types": [
       "Rock",
       "Fire"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23292,9 +23296,6 @@
     "types": [
       "Grass",
       "Dragon"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23331,6 +23332,9 @@
     "types": [
       "Grass",
       "Dragon"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23367,6 +23371,9 @@
     "types": [
       "Grass",
       "Dragon"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23423,9 +23430,6 @@
     ],
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23460,6 +23464,9 @@
     "displayName": "Gigantamax Sandaconda",
     "types": [
       "Ground"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23588,8 +23595,7 @@
       "Poison"
     ],
     "forms": [
-      "AlternateForm",
-      "GigantamaxForm"
+      "AlternateForm"
     ]
   },
   {
@@ -23642,6 +23648,9 @@
     "types": [
       "Electric",
       "Poison"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23664,9 +23673,6 @@
     "types": [
       "Fire",
       "Bug"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23703,6 +23709,9 @@
     "types": [
       "Fire",
       "Bug"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23841,9 +23850,6 @@
     ],
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23899,6 +23905,9 @@
     "types": [
       "Psychic",
       "Fairy"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -23921,9 +23930,6 @@
     "types": [
       "Dark",
       "Fairy"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -23980,6 +23986,9 @@
     "types": [
       "Dark",
       "Fairy"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -24041,8 +24050,7 @@
       "Fairy"
     ],
     "forms": [
-      "AlternateForm",
-      "GigantamaxForm"
+      "AlternateForm"
     ]
   },
   {
@@ -24162,6 +24170,9 @@
     "displayName": "Gigantamax Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -24409,9 +24420,6 @@
     ],
     "types": [
       "Steel"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -24446,6 +24454,9 @@
     "displayName": "Gigantamax Copperajah",
     "types": [
       "Steel"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -24539,9 +24550,6 @@
     "types": [
       "Steel",
       "Dragon"
-    ],
-    "forms": [
-      "GigantamaxForm"
     ]
   },
   {
@@ -24557,6 +24565,9 @@
     "types": [
       "Steel",
       "Dragon"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -24781,8 +24792,7 @@
       "Fighting"
     ],
     "forms": [
-      "AlternateForm",
-      "GigantamaxForm"
+      "AlternateForm"
     ]
   },
   {
@@ -24820,6 +24830,9 @@
     "types": [
       "Fighting",
       "Dark"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
@@ -24857,6 +24870,9 @@
     "types": [
       "Fighting",
       "Water"
+    ],
+    "forms": [
+      "GigantamaxForm"
     ]
   },
   {
