@@ -23,8 +23,7 @@
       "Electric"
     ],
     "forms": [
-      "AlternateForm",
-      "RegionalForm"
+      "AlternateForm"
     ]
   },
   {
@@ -424,6 +423,9 @@
     "types": [
       "Electric",
       "Psychic"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -1021,9 +1023,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1079,6 +1078,9 @@
     "types": [
       "Dark",
       "Normal"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -1170,9 +1172,6 @@
     ],
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1228,6 +1227,9 @@
     "types": [
       "Ice",
       "Steel"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -1440,9 +1442,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1497,6 +1496,9 @@
     "types": [
       "Ice",
       "Fairy"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -1804,9 +1806,6 @@
     ],
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1861,6 +1860,9 @@
     "types": [
       "Ground",
       "Steel"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -1888,9 +1890,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1961,6 +1960,9 @@
     "displayName": "Alolan Persian",
     "types": [
       "Dark"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2110,9 +2112,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2168,6 +2167,9 @@
     "types": [
       "Fire",
       "Rock"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2537,9 +2539,6 @@
     "types": [
       "Rock",
       "Ground"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2623,6 +2622,9 @@
     "types": [
       "Rock",
       "Electric"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2638,6 +2640,9 @@
     "types": [
       "Rock",
       "Electric"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2659,9 +2664,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2715,6 +2717,9 @@
     "types": [
       "Psychic",
       "Fairy"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2744,9 +2749,6 @@
     "types": [
       "Water",
       "Psychic"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2848,6 +2850,9 @@
     "types": [
       "Poison",
       "Psychic"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2863,6 +2868,9 @@
     "types": [
       "Poison",
       "Psychic"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -2959,9 +2967,6 @@
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3095,9 +3100,6 @@
     ],
     "types": [
       "Poison"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3152,6 +3154,9 @@
     "types": [
       "Poison",
       "Dark"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -3469,9 +3474,6 @@
     ],
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3527,6 +3529,9 @@
     "types": [
       "Electric",
       "Grass"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -3557,9 +3562,6 @@
     "types": [
       "Grass",
       "Psychic"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3589,6 +3591,9 @@
     "types": [
       "Grass",
       "Dragon"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -3617,9 +3622,6 @@
     ],
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3648,6 +3650,9 @@
     "types": [
       "Fire",
       "Ghost"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -3785,9 +3790,6 @@
     ],
     "types": [
       "Poison"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3816,6 +3818,9 @@
     "types": [
       "Poison",
       "Fairy"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -4181,9 +4186,6 @@
     "types": [
       "Psychic",
       "Fairy"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -4221,6 +4223,9 @@
     "types": [
       "Ice",
       "Psychic"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -4518,9 +4523,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -5215,9 +5217,6 @@
     "types": [
       "Ice",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -5256,9 +5255,6 @@
     "types": [
       "Electric",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -5297,9 +5293,6 @@
     "types": [
       "Fire",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -5501,9 +5494,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -5557,6 +5547,9 @@
     "types": [
       "Fire",
       "Ghost"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -6260,9 +6253,6 @@
     "types": [
       "Water",
       "Ground"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -7196,9 +7186,6 @@
     "types": [
       "Water",
       "Poison"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -7320,9 +7307,6 @@
     "types": [
       "Dark",
       "Ice"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -7566,9 +7550,6 @@
     "types": [
       "Water",
       "Rock"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -8530,9 +8511,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -8594,6 +8572,9 @@
     "types": [
       "Dark",
       "Normal"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -13773,9 +13754,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -13829,6 +13807,9 @@
     "types": [
       "Water",
       "Dark"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -14736,9 +14717,6 @@
     ],
     "types": [
       "Grass"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -14767,6 +14745,9 @@
     "types": [
       "Grass",
       "Fighting"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -14947,8 +14928,7 @@
       "Fire"
     ],
     "forms": [
-      "AlternateForm",
-      "RegionalForm"
+      "AlternateForm"
     ]
   },
   {
@@ -15032,6 +15012,9 @@
     "displayName": "Galarian Darmanitan",
     "types": [
       "Ice"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -15047,6 +15030,9 @@
     "types": [
       "Ice",
       "Fire"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -15194,9 +15180,6 @@
     ],
     "types": [
       "Ghost"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -15402,9 +15385,6 @@
     ],
     "types": [
       "Dark"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -15459,6 +15439,9 @@
     "types": [
       "Normal",
       "Ghost"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -16531,9 +16514,6 @@
     "types": [
       "Ground",
       "Electric"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -16763,9 +16743,6 @@
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -16795,6 +16772,9 @@
     "types": [
       "Psychic",
       "Flying"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -19901,9 +19881,6 @@
     ],
     "types": [
       "Ice"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -19932,6 +19909,9 @@
     "types": [
       "Ice",
       "Rock"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -19997,9 +19977,6 @@
     ],
     "types": [
       "Dragon"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -20055,6 +20032,9 @@
     "types": [
       "Steel",
       "Dragon"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -20070,6 +20050,9 @@
     "types": [
       "Steel",
       "Dragon"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
@@ -20363,9 +20346,6 @@
     "types": [
       "Grass",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -20421,6 +20401,9 @@
     "types": [
       "Grass",
       "Fighting"
+    ],
+    "forms": [
+      "RegionalForm"
     ]
   },
   {
