@@ -17,7 +17,8 @@
     "categories": [
       "EvolutionTriple",
       "EvolutionSplit",
-      "Starter"
+      "Starter",
+      "Baby"
     ],
     "types": [
       "Electric"
@@ -32,7 +33,8 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "Baby"
     ],
     "displayName": "Spiky-Eared Pichu",
     "types": [
@@ -145,9 +147,6 @@
         "evolutionItemID": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -158,9 +157,6 @@
     "name": "Pikachu-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Pikachu",
     "types": [
       "Electric"
@@ -175,9 +171,6 @@
     "name": "Pikachu-OriginalCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Original Cap Pikachu",
     "types": [
       "Electric"
@@ -192,9 +185,6 @@
     "name": "Pikachu-HoennCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hoenn Cap Pikachu",
     "types": [
       "Electric"
@@ -209,9 +199,6 @@
     "name": "Pikachu-SinnohCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sinnoh Cap Pikachu",
     "types": [
       "Electric"
@@ -226,9 +213,6 @@
     "name": "Pikachu-UnovaCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Unova Cap Pikachu",
     "types": [
       "Electric"
@@ -243,9 +227,6 @@
     "name": "Pikachu-KalosCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Kalos Cap Pikachu",
     "types": [
       "Electric"
@@ -260,9 +241,6 @@
     "name": "Pikachu-AlolaCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alola Cap Pikachu",
     "types": [
       "Electric"
@@ -277,9 +255,6 @@
     "name": "Pikachu-PartnerCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Partner Cap Pikachu",
     "types": [
       "Electric"
@@ -294,9 +269,6 @@
     "name": "Pikachu-WorldCap",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "World Cap Pikachu",
     "types": [
       "Electric"
@@ -311,9 +283,6 @@
     "name": "Pikachu-RockStarCostume",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Rock Star Pikachu",
     "types": [
       "Electric"
@@ -328,9 +297,6 @@
     "name": "Pikachu-BelleCostume",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Belle Pikachu",
     "types": [
       "Electric"
@@ -345,9 +311,6 @@
     "name": "Pikachu-PopStarCostume",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Pop Star Pikachu",
     "types": [
       "Electric"
@@ -362,9 +325,6 @@
     "name": "Pikachu-Ph.DCostume",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ph.D. Pikachu",
     "types": [
       "Electric"
@@ -379,9 +339,6 @@
     "name": "Pikachu-LibreCostume",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Libre Pikachu",
     "types": [
       "Electric"
@@ -408,9 +365,6 @@
         "characterCount": 50,
         "evolutionItemID": 198
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Electric"
@@ -452,9 +406,6 @@
     "name": "Raichu-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Raichu",
     "types": [
       "Electric",
@@ -499,9 +450,6 @@
         "characterCount": 16
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -526,9 +474,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -540,9 +485,6 @@
     "name": "Venusaur-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Venusaur",
     "types": [
       "Grass",
@@ -558,9 +500,6 @@
     "name": "Venusaur-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Venusaur",
     "types": [
       "Grass",
@@ -604,9 +543,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -636,9 +572,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Flying"
@@ -650,9 +583,6 @@
     "name": "Charizard-MegaX",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Charizard X",
     "types": [
       "Fire",
@@ -668,9 +598,6 @@
     "name": "Charizard-MegaY",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Charizard Y",
     "types": [
       "Fire",
@@ -686,9 +613,6 @@
     "name": "Charizard-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Charizard",
     "types": [
       "Fire",
@@ -732,9 +656,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -758,9 +679,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -771,9 +689,6 @@
     "name": "Blastoise-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Blastoise",
     "types": [
       "Water"
@@ -788,9 +703,6 @@
     "name": "Blastoise-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Blastoise",
     "types": [
       "Water"
@@ -832,9 +744,6 @@
         "characterCount": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -852,9 +761,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -866,9 +772,6 @@
     "name": "Butterfree-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Butterfree",
     "types": [
       "Bug",
@@ -912,9 +815,6 @@
         "characterCount": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Poison"
@@ -933,9 +833,6 @@
         "evolutionItemID": 58
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Poison"
@@ -947,9 +844,6 @@
     "name": "Beedrill-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Beedrill",
     "types": [
       "Bug",
@@ -993,9 +887,6 @@
         "characterCount": 18
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -1014,9 +905,6 @@
         "evolutionItemID": 59
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -1028,9 +916,6 @@
     "name": "Pidgeot-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Pidgeot",
     "types": [
       "Normal",
@@ -1067,9 +952,6 @@
     "name": "Raticate",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -1107,9 +989,6 @@
     "name": "Raticate-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Raticate",
     "types": [
       "Dark",
@@ -1147,9 +1026,6 @@
     "name": "Fearow",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -1182,9 +1058,6 @@
     "name": "Arbok",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -1216,9 +1089,6 @@
     "name": "Sandslash",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground"
     ]
@@ -1256,9 +1126,6 @@
     "name": "Sandslash-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Sandslash",
     "types": [
       "Ice",
@@ -1303,9 +1170,6 @@
         "evolutionItemID": 6
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -1316,9 +1180,6 @@
     "name": "Nidoqueen",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Ground"
@@ -1359,9 +1220,6 @@
         "evolutionItemID": 6
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -1372,9 +1230,6 @@
     "name": "Nidoking",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Ground"
@@ -1396,7 +1251,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Fairy"
@@ -1415,9 +1271,6 @@
         "evolutionItemID": 6
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy"
     ]
@@ -1434,9 +1287,6 @@
         "characterCount": 50,
         "evolutionItemID": 199
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Fairy"
@@ -1486,9 +1336,6 @@
     "name": "Ninetales",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -1525,9 +1372,6 @@
     "name": "Ninetales-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Ninetales",
     "types": [
       "Ice",
@@ -1554,6 +1398,7 @@
     ],
     "categories": [
       "EvolutionTriple",
+      "Baby",
       "ClassParadox"
     ],
     "types": [
@@ -1580,9 +1425,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Fairy"
@@ -1594,9 +1436,6 @@
     "name": "Wigglytuff",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Fairy"
@@ -1608,9 +1447,6 @@
     "name": "Scream Tail",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Screamtail",
     "types": [
       "Fairy",
@@ -1652,9 +1488,6 @@
         "evolutionItemID": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Flying"
@@ -1666,9 +1499,6 @@
     "name": "Crobat",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Flying"
@@ -1716,9 +1546,6 @@
         "evolutionItemID": 5
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -1730,9 +1557,6 @@
     "name": "Vileplume",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -1744,9 +1568,6 @@
     "name": "Bellossom",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -1779,9 +1600,6 @@
     "name": "Parasect",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Grass"
@@ -1815,9 +1633,6 @@
     "name": "Venomoth",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Poison"
@@ -1850,9 +1665,6 @@
     "name": "Dugtrio",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground"
     ]
@@ -1889,9 +1701,6 @@
     "name": "Dugtrio-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Dugtrio",
     "types": [
       "Ground",
@@ -1934,9 +1743,6 @@
     "name": "Meowth-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Meowth",
     "types": [
       "Normal"
@@ -1951,9 +1757,6 @@
     "name": "Persian",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -1990,9 +1793,6 @@
     "name": "Persian-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Persian",
     "types": [
       "Dark"
@@ -2032,9 +1832,6 @@
     "name": "Perrserker",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel"
     ]
@@ -2066,9 +1863,6 @@
     "name": "Golduck",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -2107,9 +1901,6 @@
         "evolutionItemID": 163
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -2120,9 +1911,6 @@
     "name": "Annihilape",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting",
       "Ghost"
@@ -2156,9 +1944,6 @@
     "name": "Arcanine",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -2196,9 +1981,6 @@
     "name": "Arcanine-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Arcanine",
     "types": [
       "Fire",
@@ -2249,9 +2031,6 @@
         "evolutionItemID": 12
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -2262,9 +2041,6 @@
     "name": "Poliwrath",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Fighting"
@@ -2276,9 +2052,6 @@
     "name": "Politoed",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -2317,9 +2090,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -2337,9 +2107,6 @@
         "evolutionItemID": 60
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -2350,9 +2117,6 @@
     "name": "Alakazam-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Alakazam",
     "types": [
       "Psychic"
@@ -2395,9 +2159,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -2415,9 +2176,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -2428,9 +2186,6 @@
     "name": "Machamp-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Machamp",
     "types": [
       "Fighting"
@@ -2474,9 +2229,6 @@
         "evolutionItemID": 0
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -2494,9 +2246,6 @@
         "characterCount": 50,
         "evolutionItemID": 200
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Grass",
@@ -2547,9 +2296,6 @@
     "name": "Tentacruel",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Poison"
@@ -2590,9 +2336,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Ground"
@@ -2604,9 +2347,6 @@
     "name": "Golem",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Ground"
@@ -2651,9 +2391,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Graveler",
     "types": [
       "Rock",
@@ -2669,9 +2406,6 @@
     "name": "Golem-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Golem",
     "types": [
       "Rock",
@@ -2708,9 +2442,6 @@
     "name": "Rapidash",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -2746,9 +2477,6 @@
     "name": "Rapidash-Galarian",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Rapidash",
     "types": [
       "Psychic",
@@ -2800,9 +2528,6 @@
         "evolutionItemID": 61
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Psychic"
@@ -2814,9 +2539,6 @@
     "name": "Slowbro-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Slowbro",
     "types": [
       "Water",
@@ -2832,9 +2554,6 @@
     "name": "Slowking",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Psychic"
@@ -2879,9 +2598,6 @@
     "name": "Slowbro-Galarian",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Slowbro",
     "types": [
       "Poison",
@@ -2897,9 +2613,6 @@
     "name": "Slowking-Galarian",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Slowking",
     "types": [
       "Poison",
@@ -2951,9 +2664,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Steel"
@@ -2965,9 +2675,6 @@
     "name": "Magnezone",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Steel"
@@ -2979,9 +2686,6 @@
     "name": "Sandy Shocks",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Sandyshocks",
     "types": [
       "Electric",
@@ -3038,9 +2742,6 @@
     "name": "Sirfetch'd",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Sirfetchd",
     "types": [
       "Fighting"
@@ -3074,9 +2775,6 @@
     "name": "Dodrio",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -3109,9 +2807,6 @@
     "name": "Dewgong",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ice"
@@ -3144,9 +2839,6 @@
     "name": "Muk",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -3183,9 +2875,6 @@
     "name": "Muk-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Muk",
     "types": [
       "Poison",
@@ -3223,9 +2912,6 @@
     "name": "Cloyster",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ice"
@@ -3266,9 +2952,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Poison"
@@ -3293,9 +2976,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Poison"
@@ -3307,9 +2987,6 @@
     "name": "Gengar-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Gengar",
     "types": [
       "Ghost",
@@ -3325,9 +3002,6 @@
     "name": "Gengar-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Gengar",
     "types": [
       "Ghost",
@@ -3373,9 +3047,6 @@
         "evolutionItemID": 63
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Ground"
@@ -3387,9 +3058,6 @@
     "name": "Steelix-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Steelix",
     "types": [
       "Steel",
@@ -3426,9 +3094,6 @@
     "name": "Hypno",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -3467,9 +3132,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -3480,9 +3142,6 @@
     "name": "Kingler-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Kingler",
     "types": [
       "Water"
@@ -3518,9 +3177,6 @@
     "name": "Electrode",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -3558,9 +3214,6 @@
     "name": "Electrode-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Electrode",
     "types": [
       "Electric",
@@ -3606,9 +3259,6 @@
     "name": "Exeggutor",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Psychic"
@@ -3620,9 +3270,6 @@
     "name": "Exeggutor-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Exeggutor",
     "types": [
       "Grass",
@@ -3666,9 +3313,6 @@
     "name": "Marowak",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground"
     ]
@@ -3679,9 +3323,6 @@
     "name": "Marowak-Alolan",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Alolan Marowak",
     "types": [
       "Fire",
@@ -3720,7 +3361,8 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "Baby"
     ],
     "types": [
       "Fighting"
@@ -3732,9 +3374,6 @@
     "name": "Hitmonlee",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -3745,9 +3384,6 @@
     "name": "Hitmonchan",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -3758,9 +3394,6 @@
     "name": "Hitmontop",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -3793,9 +3426,6 @@
     "name": "Lickilicky",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -3834,9 +3464,6 @@
     "name": "Weezing",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -3847,9 +3474,6 @@
     "name": "Weezing-Galarian",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Weezing",
     "types": [
       "Poison",
@@ -3894,9 +3518,6 @@
         "evolutionItemID": 33
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Rock"
@@ -3908,9 +3529,6 @@
     "name": "Rhyperior",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Rock"
@@ -3932,7 +3550,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Normal"
@@ -3951,9 +3570,6 @@
         "evolutionItemID": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -3964,9 +3580,6 @@
     "name": "Blissey",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -3999,9 +3612,6 @@
     "name": "Tangrowth",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -4034,9 +3644,6 @@
     "name": "Kangaskhan-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Kangaskhan",
     "types": [
       "Normal"
@@ -4079,9 +3686,6 @@
         "evolutionItemID": 14
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -4092,9 +3696,6 @@
     "name": "Kingdra",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Dragon"
@@ -4127,9 +3728,6 @@
     "name": "Seaking",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -4168,9 +3766,6 @@
         "characterCount": 50,
         "evolutionItemID": 201
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Water",
@@ -4216,7 +3811,8 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "Baby"
     ],
     "spriteName": "MimeJr",
     "types": [
@@ -4230,9 +3826,6 @@
     "name": "Mr. Mime",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "MrMime",
     "types": [
       "Psychic",
@@ -4251,9 +3844,6 @@
         "characterCount": 12
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Mr. Mime",
     "spriteName": "MrMime-Galarian",
     "types": [
@@ -4270,9 +3860,6 @@
     "name": "Mr. Rime",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "MrRime",
     "types": [
       "Ice",
@@ -4322,9 +3909,6 @@
         "evolutionItemID": 65
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Steel"
@@ -4336,9 +3920,6 @@
     "name": "Scizor-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Scizor",
     "types": [
       "Bug",
@@ -4354,9 +3935,6 @@
     "name": "Kleavor",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Rock"
@@ -4377,7 +3955,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Ice",
@@ -4390,9 +3969,6 @@
     "name": "Jynx",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice",
       "Psychic"
@@ -4413,7 +3989,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Electric"
@@ -4432,9 +4009,6 @@
         "evolutionItemID": 31
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -4445,9 +4019,6 @@
     "name": "Electivire",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -4467,7 +4038,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Fire"
@@ -4486,9 +4058,6 @@
         "evolutionItemID": 32
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -4499,9 +4068,6 @@
     "name": "Magmortar",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -4534,9 +4100,6 @@
     "name": "Pinsir-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Pinsir",
     "types": [
       "Bug",
@@ -4657,9 +4220,6 @@
         "evolutionItemID": 67
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Flying"
@@ -4671,9 +4231,6 @@
     "name": "Gyarados-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Gyarados",
     "types": [
       "Water",
@@ -4712,9 +4269,6 @@
     "name": "Lapras-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Lapras",
     "types": [
       "Water",
@@ -4817,9 +4371,6 @@
     "name": "Eevee-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Eevee",
     "types": [
       "Normal"
@@ -4834,9 +4385,6 @@
     "name": "Vaporeon",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -4847,9 +4395,6 @@
     "name": "Jolteon",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -4860,9 +4405,6 @@
     "name": "Flareon",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -4873,9 +4415,6 @@
     "name": "Espeon",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -4886,9 +4425,6 @@
     "name": "Umbreon",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark"
     ]
@@ -4899,9 +4435,6 @@
     "name": "Leafeon",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -4912,9 +4445,6 @@
     "name": "Glaceon",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -4925,9 +4455,6 @@
     "name": "Sylveon",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy"
     ]
@@ -4967,9 +4494,6 @@
         "evolutionItemID": 16
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -4980,9 +4504,6 @@
     "name": "Porygon-Z",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Porygonz",
     "types": [
       "Normal"
@@ -5016,9 +4537,6 @@
     "name": "Omastar",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Water"
@@ -5052,9 +4570,6 @@
     "name": "Kabutops",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Water"
@@ -5089,9 +4604,6 @@
     "name": "Aerodactyl-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Aerodactyl",
     "types": [
       "Rock",
@@ -5117,7 +4629,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Normal"
@@ -5136,9 +4649,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -5149,9 +4659,6 @@
     "name": "Snorlax-Giga",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Snorlax",
     "types": [
       "Normal"
@@ -5194,9 +4701,6 @@
         "characterCount": 25
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon"
     ]
@@ -5213,9 +4717,6 @@
         "characterCount": 50,
         "evolutionItemID": 202
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Dragon",
@@ -5387,9 +4888,6 @@
     "name": "Mewtwo-MegaX",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Mewtwo X",
     "types": [
       "Psychic",
@@ -5405,9 +4903,6 @@
     "name": "Mewtwo-MegaY",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Mewtwo Y",
     "types": [
       "Psychic"
@@ -5466,9 +4961,6 @@
         "characterCount": 16
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -5485,9 +4977,6 @@
         "characterCount": 50,
         "evolutionItemID": 203
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Grass"
@@ -5550,9 +5039,6 @@
         "evolutionItemID": 142
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -5563,9 +5049,6 @@
     "name": "Typhlosion",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -5576,9 +5059,6 @@
     "name": "Typhlosion-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Typhlosion",
     "types": [
       "Fire",
@@ -5622,9 +5102,6 @@
         "characterCount": 12
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -5641,9 +5118,6 @@
         "characterCount": 50,
         "evolutionItemID": 204
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Water"
@@ -5692,9 +5166,6 @@
     "name": "Furret",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -5727,9 +5198,6 @@
     "name": "Noctowl",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -5763,9 +5231,6 @@
     "name": "Ledian",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -5799,9 +5264,6 @@
     "name": "Ariados",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Poison"
@@ -5835,9 +5297,6 @@
     "name": "Lanturn",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Electric"
@@ -5859,7 +5318,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Fairy"
@@ -5878,9 +5338,6 @@
         "evolutionItemID": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy",
       "Flying"
@@ -5892,9 +5349,6 @@
     "name": "Togekiss",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy",
       "Flying"
@@ -5928,9 +5382,6 @@
     "name": "Xatu",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Flying"
@@ -5969,9 +5420,6 @@
         "characterCount": 15
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -5989,9 +5437,6 @@
         "evolutionItemID": 71
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -6002,9 +5447,6 @@
     "name": "Ampharos-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Ampharos",
     "types": [
       "Electric",
@@ -6030,7 +5472,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Normal",
@@ -6049,9 +5492,6 @@
         "characterCount": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Fairy"
@@ -6063,9 +5503,6 @@
     "name": "Azumarill",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Fairy"
@@ -6087,7 +5524,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Rock"
@@ -6099,9 +5537,6 @@
     "name": "Sudowoodo",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock"
     ]
@@ -6140,9 +5575,6 @@
         "characterCount": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Flying"
@@ -6154,9 +5586,6 @@
     "name": "Jumpluff",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Flying"
@@ -6190,9 +5619,6 @@
     "name": "Ambipom",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -6225,9 +5651,6 @@
     "name": "Sunflora",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -6261,9 +5684,6 @@
     "name": "Yanmega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -6297,9 +5717,6 @@
     "name": "Quagsire",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ground"
@@ -6337,9 +5754,6 @@
     "name": "Clodsire",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Ground"
@@ -6374,9 +5788,6 @@
     "name": "Honchkrow",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Flying"
@@ -6417,9 +5828,6 @@
     "name": "Mismagius",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -6430,9 +5838,6 @@
     "name": "Flutter Mane",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Fluttermane",
     "types": [
       "Ghost",
@@ -6986,7 +6391,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Psychic"
@@ -6998,9 +6404,6 @@
     "name": "Wobbuffet",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -7034,9 +6437,6 @@
     "name": "Farigiraf",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Psychic"
@@ -7069,9 +6469,6 @@
     "name": "Forretress",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Steel"
@@ -7112,9 +6509,6 @@
     "name": "Dudunsparce-TwoSegment",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Two-Segment Dudunsparce",
     "types": [
       "Normal"
@@ -7126,9 +6520,6 @@
     "name": "Dudunsparce-ThreeSegment",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Three-Segment Dudunsparce",
     "types": [
       "Normal"
@@ -7166,9 +6557,6 @@
     "name": "Gliscor",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Flying"
@@ -7201,9 +6589,6 @@
     "name": "Granbull",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy"
     ]
@@ -7257,9 +6642,6 @@
     "name": "Overqwil",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Poison"
@@ -7310,9 +6692,6 @@
     "name": "Heracross-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Heracross",
     "types": [
       "Bug",
@@ -7351,9 +6730,6 @@
     "name": "Weavile",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Ice"
@@ -7392,9 +6768,6 @@
     "name": "Sneasler",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting",
       "Poison"
@@ -7434,9 +6807,6 @@
         "evolutionItemID": 141
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -7454,9 +6824,6 @@
         "evolutionItemID": 47
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Normal"
@@ -7468,9 +6835,6 @@
     "name": "Ursaluna-BloodMoon",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Bloodmoon Ursaluna",
     "types": [
       "Ground",
@@ -7507,9 +6871,6 @@
     "name": "Magcargo",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Rock"
@@ -7550,9 +6911,6 @@
         "evolutionItemID": 165
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice",
       "Ground"
@@ -7564,9 +6922,6 @@
     "name": "Mamoswine",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice",
       "Ground"
@@ -7619,9 +6974,6 @@
     "name": "Cursola",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -7653,9 +7005,6 @@
     "name": "Octillery",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -7690,9 +7039,6 @@
     "name": "Iron Bundle",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironbundle",
     "types": [
       "Ice",
@@ -7715,7 +7061,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Water",
@@ -7728,9 +7075,6 @@
     "name": "Mantine",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Flying"
@@ -7810,9 +7154,6 @@
         "evolutionItemID": 73
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Fire"
@@ -7824,9 +7165,6 @@
     "name": "Houndoom-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Houndoom",
     "types": [
       "Dark",
@@ -7877,9 +7215,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground"
     ]
@@ -7890,9 +7225,6 @@
     "name": "Great Tusk",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Greattusk",
     "types": [
       "Ground",
@@ -7905,9 +7237,6 @@
     "name": "Iron Treads",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Irontreads",
     "types": [
       "Ground",
@@ -7942,9 +7271,6 @@
     "name": "Wyrdeer",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Psychic"
@@ -8016,9 +7342,6 @@
         "characterCount": 25
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Ground"
@@ -8043,9 +7366,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Dark"
@@ -8057,9 +7377,6 @@
     "name": "Tyranitar-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Tyranitar",
     "types": [
       "Rock",
@@ -8075,9 +7392,6 @@
     "name": "Iron Thorns",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironthorns",
     "types": [
       "Rock",
@@ -8114,9 +7428,6 @@
     "name": "Raging Bolt",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ragingbolt",
     "types": [
       "Electric",
@@ -8153,9 +7464,6 @@
     "name": "Gouging Fire",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Gougingfire",
     "types": [
       "Fire",
@@ -8192,9 +7500,6 @@
     "name": "Walking Wake",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Walkingwake",
     "types": [
       "Water",
@@ -8287,9 +7592,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -8307,9 +7609,6 @@
         "evolutionItemID": 75
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -8320,9 +7619,6 @@
     "name": "Sceptile-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Sceptile",
     "types": [
       "Grass",
@@ -8366,9 +7662,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Fighting"
@@ -8387,9 +7680,6 @@
         "evolutionItemID": 76
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Fighting"
@@ -8401,9 +7691,6 @@
     "name": "Blaziken-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Blaziken",
     "types": [
       "Fire",
@@ -8447,9 +7734,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ground"
@@ -8468,9 +7752,6 @@
         "evolutionItemID": 77
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ground"
@@ -8482,9 +7763,6 @@
     "name": "Swampert-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Swampert",
     "types": [
       "Water",
@@ -8521,9 +7799,6 @@
     "name": "Mightyena",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark"
     ]
@@ -8555,9 +7830,6 @@
     "name": "Linoone",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -8601,9 +7873,6 @@
         "evolutionItemID": 6
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Linoone",
     "types": [
       "Dark",
@@ -8619,9 +7888,6 @@
     "name": "Obstagoon",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Normal"
@@ -8666,9 +7932,6 @@
         "characterCount": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -8679,9 +7942,6 @@
     "name": "Beautifly",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -8699,9 +7959,6 @@
         "characterCount": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -8712,9 +7969,6 @@
     "name": "Dustox",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Poison"
@@ -8755,9 +8009,6 @@
         "evolutionItemID": 2
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Grass"
@@ -8769,9 +8020,6 @@
     "name": "Ludicolo",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Grass"
@@ -8811,9 +8059,6 @@
         "evolutionItemID": 0
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dark"
@@ -8825,9 +8070,6 @@
     "name": "Shiftry",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dark"
@@ -8861,9 +8103,6 @@
     "name": "Swellow",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -8897,9 +8136,6 @@
     "name": "Pelipper",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Flying"
@@ -8953,9 +8189,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Fairy"
@@ -8974,9 +8207,6 @@
         "evolutionItemID": 78
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Fairy"
@@ -8988,9 +8218,6 @@
     "name": "Gardevoir-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Gardevoir",
     "types": [
       "Psychic",
@@ -9013,9 +8240,6 @@
         "evolutionItemID": 79
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Fighting"
@@ -9027,9 +8251,6 @@
     "name": "Gallade-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Gallade",
     "types": [
       "Psychic",
@@ -9045,9 +8266,6 @@
     "name": "Iron Valiant",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironvaliant",
     "types": [
       "Fairy",
@@ -9082,9 +8300,6 @@
     "name": "Masquerain",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -9117,9 +8332,6 @@
     "name": "Breloom",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Fighting"
@@ -9158,9 +8370,6 @@
         "characterCount": 18
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -9171,9 +8380,6 @@
     "name": "Slaking",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -9213,9 +8419,6 @@
     "name": "Ninjask",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -9227,9 +8430,6 @@
     "name": "Shedinja",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Ghost"
@@ -9268,9 +8468,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -9281,9 +8478,6 @@
     "name": "Exploud",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -9323,9 +8517,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -9336,9 +8527,6 @@
     "name": "Iron Hands",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironhands",
     "types": [
       "Fighting",
@@ -9373,9 +8561,6 @@
     "name": "Probopass",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Steel"
@@ -9409,9 +8594,6 @@
     "name": "Delcatty",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -9445,9 +8627,6 @@
     "name": "Sableye-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Sableye",
     "types": [
       "Dark",
@@ -9486,9 +8665,6 @@
     "name": "Mawile-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Mawile",
     "types": [
       "Steel",
@@ -9532,9 +8708,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Rock"
@@ -9553,9 +8726,6 @@
         "evolutionItemID": 82
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Rock"
@@ -9567,9 +8737,6 @@
     "name": "Aggron-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Aggron",
     "types": [
       "Steel"
@@ -9613,9 +8780,6 @@
         "evolutionItemID": 83
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting",
       "Psychic"
@@ -9627,9 +8791,6 @@
     "name": "Medicham-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Medicham",
     "types": [
       "Fighting",
@@ -9673,9 +8834,6 @@
         "evolutionItemID": 84
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -9686,9 +8844,6 @@
     "name": "Manectric-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Manectric",
     "types": [
       "Electric"
@@ -9773,7 +8928,8 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "Baby"
     ],
     "types": [
       "Grass",
@@ -9793,9 +8949,6 @@
         "evolutionItemID": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -9807,9 +8960,6 @@
     "name": "Roserade",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -9842,9 +8992,6 @@
     "name": "Swalot",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -9884,9 +9031,6 @@
         "evolutionItemID": 85
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Dark"
@@ -9898,9 +9042,6 @@
     "name": "Sharpedo-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Sharpedo",
     "types": [
       "Water",
@@ -9937,9 +9078,6 @@
     "name": "Wailord",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -9979,9 +9117,6 @@
         "evolutionItemID": 86
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Ground"
@@ -9993,9 +9128,6 @@
     "name": "Camerupt-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Camerupt",
     "types": [
       "Fire",
@@ -10047,9 +9179,6 @@
     "name": "Grumpig",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -10102,9 +9231,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Dragon"
@@ -10116,9 +9242,6 @@
     "name": "Flygon",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Dragon"
@@ -10151,9 +9274,6 @@
     "name": "Cacturne",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dark"
@@ -10194,9 +9314,6 @@
         "evolutionItemID": 87
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Flying"
@@ -10208,9 +9325,6 @@
     "name": "Altaria-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Altaria",
     "types": [
       "Dragon",
@@ -10310,9 +9424,6 @@
     "name": "Whiscash",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ground"
@@ -10345,9 +9456,6 @@
     "name": "Crawdaunt",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Dark"
@@ -10381,9 +9489,6 @@
     "name": "Claydol",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Psychic"
@@ -10417,9 +9522,6 @@
     "name": "Cradily",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Grass"
@@ -10453,9 +9555,6 @@
     "name": "Armaldo",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Bug"
@@ -10489,9 +9588,6 @@
     "name": "Milotic",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -10536,9 +9632,6 @@
     "name": "Castform-Sunny",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sunny Form Castform",
     "types": [
       "Fire"
@@ -10553,9 +9646,6 @@
     "name": "Castform-Rainy",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Rainy Form Castform",
     "types": [
       "Water"
@@ -10570,9 +9660,6 @@
     "name": "Castform-Snowy",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Snowy Form Castform",
     "types": [
       "Ice"
@@ -10630,9 +9717,6 @@
         "evolutionItemID": 88
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -10643,9 +9727,6 @@
     "name": "Banette-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Banette",
     "types": [
       "Ghost"
@@ -10688,9 +9769,6 @@
         "evolutionItemID": 37
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -10701,9 +9779,6 @@
     "name": "Dusknoir",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -10740,7 +9815,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Psychic"
@@ -10758,9 +9834,6 @@
         "characterCount": 50,
         "evolutionItemID": 206
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Psychic"
@@ -10816,9 +9889,6 @@
     "name": "Absol-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Absol",
     "types": [
       "Dark"
@@ -10884,9 +9954,6 @@
         "evolutionItemID": 90
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -10897,9 +9964,6 @@
     "name": "Glalie-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Glalie",
     "types": [
       "Ice"
@@ -10920,9 +9984,6 @@
         "characterCount": 50,
         "evolutionItemID": 211
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Ice",
@@ -10979,9 +10040,6 @@
         "characterCount": 12
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice",
       "Water"
@@ -10993,9 +10051,6 @@
     "name": "Walrein",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice",
       "Water"
@@ -11036,9 +10091,6 @@
     "name": "Huntail",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -11049,9 +10101,6 @@
     "name": "Gorebyss",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -11122,9 +10171,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon"
     ]
@@ -11148,9 +10194,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Flying"
@@ -11162,9 +10205,6 @@
     "name": "Salamence-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Salamence",
     "types": [
       "Dragon",
@@ -11180,9 +10220,6 @@
     "name": "Roaring Moon",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Roaringmoon",
     "types": [
       "Dragon",
@@ -11224,9 +10261,6 @@
         "characterCount": 25
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Psychic"
@@ -11245,9 +10279,6 @@
         "evolutionItemID": 92
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Psychic"
@@ -11259,9 +10290,6 @@
     "name": "Metagross-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Metagross",
     "types": [
       "Steel",
@@ -11397,9 +10425,6 @@
     "name": "Latias-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Latias",
     "types": [
       "Dragon",
@@ -11439,9 +10464,6 @@
     "name": "Latios-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Latios",
     "types": [
       "Dragon",
@@ -11480,9 +10502,6 @@
     "name": "Kyogre-Primal",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Primal Kyogre",
     "types": [
       "Water"
@@ -11520,9 +10539,6 @@
     "name": "Groudon-Primal",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Primal Groudon",
     "types": [
       "Ground",
@@ -11562,9 +10578,6 @@
     "name": "Rayquaza-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Rayquaza",
     "types": [
       "Dragon",
@@ -11632,9 +10645,6 @@
     "name": "Deoxys-Attack",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Attack Forme Deoxys",
     "types": [
       "Psychic"
@@ -11649,9 +10659,6 @@
     "name": "Deoxys-Defense",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Defense Forme Deoxys",
     "types": [
       "Psychic"
@@ -11666,9 +10673,6 @@
     "name": "Deoxys-Speed",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Speed Forme Deoxys",
     "types": [
       "Psychic"
@@ -11711,9 +10715,6 @@
         "characterCount": 14
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -11724,9 +10725,6 @@
     "name": "Torterra",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Ground"
@@ -11766,9 +10764,6 @@
         "characterCount": 22
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Fighting"
@@ -11780,9 +10775,6 @@
     "name": "Infernape",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Fighting"
@@ -11822,9 +10814,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -11835,9 +10824,6 @@
     "name": "Empoleon",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Steel"
@@ -11877,9 +10863,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -11897,9 +10880,6 @@
         "characterCount": 50,
         "evolutionItemID": 208
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Normal",
@@ -11949,9 +10929,6 @@
     "name": "Bibarel",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Water"
@@ -11984,9 +10961,6 @@
     "name": "Kricketune",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -12024,9 +10998,6 @@
         "characterCount": 15
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -12037,9 +11008,6 @@
     "name": "Luxray",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -12071,9 +11039,6 @@
     "name": "Rampardos",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock"
     ]
@@ -12106,9 +11071,6 @@
     "name": "Bastiodon",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Steel"
@@ -12152,9 +11114,6 @@
     "name": "Wormadam-Plant",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Plant Cloak Wormadam",
     "types": [
       "Bug",
@@ -12195,9 +11154,6 @@
     "name": "Wormadam-Sandy",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sandy Cloak Wormadam",
     "types": [
       "Bug",
@@ -12238,9 +11194,6 @@
     "name": "Wormadam-Trash",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Trash Cloak Wormadam",
     "types": [
       "Bug",
@@ -12256,9 +11209,6 @@
     "name": "Mothim",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -12293,9 +11243,6 @@
     "name": "Vespiquen",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Flying"
@@ -12343,9 +11290,6 @@
     "name": "Floatzel",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -12384,9 +11328,6 @@
         "evolutionItemID": 23
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Overcast Form Cherrim",
     "types": [
       "Grass"
@@ -12398,9 +11339,6 @@
     "name": "Cherrim-Sunshine",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sunshine Form Cherrim",
     "types": [
       "Grass"
@@ -12440,9 +11378,6 @@
     "name": "Gastrodon-WestSea",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "West Sea Gastrodon",
     "types": [
       "Water",
@@ -12483,9 +11418,6 @@
     "name": "Gastrodon-EastSea",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "East Sea Gastrodon",
     "types": [
       "Water",
@@ -12523,9 +11455,6 @@
     "name": "Drifblim",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Flying"
@@ -12566,9 +11495,6 @@
         "evolutionItemID": 95
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -12579,9 +11505,6 @@
     "name": "Lopunny-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Lopunny",
     "types": [
       "Normal",
@@ -12618,9 +11541,6 @@
     "name": "Purugly",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -12653,9 +11573,6 @@
     "name": "Skuntank",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Dark"
@@ -12689,9 +11606,6 @@
     "name": "Bronzong",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Psychic"
@@ -12745,7 +11659,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Baby"
     ],
     "types": [
       "Fighting"
@@ -12770,9 +11685,6 @@
         "evolutionItemID": 210
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting",
       "Steel"
@@ -12784,9 +11696,6 @@
     "name": "Lucario-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Lucario",
     "types": [
       "Fighting",
@@ -12843,9 +11752,6 @@
     "name": "Hippowdon-M",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hippowdon ♂",
     "types": [
       "Ground"
@@ -12885,9 +11791,6 @@
     "name": "Hippowdon-F",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hippowdon ♀",
     "types": [
       "Ground"
@@ -12924,9 +11827,6 @@
     "name": "Drapion",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Dark"
@@ -12960,9 +11860,6 @@
     "name": "Toxicroak",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Fighting"
@@ -13010,9 +11907,6 @@
     "name": "Lumineon",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -13052,9 +11946,6 @@
         "evolutionItemID": 97
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Ice"
@@ -13066,9 +11957,6 @@
     "name": "Abomasnow-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Abomasnow",
     "types": [
       "Grass",
@@ -13131,9 +12019,6 @@
     "name": "Rotom-Heat",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Heat Rotom",
     "types": [
       "Electric",
@@ -13149,9 +12034,6 @@
     "name": "Rotom-Wash",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Wash Rotom",
     "types": [
       "Electric",
@@ -13167,9 +12049,6 @@
     "name": "Rotom-Frost",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Frost Rotom",
     "types": [
       "Electric",
@@ -13185,9 +12064,6 @@
     "name": "Rotom-Fan",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Fan Rotom",
     "types": [
       "Electric",
@@ -13203,9 +12079,6 @@
     "name": "Rotom-Mow",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mow Rotom",
     "types": [
       "Electric",
@@ -13250,9 +12123,6 @@
         "characterCount": 24
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Ground"
@@ -13277,9 +12147,6 @@
         "evolutionItemID": 209
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Ground"
@@ -13291,9 +12158,6 @@
     "name": "Garchomp-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Garchomp",
     "types": [
       "Dragon",
@@ -13490,9 +12354,6 @@
     "name": "Dialga-Origin",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Origin Forme Dialga",
     "types": [
       "Steel",
@@ -13532,9 +12393,6 @@
     "name": "Palkia-Origin",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Origin Forme Palkia",
     "types": [
       "Water",
@@ -13574,9 +12432,6 @@
     "name": "Giratina-Origin",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Origin Forme Giratina",
     "types": [
       "Ghost",
@@ -13663,9 +12518,6 @@
     "name": "Shaymin-Sky",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sky Forme Shaymin",
     "types": [
       "Grass",
@@ -13709,9 +12561,6 @@
         "characterCount": 19
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -13722,9 +12571,6 @@
     "name": "Serperior",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -13763,9 +12609,6 @@
         "characterCount": 19
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Fighting"
@@ -13783,9 +12626,6 @@
         "characterCount": 50,
         "evolutionItemID": 214
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Fire",
@@ -13849,9 +12689,6 @@
         "evolutionItemID": 142
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -13862,9 +12699,6 @@
     "name": "Samurott",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -13875,9 +12709,6 @@
     "name": "Samurott-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Samurott",
     "types": [
       "Water",
@@ -13914,9 +12745,6 @@
     "name": "Watchog",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -13954,9 +12782,6 @@
         "characterCount": 16
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -13967,9 +12792,6 @@
     "name": "Stoutland",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -14001,9 +12823,6 @@
     "name": "Liepard",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark"
     ]
@@ -14036,9 +12855,6 @@
     "name": "Simisage",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -14071,9 +12887,6 @@
     "name": "Simisear",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -14106,9 +12919,6 @@
     "name": "Simipour",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -14141,9 +12951,6 @@
     "name": "Musharna",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -14189,9 +12996,6 @@
         "evolutionItemID": 30
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -14203,9 +13007,6 @@
     "name": "Unfezant-M",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Unfezant ♂",
     "types": [
       "Normal",
@@ -14221,9 +13022,6 @@
     "name": "Unfezant-F",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Unfezant ♀",
     "types": [
       "Normal",
@@ -14260,9 +13058,6 @@
     "name": "Zebstrika",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -14301,9 +13096,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock"
     ]
@@ -14314,9 +13106,6 @@
     "name": "Gigalith",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock"
     ]
@@ -14350,9 +13139,6 @@
     "name": "Swoobat",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Flying"
@@ -14391,9 +13177,6 @@
         "characterCount": 50,
         "evolutionItemID": 215
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Ground",
@@ -14444,9 +13227,6 @@
     "name": "Audino-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Audino",
     "types": [
       "Normal",
@@ -14490,9 +13270,6 @@
         "evolutionItemID": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -14503,9 +13280,6 @@
     "name": "Conkeldurr",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -14543,9 +13317,6 @@
         "characterCount": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ground"
@@ -14557,9 +13328,6 @@
     "name": "Seismitoad",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Ground"
@@ -14630,9 +13398,6 @@
         "evolutionItemID": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Grass"
@@ -14644,9 +13409,6 @@
     "name": "Leavanny",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Grass"
@@ -14686,9 +13448,6 @@
         "characterCount": 8
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Poison"
@@ -14706,9 +13465,6 @@
         "characterCount": 50,
         "evolutionItemID": 216
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Bug",
@@ -14760,9 +13516,6 @@
     "name": "Whimsicott",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Fairy"
@@ -14803,9 +13556,6 @@
     "name": "Lilligant",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -14816,9 +13566,6 @@
     "name": "Lilligant-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Lilligant",
     "types": [
       "Grass",
@@ -14905,9 +13652,6 @@
     "name": "Basculegion-M",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Basculegion ♂",
     "types": [
       "Water",
@@ -14923,9 +13667,6 @@
     "name": "Basculegion-F",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Basculegion ♀",
     "types": [
       "Water",
@@ -14969,9 +13710,6 @@
         "characterCount": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Dark"
@@ -14983,9 +13721,6 @@
     "name": "Krookodile",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Dark"
@@ -15025,9 +13760,6 @@
         "evolutionItemID": 47
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -15038,9 +13770,6 @@
     "name": "Darmanitan-ZenMode",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Zen Mode Darmanitan",
     "types": [
       "Fire",
@@ -15089,9 +13818,6 @@
         "evolutionItemID": 47
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Darmanitan",
     "types": [
       "Ice"
@@ -15106,9 +13832,6 @@
     "name": "Darmanitan-ZenMode-Galarian",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Galarian Darmanitan (Zen Mode)",
     "types": [
       "Ice",
@@ -15162,9 +13885,6 @@
     "name": "Crustle",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Rock"
@@ -15204,9 +13924,6 @@
         "characterCount": 50,
         "evolutionItemID": 217
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Dark",
@@ -15272,9 +13989,6 @@
     "name": "Cofagrigus",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -15312,9 +14026,6 @@
     "name": "Runerigus",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Ghost"
@@ -15348,9 +14059,6 @@
     "name": "Carracosta",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Rock"
@@ -15384,9 +14092,6 @@
     "name": "Archeops",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Flying"
@@ -15426,9 +14131,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison"
     ]
@@ -15439,9 +14141,6 @@
     "name": "Garbodor-Giga",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Garbodor",
     "types": [
       "Poison"
@@ -15477,9 +14176,6 @@
     "name": "Zoroark",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark"
     ]
@@ -15516,9 +14212,6 @@
     "name": "Zoroark-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Zoroark",
     "types": [
       "Normal",
@@ -15556,9 +14249,6 @@
     "name": "Cinccino",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -15596,9 +14286,6 @@
         "characterCount": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -15609,9 +14296,6 @@
     "name": "Gothitelle",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -15649,9 +14333,6 @@
         "characterCount": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -15662,9 +14343,6 @@
     "name": "Reuniclus",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -15697,9 +14375,6 @@
     "name": "Swanna",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Flying"
@@ -15738,9 +14413,6 @@
         "characterCount": 12
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -15751,9 +14423,6 @@
     "name": "Vanilluxe",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -15790,9 +14459,6 @@
     "name": "Sawsbuck-Spring",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Spring Form Sawsbuck",
     "types": [
       "Normal",
@@ -15834,9 +14500,6 @@
     "name": "Sawsbuck-Summer",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Summer Form Sawsbuck",
     "types": [
       "Normal",
@@ -15878,9 +14541,6 @@
     "name": "Sawsbuck-Autumn",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Autumn Form Sawsbuck",
     "types": [
       "Normal",
@@ -15922,9 +14582,6 @@
     "name": "Sawsbuck-Winter",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Winter Form Sawsbuck",
     "types": [
       "Normal",
@@ -15979,9 +14636,6 @@
     "name": "Escavalier",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Steel"
@@ -16016,9 +14670,6 @@
     "name": "Accelgor",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -16059,9 +14710,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Poison"
@@ -16073,9 +14721,6 @@
     "name": "Brute Bonnet",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Brutebonnet",
     "types": [
       "Grass",
@@ -16114,9 +14759,6 @@
     "name": "Jellicent-M",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Jellicent ♂",
     "types": [
       "Water",
@@ -16158,9 +14800,6 @@
     "name": "Jellicent-F",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Jellicent ♀",
     "types": [
       "Water",
@@ -16213,9 +14852,6 @@
     "name": "Galvantula",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Electric"
@@ -16249,9 +14885,6 @@
     "name": "Ferrothorn",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Steel"
@@ -16290,9 +14923,6 @@
         "characterCount": 11
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel"
     ]
@@ -16303,9 +14933,6 @@
     "name": "Klinklang",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel"
     ]
@@ -16344,9 +14971,6 @@
         "evolutionItemID": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -16363,9 +14987,6 @@
         "characterCount": 50,
         "evolutionItemID": 218
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Electric"
@@ -16413,9 +15034,6 @@
     "name": "Beheeyem",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -16455,9 +15073,6 @@
         "evolutionItemID": 7
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Fire"
@@ -16475,9 +15090,6 @@
         "characterCount": 50,
         "evolutionItemID": 219
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Ghost",
@@ -16533,9 +15145,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon"
     ]
@@ -16546,9 +15155,6 @@
     "name": "Haxorus",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon"
     ]
@@ -16580,9 +15186,6 @@
     "name": "Beartic",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -16665,9 +15268,6 @@
     "name": "Mienshao",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -16721,9 +15321,6 @@
         "characterCount": 50,
         "evolutionItemID": 220
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Ground",
@@ -16781,9 +15378,6 @@
         "evolutionItemID": 145
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Steel"
@@ -16795,9 +15389,6 @@
     "name": "Kingambit",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Steel"
@@ -16853,9 +15444,6 @@
     "name": "Braviary",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -16867,9 +15455,6 @@
     "name": "Braviary-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Braviary",
     "types": [
       "Psychic",
@@ -16907,9 +15492,6 @@
     "name": "Mandibuzz",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Flying"
@@ -16988,9 +15570,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Fire"
@@ -17002,9 +15581,6 @@
     "name": "Slither Wing",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Slitherwing",
     "types": [
       "Bug",
@@ -17017,9 +15593,6 @@
     "name": "Iron Moth",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironmoth",
     "types": [
       "Fire",
@@ -17062,9 +15635,6 @@
         "characterCount": 14
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Dragon"
@@ -17083,9 +15653,6 @@
         "evolutionItemID": 162
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Dragon"
@@ -17097,9 +15664,6 @@
     "name": "Iron Jugulis",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironjugulis",
     "types": [
       "Dark",
@@ -17137,9 +15701,6 @@
     "name": "Iron Crown",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironcrown",
     "types": [
       "Steel",
@@ -17177,9 +15738,6 @@
     "name": "Iron Boulder",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironboulder",
     "types": [
       "Rock",
@@ -17217,9 +15775,6 @@
     "name": "Iron Leaves",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Ironleaves",
     "types": [
       "Grass",
@@ -17256,9 +15811,6 @@
     "name": "Keldeo-Resolute",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Resolute Forme Keldeo",
     "types": [
       "Water",
@@ -17298,9 +15850,6 @@
     "name": "Tornadus-Therian",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Therian Forme Tornadus",
     "types": [
       "Flying"
@@ -17340,9 +15889,6 @@
     "name": "Thundurus-Therian",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Therian Forme Thundurus",
     "types": [
       "Electric",
@@ -17383,9 +15929,6 @@
     "name": "Landorus-Therian",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Therian Forme Landorus",
     "types": [
       "Ground",
@@ -17426,9 +15969,6 @@
     "name": "Enamorus-Therian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Therian Forme Enamorus",
     "types": [
       "Fairy",
@@ -17468,9 +16008,6 @@
     "name": "Reshiram-Overdrive",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Overdrive Reshiram",
     "types": [
       "Dragon",
@@ -17510,9 +16047,6 @@
     "name": "Zekrom-Overdrive",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Overdrive Zekrom",
     "types": [
       "Dragon",
@@ -17567,9 +16101,6 @@
         "evolutionItemID": 176
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Black Kyurem",
     "types": [
       "Dragon",
@@ -17585,9 +16116,6 @@
     "name": "Kyurem-Black-Overdrive",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Overdrive Black Kyurem",
     "types": [
       "Dragon",
@@ -17610,9 +16138,6 @@
         "evolutionItemID": 177
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "White Kyurem",
     "types": [
       "Dragon",
@@ -17628,9 +16153,6 @@
     "name": "Kyurem-White-Overdrive",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Overdrive White Kyurem",
     "types": [
       "Dragon",
@@ -17688,9 +16210,6 @@
     "name": "Meloetta-Pirouette",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Pirouette Forme Meloetta",
     "types": [
       "Normal",
@@ -17751,9 +16270,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -17770,9 +16286,6 @@
         "characterCount": 50,
         "evolutionItemID": 221
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Grass",
@@ -17829,9 +16342,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -17848,9 +16358,6 @@
         "characterCount": 50,
         "evolutionItemID": 222
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Fire",
@@ -17907,9 +16414,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -17933,9 +16437,6 @@
         "evolutionItemID": 223
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Dark"
@@ -17947,9 +16448,6 @@
     "name": "Greninja-Ash",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ash-Greninja",
     "types": [
       "Water",
@@ -18002,9 +16500,6 @@
     "name": "Diggersby",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Ground"
@@ -18044,9 +16539,6 @@
         "characterCount": 18
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Flying"
@@ -18058,9 +16550,6 @@
     "name": "Talonflame",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Flying"
@@ -18195,9 +16684,6 @@
         "characterCount": 12
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -18208,9 +16694,6 @@
     "name": "Vivillon-Archipelago",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Archipelago Pattern Vivillon",
     "types": [
       "Bug",
@@ -18226,9 +16709,6 @@
     "name": "Vivillon-Continental",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Continental Pattern Vivillon",
     "types": [
       "Bug",
@@ -18244,9 +16724,6 @@
     "name": "Vivillon-Elegant",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Elegant Pattern Vivillon",
     "types": [
       "Bug",
@@ -18262,9 +16739,6 @@
     "name": "Vivillon-Fancy",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Fancy Pattern Vivillon",
     "types": [
       "Bug",
@@ -18280,9 +16754,6 @@
     "name": "Vivillon-Garden",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Garden Pattern Vivillon",
     "types": [
       "Bug",
@@ -18298,9 +16769,6 @@
     "name": "Vivillon-HighPlains",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "High Plains Pattern Vivillon",
     "types": [
       "Bug",
@@ -18316,9 +16784,6 @@
     "name": "Vivillon-IcySnow",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Icy Snow Pattern Vivillon",
     "types": [
       "Bug",
@@ -18334,9 +16799,6 @@
     "name": "Vivillon-Jungle",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Jungle Pattern Vivillon",
     "types": [
       "Bug",
@@ -18352,9 +16814,6 @@
     "name": "Vivillon-Marine",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Marine Pattern Vivillon",
     "types": [
       "Bug",
@@ -18370,9 +16829,6 @@
     "name": "Vivillon-Meadow",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Meadow Pattern Vivillon",
     "types": [
       "Bug",
@@ -18388,9 +16844,6 @@
     "name": "Vivillon-Modern",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Modern Pattern Vivillon",
     "types": [
       "Bug",
@@ -18406,9 +16859,6 @@
     "name": "Vivillon-Monsoon",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Monsoon Pattern Vivillon",
     "types": [
       "Bug",
@@ -18424,9 +16874,6 @@
     "name": "Vivillon-Ocean",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ocean Pattern Vivillon",
     "types": [
       "Bug",
@@ -18442,9 +16889,6 @@
     "name": "Vivillon-PokéBall",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Poké Ball Pattern Vivillon",
     "types": [
       "Bug",
@@ -18460,9 +16904,6 @@
     "name": "Vivillon-Polar",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Polar Pattern Vivillon",
     "types": [
       "Bug",
@@ -18478,9 +16919,6 @@
     "name": "Vivillon-River",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "River Pattern Vivillon",
     "types": [
       "Bug",
@@ -18496,9 +16934,6 @@
     "name": "Vivillon-Sandstorm",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sandstorm Pattern Vivillon",
     "types": [
       "Bug",
@@ -18514,9 +16949,6 @@
     "name": "Vivillon-Savanna",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Savanna Pattern Vivillon",
     "types": [
       "Bug",
@@ -18532,9 +16964,6 @@
     "name": "Vivillon-Sun",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Sun Pattern Vivillon",
     "types": [
       "Bug",
@@ -18550,9 +16979,6 @@
     "name": "Vivillon-Tundra",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Tundra Pattern Vivillon",
     "types": [
       "Bug",
@@ -18603,9 +17029,6 @@
         "evolutionItemID": 224
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Pyroar ♂",
     "types": [
       "Fire",
@@ -18644,9 +17067,6 @@
         "characterCount": 50,
         "evolutionItemID": 224
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "displayName": "Pyroar ♀",
     "types": [
@@ -18713,9 +17133,6 @@
         "evolutionItemID": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Red Flower Floette",
     "types": [
       "Fairy"
@@ -18730,9 +17147,6 @@
     "name": "Florges-Red",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Red Flower Florges",
     "types": [
       "Fairy"
@@ -18780,9 +17194,6 @@
         "evolutionItemID": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Yellow Flower Floette",
     "types": [
       "Fairy"
@@ -18797,9 +17208,6 @@
     "name": "Florges-Yellow",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Yellow Flower Florges",
     "types": [
       "Fairy"
@@ -18847,9 +17255,6 @@
         "evolutionItemID": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Orange Flower Floette",
     "types": [
       "Fairy"
@@ -18864,9 +17269,6 @@
     "name": "Florges-Orange",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Orange Flower Florges",
     "types": [
       "Fairy"
@@ -18914,9 +17316,6 @@
         "evolutionItemID": 9
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Blue Flower Floette",
     "types": [
       "Fairy"
@@ -18931,9 +17330,6 @@
     "name": "Florges-Blue",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Blue Flower Florges",
     "types": [
       "Fairy"
@@ -18988,9 +17384,6 @@
         "evolutionItemID": 179
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "White Flower Floette",
     "types": [
       "Fairy"
@@ -19005,9 +17398,6 @@
     "name": "Florges-White",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "White Flower Florges",
     "types": [
       "Fairy"
@@ -19028,9 +17418,6 @@
         "characterCount": 50,
         "evolutionItemID": 225
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "displayName": "Eternal Flower Floette",
     "types": [
@@ -19083,9 +17470,6 @@
     "name": "Gogoat",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -19118,9 +17502,6 @@
     "name": "Pangoro",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting",
       "Dark"
@@ -19193,9 +17574,6 @@
     "name": "Furfrou-Heart",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Heart Trim Furfrou",
     "types": [
       "Normal"
@@ -19210,9 +17588,6 @@
     "name": "Furfrou-Star",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Star Trim Furfrou",
     "types": [
       "Normal"
@@ -19227,9 +17602,6 @@
     "name": "Furfrou-Diamond",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Diamond Trim Furfrou",
     "types": [
       "Normal"
@@ -19244,9 +17616,6 @@
     "name": "Furfrou-Debutante",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Debutante Trim Furfrou",
     "types": [
       "Normal"
@@ -19261,9 +17630,6 @@
     "name": "Furfrou-Matron",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Matron Trim Furfrou",
     "types": [
       "Normal"
@@ -19278,9 +17644,6 @@
     "name": "Furfrou-Dandy",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Dandy Trim Furfrou",
     "types": [
       "Normal"
@@ -19295,9 +17658,6 @@
     "name": "Furfrou-LaReine",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "La Reine Trim Furfrou",
     "types": [
       "Normal"
@@ -19312,9 +17672,6 @@
     "name": "Furfrou-Kabuki",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Kabuki Trim Furfrou",
     "types": [
       "Normal"
@@ -19329,9 +17686,6 @@
     "name": "Furfrou-Pharaoh",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Pharaoh Trim Furfrou",
     "types": [
       "Normal"
@@ -19381,9 +17735,6 @@
         "evolutionItemID": 226
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Meowstic ♂",
     "types": [
       "Psychic"
@@ -19420,9 +17771,6 @@
         "characterCount": 50,
         "evolutionItemID": 226
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "displayName": "Meowstic ♀",
     "types": [
@@ -19483,9 +17831,6 @@
         "evolutionItemID": 7
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Ghost"
@@ -19504,9 +17849,6 @@
         "evolutionItemID": 181
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Blade Forme Aegislash",
     "types": [
       "Steel",
@@ -19522,9 +17864,6 @@
     "name": "Aegislash-Shield",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Shield Forme Aegislash",
     "types": [
       "Steel",
@@ -19562,9 +17901,6 @@
     "name": "Aromatisse",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy"
     ]
@@ -19597,9 +17933,6 @@
     "name": "Slurpuff",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy"
     ]
@@ -19639,9 +17972,6 @@
         "characterCount": 50,
         "evolutionItemID": 227
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Dark",
@@ -19699,9 +18029,6 @@
         "evolutionItemID": 228
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Water"
@@ -19758,9 +18085,6 @@
         "evolutionItemID": 229
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Dragon"
@@ -19809,9 +18133,6 @@
     "name": "Clawitzer",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -19845,9 +18166,6 @@
     "name": "Heliolisk",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Normal"
@@ -19882,9 +18200,6 @@
     "name": "Tyrantrum",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Dragon"
@@ -19919,9 +18234,6 @@
     "name": "Aurorus",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Ice"
@@ -20043,9 +18355,6 @@
     "name": "Trevenant",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Grass"
@@ -20080,9 +18389,6 @@
     "name": "Gourgeist",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Grass"
@@ -20122,9 +18428,6 @@
     "name": "Avalugg",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -20135,9 +18438,6 @@
     "name": "Avalugg-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Avalugg",
     "types": [
       "Ice",
@@ -20175,9 +18475,6 @@
     "name": "Noivern",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Flying",
       "Dragon"
@@ -20225,9 +18522,6 @@
         "evolutionItemID": 24
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon"
     ]
@@ -20238,9 +18532,6 @@
     "name": "Goodra",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon"
     ]
@@ -20258,9 +18549,6 @@
         "evolutionItemID": 24
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Sliggoo",
     "types": [
       "Steel",
@@ -20276,9 +18564,6 @@
     "name": "Goodra-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Goodra",
     "types": [
       "Steel",
@@ -20318,9 +18603,6 @@
     "name": "Xerneas-ActiveMode",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Active Mode Xerneas",
     "types": [
       "Fairy"
@@ -20387,9 +18669,6 @@
         "evolutionItemID": 53
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "10% Zygarde",
     "types": [
       "Dragon",
@@ -20412,9 +18691,6 @@
         "evolutionItemID": 53
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "50% Zygarde",
     "types": [
       "Dragon",
@@ -20436,9 +18712,6 @@
         "characterCount": 50,
         "evolutionItemID": 231
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "displayName": "Complete Forme Zygarde",
     "types": [
@@ -20495,9 +18768,6 @@
     "name": "Diancie-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Mega Diancie",
     "types": [
       "Rock",
@@ -20537,9 +18807,6 @@
     "name": "Hoopa-Unbound",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Unbound Hoopa",
     "types": [
       "Psychic",
@@ -20608,9 +18875,6 @@
         "evolutionItemID": 142
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Flying"
@@ -20622,9 +18886,6 @@
     "name": "Decidueye",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Ghost"
@@ -20636,9 +18897,6 @@
     "name": "Decidueye-Hisuian",
     "region": "Hisui",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hisuian Decidueye",
     "types": [
       "Grass",
@@ -20682,9 +18940,6 @@
         "characterCount": 17
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -20695,9 +18950,6 @@
     "name": "Incineroar",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Dark"
@@ -20737,9 +18989,6 @@
         "characterCount": 17
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -20750,9 +18999,6 @@
     "name": "Primarina",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Fairy"
@@ -20792,9 +19038,6 @@
         "characterCount": 14
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -20806,9 +19049,6 @@
     "name": "Toucannon",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Flying"
@@ -20842,9 +19082,6 @@
     "name": "Gumshoos",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -20883,9 +19120,6 @@
         "evolutionItemID": 3
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Electric"
@@ -20897,9 +19131,6 @@
     "name": "Vikavolt",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Electric"
@@ -20939,9 +19170,6 @@
         "characterCount": 50,
         "evolutionItemID": 232
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Fighting",
@@ -21072,9 +19300,6 @@
     "name": "Ribombee",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Fairy"
@@ -21121,9 +19346,6 @@
     "name": "Lycanroc-Midday",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Midday Form Lycanroc",
     "types": [
       "Rock"
@@ -21138,9 +19360,6 @@
     "name": "Lycanroc-Midnight",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Midnight Form Lycanroc",
     "types": [
       "Rock"
@@ -21155,9 +19374,6 @@
     "name": "Lycanroc-Dusk",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Dusk Form Lycanroc",
     "types": [
       "Rock"
@@ -21195,9 +19411,6 @@
     "name": "Wishiwashi-Schooling",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "School Form Wishiwashi",
     "types": [
       "Water"
@@ -21234,9 +19447,6 @@
     "name": "Toxapex",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Water"
@@ -21269,9 +19479,6 @@
     "name": "Mudsdale",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground"
     ]
@@ -21304,9 +19511,6 @@
     "name": "Araquanid",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Bug"
@@ -21340,9 +19544,6 @@
     "name": "Lurantis",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -21375,9 +19576,6 @@
     "name": "Shiinotic",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Fairy"
@@ -21412,9 +19610,6 @@
     "name": "Salazzle",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Fire"
@@ -21448,9 +19643,6 @@
     "name": "Bewear",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal",
       "Fighting"
@@ -21490,9 +19682,6 @@
         "evolutionItemID": 185
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -21503,9 +19692,6 @@
     "name": "Tsareena",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -21591,9 +19777,6 @@
         "evolutionItemID": 233
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Water"
@@ -21643,9 +19826,6 @@
     "name": "Palossand",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost",
       "Ground"
@@ -21696,9 +19876,6 @@
     "name": "Silvally",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -21768,9 +19945,6 @@
     "name": "Minior-Red",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Red Core Minior",
     "types": [
       "Rock",
@@ -21786,9 +19960,6 @@
     "name": "Minior-Orange",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Orange Core Minior",
     "types": [
       "Rock",
@@ -21804,9 +19975,6 @@
     "name": "Minior-Yellow",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Yellow Core Minior",
     "types": [
       "Rock",
@@ -21822,9 +19990,6 @@
     "name": "Minior-Green",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Green Core Minior",
     "types": [
       "Rock",
@@ -21840,9 +20005,6 @@
     "name": "Minior-Blue",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Blue Core Minior",
     "types": [
       "Rock",
@@ -21858,9 +20020,6 @@
     "name": "Minior-Indigo",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Indigo Core Minior",
     "types": [
       "Rock",
@@ -21876,9 +20035,6 @@
     "name": "Minior-Violet",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Violet Core Minior",
     "types": [
       "Rock",
@@ -21965,9 +20121,6 @@
     "name": "Mimikyu-Busted",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Busted Form Mimikyu",
     "types": [
       "Ghost",
@@ -22083,9 +20236,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Hakamoo",
     "types": [
       "Dragon",
@@ -22098,9 +20248,6 @@
     "name": "Kommo-o",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "spriteName": "Kommoo",
     "types": [
       "Dragon",
@@ -22217,9 +20364,6 @@
         "evolutionItemID": 6
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -22237,9 +20381,6 @@
         "evolutionItemID": 186
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Steel"
@@ -22251,9 +20392,6 @@
     "name": "Solgaleo-RadiantSun",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Radiant Sun Phase Solgaleo",
     "types": [
       "Psychic",
@@ -22276,9 +20414,6 @@
         "evolutionItemID": 187
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Ghost"
@@ -22290,9 +20425,6 @@
     "name": "Lunala-FullMoon",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Full Moon Phase Lunala",
     "types": [
       "Psychic",
@@ -22345,9 +20477,6 @@
     "name": "Necrozma-DuskMane",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Dusk Mane Necrozma",
     "types": [
       "Psychic",
@@ -22363,9 +20492,6 @@
     "name": "Necrozma-DawnWings",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Dawn Wings Necrozma",
     "types": [
       "Psychic",
@@ -22381,9 +20507,6 @@
     "name": "Necrozma-Ultra",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ultra Necrozma",
     "types": [
       "Psychic",
@@ -22540,9 +20663,6 @@
     "name": "Naganadel",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Dragon"
@@ -22641,9 +20761,6 @@
         "evolutionItemID": 235
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Original Color Magearna",
     "types": [
       "Steel",
@@ -22700,9 +20817,6 @@
     "name": "Marshadow-Zenith",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Zenith Marshadow",
     "types": [
       "Fighting",
@@ -22786,9 +20900,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel"
     ]
@@ -22799,9 +20910,6 @@
     "name": "Melmetal-Giga",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Melmetal",
     "types": [
       "Steel"
@@ -22844,9 +20952,6 @@
         "characterCount": 19
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -22864,9 +20969,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -22877,9 +20979,6 @@
     "name": "Rillaboom-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Rillaboom",
     "types": [
       "Grass"
@@ -22922,9 +21021,6 @@
         "characterCount": 19
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -22942,9 +21038,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -22955,9 +21048,6 @@
     "name": "Cinderace-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Cinderace",
     "types": [
       "Fire"
@@ -23000,9 +21090,6 @@
         "characterCount": 19
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -23020,9 +21107,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -23033,9 +21117,6 @@
     "name": "Inteleon-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Inteleon",
     "types": [
       "Water"
@@ -23071,9 +21152,6 @@
     "name": "Greedent",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -23111,9 +21189,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Flying"
     ]
@@ -23131,9 +21206,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Flying",
       "Steel"
@@ -23145,9 +21217,6 @@
     "name": "Corviknight-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Corviknight",
     "types": [
       "Flying",
@@ -23190,9 +21259,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Psychic"
@@ -23211,9 +21277,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Psychic"
@@ -23225,9 +21288,6 @@
     "name": "Orbeetle-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Orbeetle",
     "types": [
       "Bug",
@@ -23264,9 +21324,6 @@
     "name": "Thievul",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark"
     ]
@@ -23298,9 +21355,6 @@
     "name": "Eldegoss",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -23332,9 +21386,6 @@
     "name": "Dubwool",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Normal"
     ]
@@ -23373,9 +21424,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Rock"
@@ -23387,9 +21435,6 @@
     "name": "Drednaw-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Drednaw",
     "types": [
       "Water",
@@ -23426,9 +21471,6 @@
     "name": "Boltund",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -23466,9 +21508,6 @@
         "characterCount": 16
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Fire"
@@ -23487,9 +21526,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Fire"
@@ -23501,9 +21537,6 @@
     "name": "Coalossal-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Coalossal",
     "types": [
       "Rock",
@@ -23562,9 +21595,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dragon"
@@ -23576,9 +21606,6 @@
     "name": "Flapple-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Flapple",
     "types": [
       "Grass",
@@ -23601,9 +21628,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dragon"
@@ -23615,9 +21639,6 @@
     "name": "Appletun-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Appletun",
     "types": [
       "Grass",
@@ -23640,9 +21661,6 @@
         "evolutionItemID": 190
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dragon"
@@ -23654,9 +21672,6 @@
     "name": "Hydrapple",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dragon"
@@ -23696,9 +21711,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground"
     ]
@@ -23709,9 +21721,6 @@
     "name": "Sandaconda-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Sandaconda",
     "types": [
       "Ground"
@@ -23756,9 +21765,6 @@
         "evolutionItemID": 47
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gulping Form Cramorant",
     "types": [
       "Flying",
@@ -23774,9 +21780,6 @@
     "name": "Cramorant-Gorging",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gorging Form Cramorant",
     "types": [
       "Flying",
@@ -23813,9 +21816,6 @@
     "name": "Barraskewda",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -23842,7 +21842,8 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "Baby"
     ],
     "types": [
       "Electric",
@@ -23862,9 +21863,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Amped Form Toxtricity",
     "types": [
       "Electric",
@@ -23880,9 +21878,6 @@
     "name": "Toxtricity-LowKey",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Low Key Form Toxtricity",
     "types": [
       "Electric",
@@ -23898,9 +21893,6 @@
     "name": "Toxtricity-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Toxtricity",
     "types": [
       "Electric",
@@ -23945,9 +21937,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Bug"
@@ -23959,9 +21948,6 @@
     "name": "Centiskorch-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Centiskorch",
     "types": [
       "Fire",
@@ -23999,9 +21985,6 @@
     "name": "Grapploct",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting"
     ]
@@ -24038,9 +22021,6 @@
     "name": "Polteageist-Phony",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Phony Form Polteageist",
     "types": [
       "Ghost"
@@ -24081,9 +22061,6 @@
     "name": "Polteageist-Antique",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Antique Form Polteageist",
     "types": [
       "Ghost"
@@ -24125,9 +22102,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -24145,9 +22119,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic",
       "Fairy"
@@ -24159,9 +22130,6 @@
     "name": "Hatterene-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Hatterene",
     "types": [
       "Psychic",
@@ -24205,9 +22173,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Fairy"
@@ -24226,9 +22191,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark",
       "Fairy"
@@ -24240,9 +22202,6 @@
     "name": "Grimmsnarl-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Grimmsnarl",
     "types": [
       "Dark",
@@ -24324,9 +22283,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Strawberry Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24341,9 +22297,6 @@
     "name": "Alcremie-BerrySweet",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Berry Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24358,9 +22311,6 @@
     "name": "Alcremie-LoveSweet",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Love Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24375,9 +22325,6 @@
     "name": "Alcremie-StarSweet",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Star Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24392,9 +22339,6 @@
     "name": "Alcremie-CloverSweet",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Clover Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24409,9 +22353,6 @@
     "name": "Alcremie-FlowerSweet",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Flower Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24426,9 +22367,6 @@
     "name": "Alcremie-RibbonSweet",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ribbon Sweet Alcremie",
     "types": [
       "Fairy"
@@ -24443,9 +22381,6 @@
     "name": "Alcremie-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Alcremie",
     "types": [
       "Fairy"
@@ -24535,9 +22470,6 @@
     "name": "Frosmoth",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice",
       "Bug"
@@ -24587,9 +22519,6 @@
     "name": "Eiscue-NoiceFace",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Noice Face Eiscue",
     "types": [
       "Ice"
@@ -24668,9 +22597,6 @@
     "name": "Morpeko-Hangry",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hangry Mode Morpeko",
     "types": [
       "Electric",
@@ -24714,9 +22640,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel"
     ]
@@ -24727,9 +22650,6 @@
     "name": "Copperajah-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Copperajah",
     "types": [
       "Steel"
@@ -24837,9 +22757,6 @@
     "name": "Duraludon-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Duraludon",
     "types": [
       "Steel",
@@ -24855,9 +22772,6 @@
     "name": "Archaludon",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Dragon"
@@ -24898,9 +22812,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Ghost"
@@ -24912,9 +22823,6 @@
     "name": "Dragapult",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Ghost"
@@ -24949,9 +22857,6 @@
     "name": "Zacian-CrownedSword",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Crowned Sword Zacian",
     "types": [
       "Fairy",
@@ -24990,9 +22895,6 @@
     "name": "Zamazenta-CrownedShield",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Crowned Shield Zamazenta",
     "types": [
       "Fighting",
@@ -25032,9 +22934,6 @@
     "name": "Eternatus-Eternamax",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Eternamax Eternatus",
     "types": [
       "Poison",
@@ -25084,9 +22983,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Single Strike Style Urshifu",
     "types": [
       "Fighting",
@@ -25102,9 +22998,6 @@
     "name": "Urshifu-SingleStrike-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Urshifu (Single Strike Style)",
     "types": [
       "Fighting",
@@ -25128,9 +23021,6 @@
         "evolutionItemID": 131
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Rapid Strike Style Urshifu",
     "types": [
       "Fighting",
@@ -25146,9 +23036,6 @@
     "name": "Urshifu-RapidStrike-Giga",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Gigantamax Urshifu (Rapid Strike Style)",
     "types": [
       "Fighting",
@@ -25189,9 +23076,6 @@
     "name": "Zarude-Dada",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Dada Zarude",
     "types": [
       "Dark",
@@ -25271,9 +23155,6 @@
     "name": "Calyrex-IceRider",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ice Rider Calyrex",
     "types": [
       "Psychic",
@@ -25289,9 +23170,6 @@
     "name": "Calyrex-ShadowRider",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Shadow Rider Calyrex",
     "types": [
       "Psychic",
@@ -25335,9 +23213,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass"
     ]
@@ -25348,9 +23223,6 @@
     "name": "Meowscarada",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Dark"
@@ -25390,9 +23262,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire"
     ]
@@ -25403,9 +23272,6 @@
     "name": "Skeledirge",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Ghost"
@@ -25445,9 +23311,6 @@
         "characterCount": 20
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ]
@@ -25458,9 +23321,6 @@
     "name": "Quaquaval",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water",
       "Fighting"
@@ -25500,9 +23360,6 @@
     "name": "Oinkologne-M",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Oinkologne ♂",
     "types": [
       "Normal"
@@ -25517,9 +23374,6 @@
     "name": "Oinkologne-F",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Oinkologne ♀",
     "types": [
       "Normal"
@@ -25555,9 +23409,6 @@
     "name": "Spidops",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug"
     ]
@@ -25589,9 +23440,6 @@
     "name": "Lokix",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Dark"
@@ -25631,9 +23479,6 @@
         "evolutionItemID": 193
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Fighting"
@@ -25645,9 +23490,6 @@
     "name": "Pawmot",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Fighting"
@@ -25686,9 +23528,6 @@
     "name": "Maushold-FamilyOfFour",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Family of Four Maushold",
     "types": [
       "Normal"
@@ -25700,9 +23539,6 @@
     "name": "Maushold-FamilyOfThree",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Family of Three Maushold",
     "types": [
       "Normal"
@@ -25738,9 +23574,6 @@
     "name": "Dachsbun",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy"
     ]
@@ -25779,9 +23612,6 @@
         "characterCount": 10
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Normal"
@@ -25793,9 +23623,6 @@
     "name": "Arboliva",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Normal"
@@ -25914,9 +23741,6 @@
         "characterCount": 14
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock"
     ]
@@ -25927,9 +23751,6 @@
     "name": "Garganacl",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock"
     ]
@@ -25969,9 +23790,6 @@
     "name": "Armarouge",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Psychic"
@@ -25983,9 +23801,6 @@
     "name": "Ceruledge",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fire",
       "Ghost"
@@ -26019,9 +23834,6 @@
     "name": "Bellibolt",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric"
     ]
@@ -26054,9 +23866,6 @@
     "name": "Kilowattrel",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Flying"
@@ -26089,9 +23898,6 @@
     "name": "Mabosstiff",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dark"
     ]
@@ -26124,9 +23930,6 @@
     "name": "Grafaiai",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Poison",
       "Normal"
@@ -26160,9 +23963,6 @@
     "name": "Brambleghast",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Ghost"
@@ -26199,9 +23999,6 @@
     "name": "Toedscruel",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ground",
       "Grass"
@@ -26260,9 +24057,6 @@
         "evolutionItemID": 238
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Grass",
       "Fire"
@@ -26312,9 +24106,6 @@
     "name": "Rabsca",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Bug",
       "Psychic"
@@ -26347,9 +24138,6 @@
     "name": "Espathra",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Psychic"
     ]
@@ -26388,9 +24176,6 @@
         "characterCount": 14
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy",
       "Steel"
@@ -26402,9 +24187,6 @@
     "name": "Tinkaton",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fairy",
       "Steel"
@@ -26440,9 +24222,6 @@
     "name": "Wugtrio",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Water"
     ],
@@ -26500,9 +24279,6 @@
         "evolutionItemID": 195
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Zero Form Palafin",
     "types": [
       "Water"
@@ -26514,9 +24290,6 @@
     "name": "Palafin-Hero",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Hero Form Palafin",
     "types": [
       "Water"
@@ -26553,9 +24326,6 @@
     "name": "Revavroom",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Poison"
@@ -26611,9 +24381,6 @@
         "evolutionItemID": 239
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Rock",
       "Poison"
@@ -26663,9 +24430,6 @@
     "name": "Houndstone",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ghost"
     ]
@@ -26714,9 +24478,6 @@
     "name": "Cetitan",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Ice"
     ]
@@ -26919,9 +24680,6 @@
         "characterCount": 19
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Dragon",
       "Ice"
@@ -26939,9 +24697,6 @@
         "characterCount": 50,
         "evolutionItemID": 241
       }
-    ],
-    "categories": [
-      "Full"
     ],
     "types": [
       "Dragon",
@@ -26998,9 +24753,6 @@
     "name": "Sinistcha-Phony",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Phony Form Sinistcha",
     "types": [
       "Grass",
@@ -27045,9 +24797,6 @@
     "name": "Sinistcha-Antique",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Antique Form Sinistcha",
     "types": [
       "Grass",
@@ -27094,9 +24843,6 @@
         "evolutionItemID": 147
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Chest Form Gimmighoul",
     "types": [
       "Ghost"
@@ -27111,9 +24857,6 @@
     "name": "Gholdengo",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Steel",
       "Ghost"
@@ -27228,9 +24971,6 @@
     "name": "Koraidon",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Fighting",
       "Dragon"
@@ -27242,9 +24982,6 @@
     "name": "Miraidon",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "types": [
       "Electric",
       "Dragon"
@@ -27372,9 +25109,6 @@
         "evolutionItemID": 157
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Teal Mask)",
     "types": [
       "Grass"
@@ -27389,9 +25123,6 @@
     "name": "Ogerpon-TealMask-Terastal",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Teal Mask) (Tera)",
     "types": [
       "Grass"
@@ -27413,9 +25144,6 @@
         "evolutionItemID": 159
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Wellspring Mask)",
     "types": [
       "Grass",
@@ -27431,9 +25159,6 @@
     "name": "Ogerpon-WellspringMask-Terastal",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Wellspring Mask) (Tera)",
     "types": [
       "Grass",
@@ -27456,9 +25181,6 @@
         "evolutionItemID": 158
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Hearthflame Mask)",
     "types": [
       "Grass",
@@ -27474,9 +25196,6 @@
     "name": "Ogerpon-HearthflameMask-Terastal",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Hearthflame Mask) (Tera)",
     "types": [
       "Grass",
@@ -27499,9 +25218,6 @@
         "evolutionItemID": 160
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Cornerstone Mask)",
     "types": [
       "Grass",
@@ -27517,9 +25233,6 @@
     "name": "Ogerpon-CornerstoneMask-Terastal",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Ogerpon (Cornerstone Mask) (Tera)",
     "types": [
       "Grass",
@@ -27565,9 +25278,6 @@
         "evolutionItemID": 161
       }
     ],
-    "categories": [
-      "Full"
-    ],
     "displayName": "Terastal Form Terapagos",
     "types": [
       "Normal"
@@ -27582,9 +25292,6 @@
     "name": "Terapagos-Stellar",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [
-      "Full"
-    ],
     "displayName": "Stellar Form Terapagos",
     "types": [
       "Normal"

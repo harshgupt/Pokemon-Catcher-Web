@@ -45,6 +45,7 @@ const FORM_CLUE_MAP = {
 
 const CLUE_MAP = {
   Starter:         'Starter Pokémon',
+  Baby:            'Baby Pokémon',
   ClassPseudo:     'Pseudo-Legendary',
   ClassUltraBeast: 'Ultra Beast',
   ClassParadox:    'Paradox Pokémon',
@@ -102,7 +103,7 @@ const CLS_TO_CAT  = {
   Starter: 'Starter', PseudoLegendary: 'ClassPseudo',
   UltraBeast: 'ClassUltraBeast', Legendary: 'ClassLegendary',
   Mythical: 'ClassMythical', Paradox: 'ClassParadox',
-  Baby: 'ClassBaby', Fossil: 'ClassFossil',
+  Baby: 'Baby', Fossil: 'ClassFossil',
 }
 
 function pokemonClue(p, spawnFilter = {}) {
