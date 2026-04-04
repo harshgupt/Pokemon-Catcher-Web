@@ -44,7 +44,7 @@ const FORM_CLUE_MAP = {
 }
 
 const CLUE_MAP = {
-  ClassStarter:    'Starter Pokémon',
+  Starter:         'Starter Pokémon',
   ClassPseudo:     'Pseudo-Legendary',
   ClassUltraBeast: 'Ultra Beast',
   ClassParadox:    'Paradox Pokémon',
@@ -83,7 +83,7 @@ function matchesFilter(p, f) {
     if (p.region !== f.region)                                          return false
   }
   if (f.form  && !catchFormSets[f.form]?.has(p.id))                    return false
-  if (f.cls   && !classSets[f.cls]?.has(p.id))                         return false
+  if (f.cls   && !(catchFormSets[f.cls] ?? classSets[f.cls])?.has(p.id)) return false
   return true
 }
 
@@ -99,7 +99,7 @@ function weightedSelect(pool, getWeight) {
 }
 
 const CLS_TO_CAT  = {
-  Starter: 'ClassStarter', PseudoLegendary: 'ClassPseudo',
+  Starter: 'Starter', PseudoLegendary: 'ClassPseudo',
   UltraBeast: 'ClassUltraBeast', Legendary: 'ClassLegendary',
   Mythical: 'ClassMythical', Paradox: 'ClassParadox',
   Baby: 'ClassBaby', Fossil: 'ClassFossil',
