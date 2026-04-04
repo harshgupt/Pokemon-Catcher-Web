@@ -99,12 +99,12 @@ const CLASSES = [
 	{ value: "Paradox", label: "Paradox" },
 ];
 
-// Pre-build Sets for O(1) lookup
-// MegaEvolution, GigantamaxForm, RegionalForm derived from pokemon.json forms field; others from pokedex-filters.json
+// Pre-build Sets for O(1) lookup — all derived from pokemon.json forms field
 const formSets = {
 	MegaEvolution:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('MegaEvolution')).map(p => p.id)),
 	GigantamaxForm: new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('GigantamaxForm')).map(p => p.id)),
 	RegionalForm:   new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('RegionalForm')).map(p => p.id)),
+	AlternateForm:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('AlternateForm')).map(p => p.id)),
 	...Object.fromEntries(Object.entries(filters.forms).map(([k, ids]) => [k, new Set(ids)])),
 };
 const classSets = Object.fromEntries(

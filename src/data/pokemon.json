@@ -21,9 +21,6 @@
     ],
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -184,6 +181,9 @@
     "displayName": "Original Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -198,6 +198,9 @@
     "displayName": "Hoenn Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -212,6 +215,9 @@
     "displayName": "Sinnoh Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -226,6 +232,9 @@
     "displayName": "Unova Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -240,6 +249,9 @@
     "displayName": "Kalos Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -254,6 +266,9 @@
     "displayName": "Alola Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -268,6 +283,9 @@
     "displayName": "Partner Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -282,6 +300,9 @@
     "displayName": "World Cap Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -296,6 +317,9 @@
     "displayName": "Rock Star Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -310,6 +334,9 @@
     "displayName": "Belle Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -324,6 +351,9 @@
     "displayName": "Pop Star Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -338,6 +368,9 @@
     "displayName": "Ph.D. Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -352,6 +385,9 @@
     "displayName": "Libre Pikachu",
     "types": [
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -7068,9 +7104,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -7099,6 +7132,9 @@
     "displayName": "Three-Segment Dudunsparce",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -7383,9 +7419,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -7442,6 +7475,9 @@
     "types": [
       "Ground",
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -10492,9 +10528,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -10509,6 +10542,9 @@
     "displayName": "Sunny Form Castform",
     "types": [
       "Fire"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -10523,6 +10559,9 @@
     "displayName": "Rainy Form Castform",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -10537,6 +10576,9 @@
     "displayName": "Snowy Form Castform",
     "types": [
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -11430,9 +11472,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11447,6 +11486,9 @@
     "displayName": "Primal Kyogre",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -11470,9 +11512,6 @@
     ],
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11488,6 +11527,9 @@
     "types": [
       "Ground",
       "Fire"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -11582,9 +11624,6 @@
     ],
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11599,6 +11638,9 @@
     "displayName": "Attack Forme Deoxys",
     "types": [
       "Psychic"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -11613,6 +11655,9 @@
     "displayName": "Defense Forme Deoxys",
     "types": [
       "Psychic"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -11627,6 +11672,9 @@
     "displayName": "Speed Forme Deoxys",
     "types": [
       "Psychic"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12111,6 +12159,9 @@
     "types": [
       "Bug",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12151,6 +12202,9 @@
     "types": [
       "Bug",
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12191,6 +12245,9 @@
     "types": [
       "Bug",
       "Steel"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12228,9 +12285,6 @@
     "types": [
       "Bug",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -12315,9 +12369,6 @@
     ],
     "types": [
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -12353,6 +12404,9 @@
     "displayName": "Sunshine Form Cherrim",
     "types": [
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12393,6 +12447,9 @@
     "types": [
       "Water",
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12433,6 +12490,9 @@
     "types": [
       "Water",
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12789,6 +12849,9 @@
     "displayName": "Hippowdon ♂",
     "types": [
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -12828,6 +12891,9 @@
     "displayName": "Hippowdon ♀",
     "types": [
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13057,9 +13123,6 @@
     "types": [
       "Electric",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13075,6 +13138,9 @@
     "types": [
       "Electric",
       "Fire"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13090,6 +13156,9 @@
     "types": [
       "Electric",
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13105,6 +13174,9 @@
     "types": [
       "Electric",
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13120,6 +13192,9 @@
     "types": [
       "Electric",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13135,6 +13210,9 @@
     "types": [
       "Electric",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13404,9 +13482,6 @@
     "types": [
       "Steel",
       "Dragon"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13422,6 +13497,9 @@
     "types": [
       "Steel",
       "Dragon"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13446,9 +13524,6 @@
     "types": [
       "Water",
       "Dragon"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13464,6 +13539,9 @@
     "types": [
       "Water",
       "Dragon"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13488,9 +13566,6 @@
     "types": [
       "Ghost",
       "Dragon"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13506,6 +13581,9 @@
     "types": [
       "Ghost",
       "Dragon"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -13522,9 +13600,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13580,9 +13655,6 @@
     ],
     "types": [
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13598,6 +13670,9 @@
     "types": [
       "Grass",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -14094,9 +14169,6 @@
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14138,6 +14210,9 @@
     "types": [
       "Normal",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -14153,6 +14228,9 @@
     "types": [
       "Normal",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -14834,6 +14912,9 @@
     "types": [
       "Water",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -14849,6 +14930,9 @@
     "types": [
       "Water",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -14926,9 +15010,6 @@
     ],
     "types": [
       "Fire"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14964,6 +15045,9 @@
     "types": [
       "Fire",
       "Psychic"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -14989,7 +15073,6 @@
       "Ice"
     ],
     "forms": [
-      "AlternateForm",
       "RegionalForm"
     ]
   },
@@ -15032,7 +15115,8 @@
       "Fire"
     ],
     "forms": [
-      "RegionalForm"
+      "RegionalForm",
+      "AlternateForm"
     ]
   },
   {
@@ -15713,6 +15797,9 @@
     "types": [
       "Normal",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -15754,6 +15841,9 @@
     "types": [
       "Normal",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -15795,6 +15885,9 @@
     "types": [
       "Normal",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -15836,6 +15929,9 @@
     "types": [
       "Normal",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -16025,6 +16121,9 @@
     "types": [
       "Water",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -16066,6 +16165,9 @@
     "types": [
       "Water",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17146,9 +17248,6 @@
     "types": [
       "Water",
       "Fighting"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17164,6 +17263,9 @@
     "types": [
       "Water",
       "Fighting"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17188,9 +17290,6 @@
     "displayName": "Incarnate Forme Tornadus",
     "types": [
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17205,6 +17304,9 @@
     "displayName": "Therian Forme Tornadus",
     "types": [
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17230,9 +17332,6 @@
     "types": [
       "Electric",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17248,6 +17347,9 @@
     "types": [
       "Electric",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17273,9 +17375,6 @@
     "types": [
       "Ground",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17291,6 +17390,9 @@
     "types": [
       "Ground",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17316,9 +17418,6 @@
     "types": [
       "Fairy",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17334,6 +17433,9 @@
     "types": [
       "Fairy",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17358,9 +17460,6 @@
     "types": [
       "Dragon",
       "Fire"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17376,6 +17475,9 @@
     "types": [
       "Dragon",
       "Fire"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17400,9 +17502,6 @@
     "types": [
       "Dragon",
       "Electric"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17418,6 +17517,9 @@
     "types": [
       "Dragon",
       "Electric"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17450,9 +17552,6 @@
     "types": [
       "Dragon",
       "Ice"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17475,6 +17574,9 @@
     "types": [
       "Dragon",
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17490,6 +17592,9 @@
     "types": [
       "Dragon",
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17512,6 +17617,9 @@
     "types": [
       "Dragon",
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17527,6 +17635,9 @@
     "types": [
       "Dragon",
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17569,9 +17680,6 @@
     "types": [
       "Normal",
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17587,6 +17695,9 @@
     "types": [
       "Normal",
       "Fighting"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17604,9 +17715,6 @@
     "types": [
       "Bug",
       "Steel"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17785,9 +17893,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17849,6 +17954,9 @@
     "types": [
       "Water",
       "Dark"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -17978,9 +18086,6 @@
     ],
     "types": [
       "Bug"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -18110,6 +18215,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18125,6 +18233,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18140,6 +18251,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18155,6 +18269,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18170,6 +18287,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18185,6 +18305,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18200,6 +18323,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18215,6 +18341,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18230,6 +18359,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18245,6 +18377,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18260,6 +18395,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18275,6 +18413,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18290,6 +18431,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18305,6 +18449,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18320,6 +18467,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18335,6 +18485,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18350,6 +18503,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18365,6 +18521,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18380,6 +18539,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18395,6 +18557,9 @@
     "types": [
       "Bug",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18423,9 +18588,6 @@
     "types": [
       "Fire",
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -18448,6 +18610,9 @@
     "types": [
       "Fire",
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18463,7 +18628,8 @@
       "Normal"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -18486,6 +18652,9 @@
     "types": [
       "Fire",
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18501,7 +18670,8 @@
       "Normal"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -18549,6 +18719,9 @@
     "displayName": "Red Flower Floette",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18563,6 +18736,9 @@
     "displayName": "Red Flower Florges",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18610,6 +18786,9 @@
     "displayName": "Yellow Flower Floette",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18624,6 +18803,9 @@
     "displayName": "Yellow Flower Florges",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18671,6 +18853,9 @@
     "displayName": "Orange Flower Floette",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18685,6 +18870,9 @@
     "displayName": "Orange Flower Florges",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18732,6 +18920,9 @@
     "displayName": "Blue Flower Floette",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18746,6 +18937,9 @@
     "displayName": "Blue Flower Florges",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18800,6 +18994,9 @@
     "displayName": "White Flower Floette",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18814,6 +19011,9 @@
     "displayName": "White Flower Florges",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18835,6 +19035,9 @@
     "displayName": "Eternal Flower Floette",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -18849,7 +19052,8 @@
       "Fairy"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -18981,9 +19185,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -18998,6 +19199,9 @@
     "displayName": "Heart Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19012,6 +19216,9 @@
     "displayName": "Star Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19026,6 +19233,9 @@
     "displayName": "Diamond Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19040,6 +19250,9 @@
     "displayName": "Debutante Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19054,6 +19267,9 @@
     "displayName": "Matron Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19068,6 +19284,9 @@
     "displayName": "Dandy Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19082,6 +19301,9 @@
     "displayName": "La Reine Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19096,6 +19318,9 @@
     "displayName": "Kabuki Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19110,6 +19335,9 @@
     "displayName": "Pharaoh Trim Furfrou",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19138,9 +19366,6 @@
     ],
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -19162,6 +19387,9 @@
     "displayName": "Meowstic ♂",
     "types": [
       "Psychic"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19176,7 +19404,8 @@
       "Psychic"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -19198,6 +19427,9 @@
     "displayName": "Meowstic ♀",
     "types": [
       "Psychic"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19212,7 +19444,8 @@
       "Psychic"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -19235,9 +19468,6 @@
     "types": [
       "Steel",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -19281,6 +19511,9 @@
     "types": [
       "Steel",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19296,6 +19529,9 @@
     "types": [
       "Steel",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -19836,9 +20072,6 @@
     "types": [
       "Ghost",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -20077,9 +20310,6 @@
     "displayName": "Neutral Mode Xerneas",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -20094,6 +20324,9 @@
     "displayName": "Active Mode Xerneas",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20161,6 +20394,9 @@
     "types": [
       "Dragon",
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20183,6 +20419,9 @@
     "types": [
       "Dragon",
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20205,6 +20444,9 @@
     "types": [
       "Dragon",
       "Ground"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20287,9 +20529,6 @@
     "types": [
       "Psychic",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -20305,6 +20544,9 @@
     "types": [
       "Psychic",
       "Dark"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20871,9 +21113,6 @@
     ],
     "types": [
       "Rock"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -20888,6 +21127,9 @@
     "displayName": "Midday Form Lycanroc",
     "types": [
       "Rock"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20902,6 +21144,9 @@
     "displayName": "Midnight Form Lycanroc",
     "types": [
       "Rock"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20916,6 +21161,9 @@
     "displayName": "Dusk Form Lycanroc",
     "types": [
       "Rock"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -20939,9 +21187,6 @@
     "displayName": "Solo Form Wishiwashi",
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -20956,6 +21201,9 @@
     "displayName": "School Form Wishiwashi",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21440,9 +21688,6 @@
     "spriteName": "TypeNull",
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -21515,9 +21760,6 @@
     "types": [
       "Rock",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -21533,6 +21775,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21548,6 +21793,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21563,6 +21811,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21578,6 +21829,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21593,6 +21847,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21608,6 +21865,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21623,6 +21883,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21694,9 +21957,6 @@
     "types": [
       "Ghost",
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -21712,6 +21972,9 @@
     "types": [
       "Ghost",
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -21933,9 +22196,6 @@
     ],
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -21998,6 +22258,9 @@
     "types": [
       "Psychic",
       "Steel"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -22034,6 +22297,9 @@
     "types": [
       "Psychic",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -22071,9 +22337,6 @@
     ],
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22089,6 +22352,9 @@
     "types": [
       "Psychic",
       "Steel"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -22104,6 +22370,9 @@
     "types": [
       "Psychic",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -22119,6 +22388,9 @@
     "types": [
       "Psychic",
       "Dragon"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -22338,9 +22610,6 @@
     "types": [
       "Steel",
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22379,6 +22648,9 @@
     "types": [
       "Steel",
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -22394,7 +22666,8 @@
       "Fairy"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -22419,9 +22692,6 @@
     "types": [
       "Fighting",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22437,6 +22707,9 @@
     "types": [
       "Fighting",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -23468,9 +23741,6 @@
     "types": [
       "Flying",
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -23493,6 +23763,9 @@
     "types": [
       "Flying",
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -23508,6 +23781,9 @@
     "types": [
       "Flying",
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -23571,9 +23847,6 @@
     "types": [
       "Electric",
       "Poison"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -23596,6 +23869,9 @@
     "types": [
       "Electric",
       "Poison"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -23611,6 +23887,9 @@
     "types": [
       "Electric",
       "Poison"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -23765,6 +24044,9 @@
     "displayName": "Phony Form Polteageist",
     "types": [
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -23805,6 +24087,9 @@
     "displayName": "Antique Form Polteageist",
     "types": [
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24024,9 +24309,6 @@
     ],
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24048,6 +24330,9 @@
     "displayName": "Strawberry Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24062,6 +24347,9 @@
     "displayName": "Berry Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24076,6 +24364,9 @@
     "displayName": "Love Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24090,6 +24381,9 @@
     "displayName": "Star Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24104,6 +24398,9 @@
     "displayName": "Clover Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24118,6 +24415,9 @@
     "displayName": "Flower Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24132,6 +24432,9 @@
     "displayName": "Ribbon Sweet Alcremie",
     "types": [
       "Fairy"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24276,9 +24579,6 @@
     "displayName": "Ice Face Eiscue",
     "types": [
       "Ice"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24293,6 +24593,9 @@
     "displayName": "Noice Face Eiscue",
     "types": [
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24357,9 +24660,6 @@
     "types": [
       "Electric",
       "Dark"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24375,6 +24675,9 @@
     "types": [
       "Electric",
       "Dark"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24638,9 +24941,6 @@
     ],
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24656,6 +24956,9 @@
     "types": [
       "Fairy",
       "Steel"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24679,9 +24982,6 @@
     ],
     "types": [
       "Fighting"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24697,6 +24997,9 @@
     "types": [
       "Fighting",
       "Steel"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24766,9 +25069,6 @@
     ],
     "types": [
       "Fighting"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24791,6 +25091,9 @@
     "types": [
       "Fighting",
       "Dark"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24808,7 +25111,8 @@
       "Dark"
     ],
     "forms": [
-      "GigantamaxForm"
+      "GigantamaxForm",
+      "AlternateForm"
     ]
   },
   {
@@ -24831,6 +25135,9 @@
     "types": [
       "Fighting",
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24848,7 +25155,8 @@
       "Water"
     ],
     "forms": [
-      "GigantamaxForm"
+      "GigantamaxForm",
+      "AlternateForm"
     ]
   },
   {
@@ -24873,9 +25181,6 @@
     "types": [
       "Dark",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24891,6 +25196,9 @@
     "types": [
       "Dark",
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24955,9 +25263,6 @@
     "types": [
       "Psychic",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24973,6 +25278,9 @@
     "types": [
       "Psychic",
       "Ice"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -24988,6 +25296,9 @@
     "types": [
       "Psychic",
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -25181,9 +25492,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -25198,6 +25506,9 @@
     "displayName": "Oinkologne ♂",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -25212,6 +25523,9 @@
     "displayName": "Oinkologne ♀",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -25364,9 +25678,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -25395,6 +25706,9 @@
     "displayName": "Family of Three Maushold",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -26171,9 +26485,6 @@
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -26209,6 +26520,9 @@
     "displayName": "Hero Form Palafin",
     "types": [
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -26231,9 +26545,6 @@
     "types": [
       "Steel",
       "Poison"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -26481,7 +26792,8 @@
       "Water"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -26524,7 +26836,8 @@
       "Water"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -26567,7 +26880,8 @@
       "Water"
     ],
     "forms": [
-      "MegaEvolution"
+      "MegaEvolution",
+      "AlternateForm"
     ]
   },
   {
@@ -26693,7 +27007,8 @@
       "Ghost"
     ],
     "forms": [
-      "ConvergentForm"
+      "ConvergentForm",
+      "AlternateForm"
     ]
   },
   {
@@ -26739,7 +27054,8 @@
       "Ghost"
     ],
     "forms": [
-      "ConvergentForm"
+      "ConvergentForm",
+      "AlternateForm"
     ]
   },
   {
@@ -26763,9 +27079,6 @@
     "displayName": "Roaming Form Gimmighoul",
     "types": [
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -26787,6 +27100,9 @@
     "displayName": "Chest Form Gimmighoul",
     "types": [
       "Ghost"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27041,9 +27357,6 @@
     ],
     "types": [
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -27065,6 +27378,9 @@
     "displayName": "Ogerpon (Teal Mask)",
     "types": [
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27079,6 +27395,9 @@
     "displayName": "Ogerpon (Teal Mask) (Tera)",
     "types": [
       "Grass"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27101,6 +27420,9 @@
     "types": [
       "Grass",
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27116,6 +27438,9 @@
     "types": [
       "Grass",
       "Water"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27138,6 +27463,9 @@
     "types": [
       "Grass",
       "Fire"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27153,6 +27481,9 @@
     "types": [
       "Grass",
       "Fire"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27175,6 +27506,9 @@
     "types": [
       "Grass",
       "Rock"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27190,6 +27524,9 @@
     "types": [
       "Grass",
       "Rock"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27213,9 +27550,6 @@
     ],
     "types": [
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -27237,6 +27571,9 @@
     "displayName": "Terastal Form Terapagos",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   },
   {
@@ -27251,6 +27588,9 @@
     "displayName": "Stellar Form Terapagos",
     "types": [
       "Normal"
+    ],
+    "forms": [
+      "AlternateForm"
     ]
   }
 ]
