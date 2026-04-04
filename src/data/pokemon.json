@@ -24759,6 +24759,13 @@
         "characterCount": 30,
         "evolutionItemID": 109,
         "characterRequiredID": 0
+      },
+      {
+        "nextCharacterID": 1420,
+        "evolutionMethod": "Item",
+        "characterCount": 50,
+        "evolutionItemID": 235,
+        "characterRequiredID": 0
       }
     ],
     "categories": [
@@ -24770,6 +24777,21 @@
       "ClassMythical",
       "MegaEvolution"
     ],
+    "types": [
+      "Steel",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 1420,
+    "dexId": 801,
+    "name": "Magearna-Mega",
+    "spawnCount": 0,
+    "rarity": "Mythical",
+    "region": "Alola",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Magearna",
     "types": [
       "Steel",
       "Fairy"

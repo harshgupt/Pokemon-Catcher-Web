@@ -1619,6 +1619,7 @@
 			"Blacephalon",
 			"Magearna",
 			"Magearna-OriginalColor",
+			"Magearna-Mega",
 			"Magearna-OriginalColor-Mega",
 			"Marshadow",
 			"Marshadow-Zenith",
@@ -2424,6 +2425,7 @@
 			"Crabominable-Mega",
 			"Golisopod-Mega",
 			"Drampa-Mega",
+			"Magearna-Mega",
 			"Magearna-OriginalColor-Mega",
 			"Zeraora-Mega",
 			"Falinks-Mega",
@@ -2591,6 +2593,7 @@
 			"Volcanion",
 			"Magearna",
 			"Magearna-OriginalColor",
+			"Magearna-Mega",
 			"Magearna-OriginalColor-Mega",
 			"Marshadow",
 			"Marshadow-Zenith",
@@ -6050,6 +6053,7 @@
 			"Melmetal",
 			"Melmetal-Giga",
 			"Golisopod-Mega",
+			"Magearna-Mega",
 			"Magearna-OriginalColor-Mega"
 		]
 	},
@@ -6074,6 +6078,7 @@
 			"Tapu Fini",
 			"Magearna",
 			"Magearna-OriginalColor",
+			"Magearna-Mega",
 			"Magearna-OriginalColor-Mega"
 		]
 	},
