@@ -432,6 +432,34 @@
     ]
   },
   {
+    "id": 1371,
+    "dexId": 26,
+    "name": "Raichu-MegaX",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Kanto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Raichu X",
+    "types": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 1372,
+    "dexId": 26,
+    "name": "Raichu-MegaY",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Kanto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Raichu Y",
+    "types": [
+      "Electric"
+    ]
+  },
+  {
     "id": 18,
     "dexId": 26,
     "name": "Raichu-Alolan",
@@ -1553,6 +1581,21 @@
     ],
     "types": [
       "Fairy"
+    ]
+  },
+  {
+    "id": 1373,
+    "dexId": 36,
+    "name": "Clefable-Mega",
+    "spawnCount": 0,
+    "rarity": "Baby",
+    "region": "Kanto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Clefable",
+    "types": [
+      "Fairy",
+      "Flying"
     ]
   },
   {
@@ -2739,6 +2782,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 1374,
+    "dexId": 71,
+    "name": "Victreebel-Mega",
+    "spawnCount": 0,
+    "rarity": "Uncommon",
+    "region": "Kanto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Victreebel",
     "types": [
       "Grass",
       "Poison"
@@ -4616,6 +4674,21 @@
     ]
   },
   {
+    "id": 1375,
+    "dexId": 121,
+    "name": "Starmie-Mega",
+    "spawnCount": 0,
+    "rarity": "Uncommon",
+    "region": "Kanto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  {
     "id": 207,
     "dexId": 439,
     "name": "Mime Jr.",
@@ -5783,6 +5856,21 @@
     ]
   },
   {
+    "id": 1376,
+    "dexId": 149,
+    "name": "Dragonite-Mega",
+    "spawnCount": 0,
+    "rarity": "Pseudo",
+    "region": "Kanto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  {
     "id": 260,
     "dexId": 144,
     "name": "Articuno",
@@ -6070,6 +6158,21 @@
     ]
   },
   {
+    "id": 1377,
+    "dexId": 154,
+    "name": "Meganium-Mega",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Johto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Meganium",
+    "types": [
+      "Grass",
+      "Fairy"
+    ]
+  },
+  {
     "id": 273,
     "dexId": 155,
     "name": "Cyndaquil",
@@ -6230,6 +6333,21 @@
     ],
     "types": [
       "Water"
+    ]
+  },
+  {
+    "id": 1378,
+    "dexId": 160,
+    "name": "Feraligatr-Mega",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Johto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Feraligatr",
+    "types": [
+      "Water",
+      "Dragon"
     ]
   },
   {
@@ -8569,6 +8687,21 @@
       "EvolutionSingle",
       "MegaEvolution"
     ],
+    "types": [
+      "Steel",
+      "Flying"
+    ]
+  },
+  {
+    "id": 1379,
+    "dexId": 227,
+    "name": "Skarmory-Mega",
+    "spawnCount": 0,
+    "rarity": "Sparse",
+    "region": "Johto",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Skarmory",
     "types": [
       "Steel",
       "Flying"
@@ -12010,6 +12143,21 @@
     ]
   },
   {
+    "id": 1380,
+    "dexId": 358,
+    "name": "Chimecho-Mega",
+    "spawnCount": 0,
+    "rarity": "Baby",
+    "region": "Hoenn",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Chimecho",
+    "types": [
+      "Psychic",
+      "Steel"
+    ]
+  },
+  {
     "id": 551,
     "dexId": 359,
     "name": "Absol",
@@ -12056,6 +12204,21 @@
     "displayName": "Mega Absol",
     "types": [
       "Dark"
+    ]
+  },
+  {
+    "id": 1381,
+    "dexId": 359,
+    "name": "Absol-MegaZ",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Hoenn",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Absol Z",
+    "types": [
+      "Dark",
+      "Ghost"
     ]
   },
   {
@@ -12150,6 +12313,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Ice",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 1385,
+    "dexId": 478,
+    "name": "Froslass-Mega",
+    "spawnCount": 0,
+    "rarity": "Sparse",
+    "region": "Sinnoh",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Froslass",
     "types": [
       "Ice",
       "Ghost"
@@ -13246,6 +13424,21 @@
     ]
   },
   {
+    "id": 1382,
+    "dexId": 398,
+    "name": "Staraptor-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Sinnoh",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Staraptor",
+    "types": [
+      "Fighting",
+      "Flying"
+    ]
+  },
+  {
     "id": 607,
     "dexId": 399,
     "name": "Bidoof",
@@ -14236,6 +14429,21 @@
     ]
   },
   {
+    "id": 1384,
+    "dexId": 448,
+    "name": "Lucario-MegaZ",
+    "spawnCount": 0,
+    "rarity": "Singular",
+    "region": "Sinnoh",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Lucario Z",
+    "types": [
+      "Fighting",
+      "Steel"
+    ]
+  },
+  {
     "id": 653,
     "dexId": 449,
     "name": "Hippopotas-M",
@@ -14776,6 +14984,20 @@
     ]
   },
   {
+    "id": 1383,
+    "dexId": 445,
+    "name": "Garchomp-MegaZ",
+    "spawnCount": 0,
+    "rarity": "Pseudo",
+    "region": "Sinnoh",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Garchomp Z",
+    "types": [
+      "Dragon"
+    ]
+  },
+  {
     "id": 677,
     "dexId": 485,
     "name": "Heatran",
@@ -14799,6 +15021,21 @@
       "ClassLegendary",
       "MegaEvolution"
     ],
+    "types": [
+      "Fire",
+      "Steel"
+    ]
+  },
+  {
+    "id": 1386,
+    "dexId": 485,
+    "name": "Heatran-Mega",
+    "spawnCount": 0,
+    "rarity": "Legendary",
+    "region": "Sinnoh",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Heatran",
     "types": [
       "Fire",
       "Steel"
@@ -14845,6 +15082,20 @@
       "ClassMythical",
       "MegaEvolution"
     ],
+    "types": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 1387,
+    "dexId": 491,
+    "name": "Darkrai-Mega",
+    "spawnCount": 0,
+    "rarity": "StrongLegendary",
+    "region": "Sinnoh",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Darkrai",
     "types": [
       "Dark"
     ]
@@ -15274,6 +15525,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 1388,
+    "dexId": 500,
+    "name": "Emboar-Mega",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Emboar",
     "types": [
       "Fire",
       "Fighting"
@@ -15963,6 +16229,21 @@
     ]
   },
   {
+    "id": 1389,
+    "dexId": 530,
+    "name": "Excadrill-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Excadrill",
+    "types": [
+      "Ground",
+      "Steel"
+    ]
+  },
+  {
     "id": 732,
     "dexId": 531,
     "name": "Audino",
@@ -16305,6 +16586,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 1390,
+    "dexId": 545,
+    "name": "Scolipede-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Scolipede",
     "types": [
       "Bug",
       "Poison"
@@ -16836,6 +17132,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Dark",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 1391,
+    "dexId": 560,
+    "name": "Scrafty-Mega",
+    "spawnCount": 0,
+    "rarity": "Uncommon",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Scrafty",
     "types": [
       "Dark",
       "Fighting"
@@ -18140,6 +18451,20 @@
     ]
   },
   {
+    "id": 1392,
+    "dexId": 604,
+    "name": "Eelektross-Mega",
+    "spawnCount": 0,
+    "rarity": "Sparse",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Eelektross",
+    "types": [
+      "Electric"
+    ]
+  },
+  {
     "id": 832,
     "dexId": 605,
     "name": "Elgyem",
@@ -18250,6 +18575,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  {
+    "id": 1393,
+    "dexId": 609,
+    "name": "Chandelure-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Chandelure",
     "types": [
       "Ghost",
       "Fire"
@@ -18520,6 +18860,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Ground",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 1394,
+    "dexId": 623,
+    "name": "Golurk-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Unova",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Golurk",
     "types": [
       "Ground",
       "Ghost"
@@ -19688,6 +20043,21 @@
     ]
   },
   {
+    "id": 1395,
+    "dexId": 652,
+    "name": "Chesnaught-Mega",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ]
+  },
+  {
     "id": 901,
     "dexId": 653,
     "name": "Fennekin",
@@ -19756,6 +20126,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Fire",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 1396,
+    "dexId": 655,
+    "name": "Delphox-Mega",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Delphox",
     "types": [
       "Fire",
       "Psychic"
@@ -19855,6 +20240,21 @@
       "Full"
     ],
     "displayName": "Ash-Greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ]
+  },
+  {
+    "id": 1397,
+    "dexId": 658,
+    "name": "Greninja-Mega",
+    "spawnCount": 0,
+    "rarity": "Starter",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Greninja",
     "types": [
       "Water",
       "Dark"
@@ -20553,6 +20953,21 @@
     ]
   },
   {
+    "id": 1398,
+    "dexId": 668,
+    "name": "Pyroar-M-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Pyroar (Male)",
+    "types": [
+      "Fire",
+      "Normal"
+    ]
+  },
+  {
     "id": 937,
     "dexId": 668,
     "name": "Pyroar-F",
@@ -20572,6 +20987,21 @@
       "Full"
     ],
     "displayName": "Pyroar ♀",
+    "types": [
+      "Fire",
+      "Normal"
+    ]
+  },
+  {
+    "id": 1399,
+    "dexId": 668,
+    "name": "Pyroar-F-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Pyroar (Female)",
     "types": [
       "Fire",
       "Normal"
@@ -20951,6 +21381,20 @@
     ]
   },
   {
+    "id": 1400,
+    "dexId": 670,
+    "name": "Floette-Eternal-Mega",
+    "spawnCount": 0,
+    "rarity": "Sparse",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Floette (Eternal)",
+    "types": [
+      "Fairy"
+    ]
+  },
+  {
     "id": 954,
     "dexId": 672,
     "name": "Skiddo",
@@ -21317,6 +21761,20 @@
     ]
   },
   {
+    "id": 1401,
+    "dexId": 678,
+    "name": "Meowstic-M-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Meowstic (Male)",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
     "id": 970,
     "dexId": 678,
     "name": "Meowstic-F",
@@ -21336,6 +21794,20 @@
       "Full"
     ],
     "displayName": "Meowstic ♀",
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 1402,
+    "dexId": 678,
+    "name": "Meowstic-F-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Meowstic (Female)",
     "types": [
       "Psychic"
     ]
@@ -21567,6 +22039,21 @@
     ]
   },
   {
+    "id": 1403,
+    "dexId": 687,
+    "name": "Malamar-Mega",
+    "spawnCount": 0,
+    "rarity": "Uncommon",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Malamar",
+    "types": [
+      "Dark",
+      "Psychic"
+    ]
+  },
+  {
     "id": 981,
     "dexId": 688,
     "name": "Binacle",
@@ -21619,6 +22106,21 @@
     ]
   },
   {
+    "id": 1404,
+    "dexId": 689,
+    "name": "Barbaracle-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Barbaracle",
+    "types": [
+      "Rock",
+      "Fighting"
+    ]
+  },
+  {
     "id": 983,
     "dexId": 690,
     "name": "Skrelp",
@@ -21665,6 +22167,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Poison",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 1405,
+    "dexId": 691,
+    "name": "Dragalge-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Dragalge",
     "types": [
       "Poison",
       "Dragon"
@@ -21862,6 +22379,21 @@
       "EvolutionSingle",
       "MegaEvolution"
     ],
+    "types": [
+      "Fighting",
+      "Flying"
+    ]
+  },
+  {
+    "id": 1406,
+    "dexId": 701,
+    "name": "Hawlucha-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Hawlucha",
     "types": [
       "Fighting",
       "Flying"
@@ -22400,6 +22932,21 @@
       "Full"
     ],
     "displayName": "Complete Forme Zygarde",
+    "types": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  {
+    "id": 1407,
+    "dexId": 718,
+    "name": "Zygarde-Mega",
+    "spawnCount": 0,
+    "rarity": "BoxLegendary",
+    "region": "Kalos",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Zygarde",
     "types": [
       "Dragon",
       "Ground"
@@ -22958,6 +23505,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Fighting",
+      "Ice"
+    ]
+  },
+  {
+    "id": 1408,
+    "dexId": 740,
+    "name": "Crabominable-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Alola",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Crabominable",
     "types": [
       "Fighting",
       "Ice"
@@ -23686,6 +24248,21 @@
     ]
   },
   {
+    "id": 1409,
+    "dexId": 768,
+    "name": "Golisopod-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Alola",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Golisopod",
+    "types": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  {
     "id": 1077,
     "dexId": 769,
     "name": "Sandygast",
@@ -24120,6 +24697,21 @@
       "EvolutionSingle",
       "MegaEvolution"
     ],
+    "types": [
+      "Normal",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 1410,
+    "dexId": 780,
+    "name": "Drampa-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Alola",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Drampa",
     "types": [
       "Normal",
       "Dragon"
@@ -24823,6 +25415,21 @@
     ]
   },
   {
+    "id": 1411,
+    "dexId": 801,
+    "name": "Magearna-OriginalColor-Mega",
+    "spawnCount": 0,
+    "rarity": "Mythical",
+    "region": "Alola",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Magearna (Original Color)",
+    "types": [
+      "Steel",
+      "Fairy"
+    ]
+  },
+  {
     "id": 1128,
     "dexId": 802,
     "name": "Marshadow",
@@ -24891,6 +25498,20 @@
       "ClassMythical",
       "MegaEvolution"
     ],
+    "types": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 1412,
+    "dexId": 807,
+    "name": "Zeraora-Mega",
+    "spawnCount": 0,
+    "rarity": "Mythical",
+    "region": "Alola",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Zeraora",
     "types": [
       "Electric"
     ]
@@ -26811,6 +27432,20 @@
       "EvolutionSingle",
       "MegaEvolution"
     ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 1413,
+    "dexId": 870,
+    "name": "Falinks-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Galar",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Falinks",
     "types": [
       "Fighting"
     ]
@@ -28816,6 +29451,21 @@
     ]
   },
   {
+    "id": 1414,
+    "dexId": 952,
+    "name": "Scovillain-Mega",
+    "spawnCount": 0,
+    "rarity": "Uncommon",
+    "region": "Paldea",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ]
+  },
+  {
     "id": 1310,
     "dexId": 953,
     "name": "Rellor",
@@ -29203,6 +29853,21 @@
     ]
   },
   {
+    "id": 1415,
+    "dexId": 970,
+    "name": "Glimmora-Mega",
+    "spawnCount": 0,
+    "rarity": "Common",
+    "region": "Paldea",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Glimmora",
+    "types": [
+      "Rock",
+      "Poison"
+    ]
+  },
+  {
     "id": 1328,
     "dexId": 971,
     "name": "Greavard",
@@ -29368,6 +30033,21 @@
     ]
   },
   {
+    "id": 1416,
+    "dexId": 978,
+    "name": "Tatsugiri-Curly-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Paldea",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Tatsugiri (Curly)",
+    "types": [
+      "Dragon",
+      "Water"
+    ]
+  },
+  {
     "id": 1336,
     "dexId": 978,
     "name": "Tatsugiri-Droopy",
@@ -29398,6 +30078,21 @@
     ]
   },
   {
+    "id": 1418,
+    "dexId": 978,
+    "name": "Tatsugiri-Droopy-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Paldea",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Tatsugiri (Droopy)",
+    "types": [
+      "Dragon",
+      "Water"
+    ]
+  },
+  {
     "id": 1337,
     "dexId": 978,
     "name": "Tatsugiri-Stretchy",
@@ -29422,6 +30117,21 @@
       "MegaEvolution"
     ],
     "displayName": "Stretchy Form Tatsugiri",
+    "types": [
+      "Dragon",
+      "Water"
+    ]
+  },
+  {
+    "id": 1417,
+    "dexId": 978,
+    "name": "Tatsugiri-Stretchy-Mega",
+    "spawnCount": 0,
+    "rarity": "Rare",
+    "region": "Paldea",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Tatsugiri (Stretchy)",
     "types": [
       "Dragon",
       "Water"
@@ -29499,6 +30209,21 @@
     "categories": [
       "Full"
     ],
+    "types": [
+      "Dragon",
+      "Ice"
+    ]
+  },
+  {
+    "id": 1419,
+    "dexId": 998,
+    "name": "Baxcalibur-Mega",
+    "spawnCount": 0,
+    "rarity": "Pseudo",
+    "region": "Paldea",
+    "nextForms": "[]",
+    "categories": [],
+    "displayName": "Mega Baxcalibur",
     "types": [
       "Dragon",
       "Ice"
@@ -30176,731 +30901,6 @@
     "displayName": "Stellar Form Terapagos",
     "types": [
       "Normal"
-    ]
-  },
-  {
-    "id": 1371,
-    "dexId": 26,
-    "name": "Raichu-MegaX",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Kanto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Raichu X",
-    "types": [
-      "Electric"
-    ]
-  },
-  {
-    "id": 1372,
-    "dexId": 26,
-    "name": "Raichu-MegaY",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Kanto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Raichu Y",
-    "types": [
-      "Electric"
-    ]
-  },
-  {
-    "id": 1373,
-    "dexId": 36,
-    "name": "Clefable-Mega",
-    "spawnCount": 0,
-    "rarity": "Baby",
-    "region": "Kanto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Clefable",
-    "types": [
-      "Fairy",
-      "Flying"
-    ]
-  },
-  {
-    "id": 1374,
-    "dexId": 71,
-    "name": "Victreebel-Mega",
-    "spawnCount": 0,
-    "rarity": "Uncommon",
-    "region": "Kanto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Victreebel",
-    "types": [
-      "Grass",
-      "Poison"
-    ]
-  },
-  {
-    "id": 1375,
-    "dexId": 121,
-    "name": "Starmie-Mega",
-    "spawnCount": 0,
-    "rarity": "Uncommon",
-    "region": "Kanto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Starmie",
-    "types": [
-      "Water",
-      "Psychic"
-    ]
-  },
-  {
-    "id": 1376,
-    "dexId": 149,
-    "name": "Dragonite-Mega",
-    "spawnCount": 0,
-    "rarity": "Pseudo",
-    "region": "Kanto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Dragonite",
-    "types": [
-      "Dragon",
-      "Flying"
-    ]
-  },
-  {
-    "id": 1377,
-    "dexId": 154,
-    "name": "Meganium-Mega",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Johto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Meganium",
-    "types": [
-      "Grass",
-      "Fairy"
-    ]
-  },
-  {
-    "id": 1378,
-    "dexId": 160,
-    "name": "Feraligatr-Mega",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Johto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Feraligatr",
-    "types": [
-      "Water",
-      "Dragon"
-    ]
-  },
-  {
-    "id": 1379,
-    "dexId": 227,
-    "name": "Skarmory-Mega",
-    "spawnCount": 0,
-    "rarity": "Sparse",
-    "region": "Johto",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Skarmory",
-    "types": [
-      "Steel",
-      "Flying"
-    ]
-  },
-  {
-    "id": 1380,
-    "dexId": 358,
-    "name": "Chimecho-Mega",
-    "spawnCount": 0,
-    "rarity": "Baby",
-    "region": "Hoenn",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Chimecho",
-    "types": [
-      "Psychic",
-      "Steel"
-    ]
-  },
-  {
-    "id": 1381,
-    "dexId": 359,
-    "name": "Absol-MegaZ",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Hoenn",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Absol Z",
-    "types": [
-      "Dark",
-      "Ghost"
-    ]
-  },
-  {
-    "id": 1382,
-    "dexId": 398,
-    "name": "Staraptor-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Sinnoh",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Staraptor",
-    "types": [
-      "Fighting",
-      "Flying"
-    ]
-  },
-  {
-    "id": 1383,
-    "dexId": 445,
-    "name": "Garchomp-MegaZ",
-    "spawnCount": 0,
-    "rarity": "Pseudo",
-    "region": "Sinnoh",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Garchomp Z",
-    "types": [
-      "Dragon"
-    ]
-  },
-  {
-    "id": 1384,
-    "dexId": 448,
-    "name": "Lucario-MegaZ",
-    "spawnCount": 0,
-    "rarity": "Singular",
-    "region": "Sinnoh",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Lucario Z",
-    "types": [
-      "Fighting",
-      "Steel"
-    ]
-  },
-  {
-    "id": 1385,
-    "dexId": 478,
-    "name": "Froslass-Mega",
-    "spawnCount": 0,
-    "rarity": "Sparse",
-    "region": "Sinnoh",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Froslass",
-    "types": [
-      "Ice",
-      "Ghost"
-    ]
-  },
-  {
-    "id": 1386,
-    "dexId": 485,
-    "name": "Heatran-Mega",
-    "spawnCount": 0,
-    "rarity": "Legendary",
-    "region": "Sinnoh",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Heatran",
-    "types": [
-      "Fire",
-      "Steel"
-    ]
-  },
-  {
-    "id": 1387,
-    "dexId": 491,
-    "name": "Darkrai-Mega",
-    "spawnCount": 0,
-    "rarity": "StrongLegendary",
-    "region": "Sinnoh",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Darkrai",
-    "types": [
-      "Dark"
-    ]
-  },
-  {
-    "id": 1388,
-    "dexId": 500,
-    "name": "Emboar-Mega",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Emboar",
-    "types": [
-      "Fire",
-      "Fighting"
-    ]
-  },
-  {
-    "id": 1389,
-    "dexId": 530,
-    "name": "Excadrill-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Excadrill",
-    "types": [
-      "Ground",
-      "Steel"
-    ]
-  },
-  {
-    "id": 1390,
-    "dexId": 545,
-    "name": "Scolipede-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Scolipede",
-    "types": [
-      "Bug",
-      "Poison"
-    ]
-  },
-  {
-    "id": 1391,
-    "dexId": 560,
-    "name": "Scrafty-Mega",
-    "spawnCount": 0,
-    "rarity": "Uncommon",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Scrafty",
-    "types": [
-      "Dark",
-      "Fighting"
-    ]
-  },
-  {
-    "id": 1392,
-    "dexId": 604,
-    "name": "Eelektross-Mega",
-    "spawnCount": 0,
-    "rarity": "Sparse",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Eelektross",
-    "types": [
-      "Electric"
-    ]
-  },
-  {
-    "id": 1393,
-    "dexId": 609,
-    "name": "Chandelure-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Chandelure",
-    "types": [
-      "Ghost",
-      "Fire"
-    ]
-  },
-  {
-    "id": 1394,
-    "dexId": 623,
-    "name": "Golurk-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Unova",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Golurk",
-    "types": [
-      "Ground",
-      "Ghost"
-    ]
-  },
-  {
-    "id": 1395,
-    "dexId": 652,
-    "name": "Chesnaught-Mega",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Chesnaught",
-    "types": [
-      "Grass",
-      "Fighting"
-    ]
-  },
-  {
-    "id": 1396,
-    "dexId": 655,
-    "name": "Delphox-Mega",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Delphox",
-    "types": [
-      "Fire",
-      "Psychic"
-    ]
-  },
-  {
-    "id": 1397,
-    "dexId": 658,
-    "name": "Greninja-Mega",
-    "spawnCount": 0,
-    "rarity": "Starter",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Greninja",
-    "types": [
-      "Water",
-      "Dark"
-    ]
-  },
-  {
-    "id": 1398,
-    "dexId": 668,
-    "name": "Pyroar-M-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Pyroar (Male)",
-    "types": [
-      "Fire",
-      "Normal"
-    ]
-  },
-  {
-    "id": 1399,
-    "dexId": 668,
-    "name": "Pyroar-F-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Pyroar (Female)",
-    "types": [
-      "Fire",
-      "Normal"
-    ]
-  },
-  {
-    "id": 1400,
-    "dexId": 670,
-    "name": "Floette-Eternal-Mega",
-    "spawnCount": 0,
-    "rarity": "Sparse",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Floette (Eternal)",
-    "types": [
-      "Fairy"
-    ]
-  },
-  {
-    "id": 1401,
-    "dexId": 678,
-    "name": "Meowstic-M-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Meowstic (Male)",
-    "types": [
-      "Psychic"
-    ]
-  },
-  {
-    "id": 1402,
-    "dexId": 678,
-    "name": "Meowstic-F-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Meowstic (Female)",
-    "types": [
-      "Psychic"
-    ]
-  },
-  {
-    "id": 1403,
-    "dexId": 687,
-    "name": "Malamar-Mega",
-    "spawnCount": 0,
-    "rarity": "Uncommon",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Malamar",
-    "types": [
-      "Dark",
-      "Psychic"
-    ]
-  },
-  {
-    "id": 1404,
-    "dexId": 689,
-    "name": "Barbaracle-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Barbaracle",
-    "types": [
-      "Rock",
-      "Fighting"
-    ]
-  },
-  {
-    "id": 1405,
-    "dexId": 691,
-    "name": "Dragalge-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Dragalge",
-    "types": [
-      "Poison",
-      "Dragon"
-    ]
-  },
-  {
-    "id": 1406,
-    "dexId": 701,
-    "name": "Hawlucha-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Hawlucha",
-    "types": [
-      "Fighting",
-      "Flying"
-    ]
-  },
-  {
-    "id": 1407,
-    "dexId": 718,
-    "name": "Zygarde-Mega",
-    "spawnCount": 0,
-    "rarity": "BoxLegendary",
-    "region": "Kalos",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Zygarde",
-    "types": [
-      "Dragon",
-      "Ground"
-    ]
-  },
-  {
-    "id": 1408,
-    "dexId": 740,
-    "name": "Crabominable-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Alola",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Crabominable",
-    "types": [
-      "Fighting",
-      "Ice"
-    ]
-  },
-  {
-    "id": 1409,
-    "dexId": 768,
-    "name": "Golisopod-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Alola",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Golisopod",
-    "types": [
-      "Bug",
-      "Steel"
-    ]
-  },
-  {
-    "id": 1410,
-    "dexId": 780,
-    "name": "Drampa-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Alola",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Drampa",
-    "types": [
-      "Normal",
-      "Dragon"
-    ]
-  },
-  {
-    "id": 1411,
-    "dexId": 801,
-    "name": "Magearna-OriginalColor-Mega",
-    "spawnCount": 0,
-    "rarity": "Mythical",
-    "region": "Alola",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Magearna (Original Color)",
-    "types": [
-      "Steel",
-      "Fairy"
-    ]
-  },
-  {
-    "id": 1412,
-    "dexId": 807,
-    "name": "Zeraora-Mega",
-    "spawnCount": 0,
-    "rarity": "Mythical",
-    "region": "Alola",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Zeraora",
-    "types": [
-      "Electric"
-    ]
-  },
-  {
-    "id": 1413,
-    "dexId": 870,
-    "name": "Falinks-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Galar",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Falinks",
-    "types": [
-      "Fighting"
-    ]
-  },
-  {
-    "id": 1414,
-    "dexId": 952,
-    "name": "Scovillain-Mega",
-    "spawnCount": 0,
-    "rarity": "Uncommon",
-    "region": "Paldea",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Scovillain",
-    "types": [
-      "Grass",
-      "Fire"
-    ]
-  },
-  {
-    "id": 1415,
-    "dexId": 970,
-    "name": "Glimmora-Mega",
-    "spawnCount": 0,
-    "rarity": "Common",
-    "region": "Paldea",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Glimmora",
-    "types": [
-      "Rock",
-      "Poison"
-    ]
-  },
-  {
-    "id": 1416,
-    "dexId": 978,
-    "name": "Tatsugiri-Curly-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Paldea",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Tatsugiri (Curly)",
-    "types": [
-      "Dragon",
-      "Water"
-    ]
-  },
-  {
-    "id": 1417,
-    "dexId": 978,
-    "name": "Tatsugiri-Stretchy-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Paldea",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Tatsugiri (Stretchy)",
-    "types": [
-      "Dragon",
-      "Water"
-    ]
-  },
-  {
-    "id": 1418,
-    "dexId": 978,
-    "name": "Tatsugiri-Droopy-Mega",
-    "spawnCount": 0,
-    "rarity": "Rare",
-    "region": "Paldea",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Tatsugiri (Droopy)",
-    "types": [
-      "Dragon",
-      "Water"
-    ]
-  },
-  {
-    "id": 1419,
-    "dexId": 998,
-    "name": "Baxcalibur-Mega",
-    "spawnCount": 0,
-    "rarity": "Pseudo",
-    "region": "Paldea",
-    "nextForms": "[]",
-    "categories": [],
-    "displayName": "Mega Baxcalibur",
-    "types": [
-      "Dragon",
-      "Ice"
     ]
   }
 ]

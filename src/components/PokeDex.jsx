@@ -1,5 +1,4 @@
 import { useState } from "react";
-import dexOrder from "../data/dex-order.json";
 import pokemon from "../data/pokemon.json";
 import itemsData from "../data/items.json";
 import filters from "../data/pokedex-filters.json";
@@ -149,7 +148,7 @@ export default function PokeDex({ gameState, gameMode = "easy" }) {
 	const [showUncaught, setShowUncaught] = useState(false);
 	const [selected, setSelected] = useState(null);
 
-	const allEntries = dexOrder.map((id) => byId[id]).filter(Boolean);
+	const allEntries = pokemon;
 	const lowerQuery = query.toLowerCase();
 	const hasFilters =
 		query ||
@@ -308,6 +307,7 @@ export default function PokeDex({ gameState, gameMode = "easy" }) {
 						unlocked={isUnlocked(p)}
 						evoReady={isEvoReady(p, gameState, gameMode)}
 						onSelect={setSelected}
+						greyedLocked={true}
 					/>
 				))}
 			</div>
@@ -593,10 +593,14 @@ function TypeBadge({ type, large }) {
 	);
 }
 
-function PokeCard({ pokemon: p, hidden, unlocked, evoReady, onSelect }) {
+function PokeCard({ pokemon: p, hidden, unlocked, evoReady, onSelect, greyedLocked }) {
 	const [imgState, setImgState] = useState("loading");
 	const displayName = unlocked ? (p.displayName ?? p.name) : "?????";
 	const spriteFile = p.spriteName ?? p.name;
+
+	const lockedFilter = greyedLocked
+		? "grayscale(100%) brightness(0.4) opacity(0.6)"
+		: "brightness(0)";
 
 	return (
 		<div
@@ -619,7 +623,7 @@ function PokeCard({ pokemon: p, hidden, unlocked, evoReady, onSelect }) {
 					style={{
 						...styles.image,
 						opacity: imgState === "loaded" ? 1 : 0,
-						filter: unlocked ? "none" : "brightness(0)",
+						filter: unlocked ? "none" : lockedFilter,
 					}}
 					onLoad={() => setImgState("loaded")}
 					onError={() => setImgState("error")}
