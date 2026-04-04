@@ -4699,7 +4699,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dragon"
@@ -4719,6 +4719,9 @@
     ],
     "types": [
       "Dragon"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -4737,6 +4740,9 @@
     "types": [
       "Dragon",
       "Flying"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -4745,7 +4751,9 @@
     "name": "Dragonite-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "PseudoLegendary"
+    ],
     "displayName": "Mega Dragonite",
     "types": [
       "Dragon",
@@ -7347,7 +7355,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Rock",
@@ -7369,6 +7377,9 @@
     "types": [
       "Rock",
       "Ground"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -7393,6 +7404,9 @@
     "types": [
       "Rock",
       "Dark"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -7408,6 +7422,9 @@
     ],
     "forms": [
       "MegaEvolution"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -10197,7 +10214,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dragon"
@@ -10217,6 +10234,9 @@
     ],
     "types": [
       "Dragon"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -10241,6 +10261,9 @@
     "types": [
       "Dragon",
       "Flying"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -10256,6 +10279,9 @@
     ],
     "forms": [
       "MegaEvolution"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -10289,7 +10315,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Steel",
@@ -10311,6 +10337,9 @@
     "types": [
       "Steel",
       "Psychic"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -10329,6 +10358,9 @@
     "types": [
       "Steel",
       "Psychic"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -10344,6 +10376,9 @@
     ],
     "forms": [
       "MegaEvolution"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -12159,7 +12194,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dragon",
@@ -12181,6 +12216,9 @@
     "types": [
       "Dragon",
       "Ground"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -12205,6 +12243,9 @@
     "types": [
       "Dragon",
       "Ground"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -12220,6 +12261,9 @@
     ],
     "forms": [
       "MegaEvolution"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -12228,7 +12272,9 @@
     "name": "Garchomp-MegaZ",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "PseudoLegendary"
+    ],
     "displayName": "Mega Garchomp Z",
     "types": [
       "Dragon"
@@ -15685,7 +15731,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dark",
@@ -15707,6 +15753,9 @@
     "types": [
       "Dark",
       "Dragon"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -15725,6 +15774,9 @@
     "types": [
       "Dark",
       "Dragon"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -18589,7 +18641,7 @@
     "categories": [
       "EvolutionTriple",
       "EvolutionSplit",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dragon"
@@ -18610,6 +18662,9 @@
     ],
     "types": [
       "Dragon"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -18620,6 +18675,9 @@
     "nextForms": "[]",
     "types": [
       "Dragon"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -18642,6 +18700,9 @@
     ],
     "forms": [
       "RegionalForm"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -18657,6 +18718,9 @@
     ],
     "forms": [
       "RegionalForm"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -20303,7 +20367,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "spriteName": "Jangmoo",
     "types": [
@@ -20326,6 +20390,9 @@
     "types": [
       "Dragon",
       "Fighting"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -20338,6 +20405,9 @@
     "types": [
       "Dragon",
       "Fighting"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -22896,7 +22966,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dragon",
@@ -22918,6 +22988,9 @@
     "types": [
       "Dragon",
       "Ghost"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -22929,6 +23002,9 @@
     "types": [
       "Dragon",
       "Ghost"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -24764,7 +24840,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo"
+      "PseudoLegendary"
     ],
     "types": [
       "Dragon",
@@ -24786,6 +24862,9 @@
     "types": [
       "Dragon",
       "Ice"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -24804,6 +24883,9 @@
     "types": [
       "Dragon",
       "Ice"
+    ],
+    "categories": [
+      "PseudoLegendary"
     ]
   },
   {
@@ -24812,7 +24894,9 @@
     "name": "Baxcalibur-Mega",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "PseudoLegendary"
+    ],
     "displayName": "Mega Baxcalibur",
     "types": [
       "Dragon",
