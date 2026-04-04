@@ -182,7 +182,6 @@ export default function SettingsTab({
 						buttonVariant="default"
 						onClick={() =>
 							pushAchievement({
-								icon: "🏆",
 								title: "First Steps",
 								description: "You caught your first Pokémon!",
 							})

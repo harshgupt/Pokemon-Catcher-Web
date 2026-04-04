@@ -214,7 +214,7 @@ function fireAchievements(gs, context, pushAchievement) {
 	if (!newIds.length) return gs;
 	newIds.forEach(id => {
 		const ach = achievementsData.find(a => a.id === id);
-		if (ach) pushAchievement?.({ icon: '🏆', title: ach.name, description: ach.flavorText });
+		if (ach) pushAchievement?.({ title: ach.name, description: ach.flavorText, achId: id });
 	});
 	return applyAchievements(gs, newIds);
 }

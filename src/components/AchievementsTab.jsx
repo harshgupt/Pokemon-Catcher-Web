@@ -1,18 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { achievementsData } from "../lib/achievements";
 
 const TOTAL = achievementsData.length;
 
-export default function AchievementsTab({ gameState }) {
+export default function AchievementsTab({ gameState, unreadIds = new Set(), onRead, isActive }) {
 	const completed = new Set(gameState.completedAchievements ?? []);
-	const [filter, setFilter] = useState("all"); // 'all' | 'completed' | 'incomplete'
+	const [filter, setFilter] = useState("all"); // 'all' | 'completed' | 'incomplete' | 'unread'
 	const [selected, setSelected] = useState(null); // achievement object
+
+	// Snapshot of unread IDs taken when the tab was last opened — used for stable sort
+	const [pinnedUnread, setPinnedUnread] = useState(() => new Set(unreadIds));
+	const prevActive = useRef(false);
+	useEffect(() => {
+		if (isActive && !prevActive.current) {
+			setPinnedUnread(new Set(unreadIds));
+		}
+		prevActive.current = isActive;
+	}, [isActive]); // eslint-disable-line react-hooks/exhaustive-deps
 
 	const completedCount = completed.size;
 	const pct = TOTAL > 0 ? (completedCount / TOTAL) * 100 : 0;
 
-	// Sort: completed first (by id), then incomplete (by id)
+	// Sort: pinned-unread first, then completed, then incomplete — all by id within group
 	const sorted = [...achievementsData].sort((a, b) => {
+		const au = pinnedUnread.has(a.id);
+		const bu = pinnedUnread.has(b.id);
+		if (au !== bu) return au ? -1 : 1;
 		const ac = completed.has(a.id);
 		const bc = completed.has(b.id);
 		if (ac !== bc) return ac ? -1 : 1;
@@ -20,8 +33,9 @@ export default function AchievementsTab({ gameState }) {
 	});
 
 	const visible = sorted.filter(a => {
-		if (filter === "completed") return completed.has(a.id);
+		if (filter === "completed")  return completed.has(a.id);
 		if (filter === "incomplete") return !completed.has(a.id);
+		if (filter === "unread")     return unreadIds.has(a.id);
 		return true;
 	});
 
@@ -39,13 +53,18 @@ export default function AchievementsTab({ gameState }) {
 
 			{/* Filter buttons */}
 			<div style={styles.filterRow}>
-				{["all", "completed", "incomplete"].map(f => (
+				{[
+					{ key: "all",        label: "All" },
+					{ key: "completed",  label: "Unlocked" },
+					{ key: "incomplete", label: "Locked" },
+					{ key: "unread",     label: `Unread${unreadIds.size > 0 ? ` (${unreadIds.size})` : ""}` },
+				].map(({ key, label }) => (
 					<button
-						key={f}
-						style={{ ...styles.filterBtn, ...(filter === f ? styles.filterBtnActive : {}) }}
-						onClick={() => setFilter(f === filter ? "all" : f)}
+						key={key}
+						style={{ ...styles.filterBtn, ...(filter === key ? styles.filterBtnActive : {}) }}
+						onClick={() => setFilter(key === filter ? "all" : key)}
 					>
-						{f === "all" ? "All" : f === "completed" ? "Unlocked" : "Locked"}
+						{label}
 					</button>
 				))}
 			</div>
@@ -54,12 +73,14 @@ export default function AchievementsTab({ gameState }) {
 			<div style={styles.grid}>
 				{visible.map(ach => {
 					const done = completed.has(ach.id);
+					const isUnread = unreadIds.has(ach.id);
 					return (
 						<AchievementCard
 							key={ach.id}
 							ach={ach}
 							done={done}
-							onClick={() => setSelected(ach)}
+							isUnread={isUnread}
+							onClick={() => { onRead?.(ach.id); setSelected(ach); }}
 						/>
 					);
 				})}
@@ -77,19 +98,30 @@ export default function AchievementsTab({ gameState }) {
 	);
 }
 
-function AchievementCard({ ach, done, onClick }) {
+function AchievementCard({ ach, done, isUnread, onClick }) {
 	return (
 		<div
 			className={done ? "ach-card-done" : "ach-card-locked"}
-			style={{ ...styles.card, ...(done ? styles.cardDone : styles.cardLocked) }}
+			style={{
+				...styles.card,
+				...(done ? styles.cardDone : styles.cardLocked),
+				...(isUnread ? styles.cardUnread : {}),
+				position: "relative",
+			}}
 			onClick={onClick}
 		>
-			<span style={styles.cardInner}>
+			{isUnread && <span style={styles.unreadDot} />}
+			<div style={styles.cardInner}>
 				<span style={done ? styles.diamondDone : styles.diamondLocked}>◆</span>
 				<span style={{ ...styles.cardName, ...(done ? {} : styles.cardNameLocked) }}>
 					{ach.name}
 				</span>
-			</span>
+			</div>
+			{done && ach.flavorText && (
+				<div style={styles.cardFlavorWrap}>
+					<p style={styles.cardFlavor}>{ach.flavorText}</p>
+				</div>
+			)}
 		</div>
 	);
 }
@@ -186,7 +218,7 @@ const styles = {
 	},
 	grid: {
 		display: "grid",
-		gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))",
+		gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
 		gap: "10px",
 		overflowY: "auto",
 		paddingRight: "4px",
@@ -195,15 +227,33 @@ const styles = {
 	},
 	card: {
 		borderRadius: "var(--radius-md)",
-		padding: "8px 12px",
+		padding: "12px 14px",
 		cursor: "pointer",
 		transition: "border-color var(--transition), background var(--transition)",
 		boxSizing: "border-box",
+		display: "flex",
+		flexDirection: "column",
+		gap: "8px",
+		height: "110px",
 	},
 	cardInner: {
 		display: "flex",
 		alignItems: "center",
 		gap: "7px",
+		flexShrink: 0,
+	},
+	cardFlavorWrap: {
+		flex: 1,
+		overflow: "hidden",
+		maskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
+		WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
+	},
+	cardFlavor: {
+		fontSize: "12px",
+		color: "var(--text-secondary)",
+		lineHeight: "1.5",
+		fontStyle: "italic",
+		margin: 0,
 	},
 	diamondDone: {
 		fontSize: "8px",
@@ -219,13 +269,27 @@ const styles = {
 		background: "var(--bg-elevated)",
 		border: "1px solid rgba(255, 215, 0, 0.35)",
 	},
+	cardUnread: {
+		border: "1px solid rgba(255, 215, 0, 0.8)",
+		boxShadow: "0 0 10px rgba(255, 215, 0, 0.25)",
+	},
+	unreadDot: {
+		position: "absolute",
+		top: "6px",
+		right: "7px",
+		width: "7px",
+		height: "7px",
+		borderRadius: "50%",
+		background: "#FFD700",
+		boxShadow: "0 0 6px rgba(255, 215, 0, 0.9)",
+	},
 	cardLocked: {
 		background: "var(--bg-surface)",
 		border: "1px solid var(--border)",
 		opacity: 0.55,
 	},
 	cardName: {
-		fontSize: "12px",
+		fontSize: "13px",
 		fontWeight: "700",
 		color: "#FFD700",
 		lineHeight: "1.3",
@@ -273,11 +337,11 @@ const styles = {
 		gap: "12px",
 	},
 	popupIcon: {
-		fontSize: "22px",
+		fontSize: "14px",
 		flexShrink: 0,
 		lineHeight: 1,
-		color: "var(--accent)",
-		filter: "drop-shadow(0 0 6px var(--accent))",
+		color: "#FFD700",
+		filter: "drop-shadow(0 0 6px rgba(255, 215, 0, 0.6))",
 	},
 	popupName: {
 		fontSize: "18px",

@@ -23,14 +23,26 @@ export default function App() {
 	const [activePage, setActivePage] = useState("catch");
 	const [gameState, setGameState] = useState(() => loadSave());
 	const [achievements, setAchievements] = useState([]);
+	const [unreadAchievementIds, setUnreadAchievementIds] = useState(new Set());
 
-	function pushAchievement({ title, description, icon }) {
+	function pushAchievement({ title, description, icon, achId }) {
 		const id = Date.now() + Math.random();
 		setAchievements((prev) => [...prev, { id, title, description, icon }]);
+		if (achId !== undefined) {
+			setUnreadAchievementIds((prev) => new Set([...prev, achId]));
+		}
 	}
 
 	function dismissAchievement(id) {
 		setAchievements((prev) => prev.filter((a) => a.id !== id));
+	}
+
+	function markAchievementRead(achId) {
+		setUnreadAchievementIds((prev) => {
+			const next = new Set(prev);
+			next.delete(achId);
+			return next;
+		});
 	}
 
 	return (
@@ -77,7 +89,7 @@ export default function App() {
 						/>
 					</div>
 					<div style={activePage === "achievements" ? styles.page : styles.pageHidden}>
-						<AchievementsTab gameState={gameState} />
+						<AchievementsTab gameState={gameState} unreadIds={unreadAchievementIds} onRead={markAchievementRead} isActive={activePage === "achievements"} />
 					</div>
 					{activePage !== "catch" &&
 						activePage !== "items" &&

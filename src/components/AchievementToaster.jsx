@@ -30,7 +30,7 @@ function AchievementToast({ toast, onDismiss }) {
 			<div style={styles.stripe} />
 
 			{/* Icon */}
-			<span style={styles.icon}>{toast.icon ?? "🏆"}</span>
+			<span style={styles.icon}>✦</span>
 
 			{/* Text */}
 			<div style={styles.content}>
@@ -100,9 +100,11 @@ const styles = {
 		borderRadius: "var(--radius-md) 0 0 var(--radius-md)",
 	},
 	icon: {
-		fontSize: "22px",
+		fontSize: "16px",
 		flexShrink: 0,
 		lineHeight: 1,
+		color: "#FFD700",
+		filter: "drop-shadow(0 0 6px rgba(255, 215, 0, 0.7))",
 	},
 	content: {
 		flex: 1,
