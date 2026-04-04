@@ -59,7 +59,7 @@ for (const ach of achievementsData) {
 }
 
 // Catchable pokemon (spawnCount > 0)
-const catchableIds = new Set(pokemonData.filter(p => p.spawnCount > 0).map(p => p.id))
+const catchableIds = new Set(pokemonData.filter(p => !!p.spawnCount).map(p => p.id))
 
 // Pokemon IDs by type
 const TYPES = ['Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison',

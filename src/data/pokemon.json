@@ -53,7 +53,6 @@
     "id": 2,
     "dexId": 25,
     "name": "Pikachu",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -180,7 +179,6 @@
     "id": 3,
     "dexId": 25,
     "name": "Pikachu-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -195,7 +193,6 @@
     "id": 4,
     "dexId": 25,
     "name": "Pikachu-OriginalCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -210,7 +207,6 @@
     "id": 5,
     "dexId": 25,
     "name": "Pikachu-HoennCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -225,7 +221,6 @@
     "id": 6,
     "dexId": 25,
     "name": "Pikachu-SinnohCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -240,7 +235,6 @@
     "id": 7,
     "dexId": 25,
     "name": "Pikachu-UnovaCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -255,7 +249,6 @@
     "id": 8,
     "dexId": 25,
     "name": "Pikachu-KalosCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -270,7 +263,6 @@
     "id": 9,
     "dexId": 25,
     "name": "Pikachu-AlolaCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -285,7 +277,6 @@
     "id": 10,
     "dexId": 25,
     "name": "Pikachu-PartnerCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -300,7 +291,6 @@
     "id": 11,
     "dexId": 25,
     "name": "Pikachu-WorldCap",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -315,7 +305,6 @@
     "id": 12,
     "dexId": 25,
     "name": "Pikachu-RockStarCostume",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -330,7 +319,6 @@
     "id": 13,
     "dexId": 25,
     "name": "Pikachu-BelleCostume",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -345,7 +333,6 @@
     "id": 14,
     "dexId": 25,
     "name": "Pikachu-PopStarCostume",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -360,7 +347,6 @@
     "id": 15,
     "dexId": 25,
     "name": "Pikachu-Ph.DCostume",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -375,7 +361,6 @@
     "id": 16,
     "dexId": 25,
     "name": "Pikachu-LibreCostume",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -390,7 +375,6 @@
     "id": 17,
     "dexId": 26,
     "name": "Raichu",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -419,7 +403,6 @@
     "id": 1371,
     "dexId": 26,
     "name": "Raichu-MegaX",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [],
@@ -432,7 +415,6 @@
     "id": 1372,
     "dexId": 26,
     "name": "Raichu-MegaY",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [],
@@ -445,7 +427,6 @@
     "id": 18,
     "dexId": 26,
     "name": "Raichu-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -491,7 +472,6 @@
     "id": 20,
     "dexId": 2,
     "name": "Ivysaur",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -514,7 +494,6 @@
     "id": 21,
     "dexId": 3,
     "name": "Venusaur",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -544,7 +523,6 @@
     "id": 22,
     "dexId": 3,
     "name": "Venusaur-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -560,7 +538,6 @@
     "id": 23,
     "dexId": 3,
     "name": "Venusaur-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -604,7 +581,6 @@
     "id": 25,
     "dexId": 5,
     "name": "Charmeleon",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -626,7 +602,6 @@
     "id": 26,
     "dexId": 6,
     "name": "Charizard",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -663,7 +638,6 @@
     "id": 27,
     "dexId": 6,
     "name": "Charizard-MegaX",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -679,7 +653,6 @@
     "id": 28,
     "dexId": 6,
     "name": "Charizard-MegaY",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -695,7 +668,6 @@
     "id": 29,
     "dexId": 6,
     "name": "Charizard-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -739,7 +711,6 @@
     "id": 31,
     "dexId": 8,
     "name": "Wartortle",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -761,7 +732,6 @@
     "id": 32,
     "dexId": 9,
     "name": "Blastoise",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -790,7 +760,6 @@
     "id": 33,
     "dexId": 9,
     "name": "Blastoise-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -805,7 +774,6 @@
     "id": 34,
     "dexId": 9,
     "name": "Blastoise-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -846,7 +814,6 @@
     "id": 36,
     "dexId": 11,
     "name": "Metapod",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -868,7 +835,6 @@
     "id": 37,
     "dexId": 12,
     "name": "Butterfree",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -891,7 +857,6 @@
     "id": 38,
     "dexId": 12,
     "name": "Butterfree-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -935,7 +900,6 @@
     "id": 40,
     "dexId": 14,
     "name": "Kakuna",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -958,7 +922,6 @@
     "id": 41,
     "dexId": 15,
     "name": "Beedrill",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -981,7 +944,6 @@
     "id": 42,
     "dexId": 15,
     "name": "Beedrill-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1025,7 +987,6 @@
     "id": 44,
     "dexId": 17,
     "name": "Pidgeotto",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1048,7 +1009,6 @@
     "id": 45,
     "dexId": 18,
     "name": "Pidgeot",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1071,7 +1031,6 @@
     "id": 46,
     "dexId": 18,
     "name": "Pidgeot-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1113,7 +1072,6 @@
     "id": 48,
     "dexId": 20,
     "name": "Raticate",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1156,7 +1114,6 @@
     "id": 50,
     "dexId": 20,
     "name": "Raticate-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -1199,7 +1156,6 @@
     "id": 52,
     "dexId": 22,
     "name": "Fearow",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1239,7 +1195,6 @@
     "id": 54,
     "dexId": 24,
     "name": "Arbok",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1279,7 +1234,6 @@
     "id": 56,
     "dexId": 28,
     "name": "Sandslash",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1322,7 +1276,6 @@
     "id": 58,
     "dexId": 28,
     "name": "Sandslash-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -1364,7 +1317,6 @@
     "id": 60,
     "dexId": 30,
     "name": "Nidorina",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1386,7 +1338,6 @@
     "id": 61,
     "dexId": 31,
     "name": "Nidoqueen",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1427,7 +1378,6 @@
     "id": 63,
     "dexId": 33,
     "name": "Nidorino",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1449,7 +1399,6 @@
     "id": 64,
     "dexId": 34,
     "name": "Nidoking",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1490,7 +1439,6 @@
     "id": 66,
     "dexId": 35,
     "name": "Clefairy",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1512,7 +1460,6 @@
     "id": 67,
     "dexId": 36,
     "name": "Clefable",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1534,7 +1481,6 @@
     "id": 1373,
     "dexId": 36,
     "name": "Clefable-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [],
@@ -1574,7 +1520,6 @@
     "id": 69,
     "dexId": 38,
     "name": "Ninetales",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1615,7 +1560,6 @@
     "id": 71,
     "dexId": 38,
     "name": "Ninetales-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -1659,7 +1603,6 @@
     "id": 73,
     "dexId": 39,
     "name": "Jigglypuff",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1689,7 +1632,6 @@
     "id": 74,
     "dexId": 40,
     "name": "Wigglytuff",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1704,7 +1646,6 @@
     "id": 75,
     "dexId": 985,
     "name": "Scream Tail",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -1747,7 +1688,6 @@
     "id": 77,
     "dexId": 42,
     "name": "Golbat",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1770,7 +1710,6 @@
     "id": 78,
     "dexId": 169,
     "name": "Crobat",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -1813,7 +1752,6 @@
     "id": 80,
     "dexId": 44,
     "name": "Gloom",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -1843,7 +1781,6 @@
     "id": 81,
     "dexId": 45,
     "name": "Vileplume",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1858,7 +1795,6 @@
     "id": 82,
     "dexId": 182,
     "name": "Bellossom",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -1899,7 +1835,6 @@
     "id": 84,
     "dexId": 47,
     "name": "Parasect",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1941,7 +1876,6 @@
     "id": 86,
     "dexId": 49,
     "name": "Venomoth",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -1983,7 +1917,6 @@
     "id": 88,
     "dexId": 51,
     "name": "Dugtrio",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2027,7 +1960,6 @@
     "id": 90,
     "dexId": 51,
     "name": "Dugtrio-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -2077,7 +2009,6 @@
     "id": 92,
     "dexId": 52,
     "name": "Meowth-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2092,7 +2023,6 @@
     "id": 93,
     "dexId": 53,
     "name": "Persian",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2133,7 +2063,6 @@
     "id": 95,
     "dexId": 53,
     "name": "Persian-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -2175,7 +2104,6 @@
     "id": 97,
     "dexId": 863,
     "name": "Perrserker",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -2214,7 +2142,6 @@
     "id": 99,
     "dexId": 55,
     "name": "Golduck",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2253,7 +2180,6 @@
     "id": 101,
     "dexId": 57,
     "name": "Primeape",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2275,7 +2201,6 @@
     "id": 102,
     "dexId": 979,
     "name": "Annihilape",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -2316,7 +2241,6 @@
     "id": 104,
     "dexId": 59,
     "name": "Arcanine",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2359,7 +2283,6 @@
     "id": 106,
     "dexId": 59,
     "name": "Arcanine-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -2401,7 +2324,6 @@
     "id": 108,
     "dexId": 61,
     "name": "Poliwhirl",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2430,7 +2352,6 @@
     "id": 109,
     "dexId": 62,
     "name": "Poliwrath",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2445,7 +2366,6 @@
     "id": 110,
     "dexId": 186,
     "name": "Politoed",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -2485,7 +2405,6 @@
     "id": 112,
     "dexId": 64,
     "name": "Kadabra",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2507,7 +2426,6 @@
     "id": 113,
     "dexId": 65,
     "name": "Alakazam",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2529,7 +2447,6 @@
     "id": 114,
     "dexId": 65,
     "name": "Alakazam-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2570,7 +2487,6 @@
     "id": 116,
     "dexId": 67,
     "name": "Machoke",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2592,7 +2508,6 @@
     "id": 117,
     "dexId": 68,
     "name": "Machamp",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2614,7 +2529,6 @@
     "id": 118,
     "dexId": 68,
     "name": "Machamp-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2657,7 +2571,6 @@
     "id": 120,
     "dexId": 70,
     "name": "Weepinbell",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2680,7 +2593,6 @@
     "id": 121,
     "dexId": 71,
     "name": "Victreebel",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2703,7 +2615,6 @@
     "id": 1374,
     "dexId": 71,
     "name": "Victreebel-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [],
@@ -2745,7 +2656,6 @@
     "id": 123,
     "dexId": 73,
     "name": "Tentacruel",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2788,7 +2698,6 @@
     "id": 125,
     "dexId": 75,
     "name": "Graveler",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -2811,7 +2720,6 @@
     "id": 126,
     "dexId": 76,
     "name": "Golem",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2855,7 +2763,6 @@
     "id": 128,
     "dexId": 75,
     "name": "Graveler-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -2879,7 +2786,6 @@
     "id": 129,
     "dexId": 76,
     "name": "Golem-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -2921,7 +2827,6 @@
     "id": 131,
     "dexId": 78,
     "name": "Rapidash",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -2962,7 +2867,6 @@
     "id": 133,
     "dexId": 78,
     "name": "Rapidash-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -3015,7 +2919,6 @@
     "id": 135,
     "dexId": 80,
     "name": "Slowbro",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -3038,7 +2941,6 @@
     "id": 136,
     "dexId": 80,
     "name": "Slowbro-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3054,7 +2956,6 @@
     "id": 137,
     "dexId": 199,
     "name": "Slowking",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -3104,7 +3005,6 @@
     "id": 139,
     "dexId": 80,
     "name": "Slowbro-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -3120,7 +3020,6 @@
     "id": 140,
     "dexId": 199,
     "name": "Slowking-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -3164,7 +3063,6 @@
     "id": 142,
     "dexId": 82,
     "name": "Magneton",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -3194,7 +3092,6 @@
     "id": 143,
     "dexId": 462,
     "name": "Magnezone",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -3209,7 +3106,6 @@
     "id": 144,
     "dexId": 989,
     "name": "Sandy Shocks",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -3274,7 +3170,6 @@
     "id": 147,
     "dexId": 865,
     "name": "Sirfetch'd",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -3316,7 +3211,6 @@
     "id": 149,
     "dexId": 85,
     "name": "Dodrio",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3356,7 +3250,6 @@
     "id": 151,
     "dexId": 87,
     "name": "Dewgong",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3397,7 +3290,6 @@
     "id": 153,
     "dexId": 89,
     "name": "Muk",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3440,7 +3332,6 @@
     "id": 155,
     "dexId": 89,
     "name": "Muk-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -3481,7 +3372,6 @@
     "id": 157,
     "dexId": 91,
     "name": "Cloyster",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3525,7 +3415,6 @@
     "id": 159,
     "dexId": 93,
     "name": "Haunter",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -3548,7 +3437,6 @@
     "id": 160,
     "dexId": 94,
     "name": "Gengar",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -3578,7 +3466,6 @@
     "id": 161,
     "dexId": 94,
     "name": "Gengar-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3594,7 +3481,6 @@
     "id": 162,
     "dexId": 94,
     "name": "Gengar-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3638,7 +3524,6 @@
     "id": 164,
     "dexId": 208,
     "name": "Steelix",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -3661,7 +3546,6 @@
     "id": 165,
     "dexId": 208,
     "name": "Steelix-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -3702,7 +3586,6 @@
     "id": 167,
     "dexId": 97,
     "name": "Hypno",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3742,7 +3625,6 @@
     "id": 169,
     "dexId": 99,
     "name": "Kingler",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -3764,7 +3646,6 @@
     "id": 170,
     "dexId": 99,
     "name": "Kingler-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3805,7 +3686,6 @@
     "id": 172,
     "dexId": 101,
     "name": "Electrode",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3848,7 +3728,6 @@
     "id": 174,
     "dexId": 101,
     "name": "Electrode-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -3900,7 +3779,6 @@
     "id": 176,
     "dexId": 103,
     "name": "Exeggutor",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3915,7 +3793,6 @@
     "id": 177,
     "dexId": 103,
     "name": "Exeggutor-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -3965,7 +3842,6 @@
     "id": 179,
     "dexId": 105,
     "name": "Marowak",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -3979,7 +3855,6 @@
     "id": 180,
     "dexId": 105,
     "name": "Marowak-Alolan",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -4035,7 +3910,6 @@
     "id": 182,
     "dexId": 106,
     "name": "Hitmonlee",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4049,7 +3923,6 @@
     "id": 183,
     "dexId": 107,
     "name": "Hitmonchan",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4063,7 +3936,6 @@
     "id": 184,
     "dexId": 237,
     "name": "Hitmontop",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -4102,7 +3974,6 @@
     "id": 186,
     "dexId": 463,
     "name": "Lickilicky",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -4150,7 +4021,6 @@
     "id": 188,
     "dexId": 110,
     "name": "Weezing",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4164,7 +4034,6 @@
     "id": 189,
     "dexId": 110,
     "name": "Weezing-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -4207,7 +4076,6 @@
     "id": 191,
     "dexId": 112,
     "name": "Rhydon",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -4230,7 +4098,6 @@
     "id": 192,
     "dexId": 464,
     "name": "Rhyperior",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -4270,7 +4137,6 @@
     "id": 194,
     "dexId": 113,
     "name": "Chansey",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -4292,7 +4158,6 @@
     "id": 195,
     "dexId": 242,
     "name": "Blissey",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -4331,7 +4196,6 @@
     "id": 197,
     "dexId": 465,
     "name": "Tangrowth",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -4371,7 +4235,6 @@
     "id": 199,
     "dexId": 115,
     "name": "Kangaskhan-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4411,7 +4274,6 @@
     "id": 201,
     "dexId": 117,
     "name": "Seadra",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -4433,7 +4295,6 @@
     "id": 202,
     "dexId": 230,
     "name": "Kingdra",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -4473,7 +4334,6 @@
     "id": 204,
     "dexId": 119,
     "name": "Seaking",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4513,7 +4373,6 @@
     "id": 206,
     "dexId": 121,
     "name": "Starmie",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -4536,7 +4395,6 @@
     "id": 1375,
     "dexId": 121,
     "name": "Starmie-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [],
@@ -4587,7 +4445,6 @@
     "id": 208,
     "dexId": 122,
     "name": "Mr. Mime",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4603,7 +4460,6 @@
     "id": 209,
     "dexId": 122,
     "name": "Mr. Mime-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -4628,7 +4484,6 @@
     "id": 210,
     "dexId": 866,
     "name": "Mr. Rime",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -4680,7 +4535,6 @@
     "id": 212,
     "dexId": 212,
     "name": "Scizor",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -4703,7 +4557,6 @@
     "id": 213,
     "dexId": 212,
     "name": "Scizor-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -4719,7 +4572,6 @@
     "id": 214,
     "dexId": 900,
     "name": "Kleavor",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -4761,7 +4613,6 @@
     "id": 216,
     "dexId": 124,
     "name": "Jynx",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -4801,7 +4652,6 @@
     "id": 218,
     "dexId": 125,
     "name": "Electabuzz",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -4823,7 +4673,6 @@
     "id": 219,
     "dexId": 466,
     "name": "Electivire",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -4862,7 +4711,6 @@
     "id": 221,
     "dexId": 126,
     "name": "Magmar",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -4884,7 +4732,6 @@
     "id": 222,
     "dexId": 467,
     "name": "Magmortar",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -4924,7 +4771,6 @@
     "id": 224,
     "dexId": 127,
     "name": "Pinsir-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5048,7 +4894,6 @@
     "id": 230,
     "dexId": 130,
     "name": "Gyarados",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -5071,7 +4916,6 @@
     "id": 231,
     "dexId": 130,
     "name": "Gyarados-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5115,7 +4959,6 @@
     "id": 233,
     "dexId": 131,
     "name": "Lapras-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5232,7 +5075,6 @@
     "id": 236,
     "dexId": 133,
     "name": "Eevee-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5247,7 +5089,6 @@
     "id": 237,
     "dexId": 134,
     "name": "Vaporeon",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5261,7 +5102,6 @@
     "id": 238,
     "dexId": 135,
     "name": "Jolteon",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5275,7 +5115,6 @@
     "id": 239,
     "dexId": 136,
     "name": "Flareon",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5289,7 +5128,6 @@
     "id": 240,
     "dexId": 196,
     "name": "Espeon",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -5303,7 +5141,6 @@
     "id": 241,
     "dexId": 197,
     "name": "Umbreon",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -5317,7 +5154,6 @@
     "id": 242,
     "dexId": 470,
     "name": "Leafeon",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -5331,7 +5167,6 @@
     "id": 243,
     "dexId": 471,
     "name": "Glaceon",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -5345,7 +5180,6 @@
     "id": 244,
     "dexId": 700,
     "name": "Sylveon",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -5384,7 +5218,6 @@
     "id": 246,
     "dexId": 233,
     "name": "Porygon2",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -5406,7 +5239,6 @@
     "id": 247,
     "dexId": 474,
     "name": "Porygon-Z",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -5448,7 +5280,6 @@
     "id": 249,
     "dexId": 139,
     "name": "Omastar",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5490,7 +5321,6 @@
     "id": 251,
     "dexId": 141,
     "name": "Kabutops",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5533,7 +5363,6 @@
     "id": 253,
     "dexId": 142,
     "name": "Aerodactyl-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5575,7 +5404,6 @@
     "id": 255,
     "dexId": 143,
     "name": "Snorlax",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -5597,7 +5425,6 @@
     "id": 256,
     "dexId": 143,
     "name": "Snorlax-Giga",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5639,7 +5466,6 @@
     "id": 258,
     "dexId": 148,
     "name": "Dragonair",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -5661,7 +5487,6 @@
     "id": 259,
     "dexId": 149,
     "name": "Dragonite",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": [
       {
@@ -5684,7 +5509,6 @@
     "id": 1376,
     "dexId": 149,
     "name": "Dragonite-Mega",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [],
@@ -5861,7 +5685,6 @@
     "id": 267,
     "dexId": 150,
     "name": "Mewtwo-MegaX",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5877,7 +5700,6 @@
     "id": 268,
     "dexId": 150,
     "name": "Mewtwo-MegaY",
-    "spawnCount": 0,
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
@@ -5937,7 +5759,6 @@
     "id": 271,
     "dexId": 152,
     "name": "Bayleef",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -5959,7 +5780,6 @@
     "id": 272,
     "dexId": 154,
     "name": "Meganium",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -5981,7 +5801,6 @@
     "id": 1377,
     "dexId": 154,
     "name": "Meganium-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [],
@@ -6023,7 +5842,6 @@
     "id": 274,
     "dexId": 156,
     "name": "Quilava",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6052,7 +5870,6 @@
     "id": 275,
     "dexId": 157,
     "name": "Typhlosion",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6066,7 +5883,6 @@
     "id": 276,
     "dexId": 157,
     "name": "Typhlosion-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -6109,7 +5925,6 @@
     "id": 278,
     "dexId": 159,
     "name": "Croconaw",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6131,7 +5946,6 @@
     "id": 279,
     "dexId": 160,
     "name": "Feraligatr",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6153,7 +5967,6 @@
     "id": 1378,
     "dexId": 160,
     "name": "Feraligatr-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [],
@@ -6192,7 +6005,6 @@
     "id": 281,
     "dexId": 162,
     "name": "Furret",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6233,7 +6045,6 @@
     "id": 283,
     "dexId": 164,
     "name": "Noctowl",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6275,7 +6086,6 @@
     "id": 285,
     "dexId": 166,
     "name": "Ledian",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6317,7 +6127,6 @@
     "id": 287,
     "dexId": 168,
     "name": "Ariados",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6359,7 +6168,6 @@
     "id": 289,
     "dexId": 171,
     "name": "Lanturn",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6399,7 +6207,6 @@
     "id": 291,
     "dexId": 176,
     "name": "Togetic",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6422,7 +6229,6 @@
     "id": 292,
     "dexId": 468,
     "name": "Togekiss",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6464,7 +6270,6 @@
     "id": 294,
     "dexId": 178,
     "name": "Xatu",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6505,7 +6310,6 @@
     "id": 296,
     "dexId": 180,
     "name": "Flaaffy",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6527,7 +6331,6 @@
     "id": 297,
     "dexId": 181,
     "name": "Ampharos",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6549,7 +6352,6 @@
     "id": 298,
     "dexId": 181,
     "name": "Ampharos-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6592,7 +6394,6 @@
     "id": 300,
     "dexId": 183,
     "name": "Marill",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6615,7 +6416,6 @@
     "id": 301,
     "dexId": 184,
     "name": "Azumarill",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6655,7 +6455,6 @@
     "id": 303,
     "dexId": 185,
     "name": "Sudowoodo",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6696,7 +6495,6 @@
     "id": 305,
     "dexId": 188,
     "name": "Skiploom",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -6719,7 +6517,6 @@
     "id": 306,
     "dexId": 189,
     "name": "Jumpluff",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6759,7 +6556,6 @@
     "id": 308,
     "dexId": 424,
     "name": "Ambipom",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -6798,7 +6594,6 @@
     "id": 310,
     "dexId": 192,
     "name": "Sunflora",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6839,7 +6634,6 @@
     "id": 312,
     "dexId": 469,
     "name": "Yanmega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -6882,7 +6676,6 @@
     "id": 314,
     "dexId": 195,
     "name": "Quagsire",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -6926,7 +6719,6 @@
     "id": 316,
     "dexId": 980,
     "name": "Clodsire",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -6968,7 +6760,6 @@
     "id": 318,
     "dexId": 430,
     "name": "Honchkrow",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -7016,7 +6807,6 @@
     "id": 320,
     "dexId": 429,
     "name": "Mismagius",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -7030,7 +6820,6 @@
     "id": 321,
     "dexId": 987,
     "name": "Flutter Mane",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -7603,7 +7392,6 @@
     "id": 351,
     "dexId": 202,
     "name": "Wobbuffet",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -7644,7 +7432,6 @@
     "id": 353,
     "dexId": 981,
     "name": "Farigiraf",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -7684,7 +7471,6 @@
     "id": 355,
     "dexId": 205,
     "name": "Forretress",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -7733,7 +7519,6 @@
     "id": 357,
     "dexId": 982,
     "name": "Dudunsparce-TwoSegment",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -7748,7 +7533,6 @@
     "id": 358,
     "dexId": 982,
     "name": "Dudunsparce-ThreeSegment",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -7790,7 +7574,6 @@
     "id": 360,
     "dexId": 472,
     "name": "Gliscor",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -7830,7 +7613,6 @@
     "id": 362,
     "dexId": 210,
     "name": "Granbull",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -7893,7 +7675,6 @@
     "id": 365,
     "dexId": 904,
     "name": "Overqwil",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -7955,7 +7736,6 @@
     "id": 368,
     "dexId": 214,
     "name": "Heracross-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -7999,7 +7779,6 @@
     "id": 370,
     "dexId": 461,
     "name": "Weavile",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -8043,7 +7822,6 @@
     "id": 372,
     "dexId": 903,
     "name": "Sneasler",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -8084,7 +7862,6 @@
     "id": 374,
     "dexId": 217,
     "name": "Ursaring",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -8106,7 +7883,6 @@
     "id": 375,
     "dexId": 901,
     "name": "Ursaluna",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": [
       {
@@ -8129,7 +7905,6 @@
     "id": 376,
     "dexId": 901,
     "name": "Ursaluna-BloodMoon",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8170,7 +7945,6 @@
     "id": 378,
     "dexId": 219,
     "name": "Magcargo",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -8212,7 +7986,6 @@
     "id": 380,
     "dexId": 221,
     "name": "Piloswine",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -8235,7 +8008,6 @@
     "id": 381,
     "dexId": 473,
     "name": "Mamoswine",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -8297,7 +8069,6 @@
     "id": 384,
     "dexId": 864,
     "name": "Cursola",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -8336,7 +8107,6 @@
     "id": 386,
     "dexId": 224,
     "name": "Octillery",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -8378,7 +8148,6 @@
     "id": 388,
     "dexId": 991,
     "name": "Iron Bundle",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8421,7 +8190,6 @@
     "id": 390,
     "dexId": 226,
     "name": "Mantine",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -8464,7 +8232,6 @@
     "id": 1379,
     "dexId": 227,
     "name": "Skarmory-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [],
@@ -8506,7 +8273,6 @@
     "id": 393,
     "dexId": 229,
     "name": "Houndoom",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -8529,7 +8295,6 @@
     "id": 394,
     "dexId": 229,
     "name": "Houndoom-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -8571,7 +8336,6 @@
     "id": 396,
     "dexId": 232,
     "name": "Donphan",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -8600,7 +8364,6 @@
     "id": 397,
     "dexId": 984,
     "name": "Great Tusk",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8616,7 +8379,6 @@
     "id": 398,
     "dexId": 990,
     "name": "Iron Treads",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8657,7 +8419,6 @@
     "id": 400,
     "dexId": 899,
     "name": "Wyrdeer",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -8736,7 +8497,6 @@
     "id": 404,
     "dexId": 247,
     "name": "Pupitar",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -8759,7 +8519,6 @@
     "id": 405,
     "dexId": 248,
     "name": "Tyranitar",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": [
       {
@@ -8789,7 +8548,6 @@
     "id": 406,
     "dexId": 248,
     "name": "Tyranitar-Mega",
-    "spawnCount": 0,
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
@@ -8805,7 +8563,6 @@
     "id": 407,
     "dexId": 995,
     "name": "Iron Thorns",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8848,7 +8605,6 @@
     "id": 409,
     "dexId": 1021,
     "name": "Raging Bolt",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8891,7 +8647,6 @@
     "id": 411,
     "dexId": 1020,
     "name": "Gouging Fire",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -8934,7 +8689,6 @@
     "id": 413,
     "dexId": 1009,
     "name": "Walking Wake",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -9038,7 +8792,6 @@
     "id": 418,
     "dexId": 253,
     "name": "Grovyle",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9060,7 +8813,6 @@
     "id": 419,
     "dexId": 254,
     "name": "Sceptile",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9082,7 +8834,6 @@
     "id": 420,
     "dexId": 254,
     "name": "Sceptile-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9125,7 +8876,6 @@
     "id": 422,
     "dexId": 256,
     "name": "Combusken",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9148,7 +8898,6 @@
     "id": 423,
     "dexId": 257,
     "name": "Blaziken",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9171,7 +8920,6 @@
     "id": 424,
     "dexId": 257,
     "name": "Blaziken-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9214,7 +8962,6 @@
     "id": 426,
     "dexId": 259,
     "name": "Marshtomp",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9237,7 +8984,6 @@
     "id": 427,
     "dexId": 260,
     "name": "Swampert",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9260,7 +9006,6 @@
     "id": 428,
     "dexId": 260,
     "name": "Swampert-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9301,7 +9046,6 @@
     "id": 430,
     "dexId": 262,
     "name": "Mightyena",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9341,7 +9085,6 @@
     "id": 432,
     "dexId": 264,
     "name": "Linoone",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9384,7 +9127,6 @@
     "id": 434,
     "dexId": 264,
     "name": "Linoone-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -9408,7 +9150,6 @@
     "id": 435,
     "dexId": 862,
     "name": "Obstagoon",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -9456,7 +9197,6 @@
     "id": 437,
     "dexId": 266,
     "name": "Silcoon",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9478,7 +9218,6 @@
     "id": 438,
     "dexId": 267,
     "name": "Beautifly",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9493,7 +9232,6 @@
     "id": 439,
     "dexId": 268,
     "name": "Cascoon",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9515,7 +9253,6 @@
     "id": 440,
     "dexId": 269,
     "name": "Dustox",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9557,7 +9294,6 @@
     "id": 442,
     "dexId": 271,
     "name": "Lombre",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9580,7 +9316,6 @@
     "id": 443,
     "dexId": 272,
     "name": "Ludicolo",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9620,7 +9355,6 @@
     "id": 445,
     "dexId": 274,
     "name": "Nuzleaf",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9643,7 +9377,6 @@
     "id": 446,
     "dexId": 275,
     "name": "Shiftry",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9685,7 +9418,6 @@
     "id": 448,
     "dexId": 277,
     "name": "Swellow",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9727,7 +9459,6 @@
     "id": 450,
     "dexId": 279,
     "name": "Pelipper",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9772,7 +9503,6 @@
     "id": 452,
     "dexId": 281,
     "name": "Kirlia",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9809,7 +9539,6 @@
     "id": 453,
     "dexId": 282,
     "name": "Gardevoir",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -9832,7 +9561,6 @@
     "id": 454,
     "dexId": 282,
     "name": "Gardevoir-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9848,7 +9576,6 @@
     "id": 455,
     "dexId": 475,
     "name": "Gallade",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -9871,7 +9598,6 @@
     "id": 456,
     "dexId": 475,
     "name": "Gallade-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -9887,7 +9613,6 @@
     "id": 457,
     "dexId": 1006,
     "name": "Iron Valiant",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -9930,7 +9655,6 @@
     "id": 459,
     "dexId": 284,
     "name": "Masquerain",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -9970,7 +9694,6 @@
     "id": 461,
     "dexId": 286,
     "name": "Breloom",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10010,7 +9733,6 @@
     "id": 463,
     "dexId": 288,
     "name": "Vigoroth",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10032,7 +9754,6 @@
     "id": 464,
     "dexId": 289,
     "name": "Slaking",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10081,7 +9802,6 @@
     "id": 466,
     "dexId": 291,
     "name": "Ninjask",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10096,7 +9816,6 @@
     "id": 467,
     "dexId": 292,
     "name": "Shedinja",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10136,7 +9855,6 @@
     "id": 469,
     "dexId": 294,
     "name": "Loudred",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10158,7 +9876,6 @@
     "id": 470,
     "dexId": 295,
     "name": "Exploud",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10198,7 +9915,6 @@
     "id": 472,
     "dexId": 297,
     "name": "Hariyama",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10220,7 +9936,6 @@
     "id": 473,
     "dexId": 992,
     "name": "Iron Hands",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -10261,7 +9976,6 @@
     "id": 475,
     "dexId": 476,
     "name": "Probopass",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -10301,7 +10015,6 @@
     "id": 477,
     "dexId": 301,
     "name": "Delcatty",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10343,7 +10056,6 @@
     "id": 479,
     "dexId": 302,
     "name": "Sableye-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10387,7 +10099,6 @@
     "id": 481,
     "dexId": 303,
     "name": "Mawile-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10431,7 +10142,6 @@
     "id": 483,
     "dexId": 305,
     "name": "Lairon",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10454,7 +10164,6 @@
     "id": 484,
     "dexId": 306,
     "name": "Aggron",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10477,7 +10186,6 @@
     "id": 485,
     "dexId": 306,
     "name": "Aggron-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10520,7 +10228,6 @@
     "id": 487,
     "dexId": 308,
     "name": "Medicham",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10543,7 +10250,6 @@
     "id": 488,
     "dexId": 308,
     "name": "Medicham-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10585,7 +10291,6 @@
     "id": 490,
     "dexId": 310,
     "name": "Manectric",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10607,7 +10312,6 @@
     "id": 491,
     "dexId": 310,
     "name": "Manectric-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10717,7 +10421,6 @@
     "id": 497,
     "dexId": 315,
     "name": "Roselia",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10740,7 +10443,6 @@
     "id": 498,
     "dexId": 407,
     "name": "Roserade",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -10780,7 +10482,6 @@
     "id": 500,
     "dexId": 317,
     "name": "Swalot",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10822,7 +10523,6 @@
     "id": 502,
     "dexId": 319,
     "name": "Sharpedo",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10845,7 +10545,6 @@
     "id": 503,
     "dexId": 319,
     "name": "Sharpedo-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10886,7 +10585,6 @@
     "id": 505,
     "dexId": 321,
     "name": "Wailord",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -10928,7 +10626,6 @@
     "id": 507,
     "dexId": 323,
     "name": "Camerupt",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -10951,7 +10648,6 @@
     "id": 508,
     "dexId": 323,
     "name": "Camerupt-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11009,7 +10705,6 @@
     "id": 511,
     "dexId": 326,
     "name": "Grumpig",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11065,7 +10760,6 @@
     "id": 514,
     "dexId": 329,
     "name": "Vibrava",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -11088,7 +10782,6 @@
     "id": 515,
     "dexId": 330,
     "name": "Flygon",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11128,7 +10821,6 @@
     "id": 517,
     "dexId": 332,
     "name": "Cacturne",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11171,7 +10863,6 @@
     "id": 519,
     "dexId": 334,
     "name": "Altaria",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -11194,7 +10885,6 @@
     "id": 520,
     "dexId": 334,
     "name": "Altaria-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11309,7 +10999,6 @@
     "id": 526,
     "dexId": 340,
     "name": "Whiscash",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11349,7 +11038,6 @@
     "id": 528,
     "dexId": 342,
     "name": "Crawdaunt",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11391,7 +11079,6 @@
     "id": 530,
     "dexId": 344,
     "name": "Claydol",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11433,7 +11120,6 @@
     "id": 532,
     "dexId": 346,
     "name": "Cradily",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11475,7 +11161,6 @@
     "id": 534,
     "dexId": 348,
     "name": "Armaldo",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11515,7 +11200,6 @@
     "id": 536,
     "dexId": 350,
     "name": "Milotic",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11569,7 +11253,6 @@
     "id": 538,
     "dexId": 351,
     "name": "Castform-Sunny",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11584,7 +11267,6 @@
     "id": 539,
     "dexId": 351,
     "name": "Castform-Rainy",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11599,7 +11281,6 @@
     "id": 540,
     "dexId": 351,
     "name": "Castform-Snowy",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11657,7 +11338,6 @@
     "id": 543,
     "dexId": 354,
     "name": "Banette",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -11679,7 +11359,6 @@
     "id": 544,
     "dexId": 354,
     "name": "Banette-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11719,7 +11398,6 @@
     "id": 546,
     "dexId": 356,
     "name": "Dusclops",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -11741,7 +11419,6 @@
     "id": 547,
     "dexId": 477,
     "name": "Dusknoir",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -11800,7 +11477,6 @@
     "id": 550,
     "dexId": 358,
     "name": "Chimecho",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -11822,7 +11498,6 @@
     "id": 1380,
     "dexId": 358,
     "name": "Chimecho-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [],
@@ -11869,7 +11544,6 @@
     "id": 552,
     "dexId": 359,
     "name": "Absol-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11884,7 +11558,6 @@
     "id": 1381,
     "dexId": 359,
     "name": "Absol-MegaZ",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [],
@@ -11932,7 +11605,6 @@
     "id": 554,
     "dexId": 362,
     "name": "Glalie",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -11954,7 +11626,6 @@
     "id": 555,
     "dexId": 362,
     "name": "Glalie-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -11969,7 +11640,6 @@
     "id": 556,
     "dexId": 478,
     "name": "Froslass",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -11992,7 +11662,6 @@
     "id": 1385,
     "dexId": 478,
     "name": "Froslass-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [],
@@ -12033,7 +11702,6 @@
     "id": 558,
     "dexId": 364,
     "name": "Sealeo",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -12056,7 +11724,6 @@
     "id": 559,
     "dexId": 365,
     "name": "Walrein",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12104,7 +11771,6 @@
     "id": 561,
     "dexId": 367,
     "name": "Huntail",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12118,7 +11784,6 @@
     "id": 562,
     "dexId": 368,
     "name": "Gorebyss",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12196,7 +11861,6 @@
     "id": 566,
     "dexId": 372,
     "name": "Shelgon",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -12218,7 +11882,6 @@
     "id": 567,
     "dexId": 373,
     "name": "Salamence",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -12248,7 +11911,6 @@
     "id": 568,
     "dexId": 373,
     "name": "Salamence-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12264,7 +11926,6 @@
     "id": 569,
     "dexId": 1005,
     "name": "Roaring Moon",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -12309,7 +11970,6 @@
     "id": 571,
     "dexId": 375,
     "name": "Metang",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -12332,7 +11992,6 @@
     "id": 572,
     "dexId": 376,
     "name": "Metagross",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": [
       {
@@ -12355,7 +12014,6 @@
     "id": 573,
     "dexId": 376,
     "name": "Metagross-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12508,7 +12166,6 @@
     "id": 581,
     "dexId": 380,
     "name": "Latias-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12553,7 +12210,6 @@
     "id": 583,
     "dexId": 381,
     "name": "Latios-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12596,7 +12252,6 @@
     "id": 585,
     "dexId": 382,
     "name": "Kyogre-Primal",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12638,7 +12293,6 @@
     "id": 587,
     "dexId": 383,
     "name": "Groudon-Primal",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12683,7 +12337,6 @@
     "id": 589,
     "dexId": 384,
     "name": "Rayquaza-Mega",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12760,7 +12413,6 @@
     "id": 592,
     "dexId": 386,
     "name": "Deoxys-Attack",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12775,7 +12427,6 @@
     "id": 593,
     "dexId": 386,
     "name": "Deoxys-Defense",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12790,7 +12441,6 @@
     "id": 594,
     "dexId": 386,
     "name": "Deoxys-Speed",
-    "spawnCount": 0,
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
@@ -12831,7 +12481,6 @@
     "id": 596,
     "dexId": 388,
     "name": "Grotle",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -12853,7 +12502,6 @@
     "id": 597,
     "dexId": 389,
     "name": "Torterra",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -12894,7 +12542,6 @@
     "id": 599,
     "dexId": 391,
     "name": "Monferno",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -12917,7 +12564,6 @@
     "id": 600,
     "dexId": 392,
     "name": "Infernape",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -12958,7 +12604,6 @@
     "id": 602,
     "dexId": 394,
     "name": "Prinplup",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -12980,7 +12625,6 @@
     "id": 603,
     "dexId": 395,
     "name": "Empoleon",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13023,7 +12667,6 @@
     "id": 605,
     "dexId": 397,
     "name": "Staravia",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -13046,7 +12689,6 @@
     "id": 606,
     "dexId": 398,
     "name": "Staraptor",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -13069,7 +12711,6 @@
     "id": 1382,
     "dexId": 398,
     "name": "Staraptor-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [],
@@ -13108,7 +12749,6 @@
     "id": 608,
     "dexId": 400,
     "name": "Bibarel",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13148,7 +12788,6 @@
     "id": 610,
     "dexId": 402,
     "name": "Kricketune",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13187,7 +12826,6 @@
     "id": 612,
     "dexId": 404,
     "name": "Luxio",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -13209,7 +12847,6 @@
     "id": 613,
     "dexId": 405,
     "name": "Luxray",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13248,7 +12885,6 @@
     "id": 615,
     "dexId": 409,
     "name": "Rampardos",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13289,7 +12925,6 @@
     "id": 617,
     "dexId": 411,
     "name": "Bastiodon",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13340,7 +12975,6 @@
     "id": 619,
     "dexId": 413,
     "name": "Wormadam-Plant",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13384,7 +13018,6 @@
     "id": 621,
     "dexId": 413,
     "name": "Wormadam-Sandy",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13428,7 +13061,6 @@
     "id": 623,
     "dexId": 413,
     "name": "Wormadam-Trash",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13444,7 +13076,6 @@
     "id": 624,
     "dexId": 414,
     "name": "Mothim",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13487,7 +13118,6 @@
     "id": 626,
     "dexId": 416,
     "name": "Vespiquen",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13544,7 +13174,6 @@
     "id": 629,
     "dexId": 419,
     "name": "Floatzel",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13584,7 +13213,6 @@
     "id": 631,
     "dexId": 421,
     "name": "Cherrim-Overcast",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -13607,7 +13235,6 @@
     "id": 632,
     "dexId": 421,
     "name": "Cherrim-Sunshine",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13650,7 +13277,6 @@
     "id": 634,
     "dexId": 423,
     "name": "Gastrodon-WestSea",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13694,7 +13320,6 @@
     "id": 636,
     "dexId": 423,
     "name": "Gastrodon-EastSea",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13737,7 +13362,6 @@
     "id": 638,
     "dexId": 426,
     "name": "Drifblim",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13778,7 +13402,6 @@
     "id": 640,
     "dexId": 428,
     "name": "Lopunny",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -13800,7 +13423,6 @@
     "id": 641,
     "dexId": 428,
     "name": "Lopunny-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13841,7 +13463,6 @@
     "id": 643,
     "dexId": 432,
     "name": "Purugly",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13882,7 +13503,6 @@
     "id": 645,
     "dexId": 435,
     "name": "Skuntank",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -13924,7 +13544,6 @@
     "id": 647,
     "dexId": 437,
     "name": "Bronzong",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14003,7 +13622,6 @@
     "id": 651,
     "dexId": 448,
     "name": "Lucario",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -14033,7 +13651,6 @@
     "id": 652,
     "dexId": 448,
     "name": "Lucario-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14049,7 +13666,6 @@
     "id": 1384,
     "dexId": 448,
     "name": "Lucario-MegaZ",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [],
@@ -14090,7 +13706,6 @@
     "id": 654,
     "dexId": 449,
     "name": "Hippowdon-M",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14132,7 +13747,6 @@
     "id": 656,
     "dexId": 450,
     "name": "Hippowdon-F",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14174,7 +13788,6 @@
     "id": 658,
     "dexId": 452,
     "name": "Drapion",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14216,7 +13829,6 @@
     "id": 660,
     "dexId": 454,
     "name": "Toxicroak",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14273,7 +13885,6 @@
     "id": 663,
     "dexId": 457,
     "name": "Lumineon",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14315,7 +13926,6 @@
     "id": 665,
     "dexId": 460,
     "name": "Abomasnow",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -14338,7 +13948,6 @@
     "id": 666,
     "dexId": 460,
     "name": "Abomasnow-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14410,7 +14019,6 @@
     "id": 668,
     "dexId": 479,
     "name": "Rotom-Heat",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14426,7 +14034,6 @@
     "id": 669,
     "dexId": 479,
     "name": "Rotom-Wash",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14442,7 +14049,6 @@
     "id": 670,
     "dexId": 479,
     "name": "Rotom-Frost",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14458,7 +14064,6 @@
     "id": 671,
     "dexId": 479,
     "name": "Rotom-Fan",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14474,7 +14079,6 @@
     "id": 672,
     "dexId": 479,
     "name": "Rotom-Mow",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14519,7 +14123,6 @@
     "id": 674,
     "dexId": 444,
     "name": "Gabite",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -14542,7 +14145,6 @@
     "id": 675,
     "dexId": 445,
     "name": "Garchomp",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": [
       {
@@ -14572,7 +14174,6 @@
     "id": 676,
     "dexId": 445,
     "name": "Garchomp-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14588,7 +14189,6 @@
     "id": 1383,
     "dexId": 445,
     "name": "Garchomp-MegaZ",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [],
@@ -14630,7 +14230,6 @@
     "id": 1386,
     "dexId": 485,
     "name": "Heatran-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [],
@@ -14689,7 +14288,6 @@
     "id": 1387,
     "dexId": 491,
     "name": "Darkrai-Mega",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [],
@@ -14785,7 +14383,6 @@
     "id": 684,
     "dexId": 483,
     "name": "Dialga-Origin",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14830,7 +14427,6 @@
     "id": 686,
     "dexId": 484,
     "name": "Palkia-Origin",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14875,7 +14471,6 @@
     "id": 688,
     "dexId": 487,
     "name": "Giratina-Origin",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -14973,7 +14568,6 @@
     "id": 693,
     "dexId": 492,
     "name": "Shaymin-Sky",
-    "spawnCount": 0,
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
@@ -15015,7 +14609,6 @@
     "id": 695,
     "dexId": 496,
     "name": "Servine",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15037,7 +14630,6 @@
     "id": 696,
     "dexId": 497,
     "name": "Serperior",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15078,7 +14670,6 @@
     "id": 698,
     "dexId": 499,
     "name": "Pignite",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15101,7 +14692,6 @@
     "id": 699,
     "dexId": 500,
     "name": "Emboar",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15124,7 +14714,6 @@
     "id": 1388,
     "dexId": 500,
     "name": "Emboar-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -15166,7 +14755,6 @@
     "id": 701,
     "dexId": 502,
     "name": "Dewott",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15195,7 +14783,6 @@
     "id": 702,
     "dexId": 503,
     "name": "Samurott",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15209,7 +14796,6 @@
     "id": 703,
     "dexId": 503,
     "name": "Samurott-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -15250,7 +14836,6 @@
     "id": 705,
     "dexId": 505,
     "name": "Watchog",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15289,7 +14874,6 @@
     "id": 707,
     "dexId": 507,
     "name": "Herdier",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15311,7 +14895,6 @@
     "id": 708,
     "dexId": 508,
     "name": "Stoutland",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15350,7 +14933,6 @@
     "id": 710,
     "dexId": 510,
     "name": "Liepard",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15389,7 +14971,6 @@
     "id": 712,
     "dexId": 512,
     "name": "Simisage",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15428,7 +15009,6 @@
     "id": 714,
     "dexId": 514,
     "name": "Simisear",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15467,7 +15047,6 @@
     "id": 716,
     "dexId": 516,
     "name": "Simipour",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15506,7 +15085,6 @@
     "id": 718,
     "dexId": 518,
     "name": "Musharna",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15549,7 +15127,6 @@
     "id": 720,
     "dexId": 520,
     "name": "Tranquill",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15579,7 +15156,6 @@
     "id": 721,
     "dexId": 521,
     "name": "Unfezant-M",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15595,7 +15171,6 @@
     "id": 722,
     "dexId": 521,
     "name": "Unfezant-F",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15636,7 +15211,6 @@
     "id": 724,
     "dexId": 523,
     "name": "Zebstrika",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15675,7 +15249,6 @@
     "id": 726,
     "dexId": 525,
     "name": "Boldore",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15697,7 +15270,6 @@
     "id": 727,
     "dexId": 526,
     "name": "Gigalith",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15738,7 +15310,6 @@
     "id": 729,
     "dexId": 528,
     "name": "Swoobat",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15779,7 +15350,6 @@
     "id": 731,
     "dexId": 530,
     "name": "Excadrill",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15802,7 +15372,6 @@
     "id": 1389,
     "dexId": 530,
     "name": "Excadrill-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -15842,7 +15411,6 @@
     "id": 733,
     "dexId": 531,
     "name": "Audino-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15883,7 +15451,6 @@
     "id": 735,
     "dexId": 533,
     "name": "Gurdurr",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15905,7 +15472,6 @@
     "id": 736,
     "dexId": 534,
     "name": "Conkeldurr",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -15944,7 +15510,6 @@
     "id": 738,
     "dexId": 536,
     "name": "Palpitoad",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -15967,7 +15532,6 @@
     "id": 739,
     "dexId": 537,
     "name": "Seismitoad",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16043,7 +15607,6 @@
     "id": 743,
     "dexId": 541,
     "name": "Swadloon",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16066,7 +15629,6 @@
     "id": 744,
     "dexId": 542,
     "name": "Leavanny",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16109,7 +15671,6 @@
     "id": 746,
     "dexId": 544,
     "name": "Whirlipede",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16132,7 +15693,6 @@
     "id": 747,
     "dexId": 545,
     "name": "Scolipede",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16155,7 +15715,6 @@
     "id": 1390,
     "dexId": 545,
     "name": "Scolipede-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -16196,7 +15755,6 @@
     "id": 749,
     "dexId": 547,
     "name": "Whimsicott",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16245,7 +15803,6 @@
     "id": 751,
     "dexId": 549,
     "name": "Lilligant",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16259,7 +15816,6 @@
     "id": 752,
     "dexId": 549,
     "name": "Lilligant-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -16348,7 +15904,6 @@
     "id": 756,
     "dexId": 902,
     "name": "Basculegion-M",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -16364,7 +15919,6 @@
     "id": 757,
     "dexId": 902,
     "name": "Basculegion-F",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -16407,7 +15961,6 @@
     "id": 759,
     "dexId": 552,
     "name": "Krokorok",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16430,7 +15983,6 @@
     "id": 760,
     "dexId": 553,
     "name": "Krookodile",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16472,7 +16024,6 @@
     "id": 762,
     "dexId": 555,
     "name": "Darmanitan",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16494,7 +16045,6 @@
     "id": 763,
     "dexId": 555,
     "name": "Darmanitan-ZenMode",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16538,7 +16088,6 @@
     "id": 765,
     "dexId": 555,
     "name": "Darmanitan-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -16561,7 +16110,6 @@
     "id": 766,
     "dexId": 555,
     "name": "Darmanitan-ZenMode-Galarian",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -16621,7 +16169,6 @@
     "id": 769,
     "dexId": 558,
     "name": "Crustle",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16664,7 +16211,6 @@
     "id": 771,
     "dexId": 560,
     "name": "Scrafty",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16687,7 +16233,6 @@
     "id": 1391,
     "dexId": 560,
     "name": "Scrafty-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -16746,7 +16291,6 @@
     "id": 774,
     "dexId": 563,
     "name": "Cofagrigus",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16789,7 +16333,6 @@
     "id": 776,
     "dexId": 867,
     "name": "Runerigus",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -16831,7 +16374,6 @@
     "id": 778,
     "dexId": 565,
     "name": "Carracosta",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16873,7 +16415,6 @@
     "id": 780,
     "dexId": 567,
     "name": "Archeops",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16914,7 +16455,6 @@
     "id": 782,
     "dexId": 569,
     "name": "Garbodor",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -16936,7 +16476,6 @@
     "id": 783,
     "dexId": 569,
     "name": "Garbodor-Giga",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -16977,7 +16516,6 @@
     "id": 785,
     "dexId": 571,
     "name": "Zoroark",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17020,7 +16558,6 @@
     "id": 787,
     "dexId": 571,
     "name": "Zoroark-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -17061,7 +16598,6 @@
     "id": 789,
     "dexId": 573,
     "name": "Cinccino",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17100,7 +16636,6 @@
     "id": 791,
     "dexId": 575,
     "name": "Gothorita",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17122,7 +16657,6 @@
     "id": 792,
     "dexId": 576,
     "name": "Gothitelle",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17161,7 +16695,6 @@
     "id": 794,
     "dexId": 578,
     "name": "Duosion",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17183,7 +16716,6 @@
     "id": 795,
     "dexId": 579,
     "name": "Reuniclus",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17224,7 +16756,6 @@
     "id": 797,
     "dexId": 581,
     "name": "Swanna",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17264,7 +16795,6 @@
     "id": 799,
     "dexId": 583,
     "name": "Vanillish",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17286,7 +16816,6 @@
     "id": 800,
     "dexId": 584,
     "name": "Vanilluxe",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17329,7 +16858,6 @@
     "id": 802,
     "dexId": 586,
     "name": "Sawsbuck-Spring",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17374,7 +16902,6 @@
     "id": 804,
     "dexId": 586,
     "name": "Sawsbuck-Summer",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17419,7 +16946,6 @@
     "id": 806,
     "dexId": 586,
     "name": "Sawsbuck-Autumn",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17464,7 +16990,6 @@
     "id": 808,
     "dexId": 586,
     "name": "Sawsbuck-Winter",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17524,7 +17049,6 @@
     "id": 811,
     "dexId": 589,
     "name": "Escavalier",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17564,7 +17088,6 @@
     "id": 813,
     "dexId": 617,
     "name": "Accelgor",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17606,7 +17129,6 @@
     "id": 815,
     "dexId": 591,
     "name": "Amoonguss",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17629,7 +17151,6 @@
     "id": 816,
     "dexId": 986,
     "name": "Brute Bonnet",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -17674,7 +17195,6 @@
     "id": 818,
     "dexId": 593,
     "name": "Jellicent-M",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17719,7 +17239,6 @@
     "id": 820,
     "dexId": 593,
     "name": "Jellicent-F",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17779,7 +17298,6 @@
     "id": 823,
     "dexId": 596,
     "name": "Galvantula",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17821,7 +17339,6 @@
     "id": 825,
     "dexId": 598,
     "name": "Ferrothorn",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17861,7 +17378,6 @@
     "id": 827,
     "dexId": 600,
     "name": "Klang",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17883,7 +17399,6 @@
     "id": 828,
     "dexId": 601,
     "name": "Klinklang",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -17923,7 +17438,6 @@
     "id": 830,
     "dexId": 603,
     "name": "Eelektrik",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17945,7 +17459,6 @@
     "id": 831,
     "dexId": 604,
     "name": "Eelektross",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -17967,7 +17480,6 @@
     "id": 1392,
     "dexId": 604,
     "name": "Eelektross-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -18005,7 +17517,6 @@
     "id": 833,
     "dexId": 606,
     "name": "Beheeyem",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -18047,7 +17558,6 @@
     "id": 835,
     "dexId": 608,
     "name": "Lampent",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18070,7 +17580,6 @@
     "id": 836,
     "dexId": 609,
     "name": "Chandelure",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18093,7 +17602,6 @@
     "id": 1393,
     "dexId": 609,
     "name": "Chandelure-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -18132,7 +17640,6 @@
     "id": 838,
     "dexId": 611,
     "name": "Fraxure",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18154,7 +17661,6 @@
     "id": 839,
     "dexId": 612,
     "name": "Haxorus",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -18193,7 +17699,6 @@
     "id": 841,
     "dexId": 614,
     "name": "Beartic",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -18290,7 +17795,6 @@
     "id": 846,
     "dexId": 620,
     "name": "Mienshao",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -18349,7 +17853,6 @@
     "id": 849,
     "dexId": 623,
     "name": "Golurk",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18372,7 +17875,6 @@
     "id": 1394,
     "dexId": 623,
     "name": "Golurk-Mega",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [],
@@ -18413,7 +17915,6 @@
     "id": 851,
     "dexId": 625,
     "name": "Bisharp",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18436,7 +17937,6 @@
     "id": 852,
     "dexId": 983,
     "name": "Kingambit",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18504,7 +18004,6 @@
     "id": 855,
     "dexId": 628,
     "name": "Braviary",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -18519,7 +18018,6 @@
     "id": 856,
     "dexId": 628,
     "name": "Braviary-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -18562,7 +18060,6 @@
     "id": 858,
     "dexId": 630,
     "name": "Mandibuzz",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -18641,7 +18138,6 @@
     "id": 862,
     "dexId": 637,
     "name": "Volcarona",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18671,7 +18167,6 @@
     "id": 863,
     "dexId": 988,
     "name": "Slither Wing",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18687,7 +18182,6 @@
     "id": 864,
     "dexId": 994,
     "name": "Iron Moth",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18732,7 +18226,6 @@
     "id": 866,
     "dexId": 634,
     "name": "Zweilous",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18755,7 +18248,6 @@
     "id": 867,
     "dexId": 635,
     "name": "Hydreigon",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -18778,7 +18270,6 @@
     "id": 868,
     "dexId": 993,
     "name": "Iron Jugulis",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18823,7 +18314,6 @@
     "id": 870,
     "dexId": 1023,
     "name": "Iron Crown",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18868,7 +18358,6 @@
     "id": 872,
     "dexId": 1022,
     "name": "Iron Boulder",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18913,7 +18402,6 @@
     "id": 874,
     "dexId": 1010,
     "name": "Iron Leaves",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -18958,7 +18446,6 @@
     "id": 876,
     "dexId": 647,
     "name": "Keldeo-Resolute",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19002,7 +18489,6 @@
     "id": 878,
     "dexId": 641,
     "name": "Tornadus-Therian",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19047,7 +18533,6 @@
     "id": 880,
     "dexId": 642,
     "name": "Thundurus-Therian",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19093,7 +18578,6 @@
     "id": 882,
     "dexId": 645,
     "name": "Landorus-Therian",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19139,7 +18623,6 @@
     "id": 884,
     "dexId": 905,
     "name": "Enamorus-Therian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -19184,7 +18667,6 @@
     "id": 886,
     "dexId": 643,
     "name": "Reshiram-Overdrive",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19229,7 +18711,6 @@
     "id": 888,
     "dexId": 644,
     "name": "Zekrom-Overdrive",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19281,7 +18762,6 @@
     "id": 890,
     "dexId": 646,
     "name": "Kyurem-Black",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -19305,7 +18785,6 @@
     "id": 891,
     "dexId": 646,
     "name": "Kyurem-Black-Overdrive",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19321,7 +18800,6 @@
     "id": 892,
     "dexId": 646,
     "name": "Kyurem-White",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": [
       {
@@ -19345,7 +18823,6 @@
     "id": 893,
     "dexId": 646,
     "name": "Kyurem-White-Overdrive",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19411,7 +18888,6 @@
     "id": 896,
     "dexId": 648,
     "name": "Meloetta-Pirouette",
-    "spawnCount": 0,
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
@@ -19475,7 +18951,6 @@
     "id": 899,
     "dexId": 651,
     "name": "Quilladin",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19497,7 +18972,6 @@
     "id": 900,
     "dexId": 652,
     "name": "Chesnaught",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19520,7 +18994,6 @@
     "id": 1395,
     "dexId": 652,
     "name": "Chesnaught-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -19561,7 +19034,6 @@
     "id": 902,
     "dexId": 654,
     "name": "Braixen",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19583,7 +19055,6 @@
     "id": 903,
     "dexId": 655,
     "name": "Delphox",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19606,7 +19077,6 @@
     "id": 1396,
     "dexId": 655,
     "name": "Delphox-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -19648,7 +19118,6 @@
     "id": 905,
     "dexId": 657,
     "name": "Frogadier",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19670,7 +19139,6 @@
     "id": 906,
     "dexId": 658,
     "name": "Greninja",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19700,7 +19168,6 @@
     "id": 907,
     "dexId": 658,
     "name": "Greninja-Ash",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -19716,7 +19183,6 @@
     "id": 1397,
     "dexId": 658,
     "name": "Greninja-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -19755,7 +19221,6 @@
     "id": 909,
     "dexId": 660,
     "name": "Diggersby",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -19797,7 +19262,6 @@
     "id": 911,
     "dexId": 662,
     "name": "Fletchinder",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -19820,7 +19284,6 @@
     "id": 912,
     "dexId": 663,
     "name": "Talonflame",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -19862,7 +19325,6 @@
     "id": 914,
     "dexId": 665,
     "name": "Spewpa",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20017,7 +19479,6 @@
     "id": 915,
     "dexId": 666,
     "name": "Vivillon-Archipelago",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20033,7 +19494,6 @@
     "id": 916,
     "dexId": 666,
     "name": "Vivillon-Continental",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20049,7 +19509,6 @@
     "id": 917,
     "dexId": 666,
     "name": "Vivillon-Elegant",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20065,7 +19524,6 @@
     "id": 918,
     "dexId": 666,
     "name": "Vivillon-Fancy",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20081,7 +19539,6 @@
     "id": 919,
     "dexId": 666,
     "name": "Vivillon-Garden",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20097,7 +19554,6 @@
     "id": 920,
     "dexId": 666,
     "name": "Vivillon-HighPlains",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20113,7 +19569,6 @@
     "id": 921,
     "dexId": 666,
     "name": "Vivillon-IcySnow",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20129,7 +19584,6 @@
     "id": 922,
     "dexId": 666,
     "name": "Vivillon-Jungle",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20145,7 +19599,6 @@
     "id": 923,
     "dexId": 666,
     "name": "Vivillon-Marine",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20161,7 +19614,6 @@
     "id": 924,
     "dexId": 666,
     "name": "Vivillon-Meadow",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20177,7 +19629,6 @@
     "id": 925,
     "dexId": 666,
     "name": "Vivillon-Modern",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20193,7 +19644,6 @@
     "id": 926,
     "dexId": 666,
     "name": "Vivillon-Monsoon",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20209,7 +19659,6 @@
     "id": 927,
     "dexId": 666,
     "name": "Vivillon-Ocean",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20225,7 +19674,6 @@
     "id": 928,
     "dexId": 666,
     "name": "Vivillon-PokéBall",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20241,7 +19689,6 @@
     "id": 929,
     "dexId": 666,
     "name": "Vivillon-Polar",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20257,7 +19704,6 @@
     "id": 930,
     "dexId": 666,
     "name": "Vivillon-River",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20273,7 +19719,6 @@
     "id": 931,
     "dexId": 666,
     "name": "Vivillon-Sandstorm",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20289,7 +19734,6 @@
     "id": 932,
     "dexId": 666,
     "name": "Vivillon-Savanna",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20305,7 +19749,6 @@
     "id": 933,
     "dexId": 666,
     "name": "Vivillon-Sun",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20321,7 +19764,6 @@
     "id": 934,
     "dexId": 666,
     "name": "Vivillon-Tundra",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20373,7 +19815,6 @@
     "id": 936,
     "dexId": 668,
     "name": "Pyroar-M",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20397,7 +19838,6 @@
     "id": 1398,
     "dexId": 668,
     "name": "Pyroar-M-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -20411,7 +19851,6 @@
     "id": 937,
     "dexId": 668,
     "name": "Pyroar-F",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20435,7 +19874,6 @@
     "id": 1399,
     "dexId": 668,
     "name": "Pyroar-F-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -20477,7 +19915,6 @@
     "id": 939,
     "dexId": 670,
     "name": "Floette-Red",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20500,7 +19937,6 @@
     "id": 940,
     "dexId": 671,
     "name": "Florges-Red",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20543,7 +19979,6 @@
     "id": 942,
     "dexId": 670,
     "name": "Floette-Yellow",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20566,7 +20001,6 @@
     "id": 943,
     "dexId": 671,
     "name": "Florges-Yellow",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20609,7 +20043,6 @@
     "id": 945,
     "dexId": 670,
     "name": "Floette-Orange",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20632,7 +20065,6 @@
     "id": 946,
     "dexId": 671,
     "name": "Florges-Orange",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20675,7 +20107,6 @@
     "id": 948,
     "dexId": 670,
     "name": "Floette-Blue",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20698,7 +20129,6 @@
     "id": 949,
     "dexId": 671,
     "name": "Florges-Blue",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20743,7 +20173,6 @@
     "id": 951,
     "dexId": 670,
     "name": "Floette-White",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20773,7 +20202,6 @@
     "id": 952,
     "dexId": 671,
     "name": "Florges-White",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20788,7 +20216,6 @@
     "id": 953,
     "dexId": 670,
     "name": "Floette-Eternal",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -20811,7 +20238,6 @@
     "id": 1400,
     "dexId": 670,
     "name": "Floette-Eternal-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -20849,7 +20275,6 @@
     "id": 955,
     "dexId": 673,
     "name": "Gogoat",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20888,7 +20313,6 @@
     "id": 957,
     "dexId": 675,
     "name": "Pangoro",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -20985,7 +20409,6 @@
     "id": 959,
     "dexId": 676,
     "name": "Furfrou-Heart",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21000,7 +20423,6 @@
     "id": 960,
     "dexId": 676,
     "name": "Furfrou-Star",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21015,7 +20437,6 @@
     "id": 961,
     "dexId": 676,
     "name": "Furfrou-Diamond",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21030,7 +20451,6 @@
     "id": 962,
     "dexId": 676,
     "name": "Furfrou-Debutante",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21045,7 +20465,6 @@
     "id": 963,
     "dexId": 676,
     "name": "Furfrou-Matron",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21060,7 +20479,6 @@
     "id": 964,
     "dexId": 676,
     "name": "Furfrou-Dandy",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21075,7 +20493,6 @@
     "id": 965,
     "dexId": 676,
     "name": "Furfrou-LaReine",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21090,7 +20507,6 @@
     "id": 966,
     "dexId": 676,
     "name": "Furfrou-Kabuki",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21105,7 +20521,6 @@
     "id": 967,
     "dexId": 676,
     "name": "Furfrou-Pharaoh",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21155,7 +20570,6 @@
     "id": 969,
     "dexId": 678,
     "name": "Meowstic-M",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21178,7 +20592,6 @@
     "id": 1401,
     "dexId": 678,
     "name": "Meowstic-M-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -21191,7 +20604,6 @@
     "id": 970,
     "dexId": 678,
     "name": "Meowstic-F",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21214,7 +20626,6 @@
     "id": 1402,
     "dexId": 678,
     "name": "Meowstic-F-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -21255,7 +20666,6 @@
     "id": 972,
     "dexId": 680,
     "name": "Doublade",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21278,7 +20688,6 @@
     "id": 973,
     "dexId": 681,
     "name": "Aegislash-Blade",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21302,7 +20711,6 @@
     "id": 974,
     "dexId": 681,
     "name": "Aegislash-Shield",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21343,7 +20751,6 @@
     "id": 976,
     "dexId": 683,
     "name": "Aromatisse",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21382,7 +20789,6 @@
     "id": 978,
     "dexId": 685,
     "name": "Slurpuff",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21424,7 +20830,6 @@
     "id": 980,
     "dexId": 687,
     "name": "Malamar",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21447,7 +20852,6 @@
     "id": 1403,
     "dexId": 687,
     "name": "Malamar-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -21489,7 +20893,6 @@
     "id": 982,
     "dexId": 689,
     "name": "Barbaracle",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21512,7 +20915,6 @@
     "id": 1404,
     "dexId": 689,
     "name": "Barbaracle-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -21554,7 +20956,6 @@
     "id": 984,
     "dexId": 691,
     "name": "Dragalge",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -21577,7 +20978,6 @@
     "id": 1405,
     "dexId": 691,
     "name": "Dragalge-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -21616,7 +21016,6 @@
     "id": 986,
     "dexId": 693,
     "name": "Clawitzer",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21657,7 +21056,6 @@
     "id": 988,
     "dexId": 695,
     "name": "Heliolisk",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21699,7 +21097,6 @@
     "id": 990,
     "dexId": 697,
     "name": "Tyrantrum",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21741,7 +21138,6 @@
     "id": 992,
     "dexId": 699,
     "name": "Aurorus",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21784,7 +21180,6 @@
     "id": 1406,
     "dexId": 701,
     "name": "Hawlucha-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -21882,7 +21277,6 @@
     "id": 998,
     "dexId": 709,
     "name": "Trevenant",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21925,7 +21319,6 @@
     "id": 1000,
     "dexId": 711,
     "name": "Gourgeist",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21974,7 +21367,6 @@
     "id": 1002,
     "dexId": 713,
     "name": "Avalugg",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -21988,7 +21380,6 @@
     "id": 1003,
     "dexId": 713,
     "name": "Avalugg-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -22031,7 +21422,6 @@
     "id": 1005,
     "dexId": 715,
     "name": "Noivern",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -22081,7 +21471,6 @@
     "id": 1007,
     "dexId": 705,
     "name": "Sliggoo",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -22103,7 +21492,6 @@
     "id": 1008,
     "dexId": 706,
     "name": "Goodra",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -22117,7 +21505,6 @@
     "id": 1009,
     "dexId": 705,
     "name": "Sliggoo-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": [
       {
@@ -22141,7 +21528,6 @@
     "id": 1010,
     "dexId": 706,
     "name": "Goodra-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -22185,7 +21571,6 @@
     "id": 1012,
     "dexId": 716,
     "name": "Xerneas-ActiveMode",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -22251,7 +21636,6 @@
     "id": 1015,
     "dexId": 718,
     "name": "Zygarde-10",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -22275,7 +21659,6 @@
     "id": 1016,
     "dexId": 718,
     "name": "Zygarde-50",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -22299,7 +21682,6 @@
     "id": 1017,
     "dexId": 718,
     "name": "Zygarde-Complete",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": [
       {
@@ -22323,7 +21705,6 @@
     "id": 1407,
     "dexId": 718,
     "name": "Zygarde-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [],
@@ -22366,7 +21747,6 @@
     "id": 1019,
     "dexId": 719,
     "name": "Diancie-Mega",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -22411,7 +21791,6 @@
     "id": 1021,
     "dexId": 720,
     "name": "Hoopa-Unbound",
-    "spawnCount": 0,
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
@@ -22477,7 +21856,6 @@
     "id": 1024,
     "dexId": 723,
     "name": "Dartrix",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -22507,7 +21885,6 @@
     "id": 1025,
     "dexId": 724,
     "name": "Decidueye",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -22522,7 +21899,6 @@
     "id": 1026,
     "dexId": 724,
     "name": "Decidueye-Hisuian",
-    "spawnCount": 0,
     "region": "Hisui",
     "nextForms": "[]",
     "categories": [
@@ -22564,7 +21940,6 @@
     "id": 1028,
     "dexId": 726,
     "name": "Torracat",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -22586,7 +21961,6 @@
     "id": 1029,
     "dexId": 727,
     "name": "Incineroar",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -22627,7 +22001,6 @@
     "id": 1031,
     "dexId": 729,
     "name": "Brionne",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -22649,7 +22022,6 @@
     "id": 1032,
     "dexId": 730,
     "name": "Primarina",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -22691,7 +22063,6 @@
     "id": 1034,
     "dexId": 732,
     "name": "Trumbeak",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -22714,7 +22085,6 @@
     "id": 1035,
     "dexId": 733,
     "name": "Toucannon",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -22754,7 +22124,6 @@
     "id": 1037,
     "dexId": 735,
     "name": "Gumshoos",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -22793,7 +22162,6 @@
     "id": 1039,
     "dexId": 737,
     "name": "Charjabug",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -22816,7 +22184,6 @@
     "id": 1040,
     "dexId": 738,
     "name": "Vikavolt",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -22857,7 +22224,6 @@
     "id": 1042,
     "dexId": 740,
     "name": "Crabominable",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -22880,7 +22246,6 @@
     "id": 1408,
     "dexId": 740,
     "name": "Crabominable-Mega",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [],
@@ -23005,7 +22370,6 @@
     "id": 1048,
     "dexId": 743,
     "name": "Ribombee",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23061,7 +22425,6 @@
     "id": 1050,
     "dexId": 745,
     "name": "Lycanroc-Midday",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23076,7 +22439,6 @@
     "id": 1051,
     "dexId": 745,
     "name": "Lycanroc-Midnight",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23091,7 +22453,6 @@
     "id": 1052,
     "dexId": 745,
     "name": "Lycanroc-Dusk",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23133,7 +22494,6 @@
     "id": 1054,
     "dexId": 746,
     "name": "Wishiwashi-Schooling",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23175,7 +22535,6 @@
     "id": 1056,
     "dexId": 748,
     "name": "Toxapex",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23215,7 +22574,6 @@
     "id": 1058,
     "dexId": 750,
     "name": "Mudsdale",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23256,7 +22614,6 @@
     "id": 1060,
     "dexId": 752,
     "name": "Araquanid",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23296,7 +22653,6 @@
     "id": 1062,
     "dexId": 754,
     "name": "Lurantis",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23337,7 +22693,6 @@
     "id": 1064,
     "dexId": 756,
     "name": "Shiinotic",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23379,7 +22734,6 @@
     "id": 1066,
     "dexId": 758,
     "name": "Salazzle",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23421,7 +22775,6 @@
     "id": 1068,
     "dexId": 760,
     "name": "Bewear",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23461,7 +22814,6 @@
     "id": 1070,
     "dexId": 762,
     "name": "Steenee",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -23483,7 +22835,6 @@
     "id": 1071,
     "dexId": 763,
     "name": "Tsareena",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23578,7 +22929,6 @@
     "id": 1076,
     "dexId": 768,
     "name": "Golisopod",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -23601,7 +22951,6 @@
     "id": 1409,
     "dexId": 768,
     "name": "Golisopod-Mega",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [],
@@ -23642,7 +22991,6 @@
     "id": 1078,
     "dexId": 770,
     "name": "Palossand",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23702,7 +23050,6 @@
     "id": 1081,
     "dexId": 773,
     "name": "Silvally",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23786,7 +23133,6 @@
     "id": 1083,
     "dexId": 774,
     "name": "Minior-Red",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23802,7 +23148,6 @@
     "id": 1084,
     "dexId": 774,
     "name": "Minior-Orange",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23818,7 +23163,6 @@
     "id": 1085,
     "dexId": 774,
     "name": "Minior-Yellow",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23834,7 +23178,6 @@
     "id": 1086,
     "dexId": 774,
     "name": "Minior-Green",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23850,7 +23193,6 @@
     "id": 1087,
     "dexId": 774,
     "name": "Minior-Blue",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23866,7 +23208,6 @@
     "id": 1088,
     "dexId": 774,
     "name": "Minior-Indigo",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23882,7 +23223,6 @@
     "id": 1089,
     "dexId": 774,
     "name": "Minior-Violet",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -23982,7 +23322,6 @@
     "id": 1094,
     "dexId": 778,
     "name": "Mimikyu-Busted",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24045,7 +23384,6 @@
     "id": 1410,
     "dexId": 780,
     "name": "Drampa-Mega",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [],
@@ -24105,7 +23443,6 @@
     "id": 1099,
     "dexId": 783,
     "name": "Hakamo-o",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -24129,7 +23466,6 @@
     "id": 1100,
     "dexId": 784,
     "name": "Kommo-o",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24253,7 +23589,6 @@
     "id": 1106,
     "dexId": 790,
     "name": "Cosmoem",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -24282,7 +23617,6 @@
     "id": 1107,
     "dexId": 791,
     "name": "Solgaleo",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -24305,7 +23639,6 @@
     "id": 1108,
     "dexId": 791,
     "name": "Solgaleo-RadiantSun",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24321,7 +23654,6 @@
     "id": 1109,
     "dexId": 792,
     "name": "Lunala",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -24344,7 +23676,6 @@
     "id": 1110,
     "dexId": 792,
     "name": "Lunala-FullMoon",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24401,7 +23732,6 @@
     "id": 1112,
     "dexId": 800,
     "name": "Necrozma-DuskMane",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24417,7 +23747,6 @@
     "id": 1113,
     "dexId": 800,
     "name": "Necrozma-DawnWings",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24433,7 +23762,6 @@
     "id": 1114,
     "dexId": 800,
     "name": "Necrozma-Ultra",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24613,7 +23941,6 @@
     "id": 1123,
     "dexId": 804,
     "name": "Naganadel",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24705,7 +24032,6 @@
     "id": 1420,
     "dexId": 801,
     "name": "Magearna-Mega",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [],
@@ -24719,7 +24045,6 @@
     "id": 1127,
     "dexId": 801,
     "name": "Magearna-OriginalColor",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -24743,7 +24068,6 @@
     "id": 1411,
     "dexId": 801,
     "name": "Magearna-OriginalColor-Mega",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [],
@@ -24786,7 +24110,6 @@
     "id": 1129,
     "dexId": 802,
     "name": "Marshadow-Zenith",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24829,7 +24152,6 @@
     "id": 1412,
     "dexId": 807,
     "name": "Zeraora-Mega",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [],
@@ -24869,7 +24191,6 @@
     "id": 1132,
     "dexId": 809,
     "name": "Melmetal",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": [
       {
@@ -24891,7 +24212,6 @@
     "id": 1133,
     "dexId": 809,
     "name": "Melmetal-Giga",
-    "spawnCount": 0,
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
@@ -24933,7 +24253,6 @@
     "id": 1135,
     "dexId": 811,
     "name": "Thwackey",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -24955,7 +24274,6 @@
     "id": 1136,
     "dexId": 812,
     "name": "Rillaboom",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -24977,7 +24295,6 @@
     "id": 1137,
     "dexId": 812,
     "name": "Rillaboom-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25019,7 +24336,6 @@
     "id": 1139,
     "dexId": 814,
     "name": "Raboot",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25041,7 +24357,6 @@
     "id": 1140,
     "dexId": 815,
     "name": "Cinderace",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25063,7 +24378,6 @@
     "id": 1141,
     "dexId": 815,
     "name": "Cinderace-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25105,7 +24419,6 @@
     "id": 1143,
     "dexId": 817,
     "name": "Drizzile",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25127,7 +24440,6 @@
     "id": 1144,
     "dexId": 818,
     "name": "Inteleon",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25149,7 +24461,6 @@
     "id": 1145,
     "dexId": 818,
     "name": "Inteleon-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25189,7 +24500,6 @@
     "id": 1147,
     "dexId": 820,
     "name": "Greedent",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25229,7 +24539,6 @@
     "id": 1149,
     "dexId": 822,
     "name": "Corvisquire",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25251,7 +24560,6 @@
     "id": 1150,
     "dexId": 823,
     "name": "Corviknight",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25274,7 +24582,6 @@
     "id": 1151,
     "dexId": 823,
     "name": "Corviknight-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25316,7 +24623,6 @@
     "id": 1153,
     "dexId": 825,
     "name": "Dottler",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25339,7 +24645,6 @@
     "id": 1154,
     "dexId": 826,
     "name": "Orbeetle",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25362,7 +24667,6 @@
     "id": 1155,
     "dexId": 826,
     "name": "Orbeetle-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25403,7 +24707,6 @@
     "id": 1157,
     "dexId": 828,
     "name": "Thievul",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25442,7 +24745,6 @@
     "id": 1159,
     "dexId": 830,
     "name": "Eldegoss",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25481,7 +24783,6 @@
     "id": 1161,
     "dexId": 832,
     "name": "Dubwool",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25521,7 +24822,6 @@
     "id": 1163,
     "dexId": 834,
     "name": "Drednaw",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25544,7 +24844,6 @@
     "id": 1164,
     "dexId": 834,
     "name": "Drednaw-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25585,7 +24884,6 @@
     "id": 1166,
     "dexId": 836,
     "name": "Boltund",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25625,7 +24923,6 @@
     "id": 1168,
     "dexId": 838,
     "name": "Carkol",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25648,7 +24945,6 @@
     "id": 1169,
     "dexId": 839,
     "name": "Coalossal",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25671,7 +24967,6 @@
     "id": 1170,
     "dexId": 839,
     "name": "Coalossal-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25730,7 +25025,6 @@
     "id": 1172,
     "dexId": 841,
     "name": "Flapple",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25753,7 +25047,6 @@
     "id": 1173,
     "dexId": 841,
     "name": "Flapple-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25769,7 +25062,6 @@
     "id": 1174,
     "dexId": 842,
     "name": "Appletun",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25792,7 +25084,6 @@
     "id": 1175,
     "dexId": 842,
     "name": "Appletun-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25808,7 +25099,6 @@
     "id": 1176,
     "dexId": 1011,
     "name": "Dipplin",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -25831,7 +25121,6 @@
     "id": 1177,
     "dexId": 1019,
     "name": "Hydrapple",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -25872,7 +25161,6 @@
     "id": 1179,
     "dexId": 844,
     "name": "Sandaconda",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25894,7 +25182,6 @@
     "id": 1180,
     "dexId": 844,
     "name": "Sandaconda-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -25937,7 +25224,6 @@
     "id": 1182,
     "dexId": 845,
     "name": "Cramorant-Gulping",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -25961,7 +25247,6 @@
     "id": 1183,
     "dexId": 845,
     "name": "Cramorant-Gorging",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26002,7 +25287,6 @@
     "id": 1185,
     "dexId": 847,
     "name": "Barraskewda",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26053,7 +25337,6 @@
     "id": 1187,
     "dexId": 849,
     "name": "Toxtricity-Amped",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26077,7 +25360,6 @@
     "id": 1188,
     "dexId": 849,
     "name": "Toxtricity-LowKey",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26093,7 +25375,6 @@
     "id": 1189,
     "dexId": 849,
     "name": "Toxtricity-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26137,7 +25418,6 @@
     "id": 1191,
     "dexId": 851,
     "name": "Centiskorch",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26160,7 +25440,6 @@
     "id": 1192,
     "dexId": 851,
     "name": "Centiskorch-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26201,7 +25480,6 @@
     "id": 1194,
     "dexId": 853,
     "name": "Grapploct",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26243,7 +25521,6 @@
     "id": 1196,
     "dexId": 855,
     "name": "Polteageist-Phony",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26286,7 +25563,6 @@
     "id": 1198,
     "dexId": 855,
     "name": "Polteageist-Antique",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26327,7 +25603,6 @@
     "id": 1200,
     "dexId": 857,
     "name": "Hattrem",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26349,7 +25624,6 @@
     "id": 1201,
     "dexId": 858,
     "name": "Hatterene",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26372,7 +25646,6 @@
     "id": 1202,
     "dexId": 858,
     "name": "Hatterene-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26416,7 +25689,6 @@
     "id": 1204,
     "dexId": 860,
     "name": "Morgrem",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26439,7 +25711,6 @@
     "id": 1205,
     "dexId": 861,
     "name": "Grimmsnarl",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26462,7 +25733,6 @@
     "id": 1206,
     "dexId": 861,
     "name": "Grimmsnarl-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26548,7 +25818,6 @@
     "id": 1208,
     "dexId": 869,
     "name": "Alcremie-StrawberrySweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26571,7 +25840,6 @@
     "id": 1209,
     "dexId": 869,
     "name": "Alcremie-BerrySweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26586,7 +25854,6 @@
     "id": 1210,
     "dexId": 869,
     "name": "Alcremie-LoveSweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26601,7 +25868,6 @@
     "id": 1211,
     "dexId": 869,
     "name": "Alcremie-StarSweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26616,7 +25882,6 @@
     "id": 1212,
     "dexId": 869,
     "name": "Alcremie-CloverSweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26631,7 +25896,6 @@
     "id": 1213,
     "dexId": 869,
     "name": "Alcremie-FlowerSweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26646,7 +25910,6 @@
     "id": 1214,
     "dexId": 869,
     "name": "Alcremie-RibbonSweet",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26661,7 +25924,6 @@
     "id": 1215,
     "dexId": 869,
     "name": "Alcremie-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26702,7 +25964,6 @@
     "id": 1413,
     "dexId": 870,
     "name": "Falinks-Mega",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [],
@@ -26759,7 +26020,6 @@
     "id": 1219,
     "dexId": 873,
     "name": "Frosmoth",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26818,7 +26078,6 @@
     "id": 1222,
     "dexId": 875,
     "name": "Eiscue-NoiceFace",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26902,7 +26161,6 @@
     "id": 1226,
     "dexId": 877,
     "name": "Morpeko-Hangry",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -26944,7 +26202,6 @@
     "id": 1228,
     "dexId": 879,
     "name": "Copperajah",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -26966,7 +26223,6 @@
     "id": 1229,
     "dexId": 879,
     "name": "Copperajah-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27092,7 +26348,6 @@
     "id": 1235,
     "dexId": 884,
     "name": "Duraludon-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27108,7 +26363,6 @@
     "id": 1236,
     "dexId": 1018,
     "name": "Archaludon",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27151,7 +26405,6 @@
     "id": 1238,
     "dexId": 886,
     "name": "Drakloak",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -27174,7 +26427,6 @@
     "id": 1239,
     "dexId": 887,
     "name": "Dragapult",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27216,7 +26468,6 @@
     "id": 1241,
     "dexId": 888,
     "name": "Zacian-CrownedSword",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27259,7 +26510,6 @@
     "id": 1243,
     "dexId": 889,
     "name": "Zamazenta-CrownedShield",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27303,7 +26553,6 @@
     "id": 1245,
     "dexId": 890,
     "name": "Eternatus-Eternamax",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27355,7 +26604,6 @@
     "id": 1247,
     "dexId": 892,
     "name": "Urshifu-SingleStrike",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -27379,7 +26627,6 @@
     "id": 1248,
     "dexId": 892,
     "name": "Urshifu-SingleStrike-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27395,7 +26642,6 @@
     "id": 1249,
     "dexId": 892,
     "name": "Urshifu-RapidStrike",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": [
       {
@@ -27419,7 +26665,6 @@
     "id": 1250,
     "dexId": 892,
     "name": "Urshifu-RapidStrike-Giga",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27464,7 +26709,6 @@
     "id": 1252,
     "dexId": 893,
     "name": "Zarude-Dada",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27552,7 +26796,6 @@
     "id": 1256,
     "dexId": 898,
     "name": "Calyrex-IceRider",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27568,7 +26811,6 @@
     "id": 1257,
     "dexId": 898,
     "name": "Calyrex-ShadowRider",
-    "spawnCount": 0,
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
@@ -27610,7 +26852,6 @@
     "id": 1259,
     "dexId": 907,
     "name": "Floragato",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -27632,7 +26873,6 @@
     "id": 1260,
     "dexId": 908,
     "name": "Meowscarada",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27673,7 +26913,6 @@
     "id": 1262,
     "dexId": 910,
     "name": "Crocalor",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -27695,7 +26934,6 @@
     "id": 1263,
     "dexId": 911,
     "name": "Skeledirge",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27736,7 +26974,6 @@
     "id": 1265,
     "dexId": 913,
     "name": "Quaxwell",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -27758,7 +26995,6 @@
     "id": 1266,
     "dexId": 914,
     "name": "Quaquaval",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27807,7 +27043,6 @@
     "id": 1268,
     "dexId": 916,
     "name": "Oinkologne-M",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27822,7 +27057,6 @@
     "id": 1269,
     "dexId": 916,
     "name": "Oinkologne-F",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27862,7 +27096,6 @@
     "id": 1271,
     "dexId": 918,
     "name": "Spidops",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27901,7 +27134,6 @@
     "id": 1273,
     "dexId": 920,
     "name": "Lokix",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -27941,7 +27173,6 @@
     "id": 1275,
     "dexId": 922,
     "name": "Pawmo",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -27964,7 +27195,6 @@
     "id": 1276,
     "dexId": 923,
     "name": "Pawmot",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28013,7 +27243,6 @@
     "id": 1278,
     "dexId": 925,
     "name": "Maushold-FamilyOfFour",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28028,7 +27257,6 @@
     "id": 1279,
     "dexId": 925,
     "name": "Maushold-FamilyOfThree",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28068,7 +27296,6 @@
     "id": 1281,
     "dexId": 927,
     "name": "Dachsbun",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28109,7 +27336,6 @@
     "id": 1283,
     "dexId": 929,
     "name": "Dolliv",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -28132,7 +27358,6 @@
     "id": 1284,
     "dexId": 930,
     "name": "Arboliva",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28256,7 +27481,6 @@
     "id": 1290,
     "dexId": 933,
     "name": "Naclstack",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -28278,7 +27502,6 @@
     "id": 1291,
     "dexId": 934,
     "name": "Garganacl",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28325,7 +27548,6 @@
     "id": 1293,
     "dexId": 936,
     "name": "Armarouge",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28340,7 +27562,6 @@
     "id": 1294,
     "dexId": 937,
     "name": "Ceruledge",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28380,7 +27601,6 @@
     "id": 1296,
     "dexId": 939,
     "name": "Bellibolt",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28421,7 +27641,6 @@
     "id": 1298,
     "dexId": 941,
     "name": "Kilowattrel",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28461,7 +27680,6 @@
     "id": 1300,
     "dexId": 943,
     "name": "Mabosstiff",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28502,7 +27720,6 @@
     "id": 1302,
     "dexId": 945,
     "name": "Grafaiai",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28544,7 +27761,6 @@
     "id": 1304,
     "dexId": 947,
     "name": "Brambleghast",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28587,7 +27803,6 @@
     "id": 1306,
     "dexId": 949,
     "name": "Toedscruel",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28645,7 +27860,6 @@
     "id": 1309,
     "dexId": 952,
     "name": "Scovillain",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -28668,7 +27882,6 @@
     "id": 1414,
     "dexId": 952,
     "name": "Scovillain-Mega",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [],
@@ -28707,7 +27920,6 @@
     "id": 1311,
     "dexId": 954,
     "name": "Rabsca",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28747,7 +27959,6 @@
     "id": 1313,
     "dexId": 956,
     "name": "Espathra",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28788,7 +27999,6 @@
     "id": 1315,
     "dexId": 958,
     "name": "Tinkatuff",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -28811,7 +28021,6 @@
     "id": 1316,
     "dexId": 959,
     "name": "Tinkaton",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28852,7 +28061,6 @@
     "id": 1318,
     "dexId": 961,
     "name": "Wugtrio",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28911,7 +28119,6 @@
     "id": 1321,
     "dexId": 964,
     "name": "Palafin-Zero",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -28934,7 +28141,6 @@
     "id": 1322,
     "dexId": 964,
     "name": "Palafin-Hero",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -28977,7 +28183,6 @@
     "id": 1324,
     "dexId": 966,
     "name": "Revavroom",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29037,7 +28242,6 @@
     "id": 1327,
     "dexId": 970,
     "name": "Glimmora",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29060,7 +28264,6 @@
     "id": 1415,
     "dexId": 970,
     "name": "Glimmora-Mega",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [],
@@ -29099,7 +28302,6 @@
     "id": 1329,
     "dexId": 972,
     "name": "Houndstone",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29157,7 +28359,6 @@
     "id": 1332,
     "dexId": 975,
     "name": "Cetitan",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29237,7 +28438,6 @@
     "id": 1416,
     "dexId": 978,
     "name": "Tatsugiri-Curly-Mega",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [],
@@ -29281,7 +28481,6 @@
     "id": 1418,
     "dexId": 978,
     "name": "Tatsugiri-Droopy-Mega",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [],
@@ -29325,7 +28524,6 @@
     "id": 1417,
     "dexId": 978,
     "name": "Tatsugiri-Stretchy-Mega",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [],
@@ -29368,7 +28566,6 @@
     "id": 1339,
     "dexId": 997,
     "name": "Arctibax",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29391,7 +28588,6 @@
     "id": 1340,
     "dexId": 998,
     "name": "Baxcalibur",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29414,7 +28610,6 @@
     "id": 1419,
     "dexId": 998,
     "name": "Baxcalibur-Mega",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [],
@@ -29458,7 +28653,6 @@
     "id": 1342,
     "dexId": 1013,
     "name": "Sinistcha-Phony",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29504,7 +28698,6 @@
     "id": 1344,
     "dexId": 1013,
     "name": "Sinistcha-Antique",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29547,7 +28740,6 @@
     "id": 1346,
     "dexId": 999,
     "name": "Gimmighoul-Chest",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29570,7 +28762,6 @@
     "id": 1347,
     "dexId": 1000,
     "name": "Gholdengo",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29705,7 +28896,6 @@
     "id": 1353,
     "dexId": 1007,
     "name": "Koraidon",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29720,7 +28910,6 @@
     "id": 1354,
     "dexId": 1008,
     "name": "Miraidon",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29863,7 +29052,6 @@
     "id": 1360,
     "dexId": 1017,
     "name": "Ogerpon-TealMask",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29886,7 +29074,6 @@
     "id": 1361,
     "dexId": 1017,
     "name": "Ogerpon-TealMask-Terastal",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29901,7 +29088,6 @@
     "id": 1362,
     "dexId": 1017,
     "name": "Ogerpon-WellspringMask",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29925,7 +29111,6 @@
     "id": 1363,
     "dexId": 1017,
     "name": "Ogerpon-WellspringMask-Terastal",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29941,7 +29126,6 @@
     "id": 1364,
     "dexId": 1017,
     "name": "Ogerpon-HearthflameMask",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -29965,7 +29149,6 @@
     "id": 1365,
     "dexId": 1017,
     "name": "Ogerpon-HearthflameMask-Terastal",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -29981,7 +29164,6 @@
     "id": 1366,
     "dexId": 1017,
     "name": "Ogerpon-CornerstoneMask",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -30005,7 +29187,6 @@
     "id": 1367,
     "dexId": 1017,
     "name": "Ogerpon-CornerstoneMask-Terastal",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
@@ -30048,7 +29229,6 @@
     "id": 1369,
     "dexId": 1024,
     "name": "Terapagos-Terastal",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": [
       {
@@ -30071,7 +29251,6 @@
     "id": 1370,
     "dexId": 1024,
     "name": "Terapagos-Stellar",
-    "spawnCount": 0,
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [

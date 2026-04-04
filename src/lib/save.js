@@ -34,7 +34,7 @@ function createDefaults() {
   const pokemon = {}
   for (const p of pokemonData) {
     pokemon[p.id] = {
-      numberToSpawn: p.spawnCount > 0 ? p.spawnCount : 0,
+      numberToSpawn: p.spawnCount ?? 0,
       numberCaught:  0,
       isUnlocked:    false,
     }
@@ -42,7 +42,7 @@ function createDefaults() {
   const items = {}
   for (const item of itemsData) {
     items[item.id] = {
-      numberToSpawn:   item.spawnCount > 0 ? item.spawnCount : 0,
+      numberToSpawn:   item.spawnCount ?? 0,
       numberCollected: 0,
       isUnlocked:      false,
     }
@@ -56,7 +56,7 @@ export function newGame(gameMode = 'easy') {
   if (gameMode === 'easy') {
     for (const p of pokemonData) {
       if (parentOf[p.id] !== undefined) continue // not a root pokemon
-      if (p.spawnCount <= 0) continue             // doesn't spawn
+      if (!p.spawnCount) continue                  // doesn't spawn
       gs.pokemon[p.id].numberToSpawn = countChainForms(p.id)
     }
   }
