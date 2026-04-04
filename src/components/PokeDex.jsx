@@ -82,29 +82,29 @@ const REGIONS = [
 ];
 const FORMS = [
 	{ value: "MegaEvolution", label: "Mega Evolution" },
-	{ value: "RegionalForm", label: "Regional Form" },
 	{ value: "GigantamaxForm", label: "Gigantamax" },
-	{ value: "ConvergentForm", label: "Convergent Form" },
+	{ value: "RegionalForm", label: "Regional Form" },
 	{ value: "AlternateForm", label: "Alternate Form" },
+	{ value: "ConvergentForm", label: "Convergent Form" },
 ];
 const CLASSES = [
 	{ value: "Starter", label: "Starter" },
 	{ value: "Baby", label: "Baby" },
 	{ value: "Fossil", label: "Fossil" },
 	{ value: "PseudoLegendary", label: "Pseudo-Legendary" },
-	{ value: "Legendary", label: "Legendary" },
-	{ value: "Mythical", label: "Mythical" },
 	{ value: "UltraBeast", label: "Ultra Beast" },
 	{ value: "Paradox", label: "Paradox" },
+	{ value: "Legendary", label: "Legendary" },
+	{ value: "Mythical", label: "Mythical" },
 ];
 
 // Pre-build Sets for O(1) lookup — all derived from pokemon.json
 const formSets = {
-	MegaEvolution:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('MegaEvolution')).map(p => p.id)),
-	GigantamaxForm: new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('GigantamaxForm')).map(p => p.id)),
-	RegionalForm:   new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('RegionalForm')).map(p => p.id)),
-	AlternateForm:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('AlternateForm')).map(p => p.id)),
-	ConvergentForm: new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('ConvergentForm')).map(p => p.id)),
+	MegaEvolution:  new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('MegaEvolution')).map(p => p.id)),
+	GigantamaxForm: new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('GigantamaxForm')).map(p => p.id)),
+	RegionalForm:   new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('RegionalForm')).map(p => p.id)),
+	AlternateForm:  new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('AlternateForm')).map(p => p.id)),
+	ConvergentForm: new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('ConvergentForm')).map(p => p.id)),
 };
 const classSets = {
 	UltraBeast:    new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('UltraBeast')).map(p => p.id)),

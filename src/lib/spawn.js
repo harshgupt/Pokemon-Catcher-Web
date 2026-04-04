@@ -117,7 +117,7 @@ function pokemonClue(p, spawnFilter = {}) {
   if (p.region && !spawnFilter.region) pool.push(p.region + ' Pokémon')
   for (const type of (p.types ?? []))
     if (!suppress.has(type) && TYPE_CLUE_MAP[type]) pool.push(TYPE_CLUE_MAP[type])
-  for (const form of (p.forms ?? []))
+  for (const form of (p.categories ?? []))
     if (!suppress.has(form) && FORM_CLUE_MAP[form]) pool.push(FORM_CLUE_MAP[form])
   for (const cat of (p.categories ?? []))
     if (!suppress.has(cat) && CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])

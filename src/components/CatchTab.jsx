@@ -73,17 +73,18 @@ const FORMS = [
 	{ value: "MegaEvolution", label: "Mega Evolution" },
 	{ value: "GigantamaxForm", label: "Gigantamax" },
 	{ value: "RegionalForm", label: "Regional Form" },
-	{ value: "ConvergentForm", label: "Convergent Form" },
 	{ value: "AlternateForm", label: "Alternate Form" },
+	{ value: "ConvergentForm", label: "Convergent Form" },
 ];
 const CLASSES = [
 	{ value: "Starter", label: "Starter" },
 	{ value: "Baby", label: "Baby" },
 	{ value: "Fossil", label: "Fossil" },
 	{ value: "PseudoLegendary", label: "Pseudo-Legendary" },
+	{ value: "UltraBeast", label: "Ultra Beast" },
+	{ value: "Paradox", label: "Paradox" },
 	{ value: "Legendary", label: "Legendary" },
 	{ value: "Mythical", label: "Mythical" },
-	{ value: "UltraBeast", label: "Ultra Beast" },
 	{ value: "Paradox", label: "Paradox" },
 ];
 
@@ -451,8 +452,8 @@ export default function CatchTab({
 		const toPoke = byPokemonId[ev.nextId];
 		const context = {
 			evolutionPerformed: true,
-			isMega: toPoke?.forms?.includes('MegaEvolution') ?? false,
-			isGiga: toPoke?.forms?.includes('GigantamaxForm') ?? false,
+			isMega: toPoke?.categories?.includes('MegaEvolution') ?? false,
+			isGiga: toPoke?.categories?.includes('GigantamaxForm') ?? false,
 		};
 		const evolved = performEvolve(gsRef.current, ev, gameMode);
 		const newGs = fireAchievements(evolved, context, pushAchievement);

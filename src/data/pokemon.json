@@ -34,14 +34,12 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "Baby"
+      "Baby",
+      "AlternateForm"
     ],
     "displayName": "Spiky-Eared Pichu",
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -161,7 +159,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -175,7 +173,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -189,7 +187,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -203,7 +201,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -217,7 +215,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -231,7 +229,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -245,7 +243,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -259,7 +257,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -273,7 +271,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -287,7 +285,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -301,7 +299,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -315,7 +313,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -329,7 +327,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -343,7 +341,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -376,13 +374,12 @@
     "name": "Raichu-MegaX",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Raichu X",
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -391,13 +388,12 @@
     "name": "Raichu-MegaY",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Raichu Y",
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -411,7 +407,7 @@
       "Electric",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -490,7 +486,7 @@
       "Grass",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -505,7 +501,7 @@
       "Grass",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -588,7 +584,7 @@
       "Fire",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -603,7 +599,7 @@
       "Fire",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -618,7 +614,7 @@
       "Fire",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -693,7 +689,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -707,7 +703,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -777,7 +773,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -849,7 +845,7 @@
       "Bug",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -921,7 +917,7 @@
       "Normal",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -972,15 +968,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Alolan Rattata",
     "types": [
       "Dark",
       "Normal"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -994,7 +988,7 @@
       "Dark",
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -1109,15 +1103,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Alolan Sandshrew",
     "types": [
       "Ice",
       "Steel"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1131,7 +1123,7 @@
       "Ice",
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -1298,14 +1290,13 @@
     "name": "Clefable-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Clefable",
     "types": [
       "Fairy",
       "Flying"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -1356,14 +1347,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Alolan Vulpix",
     "types": [
       "Ice"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1377,7 +1366,7 @@
       "Ice",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -1686,15 +1675,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Alolan Diglett",
     "types": [
       "Ground",
       "Steel"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1708,7 +1695,7 @@
       "Ground",
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -1749,7 +1736,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -1779,14 +1766,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Alolan Meowth",
     "types": [
       "Dark"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1799,7 +1784,7 @@
     "types": [
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -1818,14 +1803,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Galarian Meowth",
     "types": [
       "Steel"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1966,15 +1949,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Hisuian Growlithe",
     "types": [
       "Fire",
       "Rock"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -1988,7 +1969,7 @@
       "Fire",
       "Rock"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2123,7 +2104,7 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -2192,7 +2173,7 @@
     "types": [
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -2260,14 +2241,13 @@
     "name": "Victreebel-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Victreebel",
     "types": [
       "Grass",
       "Poison"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -2369,15 +2349,13 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "RegionalForm"
     ],
     "displayName": "Alolan Geodude",
     "types": [
       "Rock",
       "Electric"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2398,7 +2376,7 @@
       "Rock",
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2413,7 +2391,7 @@
       "Rock",
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2463,14 +2441,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Galarian Ponyta",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2484,7 +2460,7 @@
       "Psychic",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2546,7 +2522,7 @@
       "Water",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -2584,14 +2560,12 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "RegionalForm"
     ],
     "displayName": "Galarian Slowpoke",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2605,7 +2579,7 @@
       "Poison",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2620,7 +2594,7 @@
       "Poison",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2729,15 +2703,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "spriteName": "Farfetchd-Galarian",
     "displayName": "Galarian Farfetch'd",
     "types": [
       "Fighting"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2862,15 +2834,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Alolan Grimer",
     "types": [
       "Poison",
       "Dark"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -2884,7 +2854,7 @@
       "Poison",
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -2996,7 +2966,7 @@
       "Ghost",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -3011,7 +2981,7 @@
       "Ghost",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -3067,7 +3037,7 @@
       "Steel",
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -3150,7 +3120,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -3201,15 +3171,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Hisuian Voltorb",
     "types": [
       "Electric",
       "Grass"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -3223,7 +3191,7 @@
       "Electric",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -3279,7 +3247,7 @@
       "Grass",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -3332,7 +3300,7 @@
       "Fire",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -3483,7 +3451,7 @@
       "Poison",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -3652,7 +3620,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -3782,14 +3750,13 @@
     "name": "Starmie-Mega",
     "region": "Kanto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Starmie",
     "types": [
       "Water",
       "Psychic"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -3854,7 +3821,7 @@
       "Ice",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -3929,7 +3896,7 @@
       "Bug",
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -4109,7 +4076,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -4137,15 +4104,13 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm",
+      "RegionalForm"
     ],
     "displayName": "Paldean Tauros (Combat Breed)",
     "types": [
       "Fighting"
-    ],
-    "forms": [
-      "AlternateForm",
-      "RegionalForm"
     ]
   },
   {
@@ -4157,16 +4122,14 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm",
+      "RegionalForm"
     ],
     "displayName": "Paldean Tauros (Blaze Breed)",
     "types": [
       "Fighting",
       "Fire"
-    ],
-    "forms": [
-      "AlternateForm",
-      "RegionalForm"
     ]
   },
   {
@@ -4178,16 +4141,14 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm",
+      "RegionalForm"
     ],
     "displayName": "Paldean Tauros (Aqua Breed)",
     "types": [
       "Fighting",
       "Water"
-    ],
-    "forms": [
-      "AlternateForm",
-      "RegionalForm"
     ]
   },
   {
@@ -4240,7 +4201,7 @@
       "Water",
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -4278,7 +4239,7 @@
       "Water",
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -4379,7 +4340,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -4622,11 +4583,9 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Fossil"
+      "Fossil",
+      "MegaEvolution"
     ]
   },
   {
@@ -4679,7 +4638,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -4752,15 +4711,13 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ],
     "displayName": "Mega Dragonite",
     "types": [
       "Dragon",
       "Flying"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -4790,15 +4747,13 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "Legendary"
+      "Legendary",
+      "RegionalForm"
     ],
     "displayName": "Galarian Articuno",
     "types": [
       "Psychic",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -4828,15 +4783,13 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "Legendary"
+      "Legendary",
+      "RegionalForm"
     ],
     "displayName": "Galarian Zapdos",
     "types": [
       "Fighting",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -4866,15 +4819,13 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "Legendary"
+      "Legendary",
+      "RegionalForm"
     ],
     "displayName": "Galarian Moltres",
     "types": [
       "Dark",
       "Flying"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -4917,11 +4868,9 @@
       "Psychic",
       "Fighting"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -4934,11 +4883,9 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -5018,14 +4965,13 @@
     "name": "Meganium-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Meganium",
     "types": [
       "Grass",
       "Fairy"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -5094,7 +5040,7 @@
       "Fire",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -5159,14 +5105,13 @@
     "name": "Feraligatr-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Feraligatr",
     "types": [
       "Water",
       "Dragon"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -5482,7 +5427,7 @@
       "Electric",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -5767,15 +5712,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Paldean Wooper",
     "types": [
       "Poison",
       "Ground"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -5885,14 +5828,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (A)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -5904,14 +5845,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (B)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -5923,14 +5862,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (C)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -5942,14 +5879,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (D)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -5961,14 +5896,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (E)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -5980,14 +5913,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (F)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -5999,14 +5930,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (G)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6018,14 +5947,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (H)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6037,14 +5964,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (I)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6056,14 +5981,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (J)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6075,14 +5998,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (K)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6094,14 +6015,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (L)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6113,14 +6032,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (M)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6132,14 +6049,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (N)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6151,14 +6066,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (O)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6170,14 +6083,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (P)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6189,14 +6100,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (Q)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6208,14 +6117,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (R)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6227,14 +6134,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (S)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6246,14 +6151,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (T)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6265,14 +6168,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (U)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6284,14 +6185,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (V)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6303,14 +6202,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (W)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6322,14 +6219,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (X)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6341,14 +6236,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (Y)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6360,14 +6253,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (Z)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6379,14 +6270,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (?)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6398,14 +6287,12 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Unown (!)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -6556,7 +6443,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -6657,15 +6544,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Hisuian Qwilfish",
     "types": [
       "Dark",
       "Poison"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -6729,7 +6614,7 @@
       "Bug",
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -6783,15 +6668,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Hisuian Sneasel",
     "types": [
       "Fighting",
       "Poison"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -6872,7 +6755,7 @@
       "Ground",
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -6990,14 +6873,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Galarian Corsola",
     "types": [
       "Ghost"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -7143,14 +7024,13 @@
     "name": "Skarmory-Mega",
     "region": "Johto",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Skarmory",
     "types": [
       "Steel",
       "Flying"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -7204,7 +7084,7 @@
       "Dark",
       "Fire"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -7426,11 +7306,9 @@
       "Rock",
       "Dark"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -7683,7 +7561,7 @@
       "Grass",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -7755,7 +7633,7 @@
       "Fire",
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -7827,7 +7705,7 @@
       "Water",
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -7908,15 +7786,13 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "RegionalForm"
     ],
     "displayName": "Galarian Zigzagoon",
     "types": [
       "Dark",
       "Normal"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -7937,7 +7813,7 @@
       "Dark",
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -8281,7 +8157,7 @@
       "Psychic",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -8314,7 +8190,7 @@
       "Psychic",
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -8695,7 +8571,7 @@
       "Dark",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -8733,7 +8609,7 @@
       "Steel",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -8804,7 +8680,7 @@
     "types": [
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -8859,7 +8735,7 @@
       "Fighting",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -8911,7 +8787,7 @@
     "types": [
       "Electric"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -9110,7 +8986,7 @@
       "Water",
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -9196,7 +9072,7 @@
       "Fire",
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -9393,7 +9269,7 @@
       "Dragon",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -9707,7 +9583,7 @@
     "types": [
       "Fire"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -9721,7 +9597,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -9735,7 +9611,7 @@
     "types": [
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -9802,7 +9678,7 @@
     "types": [
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -9916,14 +9792,13 @@
     "name": "Chimecho-Mega",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Chimecho",
     "types": [
       "Psychic",
       "Steel"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -9964,7 +9839,7 @@
     "types": [
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -9974,14 +9849,13 @@
     "name": "Absol-MegaZ",
     "region": "Hoenn",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Absol Z",
     "types": [
       "Dark",
       "Ghost"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -10039,7 +9913,7 @@
     "types": [
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -10067,14 +9941,13 @@
     "name": "Froslass-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Froslass",
     "types": [
       "Ice",
       "Ghost"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -10286,11 +10159,9 @@
       "Dragon",
       "Flying"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -10383,11 +10254,9 @@
       "Steel",
       "Psychic"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -10521,11 +10390,9 @@
       "Dragon",
       "Psychic"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -10563,11 +10430,9 @@
       "Dragon",
       "Psychic"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -10603,11 +10468,9 @@
     "types": [
       "Water"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -10644,11 +10507,9 @@
       "Ground",
       "Fire"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -10686,11 +10547,9 @@
       "Dragon",
       "Flying"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -10755,11 +10614,9 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -10772,11 +10629,9 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -10789,11 +10644,9 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -11007,14 +10860,13 @@
     "name": "Staraptor-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Staraptor",
     "types": [
       "Fighting",
       "Flying"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -11221,14 +11073,12 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "AlternateForm"
     ],
     "displayName": "Plant Cloak Burmy",
     "types": [
       "Bug"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11242,7 +11092,7 @@
       "Bug",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11261,14 +11111,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Sandy Cloak Burmy",
     "types": [
       "Bug"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11282,7 +11130,7 @@
       "Bug",
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11301,14 +11149,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Trash Cloak Burmy",
     "types": [
       "Bug"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11322,7 +11168,7 @@
       "Bug",
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11466,7 +11312,7 @@
     "types": [
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11485,14 +11331,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "West Sea Shellos",
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11506,7 +11350,7 @@
       "Water",
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11525,14 +11369,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "East Sea Shellos",
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11546,7 +11388,7 @@
       "Water",
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11633,7 +11475,7 @@
       "Normal",
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -11824,7 +11666,7 @@
       "Fighting",
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -11834,14 +11676,13 @@
     "name": "Lucario-MegaZ",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Lucario Z",
     "types": [
       "Fighting",
       "Steel"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -11859,14 +11700,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Hippopotas ♂",
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11879,7 +11718,7 @@
     "types": [
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -11898,14 +11737,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Hippopotas ♀",
     "types": [
       "Ground"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -11918,7 +11755,7 @@
     "types": [
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -12085,7 +11922,7 @@
       "Grass",
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -12147,7 +11984,7 @@
       "Electric",
       "Fire"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -12162,7 +11999,7 @@
       "Electric",
       "Water"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -12177,7 +12014,7 @@
       "Electric",
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -12192,7 +12029,7 @@
       "Electric",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -12207,7 +12044,7 @@
       "Electric",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -12292,11 +12129,9 @@
       "Dragon",
       "Ground"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ]
   },
   {
@@ -12306,14 +12141,12 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ],
     "displayName": "Mega Garchomp Z",
     "types": [
       "Dragon"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -12347,15 +12180,13 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ],
     "displayName": "Mega Heatran",
     "types": [
       "Fire",
       "Steel"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -12404,14 +12235,12 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Mythical"
+      "Mythical",
+      "MegaEvolution"
     ],
     "displayName": "Mega Darkrai",
     "types": [
       "Dark"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -12497,11 +12326,9 @@
       "Steel",
       "Dragon"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -12539,11 +12366,9 @@
       "Water",
       "Dragon"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -12581,11 +12406,9 @@
       "Ghost",
       "Dragon"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -12670,11 +12493,9 @@
       "Grass",
       "Flying"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -12788,14 +12609,13 @@
     "name": "Emboar-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Emboar",
     "types": [
       "Fire",
       "Fighting"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -12864,7 +12684,7 @@
       "Water",
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -13162,7 +12982,7 @@
       "Normal",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -13177,7 +12997,7 @@
       "Normal",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -13339,14 +13159,13 @@
     "name": "Excadrill-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Excadrill",
     "types": [
       "Ground",
       "Steel"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -13382,7 +13201,7 @@
       "Normal",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "MegaEvolution"
     ]
   },
@@ -13627,14 +13446,13 @@
     "name": "Scolipede-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Scolipede",
     "types": [
       "Bug",
       "Poison"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -13721,7 +13539,7 @@
       "Grass",
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -13734,14 +13552,12 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Red-Striped Form Basculin",
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13753,14 +13569,12 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Blue-Striped Form Basculin",
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13786,14 +13600,12 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "AlternateForm"
     ],
     "displayName": "White-Striped Form Basculin",
     "types": [
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -13807,7 +13619,7 @@
       "Water",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -13822,7 +13634,7 @@
       "Water",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -13925,7 +13737,7 @@
       "Fire",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -13945,14 +13757,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Galarian Darumaka",
     "types": [
       "Ice"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -13972,7 +13782,7 @@
     "types": [
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -13987,7 +13797,7 @@
       "Ice",
       "Fire"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm",
       "AlternateForm"
     ]
@@ -14086,14 +13896,13 @@
     "name": "Scrafty-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Scrafty",
     "types": [
       "Dark",
       "Fighting"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -14159,15 +13968,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Galarian Yamask",
     "types": [
       "Ground",
       "Ghost"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -14303,7 +14110,7 @@
     "types": [
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -14353,15 +14160,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "RegionalForm"
     ],
     "displayName": "Hisuian Zorua",
     "types": [
       "Normal",
       "Ghost"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -14375,7 +14180,7 @@
       "Normal",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -14600,15 +14405,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Spring Form Deerling",
     "types": [
       "Normal",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14622,7 +14425,7 @@
       "Normal",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -14641,15 +14444,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Summer Form Deerling",
     "types": [
       "Normal",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14663,7 +14464,7 @@
       "Normal",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -14682,15 +14483,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Autumn Form Deerling",
     "types": [
       "Normal",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14704,7 +14503,7 @@
       "Normal",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -14723,15 +14522,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Winter Form Deerling",
     "types": [
       "Normal",
       "Grass"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14745,7 +14542,7 @@
       "Normal",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -14902,15 +14699,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Frillish ♂",
     "types": [
       "Water",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14924,7 +14719,7 @@
       "Water",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -14943,15 +14738,13 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Frillish ♀",
     "types": [
       "Water",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -14965,7 +14758,7 @@
       "Water",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -15158,13 +14951,12 @@
     "name": "Eelektross-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Eelektross",
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -15262,14 +15054,13 @@
     "name": "Chandelure-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Chandelure",
     "types": [
       "Ghost",
       "Fire"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -15390,15 +15181,13 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "RegionalForm"
     ],
     "displayName": "Galarian Stunfisk",
     "types": [
       "Ground",
       "Steel"
-    ],
-    "forms": [
-      "RegionalForm"
     ]
   },
   {
@@ -15493,14 +15282,13 @@
     "name": "Golurk-Mega",
     "region": "Unova",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Golurk",
     "types": [
       "Ground",
       "Ghost"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -15620,7 +15408,7 @@
       "Psychic",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -15998,11 +15786,9 @@
       "Water",
       "Fighting"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -16039,11 +15825,9 @@
     "types": [
       "Flying"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16082,11 +15866,9 @@
       "Electric",
       "Flying"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16125,11 +15907,9 @@
       "Ground",
       "Flying"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16168,11 +15948,9 @@
       "Fairy",
       "Flying"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16210,11 +15988,9 @@
       "Dragon",
       "Fire"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16252,11 +16028,9 @@
       "Dragon",
       "Electric"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16309,11 +16083,9 @@
       "Dragon",
       "Ice"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16327,11 +16099,9 @@
       "Dragon",
       "Ice"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16352,11 +16122,9 @@
       "Dragon",
       "Ice"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16370,11 +16138,9 @@
       "Dragon",
       "Ice"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -16430,11 +16196,9 @@
       "Normal",
       "Fighting"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -16516,14 +16280,13 @@
     "name": "Chesnaught-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Chesnaught",
     "types": [
       "Grass",
       "Fighting"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -16588,14 +16351,13 @@
     "name": "Delphox-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Delphox",
     "types": [
       "Fire",
       "Psychic"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -16671,7 +16433,7 @@
       "Water",
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -16681,14 +16443,13 @@
     "name": "Greninja-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Greninja",
     "types": [
       "Water",
       "Dark"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -16917,7 +16678,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -16932,7 +16693,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -16947,7 +16708,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -16962,7 +16723,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -16977,7 +16738,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -16992,7 +16753,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17007,7 +16768,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17022,7 +16783,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17037,7 +16798,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17052,7 +16813,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17067,7 +16828,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17082,7 +16843,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17097,7 +16858,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17112,7 +16873,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17127,7 +16888,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17142,7 +16903,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17157,7 +16918,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17172,7 +16933,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17187,7 +16948,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17202,7 +16963,7 @@
       "Bug",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17252,7 +17013,7 @@
       "Fire",
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17262,15 +17023,14 @@
     "name": "Pyroar-M-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Pyroar (Male)",
     "types": [
       "Fire",
       "Normal"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -17291,7 +17051,7 @@
       "Fire",
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17301,15 +17061,14 @@
     "name": "Pyroar-F-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Pyroar (Female)",
     "types": [
       "Fire",
       "Normal"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -17327,15 +17086,13 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "AlternateForm"
     ],
     "spriteName": "Flabebe-Red",
     "displayName": "Red Flower Flabébé",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17355,7 +17112,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17369,7 +17126,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17388,15 +17145,13 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "AlternateForm"
     ],
     "spriteName": "Flabebe-Yellow",
     "displayName": "Yellow Flower Flabébé",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17416,7 +17171,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17430,7 +17185,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17449,15 +17204,13 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "AlternateForm"
     ],
     "spriteName": "Flabebe-Orange",
     "displayName": "Orange Flower Flabébé",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17477,7 +17230,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17491,7 +17244,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17510,15 +17263,13 @@
       }
     ],
     "categories": [
-      "EvolutionTriple"
+      "EvolutionTriple",
+      "AlternateForm"
     ],
     "spriteName": "Flabebe-Blue",
     "displayName": "Blue Flower Flabébé",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17538,7 +17289,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17552,7 +17303,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17572,15 +17323,13 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "EvolutionSplit"
+      "EvolutionSplit",
+      "AlternateForm"
     ],
     "spriteName": "Flabebe-White",
     "displayName": "White Flower Flabébé",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -17606,7 +17355,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17620,7 +17369,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17641,7 +17390,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17651,14 +17400,13 @@
     "name": "Floette-Eternal-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Floette (Eternal)",
     "types": [
       "Fairy"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -17796,7 +17544,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17810,7 +17558,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17824,7 +17572,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17838,7 +17586,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17852,7 +17600,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17866,7 +17614,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17880,7 +17628,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17894,7 +17642,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17908,7 +17656,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17957,7 +17705,7 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -17967,14 +17715,13 @@
     "name": "Meowstic-M-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Meowstic (Male)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -17994,7 +17741,7 @@
     "types": [
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -18004,14 +17751,13 @@
     "name": "Meowstic-F-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Meowstic (Female)",
     "types": [
       "Psychic"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -18072,7 +17818,7 @@
       "Steel",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -18087,7 +17833,7 @@
       "Steel",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -18202,14 +17948,13 @@
     "name": "Malamar-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Malamar",
     "types": [
       "Dark",
       "Psychic"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -18258,14 +18003,13 @@
     "name": "Barbaracle-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Barbaracle",
     "types": [
       "Rock",
       "Fighting"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -18314,14 +18058,13 @@
     "name": "Dragalge-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Dragalge",
     "types": [
       "Poison",
       "Dragon"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -18494,14 +18237,13 @@
     "name": "Hawlucha-Mega",
     "region": "Kalos",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Hawlucha",
     "types": [
       "Fighting",
       "Flying"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -18669,7 +18411,7 @@
       "Ice",
       "Rock"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -18786,11 +18528,9 @@
       "Steel",
       "Dragon"
     ],
-    "forms": [
-      "RegionalForm"
-    ],
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "RegionalForm"
     ]
   },
   {
@@ -18804,11 +18544,9 @@
       "Steel",
       "Dragon"
     ],
-    "forms": [
-      "RegionalForm"
-    ],
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "RegionalForm"
     ]
   },
   {
@@ -18845,11 +18583,9 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -18886,15 +18622,13 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ],
     "displayName": "Core Form Zygarde",
     "types": [
       "Dragon",
       "Ground"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -18915,11 +18649,9 @@
       "Dragon",
       "Ground"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -18940,11 +18672,9 @@
       "Dragon",
       "Ground"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -18965,11 +18695,9 @@
       "Dragon",
       "Ground"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -18979,15 +18707,13 @@
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
-      "Legendary"
+      "Legendary",
+      "MegaEvolution"
     ],
     "displayName": "Mega Zygarde",
     "types": [
       "Dragon",
       "Ground"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -19025,11 +18751,9 @@
       "Rock",
       "Fairy"
     ],
-    "forms": [
-      "MegaEvolution"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "MegaEvolution"
     ]
   },
   {
@@ -19067,11 +18791,9 @@
       "Psychic",
       "Dark"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -19160,7 +18882,7 @@
       "Grass",
       "Fighting"
     ],
-    "forms": [
+    "categories": [
       "RegionalForm"
     ]
   },
@@ -19440,14 +19162,13 @@
     "name": "Crabominable-Mega",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Crabominable",
     "types": [
       "Fighting",
       "Ice"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -19459,15 +19180,13 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Baile Style Oricorio",
     "types": [
       "Fire",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -19479,15 +19198,13 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Pom-Pom Style Oricorio",
     "types": [
       "Electric",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -19499,15 +19216,13 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Pa'u Style Oricorio",
     "types": [
       "Psychic",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -19519,15 +19234,13 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Sensu Style Oricorio",
     "types": [
       "Ghost",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -19608,7 +19321,7 @@
     "types": [
       "Rock"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -19622,7 +19335,7 @@
     "types": [
       "Rock"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -19636,7 +19349,7 @@
     "types": [
       "Rock"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -19673,7 +19386,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20046,14 +19759,13 @@
     "name": "Golisopod-Mega",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Golisopod",
     "types": [
       "Bug",
       "Steel"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -20208,7 +19920,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20223,7 +19935,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20238,7 +19950,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20253,7 +19965,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20268,7 +19980,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20283,7 +19995,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20298,7 +20010,7 @@
       "Rock",
       "Flying"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20384,7 +20096,7 @@
       "Ghost",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -20433,14 +20145,13 @@
     "name": "Drampa-Mega",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Drampa",
     "types": [
       "Normal",
       "Dragon"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -20667,11 +20378,9 @@
       "Psychic",
       "Steel"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -20706,11 +20415,9 @@
       "Psychic",
       "Ghost"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -20762,12 +20469,10 @@
       "Psychic",
       "Steel"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
       "UltraBeast",
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -20781,12 +20486,10 @@
       "Psychic",
       "Ghost"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
       "UltraBeast",
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -20800,12 +20503,10 @@
       "Psychic",
       "Dragon"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
       "UltraBeast",
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -21034,15 +20735,13 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Mythical"
+      "Mythical",
+      "MegaEvolution"
     ],
     "displayName": "Mega Magearna",
     "types": [
       "Steel",
       "Fairy"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -21063,11 +20762,9 @@
       "Steel",
       "Fairy"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -21077,16 +20774,14 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Mythical"
+      "Mythical",
+      "MegaEvolution",
+      "AlternateForm"
     ],
     "displayName": "Mega Magearna (Original Color)",
     "types": [
       "Steel",
       "Fairy"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -21124,11 +20819,9 @@
       "Fighting",
       "Ghost"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -21161,14 +20854,12 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Mythical"
+      "Mythical",
+      "MegaEvolution"
     ],
     "displayName": "Mega Zeraora",
     "types": [
       "Electric"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -21224,11 +20915,9 @@
     "types": [
       "Steel"
     ],
-    "forms": [
-      "GigantamaxForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "GigantamaxForm"
     ]
   },
   {
@@ -21296,7 +20985,7 @@
     "types": [
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21365,7 +21054,7 @@
     "types": [
       "Fire"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21434,7 +21123,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21535,7 +21224,7 @@
       "Flying",
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21606,7 +21295,7 @@
       "Bug",
       "Psychic"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21753,7 +21442,7 @@
       "Water",
       "Rock"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21855,7 +21544,7 @@
       "Rock",
       "Fire"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21924,7 +21613,7 @@
       "Grass",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -21957,7 +21646,7 @@
       "Grass",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22038,7 +21727,7 @@
     "types": [
       "Ground"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22083,7 +21772,7 @@
       "Flying",
       "Water"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22098,7 +21787,7 @@
       "Flying",
       "Water"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22181,7 +21870,7 @@
       "Electric",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22196,7 +21885,7 @@
       "Electric",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22211,7 +21900,7 @@
       "Electric",
       "Poison"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22266,7 +21955,7 @@
       "Fire",
       "Bug"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22318,14 +22007,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Phony Form Sinistea",
     "types": [
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22338,7 +22025,7 @@
     "types": [
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22358,14 +22045,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm"
     ],
     "displayName": "Antique Form Sinistea",
     "types": [
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22378,7 +22063,7 @@
     "types": [
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22448,7 +22133,7 @@
       "Psychic",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22520,7 +22205,7 @@
       "Dark",
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22600,7 +22285,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22614,7 +22299,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22628,7 +22313,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22642,7 +22327,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22656,7 +22341,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22670,7 +22355,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22684,7 +22369,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22698,7 +22383,7 @@
     "types": [
       "Fairy"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -22730,13 +22415,12 @@
     "name": "Falinks-Mega",
     "region": "Galar",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Falinks",
     "types": [
       "Fighting"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -22836,7 +22520,7 @@
     "types": [
       "Ice"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22849,15 +22533,13 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Indeedee ♂",
     "types": [
       "Psychic",
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22869,15 +22551,13 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Indeedee ♀",
     "types": [
       "Psychic",
       "Normal"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -22915,7 +22595,7 @@
       "Electric",
       "Dark"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -22967,7 +22647,7 @@
     "types": [
       "Steel"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -23079,7 +22759,7 @@
       "Steel",
       "Dragon"
     ],
-    "forms": [
+    "categories": [
       "GigantamaxForm"
     ]
   },
@@ -23185,11 +22865,9 @@
       "Fairy",
       "Steel"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -23226,11 +22904,9 @@
       "Fighting",
       "Steel"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -23320,11 +22996,9 @@
       "Fighting",
       "Dark"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -23338,12 +23012,10 @@
       "Fighting",
       "Dark"
     ],
-    "forms": [
+    "categories": [
+      "Legendary",
       "GigantamaxForm",
       "AlternateForm"
-    ],
-    "categories": [
-      "Legendary"
     ]
   },
   {
@@ -23364,11 +23036,9 @@
       "Fighting",
       "Water"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -23382,12 +23052,10 @@
       "Fighting",
       "Water"
     ],
-    "forms": [
+    "categories": [
+      "Legendary",
       "GigantamaxForm",
       "AlternateForm"
-    ],
-    "categories": [
-      "Legendary"
     ]
   },
   {
@@ -23425,11 +23093,9 @@
       "Dark",
       "Grass"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Mythical"
+      "Mythical",
+      "AlternateForm"
     ]
   },
   {
@@ -23507,11 +23173,9 @@
       "Psychic",
       "Ice"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -23525,11 +23189,9 @@
       "Psychic",
       "Ghost"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -23717,7 +23379,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -23731,7 +23393,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -23896,7 +23558,7 @@
     "types": [
       "Normal"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -23990,15 +23652,13 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Green Plumage Squawkabilly",
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24010,15 +23670,13 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Blue Plumage Squawkabilly",
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24030,15 +23688,13 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Yellow Plumage Squawkabilly",
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24050,15 +23706,13 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "White Plumage Squawkabilly",
     "types": [
       "Normal",
       "Flying"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24336,14 +23990,12 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "ConvergentForm"
     ],
     "types": [
       "Ground",
       "Grass"
-    ],
-    "forms": [
-      "ConvergentForm"
     ]
   },
   {
@@ -24356,7 +24008,7 @@
       "Ground",
       "Grass"
     ],
-    "forms": [
+    "categories": [
       "ConvergentForm"
     ]
   },
@@ -24421,14 +24073,13 @@
     "name": "Scovillain-Mega",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Scovillain",
     "types": [
       "Grass",
       "Fire"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -24560,13 +24211,11 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "ConvergentForm"
     ],
     "types": [
       "Water"
-    ],
-    "forms": [
-      "ConvergentForm"
     ]
   },
   {
@@ -24578,7 +24227,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "ConvergentForm"
     ]
   },
@@ -24647,7 +24296,7 @@
     "types": [
       "Water"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -24745,14 +24394,13 @@
     "name": "Glimmora-Mega",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution"
+    ],
     "displayName": "Mega Glimmora",
     "types": [
       "Rock",
       "Poison"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -24882,15 +24530,13 @@
       }
     ],
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Curly Form Tatsugiri",
     "types": [
       "Dragon",
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24899,15 +24545,14 @@
     "name": "Tatsugiri-Curly-Mega",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Tatsugiri (Curly)",
     "types": [
       "Dragon",
       "Water"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -24926,15 +24571,13 @@
       }
     ],
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Droopy Form Tatsugiri",
     "types": [
       "Dragon",
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24943,15 +24586,14 @@
     "name": "Tatsugiri-Droopy-Mega",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Tatsugiri (Droopy)",
     "types": [
       "Dragon",
       "Water"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -24970,15 +24612,13 @@
       }
     ],
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "AlternateForm"
     ],
     "displayName": "Stretchy Form Tatsugiri",
     "types": [
       "Dragon",
       "Water"
-    ],
-    "forms": [
-      "AlternateForm"
     ]
   },
   {
@@ -24987,15 +24627,14 @@
     "name": "Tatsugiri-Stretchy-Mega",
     "region": "Paldea",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "MegaEvolution",
+      "AlternateForm"
+    ],
     "displayName": "Mega Tatsugiri (Stretchy)",
     "types": [
       "Dragon",
       "Water"
-    ],
-    "forms": [
-      "MegaEvolution",
-      "AlternateForm"
     ]
   },
   {
@@ -25069,15 +24708,13 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "PseudoLegendary"
+      "PseudoLegendary",
+      "MegaEvolution"
     ],
     "displayName": "Mega Baxcalibur",
     "types": [
       "Dragon",
       "Ice"
-    ],
-    "forms": [
-      "MegaEvolution"
     ]
   },
   {
@@ -25096,16 +24733,14 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm",
+      "ConvergentForm"
     ],
     "displayName": "Phony Form Poltchageist",
     "types": [
       "Grass",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm",
-      "ConvergentForm"
     ]
   },
   {
@@ -25119,7 +24754,7 @@
       "Grass",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "ConvergentForm",
       "AlternateForm"
     ]
@@ -25140,16 +24775,14 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "AlternateForm",
+      "ConvergentForm"
     ],
     "displayName": "Antique Form Poltchageist",
     "types": [
       "Grass",
       "Ghost"
-    ],
-    "forms": [
-      "AlternateForm",
-      "ConvergentForm"
     ]
   },
   {
@@ -25163,7 +24796,7 @@
       "Grass",
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "ConvergentForm",
       "AlternateForm"
     ]
@@ -25208,7 +24841,7 @@
     "types": [
       "Ghost"
     ],
-    "forms": [
+    "categories": [
       "AlternateForm"
     ]
   },
@@ -25480,11 +25113,9 @@
     "types": [
       "Grass"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25497,11 +25128,9 @@
     "types": [
       "Grass"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25522,11 +25151,9 @@
       "Grass",
       "Water"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25540,11 +25167,9 @@
       "Grass",
       "Water"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25565,11 +25190,9 @@
       "Grass",
       "Fire"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25583,11 +25206,9 @@
       "Grass",
       "Fire"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25608,11 +25229,9 @@
       "Grass",
       "Rock"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25626,11 +25245,9 @@
       "Grass",
       "Rock"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25673,11 +25290,9 @@
     "types": [
       "Normal"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   },
   {
@@ -25690,11 +25305,9 @@
     "types": [
       "Normal"
     ],
-    "forms": [
-      "AlternateForm"
-    ],
     "categories": [
-      "Legendary"
+      "Legendary",
+      "AlternateForm"
     ]
   }
 ]
