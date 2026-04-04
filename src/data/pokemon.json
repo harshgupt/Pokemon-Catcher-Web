@@ -15,7 +15,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation1",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -38,7 +37,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm"
@@ -434,8 +432,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Poison",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution",
@@ -539,7 +535,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution",
@@ -662,7 +657,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution",
@@ -761,7 +755,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation1",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -840,8 +833,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Poison",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution"
@@ -922,8 +913,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution"
@@ -1004,7 +993,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -1042,8 +1030,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Dark",
       "Generation7",
       "EvolutionDouble",
       "RegionalForm"
@@ -1084,8 +1070,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -1123,7 +1107,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -1159,7 +1142,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -1197,8 +1179,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Steel",
       "Generation7",
       "EvolutionDouble",
       "RegionalForm"
@@ -1239,7 +1219,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -1297,7 +1276,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -1356,7 +1334,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution"
@@ -1434,7 +1411,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -1472,7 +1448,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation7",
       "EvolutionDouble",
       "RegionalForm"
@@ -1513,8 +1488,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Fairy",
       "Generation1",
       "EvolutionTriple",
       "ClassParadox"
@@ -1595,8 +1568,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Flying",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -1655,8 +1626,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Poison",
       "Generation1",
       "EvolutionTriple",
       "EvolutionSplit"
@@ -1735,8 +1704,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Grass",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -1774,8 +1741,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Poison",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -1813,7 +1778,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm",
@@ -1851,8 +1815,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Steel",
       "Generation7",
       "EvolutionDouble",
       "RegionalForm",
@@ -1900,7 +1862,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm",
@@ -1953,7 +1914,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation7",
       "EvolutionDouble",
       "RegionalForm"
@@ -1992,7 +1952,6 @@
       }
     ],
     "categories": [
-      "Steel",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -2030,7 +1989,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -2066,7 +2024,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -2124,7 +2081,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -2162,8 +2118,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Rock",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -2204,7 +2158,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionTriple",
       "EvolutionSplit"
@@ -2281,7 +2234,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution"
@@ -2359,7 +2311,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation1",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -2437,8 +2388,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Poison",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution"
@@ -2518,8 +2467,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Poison",
       "Generation1",
       "EvolutionDouble",
       "ConvergentForm"
@@ -2558,8 +2505,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Ground",
       "Generation1",
       "EvolutionTriple",
       "RegionalForm"
@@ -2619,8 +2564,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Electric",
       "Generation7",
       "EvolutionTriple",
       "RegionalForm"
@@ -2683,7 +2626,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -2720,7 +2662,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -2766,8 +2707,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Psychic",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -2851,7 +2790,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation8",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -2907,8 +2845,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Steel",
       "Generation1",
       "EvolutionTriple",
       "ClassParadox"
@@ -2983,8 +2919,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Flying",
       "Generation1",
       "EvolutionSingle",
       "RegionalForm"
@@ -3011,7 +2945,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -3051,8 +2984,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -3090,7 +3021,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -3127,7 +3057,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -3164,8 +3093,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Dark",
       "Generation7",
       "EvolutionDouble",
       "RegionalForm"
@@ -3207,7 +3134,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -3244,8 +3170,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Poison",
       "Generation1",
       "EvolutionTriple",
       "MegaEvolution",
@@ -3350,8 +3274,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Ground",
       "Generation1",
       "EvolutionDouble",
       "MegaEvolution"
@@ -3412,7 +3334,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -3448,7 +3369,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -3506,7 +3426,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation1",
       "EvolutionDouble",
       "RegionalForm"
@@ -3544,8 +3463,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Grass",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -3593,8 +3510,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Psychic",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -3655,7 +3570,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -3721,7 +3635,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit"
@@ -3785,7 +3698,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -3827,7 +3739,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -3880,8 +3791,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Ground",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -3941,7 +3850,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -3998,7 +3906,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -4035,7 +3942,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionSingle",
       "MegaEvolution"
@@ -4073,7 +3979,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -4130,7 +4035,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -4167,7 +4071,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble",
       "MegaEvolution"
@@ -4232,8 +4135,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Fairy",
       "Generation1",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -4319,8 +4220,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Flying",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -4396,8 +4295,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Psychic",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -4435,7 +4332,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -4491,7 +4387,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -4548,7 +4443,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation1",
       "EvolutionSingle",
       "MegaEvolution"
@@ -4581,7 +4475,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionSingle",
       "RegionalForm"
@@ -4599,7 +4492,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -4619,8 +4511,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
-      "Fire",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -4641,8 +4531,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
-      "Water",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -4669,7 +4557,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation1",
       "EvolutionDouble",
       "MegaEvolution"
@@ -4730,8 +4617,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Ice",
       "Generation1",
       "EvolutionSingle",
       "GigantamaxForm"
@@ -4765,7 +4650,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionSingle"
     ],
@@ -4837,7 +4721,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -4982,7 +4865,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionTriple"
     ],
@@ -5039,8 +4921,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Rock",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -5078,8 +4958,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Rock",
       "Generation1",
       "EvolutionDouble"
     ],
@@ -5118,8 +4996,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Flying",
       "Generation1",
       "EvolutionSingle",
       "MegaEvolution"
@@ -5160,7 +5036,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation1",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -5218,7 +5093,6 @@
       }
     ],
     "categories": [
-      "Dragon",
       "Generation1",
       "EvolutionTriple",
       "ClassPseudo",
@@ -5290,8 +5164,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Ice",
-      "Flying",
       "Generation1",
       "EvolutionSingle",
       "RegionalForm",
@@ -5311,8 +5183,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
-      "Flying",
       "Generation8",
       "EvolutionSingle",
       "RegionalForm",
@@ -5333,8 +5203,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Flying",
       "Generation1",
       "EvolutionSingle",
       "RegionalForm",
@@ -5354,8 +5222,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
-      "Flying",
       "Generation8",
       "EvolutionSingle",
       "RegionalForm",
@@ -5376,8 +5242,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Flying",
       "Generation1",
       "EvolutionSingle",
       "RegionalForm",
@@ -5397,8 +5261,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Dark",
-      "Flying",
       "Generation8",
       "EvolutionSingle",
       "RegionalForm",
@@ -5432,7 +5294,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation1",
       "EvolutionSingle",
       "MegaEvolution",
@@ -5480,7 +5341,6 @@
     "region": "Kanto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation1",
       "EvolutionSingle",
       "ClassMythical"
@@ -5504,7 +5364,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation2",
       "EvolutionTriple",
       "ClassStarter",
@@ -5581,7 +5440,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation2",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -5660,7 +5518,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation2",
       "EvolutionTriple",
       "ClassStarter",
@@ -5737,7 +5594,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -5773,8 +5629,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -5812,8 +5666,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -5851,8 +5703,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Poison",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -5890,8 +5740,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Electric",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -5930,7 +5778,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation2",
       "EvolutionTriple"
     ],
@@ -5988,8 +5835,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -6027,7 +5872,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation2",
       "EvolutionTriple",
       "MegaEvolution"
@@ -6106,8 +5950,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Fairy",
       "Generation2",
       "EvolutionTriple"
     ],
@@ -6166,7 +6008,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -6202,8 +6043,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Flying",
       "Generation2",
       "EvolutionTriple"
     ],
@@ -6262,7 +6101,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -6299,7 +6137,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -6336,8 +6173,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -6375,8 +6210,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Ground",
       "Generation2",
       "EvolutionDouble",
       "RegionalForm"
@@ -6415,8 +6248,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Ground",
       "Generation9",
       "EvolutionDouble",
       "RegionalForm"
@@ -6457,8 +6288,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -6503,7 +6332,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation2",
       "EvolutionDouble",
       "ClassParadox"
@@ -6549,7 +6377,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6568,7 +6395,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6587,7 +6413,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6606,7 +6431,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6625,7 +6449,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6644,7 +6467,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6663,7 +6485,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6682,7 +6503,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6701,7 +6521,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6720,7 +6539,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6739,7 +6557,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6758,7 +6575,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6777,7 +6593,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6796,7 +6611,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6815,7 +6629,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6834,7 +6647,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6853,7 +6665,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6872,7 +6683,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6891,7 +6701,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6910,7 +6719,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6929,7 +6737,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6948,7 +6755,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6967,7 +6773,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -6986,7 +6791,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -7005,7 +6809,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -7024,7 +6827,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -7043,7 +6845,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -7062,7 +6863,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "AlternateForm"
@@ -7087,7 +6887,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7124,8 +6923,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Psychic",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7163,7 +6960,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7207,7 +7003,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -7261,8 +7056,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7300,7 +7093,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7330,8 +7122,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Water",
-      "Poison",
       "Generation2",
       "EvolutionSingle",
       "RegionalForm"
@@ -7357,8 +7147,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Poison",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -7392,8 +7180,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Bug",
-      "Rock",
       "Generation2",
       "EvolutionSingle"
     ],
@@ -7418,8 +7204,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Fighting",
       "Generation2",
       "EvolutionSingle",
       "MegaEvolution"
@@ -7460,8 +7244,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Ice",
       "Generation2",
       "EvolutionDouble",
       "RegionalForm"
@@ -7501,8 +7283,6 @@
       }
     ],
     "categories": [
-      "Fighting",
-      "Poison",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -7542,7 +7322,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionTriple",
       "AlternateForm"
@@ -7622,7 +7401,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7659,8 +7437,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Ice",
       "Generation2",
       "EvolutionTriple"
     ],
@@ -7713,8 +7489,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Water",
       "Generation2",
       "EvolutionSingle",
       "RegionalForm"
@@ -7739,7 +7513,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -7777,7 +7550,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7814,8 +7586,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Flying",
       "Generation2",
       "EvolutionSingle",
       "ClassParadox"
@@ -7856,8 +7626,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Flying",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -7896,8 +7664,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Flying",
       "Generation2",
       "EvolutionSingle",
       "MegaEvolution"
@@ -7935,8 +7701,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Dark",
       "Generation2",
       "EvolutionDouble",
       "MegaEvolution"
@@ -7997,7 +7761,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation2",
       "EvolutionDouble",
       "ClassParadox"
@@ -8078,7 +7841,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionDouble"
     ],
@@ -8109,7 +7871,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionSingle"
     ],
@@ -8126,7 +7887,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation2",
       "EvolutionSingle"
     ],
@@ -8149,8 +7909,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Ground",
       "Generation2",
       "EvolutionTriple",
       "MegaEvolution",
@@ -8255,7 +8013,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation2",
       "EvolutionSingle",
       "ClassParadox",
@@ -8296,7 +8053,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation2",
       "EvolutionSingle",
       "ClassParadox",
@@ -8337,7 +8093,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation2",
       "EvolutionSingle",
       "ClassParadox",
@@ -8371,8 +8126,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
-      "Flying",
       "Generation2",
       "EvolutionSingle",
       "ClassLegendary"
@@ -8391,8 +8144,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Flying",
       "Generation2",
       "EvolutionSingle",
       "ClassLegendary"
@@ -8412,8 +8163,6 @@
     "region": "Johto",
     "nextForms": "[]",
     "categories": [
-      "Grass",
-      "Psychic",
       "Generation2",
       "EvolutionSingle",
       "ClassMythical"
@@ -8438,7 +8187,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation3",
       "EvolutionTriple",
       "MegaEvolution",
@@ -8517,7 +8265,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation3",
       "EvolutionTriple",
       "MegaEvolution",
@@ -8598,7 +8345,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionTriple",
       "MegaEvolution",
@@ -8679,7 +8425,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -8715,7 +8460,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionDouble",
       "RegionalForm"
@@ -8752,8 +8496,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Dark",
       "Generation8",
       "EvolutionTriple",
       "RegionalForm"
@@ -8820,7 +8562,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation3",
       "EvolutionTriple",
       "EvolutionSplit"
@@ -8910,8 +8651,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Water",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -8970,7 +8709,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -9028,8 +8766,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -9067,8 +8803,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Flying",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -9106,8 +8840,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Fairy",
       "Generation3",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -9253,8 +8985,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Bug",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -9292,7 +9022,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -9329,7 +9058,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -9390,8 +9118,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Ground",
       "Generation3",
       "EvolutionDouble",
       "EvolutionSplit"
@@ -9444,7 +9170,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -9499,7 +9224,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation3",
       "EvolutionDouble",
       "ClassParadox"
@@ -9559,7 +9283,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -9597,7 +9320,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -9634,8 +9356,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Dark",
       "Generation3",
       "EvolutionSingle",
       "MegaEvolution"
@@ -9676,8 +9396,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Fairy",
       "Generation3",
       "EvolutionSingle",
       "MegaEvolution"
@@ -9717,8 +9435,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Rock",
       "Generation3",
       "EvolutionTriple",
       "MegaEvolution"
@@ -9798,8 +9514,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Fighting",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -9860,7 +9574,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -9912,7 +9625,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -9929,7 +9641,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -9946,7 +9657,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Bug",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -9963,7 +9673,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Bug",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -9987,8 +9696,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Poison",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -10047,7 +9754,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10083,8 +9789,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Dark",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -10145,7 +9849,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10181,8 +9884,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Ground",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -10237,7 +9938,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Fire",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10260,7 +9960,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10290,7 +9989,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10313,7 +10011,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -10370,7 +10067,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10407,8 +10103,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -10463,7 +10157,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10480,7 +10173,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Poison",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10497,8 +10189,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Psychic",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10516,8 +10206,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Psychic",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10541,8 +10229,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Ground",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10580,7 +10266,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10617,8 +10302,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Psychic",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10656,8 +10339,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Grass",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10695,8 +10376,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Bug",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10735,7 +10414,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionDouble"
     ],
@@ -10784,7 +10462,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionSingle",
       "AlternateForm"
@@ -10844,7 +10521,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -10867,7 +10543,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -10925,7 +10600,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -10975,8 +10649,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Grass",
-      "Flying",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -11001,7 +10673,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation3",
       "EvolutionDouble",
       "MegaEvolution"
@@ -11065,7 +10736,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation3",
       "EvolutionSingle",
       "MegaEvolution"
@@ -11122,7 +10792,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation3",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -11215,8 +10884,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Water",
       "Generation3",
       "EvolutionTriple"
     ],
@@ -11281,7 +10948,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionDouble",
       "EvolutionSplit"
@@ -11325,8 +10991,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Water",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -11344,7 +11008,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionSingle"
     ],
@@ -11367,7 +11030,6 @@
       }
     ],
     "categories": [
-      "Dragon",
       "Generation3",
       "EvolutionTriple",
       "MegaEvolution",
@@ -11469,8 +11131,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Psychic",
       "Generation3",
       "EvolutionTriple",
       "MegaEvolution",
@@ -11546,7 +11206,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Rock",
       "Generation3",
       "EvolutionSingle",
       "ClassLegendary"
@@ -11564,7 +11223,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Ice",
       "Generation3",
       "EvolutionSingle",
       "ClassLegendary"
@@ -11582,7 +11240,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Steel",
       "Generation3",
       "EvolutionSingle",
       "ClassLegendary"
@@ -11600,7 +11257,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation8",
       "EvolutionSingle",
       "ClassLegendary"
@@ -11618,7 +11274,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Dragon",
       "Generation8",
       "EvolutionSingle",
       "ClassLegendary"
@@ -11636,7 +11291,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation4",
       "EvolutionSingle",
       "ClassLegendary"
@@ -11661,8 +11315,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Dragon",
       "Generation3",
       "EvolutionSingle",
       "MegaEvolution",
@@ -11704,8 +11356,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Dragon",
       "Generation3",
       "EvolutionSingle",
       "MegaEvolution",
@@ -11747,7 +11397,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation3",
       "EvolutionSingle",
       "AlternateForm",
@@ -11787,7 +11436,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation3",
       "EvolutionSingle",
       "AlternateForm",
@@ -11828,8 +11476,6 @@
       }
     ],
     "categories": [
-      "Dragon",
-      "Flying",
       "Generation3",
       "EvolutionSingle",
       "MegaEvolution",
@@ -11864,8 +11510,6 @@
     "region": "Hoenn",
     "nextForms": "[]",
     "categories": [
-      "Steel",
-      "Psychic",
       "Generation3",
       "EvolutionSingle",
       "ClassMythical"
@@ -11903,7 +11547,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation3",
       "EvolutionSingle",
       "AlternateForm",
@@ -11970,7 +11613,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation4",
       "EvolutionTriple",
       "ClassStarter"
@@ -12027,7 +11669,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation4",
       "EvolutionTriple",
       "ClassStarter"
@@ -12085,7 +11726,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation4",
       "EvolutionTriple",
       "ClassStarter"
@@ -12142,8 +11782,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation4",
       "EvolutionTriple",
       "MegaEvolution"
@@ -12222,7 +11860,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12259,7 +11896,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12295,7 +11931,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation4",
       "EvolutionTriple"
     ],
@@ -12350,7 +11985,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12386,8 +12020,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Steel",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12431,8 +12063,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Grass",
       "Generation4",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -12473,8 +12103,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Ground",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -12514,8 +12142,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Steel",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -12570,8 +12196,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Flying",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -12604,7 +12228,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation4",
       "EvolutionSingle"
     ],
@@ -12627,7 +12250,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12663,7 +12285,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -12722,8 +12343,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Ground",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -12763,8 +12382,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Ground",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -12804,8 +12421,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Flying",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12844,7 +12459,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation4",
       "EvolutionDouble",
       "MegaEvolution"
@@ -12903,7 +12517,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12939,8 +12552,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Dark",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -12978,8 +12589,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Psychic",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -13011,8 +12620,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Flying",
       "Generation4",
       "EvolutionSingle"
     ],
@@ -13030,8 +12637,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Ghost",
-      "Dark",
       "Generation4",
       "EvolutionSingle"
     ],
@@ -13056,7 +12661,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation4",
       "EvolutionDouble",
       "MegaEvolution"
@@ -13135,7 +12739,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -13174,7 +12777,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation4",
       "EvolutionDouble",
       "AlternateForm"
@@ -13213,8 +12815,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Poison",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -13252,8 +12852,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Fighting",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -13285,7 +12883,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Grass",
       "Generation4",
       "EvolutionSingle"
     ],
@@ -13308,7 +12905,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation4",
       "EvolutionDouble"
     ],
@@ -13344,8 +12940,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Grass",
       "Generation4",
       "EvolutionDouble",
       "MegaEvolution"
@@ -13431,8 +13025,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Electric",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm"
@@ -13532,8 +13124,6 @@
       }
     ],
     "categories": [
-      "Dragon",
-      "Ground",
       "Generation4",
       "EvolutionTriple",
       "MegaEvolution",
@@ -13634,8 +13224,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Steel",
       "Generation4",
       "EvolutionSingle",
       "ClassLegendary",
@@ -13668,7 +13256,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation4",
       "EvolutionSingle",
       "ClassLegendary"
@@ -13693,7 +13280,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation4",
       "EvolutionSingle",
       "ClassMythical",
@@ -13724,7 +13310,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation4",
       "EvolutionSingle",
       "ClassLegendary"
@@ -13742,7 +13327,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation4",
       "EvolutionSingle",
       "ClassLegendary"
@@ -13760,7 +13344,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation4",
       "EvolutionSingle",
       "ClassLegendary"
@@ -13785,8 +13368,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Dragon",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm",
@@ -13828,8 +13409,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Dragon",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm",
@@ -13871,8 +13450,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Dragon",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm",
@@ -13907,7 +13484,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm",
@@ -13926,7 +13502,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation4",
       "EvolutionSingle",
       "ClassMythical"
@@ -13944,7 +13519,6 @@
     "region": "Sinnoh",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation4",
       "EvolutionSingle",
       "ClassMythical"
@@ -13969,7 +13543,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation4",
       "EvolutionSingle",
       "AlternateForm",
@@ -14009,7 +13582,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation5",
       "EvolutionTriple",
       "ClassStarter"
@@ -14065,7 +13637,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation5",
       "EvolutionTriple",
       "ClassStarter",
@@ -14144,7 +13715,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation5",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -14223,7 +13793,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14259,7 +13828,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -14314,7 +13882,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14351,7 +13918,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14388,7 +13954,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14425,7 +13990,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14462,7 +14026,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14498,8 +14061,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation5",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -14581,7 +14142,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14617,7 +14177,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -14674,8 +14233,6 @@
       }
     ],
     "categories": [
-      "Psychic",
-      "Flying",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -14713,7 +14270,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation5",
       "EvolutionDouble",
       "MegaEvolution"
@@ -14772,7 +14328,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation5",
       "EvolutionSingle",
       "MegaEvolution"
@@ -14811,7 +14366,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -14867,7 +14421,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -14918,7 +14471,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -14935,7 +14487,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -14958,8 +14509,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Grass",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -15018,8 +14567,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Poison",
       "Generation5",
       "EvolutionTriple",
       "MegaEvolution"
@@ -15099,8 +14646,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Fairy",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -15145,7 +14690,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation5",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -15192,7 +14736,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm"
@@ -15211,7 +14754,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm"
@@ -15243,7 +14785,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation8",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -15299,8 +14840,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Dark",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -15358,7 +14897,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm",
@@ -15419,7 +14957,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation8",
       "EvolutionDouble",
       "AlternateForm",
@@ -15475,7 +15012,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Grass",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -15498,8 +15034,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Rock",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -15537,8 +15071,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Fighting",
       "Generation5",
       "EvolutionDouble",
       "MegaEvolution"
@@ -15591,8 +15123,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
-      "Flying",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -15616,7 +15146,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation5",
       "EvolutionDouble",
       "RegionalForm"
@@ -15654,8 +15183,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Ground",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -15695,8 +15222,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Water",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -15734,8 +15259,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Flying",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -15773,7 +15296,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation5",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -15831,7 +15353,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation5",
       "EvolutionDouble",
       "RegionalForm"
@@ -15868,8 +15389,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Ghost",
       "Generation8",
       "EvolutionDouble",
       "RegionalForm"
@@ -15911,7 +15430,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -15947,7 +15465,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -16002,7 +15519,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -16057,8 +15573,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Flying",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16096,7 +15610,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -16151,8 +15664,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Grass",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
@@ -16193,8 +15704,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Grass",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
@@ -16235,8 +15744,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Grass",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
@@ -16277,8 +15784,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Grass",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
@@ -16313,8 +15818,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Flying",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -16340,7 +15843,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16379,7 +15881,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16415,8 +15916,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Poison",
       "Generation5",
       "EvolutionDouble",
       "ClassParadox"
@@ -16477,8 +15976,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Water",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
@@ -16519,8 +16016,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Ghost",
       "Generation5",
       "EvolutionDouble",
       "AlternateForm"
@@ -16555,7 +16050,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -16578,8 +16072,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Electric",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16617,8 +16109,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Steel",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16656,7 +16146,6 @@
       }
     ],
     "categories": [
-      "Steel",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -16711,7 +16200,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation5",
       "EvolutionTriple",
       "MegaEvolution"
@@ -16787,7 +16275,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16823,8 +16310,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Ghost",
       "Generation5",
       "EvolutionTriple",
       "MegaEvolution"
@@ -16904,7 +16389,6 @@
       }
     ],
     "categories": [
-      "Dragon",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -16959,7 +16443,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -16989,7 +16472,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Ice",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -17006,8 +16488,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Ground",
-      "Electric",
       "Generation5",
       "EvolutionSingle",
       "RegionalForm"
@@ -17026,8 +16506,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Ground",
-      "Steel",
       "Generation8",
       "EvolutionSingle",
       "RegionalForm"
@@ -17053,7 +16531,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -17083,7 +16560,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Dragon",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -17106,8 +16582,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Ground",
       "Generation5",
       "EvolutionDouble",
       "MegaEvolution"
@@ -17166,8 +16640,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Steel",
       "Generation5",
       "EvolutionTriple"
     ],
@@ -17220,7 +16692,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -17249,8 +16720,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation5",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -17305,8 +16774,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Flying",
       "Generation5",
       "EvolutionDouble"
     ],
@@ -17338,7 +16805,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Fire",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -17355,8 +16821,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Bug",
-      "Steel",
       "Generation5",
       "EvolutionSingle"
     ],
@@ -17380,8 +16844,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Fire",
       "Generation5",
       "EvolutionDouble",
       "ClassParadox"
@@ -17463,8 +16925,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Dragon",
       "Generation5",
       "EvolutionTriple",
       "ClassPseudo",
@@ -17547,8 +17007,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Fighting",
       "Generation5",
       "EvolutionSingle",
       "ClassParadox",
@@ -17590,8 +17048,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Fighting",
       "Generation5",
       "EvolutionSingle",
       "ClassParadox",
@@ -17633,8 +17089,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Fighting",
       "Generation5",
       "EvolutionSingle",
       "ClassParadox",
@@ -17676,8 +17130,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Fighting",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -17719,7 +17171,6 @@
       }
     ],
     "categories": [
-      "Flying",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -17760,8 +17211,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Flying",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -17804,8 +17253,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Flying",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -17848,8 +17295,6 @@
       }
     ],
     "categories": [
-      "Fairy",
-      "Flying",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm",
@@ -17892,8 +17337,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Dragon",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -17935,8 +17378,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Dragon",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -17986,8 +17427,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Dragon",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -18081,8 +17520,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Psychic",
       "Generation5",
       "EvolutionSingle",
       "ClassMythical"
@@ -18108,8 +17545,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Psychic",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -18145,8 +17580,6 @@
     "region": "Unova",
     "nextForms": "[]",
     "categories": [
-      "Bug",
-      "Steel",
       "Generation5",
       "EvolutionSingle",
       "AlternateForm",
@@ -18172,7 +17605,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation6",
       "EvolutionTriple",
       "ClassStarter",
@@ -18250,7 +17682,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation6",
       "EvolutionTriple",
       "ClassStarter",
@@ -18328,7 +17759,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation6",
       "EvolutionTriple",
       "AlternateForm",
@@ -18428,7 +17858,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -18465,8 +17894,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation6",
       "EvolutionTriple"
     ],
@@ -18524,7 +17951,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation6",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -18969,8 +18395,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Fire",
       "Generation6",
       "EvolutionDouble",
       "AlternateForm",
@@ -19066,7 +18490,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
@@ -19127,7 +18550,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
@@ -19188,7 +18610,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
@@ -19249,7 +18670,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
@@ -19310,7 +18730,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -19412,7 +18831,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -19449,7 +18867,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -19526,7 +18943,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation6",
       "EvolutionSingle",
       "AlternateForm"
@@ -19682,7 +19098,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation6",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -19774,8 +19189,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Steel",
       "Generation6",
       "EvolutionTriple",
       "AlternateForm"
@@ -19859,7 +19272,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -19896,7 +19308,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -19933,8 +19344,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Psychic",
       "Generation6",
       "EvolutionDouble",
       "MegaEvolution"
@@ -19993,8 +19402,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Water",
       "Generation6",
       "EvolutionDouble",
       "MegaEvolution"
@@ -20053,8 +19460,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Water",
       "Generation6",
       "EvolutionDouble",
       "MegaEvolution"
@@ -20113,7 +19518,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -20150,8 +19554,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Normal",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -20190,8 +19592,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Dragon",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -20230,8 +19630,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Ice",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -20270,8 +19668,6 @@
       }
     ],
     "categories": [
-      "Fighting",
-      "Flying",
       "Generation6",
       "EvolutionSingle",
       "MegaEvolution"
@@ -20303,8 +19699,6 @@
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Fairy",
       "Generation6",
       "EvolutionSingle"
     ],
@@ -20322,8 +19716,6 @@
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Fairy",
       "Generation6",
       "EvolutionSingle"
     ],
@@ -20341,8 +19733,6 @@
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
-      "Fairy",
-      "Steel",
       "Generation6",
       "EvolutionSingle"
     ],
@@ -20367,8 +19757,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Ghost",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -20407,8 +19795,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Ghost",
       "Generation6",
       "EvolutionDouble",
       "AlternateForm"
@@ -20453,7 +19839,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation6",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -20506,8 +19891,6 @@
       }
     ],
     "categories": [
-      "Flying",
-      "Dragon",
       "Generation6",
       "EvolutionDouble"
     ],
@@ -20551,7 +19934,6 @@
       }
     ],
     "categories": [
-      "Dragon",
       "Generation6",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -20648,7 +20030,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation6",
       "EvolutionSingle",
       "AlternateForm",
@@ -20682,8 +20063,6 @@
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
-      "Dark",
-      "Flying",
       "Generation6",
       "EvolutionSingle",
       "ClassLegendary"
@@ -20709,8 +20088,6 @@
       }
     ],
     "categories": [
-      "Dragon",
-      "Ground",
       "Generation6",
       "EvolutionSingle",
       "AlternateForm",
@@ -20818,8 +20195,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Fairy",
       "Generation6",
       "EvolutionSingle",
       "MegaEvolution",
@@ -20861,8 +20236,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Psychic",
       "Generation6",
       "EvolutionSingle",
       "AlternateForm",
@@ -20897,8 +20270,6 @@
     "region": "Kalos",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Water",
       "Generation6",
       "EvolutionSingle",
       "ClassMythical"
@@ -20923,8 +20294,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Flying",
       "Generation7",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -21006,7 +20375,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation7",
       "EvolutionTriple",
       "ClassStarter"
@@ -21063,7 +20431,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation7",
       "EvolutionTriple",
       "ClassStarter"
@@ -21120,8 +20487,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Flying",
       "Generation7",
       "EvolutionTriple"
     ],
@@ -21180,7 +20545,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21216,7 +20580,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation7",
       "EvolutionTriple"
     ],
@@ -21275,7 +20638,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation7",
       "EvolutionDouble",
       "MegaEvolution"
@@ -21327,8 +20689,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Flying",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -21348,8 +20708,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Flying",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -21369,8 +20727,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
-      "Flying",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -21390,8 +20746,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Ghost",
-      "Flying",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -21417,8 +20771,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Fairy",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21469,7 +20821,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation7",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -21537,7 +20888,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -21576,8 +20926,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Poison",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21615,7 +20963,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21651,8 +20998,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Water",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21691,7 +21036,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21727,8 +21071,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Fairy",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21767,8 +21109,6 @@
       }
     ],
     "categories": [
-      "Fire",
-      "Poison",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21806,8 +21146,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Fighting",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -21845,7 +21183,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation7",
       "EvolutionTriple"
     ],
@@ -21895,7 +21232,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Fairy",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -21912,8 +21248,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Psychic",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -21931,7 +21265,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -21954,8 +21287,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Water",
       "Generation7",
       "EvolutionDouble",
       "MegaEvolution"
@@ -22014,8 +21345,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Ground",
       "Generation7",
       "EvolutionDouble"
     ],
@@ -22047,7 +21376,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -22071,7 +21399,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation7",
       "EvolutionDouble",
       "AlternateForm",
@@ -22147,8 +21474,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Flying",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -22272,7 +21597,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Normal",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -22289,8 +21613,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Dragon",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -22308,8 +21630,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Steel",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -22334,8 +21654,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Fairy",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm"
@@ -22370,8 +21688,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Water",
-      "Psychic",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -22396,8 +21712,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Dragon",
       "Generation7",
       "EvolutionSingle",
       "MegaEvolution"
@@ -22429,8 +21743,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Grass",
-      "Ghost",
       "Generation7",
       "EvolutionSingle"
     ],
@@ -22454,7 +21766,6 @@
       }
     ],
     "categories": [
-      "Dragon",
       "Generation7",
       "EvolutionTriple",
       "ClassPseudo"
@@ -22509,8 +21820,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Fairy",
       "Generation7",
       "EvolutionSingle",
       "ClassLegendary"
@@ -22529,8 +21838,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
-      "Fairy",
       "Generation7",
       "EvolutionSingle",
       "ClassLegendary"
@@ -22549,8 +21856,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Grass",
-      "Fairy",
       "Generation7",
       "EvolutionSingle",
       "ClassLegendary"
@@ -22569,8 +21874,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Water",
-      "Fairy",
       "Generation7",
       "EvolutionSingle",
       "ClassLegendary"
@@ -22595,7 +21898,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation7",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -22734,7 +22036,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm",
@@ -22798,8 +22099,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Poison",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22818,8 +22117,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Bug",
-      "Fighting",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22838,8 +22135,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Bug",
-      "Fighting",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22858,7 +22153,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22876,8 +22170,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Steel",
-      "Flying",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22896,8 +22188,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Grass",
-      "Steel",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22916,8 +22206,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Dark",
-      "Dragon",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22943,7 +22231,6 @@
       }
     ],
     "categories": [
-      "Poison",
       "Generation7",
       "EvolutionDouble",
       "ClassUltraBeast"
@@ -22975,8 +22262,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Rock",
-      "Steel",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -22995,8 +22280,6 @@
     "region": "Alola",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Ghost",
       "Generation7",
       "EvolutionSingle",
       "ClassUltraBeast"
@@ -23028,8 +22311,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Fairy",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm",
@@ -23105,8 +22386,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Fighting",
       "Generation7",
       "EvolutionSingle",
       "AlternateForm",
@@ -23148,7 +22427,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation7",
       "EvolutionSingle",
       "ClassMythical",
@@ -23186,7 +22464,6 @@
       }
     ],
     "categories": [
-      "Steel",
       "Generation7",
       "EvolutionDouble",
       "GigantamaxForm",
@@ -23245,7 +22522,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm",
@@ -23323,7 +22599,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm",
@@ -23401,7 +22676,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm",
@@ -23479,7 +22753,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -23515,7 +22788,6 @@
       }
     ],
     "categories": [
-      "Flying",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -23594,7 +22866,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -23674,7 +22945,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -23710,7 +22980,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -23746,7 +23015,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -23782,7 +23050,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation8",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -23842,7 +23109,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -23878,7 +23144,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -23971,8 +23236,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Dragon",
       "Generation8",
       "EvolutionTriple",
       "EvolutionSplit",
@@ -24105,7 +23368,6 @@
       }
     ],
     "categories": [
-      "Ground",
       "Generation8",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -24164,8 +23426,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Flying",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm"
@@ -24227,7 +23487,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -24269,8 +23528,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Poison",
       "Generation8",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -24349,8 +23606,6 @@
       }
     ],
     "categories": [
-      "Bug",
-      "Fire",
       "Generation8",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -24412,7 +23667,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -24449,7 +23703,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation8",
       "EvolutionDouble",
       "AlternateForm",
@@ -24490,7 +23743,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation8",
       "EvolutionDouble",
       "AlternateForm",
@@ -24530,7 +23782,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -24609,8 +23860,6 @@
       }
     ],
     "categories": [
-      "Dark",
-      "Fairy",
       "Generation8",
       "EvolutionTriple",
       "GigantamaxForm"
@@ -24728,7 +23977,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation8",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -24874,7 +24122,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation8",
       "EvolutionSingle",
       "MegaEvolution"
@@ -24904,7 +24151,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Electric",
       "Generation8",
       "EvolutionSingle"
     ],
@@ -24928,8 +24174,6 @@
       }
     ],
     "categories": [
-      "Ice",
-      "Bug",
       "Generation8",
       "EvolutionDouble"
     ],
@@ -24961,7 +24205,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Rock",
       "Generation8",
       "EvolutionSingle"
     ],
@@ -24985,7 +24228,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm"
@@ -25018,7 +24260,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm"
@@ -25038,7 +24279,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm"
@@ -25065,8 +24305,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Dark",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm"
@@ -25107,7 +24345,6 @@
       }
     ],
     "categories": [
-      "Steel",
       "Generation8",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -25159,8 +24396,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Dragon",
       "Generation8",
       "EvolutionSingle"
     ],
@@ -25178,8 +24413,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Electric",
-      "Ice",
       "Generation8",
       "EvolutionSingle"
     ],
@@ -25197,8 +24430,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Water",
-      "Dragon",
       "Generation8",
       "EvolutionSingle"
     ],
@@ -25216,8 +24447,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Water",
-      "Ice",
       "Generation8",
       "EvolutionSingle"
     ],
@@ -25248,8 +24477,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Dragon",
       "Generation8",
       "EvolutionDouble",
       "GigantamaxForm"
@@ -25303,8 +24530,6 @@
       }
     ],
     "categories": [
-      "Ghost",
-      "Dragon",
       "Generation8",
       "EvolutionTriple",
       "ClassPseudo"
@@ -25364,7 +24589,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm",
@@ -25405,7 +24629,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm",
@@ -25446,8 +24669,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Dragon",
       "Generation8",
       "EvolutionSingle",
       "ClassLegendary"
@@ -25494,7 +24715,6 @@
       }
     ],
     "categories": [
-      "Fighting",
       "Generation8",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -25596,8 +24816,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Dark",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm",
@@ -25632,7 +24850,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Ice",
       "Generation8",
       "EvolutionSingle",
       "ClassLegendary"
@@ -25650,7 +24867,6 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "Ghost",
       "Generation8",
       "EvolutionSingle",
       "ClassLegendary"
@@ -25683,8 +24899,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Psychic",
       "Generation8",
       "EvolutionSingle",
       "AlternateForm",
@@ -25740,7 +24954,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation9",
       "EvolutionTriple",
       "ClassStarter"
@@ -25797,7 +25010,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation9",
       "EvolutionTriple",
       "ClassStarter"
@@ -25854,7 +25066,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation9",
       "EvolutionTriple",
       "ClassStarter"
@@ -25917,7 +25128,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation9",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -25970,7 +25180,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26006,7 +25215,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26043,7 +25251,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation9",
       "EvolutionTriple"
     ],
@@ -26106,7 +25313,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation9",
       "EvolutionDouble",
       "EvolutionSplit",
@@ -26159,7 +25365,6 @@
       }
     ],
     "categories": [
-      "Fairy",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26195,8 +25400,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Normal",
       "Generation9",
       "EvolutionTriple"
     ],
@@ -26248,8 +25451,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Flying",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
@@ -26269,8 +25470,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Flying",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
@@ -26290,8 +25489,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Flying",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
@@ -26311,8 +25508,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Normal",
-      "Flying",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm"
@@ -26338,7 +25533,6 @@
       }
     ],
     "categories": [
-      "Rock",
       "Generation9",
       "EvolutionTriple"
     ],
@@ -26400,7 +25594,6 @@
       }
     ],
     "categories": [
-      "Fire",
       "Generation9",
       "EvolutionDouble",
       "EvolutionSplit"
@@ -26453,7 +25646,6 @@
       }
     ],
     "categories": [
-      "Electric",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26489,8 +25681,6 @@
       }
     ],
     "categories": [
-      "Electric",
-      "Flying",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26528,7 +25718,6 @@
       }
     ],
     "categories": [
-      "Dark",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26564,8 +25753,6 @@
       }
     ],
     "categories": [
-      "Poison",
-      "Normal",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26603,8 +25790,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Ghost",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26642,8 +25827,6 @@
       }
     ],
     "categories": [
-      "Ground",
-      "Grass",
       "Generation9",
       "EvolutionDouble",
       "ConvergentForm"
@@ -26676,7 +25859,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Rock",
       "Generation9",
       "EvolutionSingle"
     ],
@@ -26700,7 +25882,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation9",
       "EvolutionDouble",
       "MegaEvolution"
@@ -26759,7 +25940,6 @@
       }
     ],
     "categories": [
-      "Bug",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26796,7 +25976,6 @@
       }
     ],
     "categories": [
-      "Psychic",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -26832,8 +26011,6 @@
       }
     ],
     "categories": [
-      "Fairy",
-      "Steel",
       "Generation9",
       "EvolutionTriple"
     ],
@@ -26891,7 +26068,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation9",
       "EvolutionDouble",
       "ConvergentForm"
@@ -26922,8 +26098,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Dark",
-      "Flying",
       "Generation9",
       "EvolutionSingle"
     ],
@@ -26947,7 +26121,6 @@
       }
     ],
     "categories": [
-      "Water",
       "Generation9",
       "EvolutionDouble",
       "AlternateForm"
@@ -27006,8 +26179,6 @@
       }
     ],
     "categories": [
-      "Steel",
-      "Poison",
       "Generation9",
       "EvolutionDouble",
       "AlternateForm"
@@ -27040,7 +26211,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Steel",
       "Generation9",
       "EvolutionSingle"
     ],
@@ -27063,8 +26233,6 @@
       }
     ],
     "categories": [
-      "Rock",
-      "Poison",
       "Generation9",
       "EvolutionDouble",
       "MegaEvolution"
@@ -27124,7 +26292,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -27154,8 +26321,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Fighting",
-      "Flying",
       "Generation9",
       "EvolutionSingle"
     ],
@@ -27180,7 +26345,6 @@
       }
     ],
     "categories": [
-      "Ice",
       "Generation9",
       "EvolutionDouble"
     ],
@@ -27210,8 +26374,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Water",
-      "Psychic",
       "Generation9",
       "EvolutionSingle"
     ],
@@ -27229,7 +26391,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Water",
       "Generation9",
       "EvolutionSingle"
     ],
@@ -27253,8 +26414,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Dragon",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -27295,8 +26454,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Dragon",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -27337,8 +26494,6 @@
       }
     ],
     "categories": [
-      "Water",
-      "Dragon",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -27378,8 +26533,6 @@
       }
     ],
     "categories": [
-      "Dragon",
-      "Ice",
       "Generation9",
       "EvolutionTriple",
       "ClassPseudo",
@@ -27460,8 +26613,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Ghost",
       "Generation9",
       "EvolutionDouble",
       "AlternateForm",
@@ -27504,8 +26655,6 @@
       }
     ],
     "categories": [
-      "Grass",
-      "Ghost",
       "Generation9",
       "EvolutionDouble",
       "AlternateForm",
@@ -27548,7 +26697,6 @@
       }
     ],
     "categories": [
-      "Ghost",
       "Generation9",
       "EvolutionDouble",
       "AlternateForm"
@@ -27602,8 +26750,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Grass",
-      "Dark",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27623,8 +26769,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Ice",
-      "Dark",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27644,8 +26788,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Ground",
-      "Dark",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27665,8 +26807,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Fire",
-      "Dark",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27699,8 +26839,6 @@
       }
     ],
     "categories": [
-      "Normal",
-      "Dragon",
       "Generation9",
       "EvolutionSingle",
       "ClassParadox",
@@ -27748,8 +26886,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Poison",
-      "Fighting",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27768,8 +26904,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Psychic",
-      "Poison",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27788,8 +26922,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Fairy",
-      "Poison",
       "Generation9",
       "EvolutionSingle",
       "ClassLegendary"
@@ -27808,8 +26940,6 @@
     "region": "Paldea",
     "nextForms": "[]",
     "categories": [
-      "Poison",
-      "Ghost",
       "Generation9",
       "EvolutionSingle",
       "ClassMythical"
@@ -27853,7 +26983,6 @@
       }
     ],
     "categories": [
-      "Grass",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",
@@ -28025,7 +27154,6 @@
       }
     ],
     "categories": [
-      "Normal",
       "Generation9",
       "EvolutionSingle",
       "AlternateForm",

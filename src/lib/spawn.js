@@ -25,14 +25,16 @@ const CHAR_WEIGHTS = {
 const ITEM_WEIGHTS = { Common: 25, Uncommon: 10, Rare: 5, Sparse: 1 }
 
 // ── Clue labels ───────────────────────────────────────────────────────────────
-const CLUE_MAP = {
-  Grass:    'Grass type',    Fire:      'Fire type',    Water:    'Water type',
-  Electric: 'Electric type', Fighting:  'Fighting type', Psychic: 'Psychic type',
-  Ghost:    'Ghost type',    Dark:      'Dark type',    Fairy:    'Fairy type',
-  Dragon:   'Dragon type',   Ice:       'Ice type',     Poison:   'Poison type',
-  Bug:      'Bug type',      Flying:    'Flying type',  Rock:     'Rock type',
-  Ground:   'Ground type',   Steel:     'Steel type',   Normal:   'Normal type',
+const TYPE_CLUE_MAP = {
+  Grass: 'Grass type', Fire: 'Fire type', Water: 'Water type',
+  Electric: 'Electric type', Fighting: 'Fighting type', Psychic: 'Psychic type',
+  Ghost: 'Ghost type', Dark: 'Dark type', Fairy: 'Fairy type',
+  Dragon: 'Dragon type', Ice: 'Ice type', Poison: 'Poison type',
+  Bug: 'Bug type', Flying: 'Flying type', Rock: 'Rock type',
+  Ground: 'Ground type', Steel: 'Steel type', Normal: 'Normal type',
+}
 
+const CLUE_MAP = {
   ClassStarter:    'Starter Pokémon',
   ClassPseudo:     'Pseudo-Legendary',
   ClassUltraBeast: 'Ultra Beast',
@@ -110,6 +112,8 @@ function pokemonClue(p, spawnFilter = {}) {
 
   const pool = []
   if (p.region && !spawnFilter.region) pool.push(p.region + ' Pokémon')
+  for (const type of (p.types ?? []))
+    if (!suppress.has(type) && TYPE_CLUE_MAP[type]) pool.push(TYPE_CLUE_MAP[type])
   for (const cat of (p.categories ?? []))
     if (!suppress.has(cat) && CLUE_MAP[cat]) pool.push(CLUE_MAP[cat])
   return pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : '???'
