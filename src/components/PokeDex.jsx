@@ -114,6 +114,7 @@ const classSets = {
 	Starter:       new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Starter')).map(p => p.id)),
 	Paradox:          new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Paradox')).map(p => p.id)),
 	PseudoLegendary:  new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('PseudoLegendary')).map(p => p.id)),
+	Legendary:        new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Legendary')).map(p => p.id)),
 	...Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)])),
 };
 
