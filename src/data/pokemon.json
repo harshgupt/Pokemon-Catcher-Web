@@ -1398,8 +1398,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "Baby",
-      "ClassParadox"
+      "Baby"
     ],
     "types": [
       "Normal",
@@ -1451,6 +1450,9 @@
     "types": [
       "Fairy",
       "Psychic"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -2637,8 +2639,7 @@
       }
     ],
     "categories": [
-      "EvolutionTriple",
-      "ClassParadox"
+      "EvolutionTriple"
     ],
     "types": [
       "Electric",
@@ -2690,6 +2691,9 @@
     "types": [
       "Electric",
       "Ground"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -5827,8 +5831,7 @@
       }
     ],
     "categories": [
-      "EvolutionDouble",
-      "ClassParadox"
+      "EvolutionDouble"
     ],
     "types": [
       "Ghost"
@@ -5854,6 +5857,9 @@
     "types": [
       "Ghost",
       "Fairy"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7037,8 +7043,7 @@
       }
     ],
     "categories": [
-      "EvolutionSingle",
-      "ClassParadox"
+      "EvolutionSingle"
     ],
     "types": [
       "Ice",
@@ -7055,6 +7060,9 @@
     "types": [
       "Ice",
       "Water"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7201,8 +7209,7 @@
       }
     ],
     "categories": [
-      "EvolutionDouble",
-      "ClassParadox"
+      "EvolutionDouble"
     ],
     "types": [
       "Ground"
@@ -7241,6 +7248,9 @@
     "types": [
       "Ground",
       "Fighting"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7253,6 +7263,9 @@
     "types": [
       "Ground",
       "Steel"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7334,8 +7347,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo",
-      "ClassParadox"
+      "ClassPseudo"
     ],
     "types": [
       "Rock",
@@ -7408,6 +7420,9 @@
     "types": [
       "Rock",
       "Electric"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7427,7 +7442,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -7444,6 +7458,9 @@
     "types": [
       "Electric",
       "Dragon"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7463,7 +7480,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -7480,6 +7496,9 @@
     "types": [
       "Fire",
       "Dragon"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -7499,7 +7518,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -7516,6 +7534,9 @@
     "types": [
       "Water",
       "Dragon"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -8169,8 +8190,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "EvolutionSplit",
-      "ClassParadox"
+      "EvolutionSplit"
     ],
     "types": [
       "Psychic",
@@ -8282,6 +8302,9 @@
     "types": [
       "Fairy",
       "Fighting"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -8509,8 +8532,7 @@
       }
     ],
     "categories": [
-      "EvolutionDouble",
-      "ClassParadox"
+      "EvolutionDouble"
     ],
     "types": [
       "Fighting"
@@ -8543,6 +8565,9 @@
     "types": [
       "Fighting",
       "Electric"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -10172,8 +10197,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo",
-      "ClassParadox"
+      "ClassPseudo"
     ],
     "types": [
       "Dragon"
@@ -10244,6 +10268,9 @@
     "types": [
       "Dragon",
       "Dark"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -14725,8 +14752,7 @@
       }
     ],
     "categories": [
-      "EvolutionDouble",
-      "ClassParadox"
+      "EvolutionDouble"
     ],
     "types": [
       "Grass",
@@ -14761,6 +14787,9 @@
     "types": [
       "Grass",
       "Dark"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -15579,8 +15608,7 @@
       }
     ],
     "categories": [
-      "EvolutionDouble",
-      "ClassParadox"
+      "EvolutionDouble"
     ],
     "types": [
       "Bug",
@@ -15621,6 +15649,9 @@
     "types": [
       "Bug",
       "Fighting"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -15633,6 +15664,9 @@
     "types": [
       "Fire",
       "Poison"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -15651,8 +15685,7 @@
     ],
     "categories": [
       "EvolutionTriple",
-      "ClassPseudo",
-      "ClassParadox"
+      "ClassPseudo"
     ],
     "types": [
       "Dark",
@@ -15704,6 +15737,9 @@
     "types": [
       "Dark",
       "Flying"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -15723,7 +15759,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -15741,6 +15776,9 @@
     "types": [
       "Steel",
       "Psychic"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -15760,7 +15798,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -15778,6 +15815,9 @@
     "types": [
       "Rock",
       "Psychic"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -15797,7 +15837,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -15815,6 +15854,9 @@
     "types": [
       "Grass",
       "Psychic"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -25018,7 +25060,6 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassParadox",
       "ClassLegendary"
     ],
     "types": [
@@ -25035,6 +25076,9 @@
     "types": [
       "Fighting",
       "Dragon"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
@@ -25046,6 +25090,9 @@
     "types": [
       "Electric",
       "Dragon"
+    ],
+    "categories": [
+      "Paradox"
     ]
   },
   {
