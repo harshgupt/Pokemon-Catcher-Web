@@ -294,7 +294,7 @@ export default function CatchTab({
 		const classes = new Set(
 			CLASSES.map((c) => c.value).filter(
 				(v) =>
-					classSets[v] && [...classSets[v]].some((id) => activeIds.has(id)),
+					(catchFormSets[v] ?? classSets[v]) && [...(catchFormSets[v] ?? classSets[v])].some((id) => activeIds.has(id)),
 			),
 		);
 		const locs = {};
