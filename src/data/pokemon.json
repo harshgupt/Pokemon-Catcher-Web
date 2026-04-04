@@ -4524,7 +4524,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -4540,6 +4541,9 @@
     "types": [
       "Rock",
       "Water"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -4557,7 +4561,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -4573,6 +4578,9 @@
     "types": [
       "Rock",
       "Water"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -4591,7 +4599,8 @@
       }
     ],
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -4611,6 +4620,9 @@
     ],
     "forms": [
       "MegaEvolution"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -9509,7 +9521,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -9525,6 +9538,9 @@
     "types": [
       "Rock",
       "Grass"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -9542,7 +9558,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -9558,6 +9575,9 @@
     "types": [
       "Rock",
       "Bug"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -11027,7 +11047,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock"
@@ -11041,6 +11062,9 @@
     "nextForms": "[]",
     "types": [
       "Rock"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -11058,7 +11082,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -11074,6 +11099,9 @@
     "types": [
       "Rock",
       "Steel"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -14046,7 +14074,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Water",
@@ -14062,6 +14091,9 @@
     "types": [
       "Water",
       "Rock"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -14079,7 +14111,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -14095,6 +14128,9 @@
     "types": [
       "Rock",
       "Flying"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -18187,7 +18223,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -18203,6 +18240,9 @@
     "types": [
       "Rock",
       "Dragon"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -18221,7 +18261,8 @@
       }
     ],
     "categories": [
-      "EvolutionDouble"
+      "EvolutionDouble",
+      "Fossil"
     ],
     "types": [
       "Rock",
@@ -18237,6 +18278,9 @@
     "types": [
       "Rock",
       "Ice"
+    ],
+    "categories": [
+      "Fossil"
     ]
   },
   {
@@ -20465,7 +20509,8 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassLegendary"
+      "ClassLegendary",
+      "ClassUltraBeast"
     ],
     "types": [
       "Psychic"
@@ -20484,6 +20529,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "ClassUltraBeast"
     ]
   },
   {
@@ -20499,6 +20547,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "ClassUltraBeast"
     ]
   },
   {
@@ -20514,6 +20565,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "ClassUltraBeast"
     ]
   },
   {
@@ -20666,6 +20720,9 @@
     "types": [
       "Poison",
       "Dragon"
+    ],
+    "categories": [
+      "ClassUltraBeast"
     ]
   },
   {
@@ -22667,7 +22724,8 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "Fossil"
     ],
     "types": [
       "Electric",
@@ -22683,7 +22741,8 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "Fossil"
     ],
     "types": [
       "Electric",
@@ -22699,7 +22758,8 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "Fossil"
     ],
     "types": [
       "Water",
@@ -22715,7 +22775,8 @@
     "region": "Galar",
     "nextForms": "[]",
     "categories": [
-      "EvolutionSingle"
+      "EvolutionSingle",
+      "Fossil"
     ],
     "types": [
       "Water",
