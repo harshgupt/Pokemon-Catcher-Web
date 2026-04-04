@@ -47,9 +47,8 @@ const CLUE_MAP = {
   Starter:         'Starter Pokémon',
   Baby:            'Baby Pokémon',
   Fossil:          'Fossil Pokémon',
-  ClassUltraBeast: 'Ultra Beast',
+  UltraBeast:      'Ultra Beast',
   ClassPseudo:     'Pseudo-Legendary',
-  ClassUltraBeast: 'Ultra Beast',
   ClassParadox:    'Paradox Pokémon',
   ClassLegendary:  'Legendary Pokémon',
   ClassMythical:   'Mythical Pokémon',
@@ -103,7 +102,7 @@ function weightedSelect(pool, getWeight) {
 
 const CLS_TO_CAT  = {
   Starter: 'Starter', PseudoLegendary: 'ClassPseudo',
-  UltraBeast: 'ClassUltraBeast', Legendary: 'ClassLegendary',
+  UltraBeast: 'UltraBeast', Legendary: 'ClassLegendary',
   Mythical: 'ClassMythical', Paradox: 'ClassParadox',
   Baby: 'Baby', Fossil: 'Fossil',
 }

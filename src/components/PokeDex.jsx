@@ -99,17 +99,21 @@ const CLASSES = [
 	{ value: "Paradox", label: "Paradox" },
 ];
 
-// Pre-build Sets for O(1) lookup — all derived from pokemon.json forms field
+// Pre-build Sets for O(1) lookup — all derived from pokemon.json
 const formSets = {
 	MegaEvolution:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('MegaEvolution')).map(p => p.id)),
 	GigantamaxForm: new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('GigantamaxForm')).map(p => p.id)),
 	RegionalForm:   new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('RegionalForm')).map(p => p.id)),
 	AlternateForm:  new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('AlternateForm')).map(p => p.id)),
-	...Object.fromEntries(Object.entries(filters.forms).map(([k, ids]) => [k, new Set(ids)])),
+	ConvergentForm: new Set(pokemon.filter(p => Array.isArray(p.forms) && p.forms.includes('ConvergentForm')).map(p => p.id)),
 };
-const classSets = Object.fromEntries(
-	Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]),
-);
+const classSets = {
+	UltraBeast:    new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('UltraBeast')).map(p => p.id)),
+	Baby:          new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Baby')).map(p => p.id)),
+	Fossil:        new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Fossil')).map(p => p.id)),
+	Starter:       new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Starter')).map(p => p.id)),
+	...Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)])),
+};
 
 // ── Official Pokémon HOME type colours ────────────────────────────────────────
 const TYPE_COLORS = {

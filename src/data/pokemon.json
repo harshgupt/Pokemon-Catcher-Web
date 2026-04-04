@@ -20510,7 +20510,7 @@
     "categories": [
       "EvolutionSingle",
       "ClassLegendary",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Psychic"
@@ -20531,7 +20531,7 @@
       "AlternateForm"
     ],
     "categories": [
-      "ClassUltraBeast"
+      "UltraBeast"
     ]
   },
   {
@@ -20549,7 +20549,7 @@
       "AlternateForm"
     ],
     "categories": [
-      "ClassUltraBeast"
+      "UltraBeast"
     ]
   },
   {
@@ -20567,7 +20567,7 @@
       "AlternateForm"
     ],
     "categories": [
-      "ClassUltraBeast"
+      "UltraBeast"
     ]
   },
   {
@@ -20580,7 +20580,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Rock",
@@ -20597,7 +20597,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Bug",
@@ -20614,7 +20614,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Bug",
@@ -20631,7 +20631,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Electric"
@@ -20647,7 +20647,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Steel",
@@ -20664,7 +20664,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Grass",
@@ -20681,7 +20681,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Dark",
@@ -20705,7 +20705,7 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Poison"
@@ -20722,7 +20722,7 @@
       "Dragon"
     ],
     "categories": [
-      "ClassUltraBeast"
+      "UltraBeast"
     ]
   },
   {
@@ -20735,7 +20735,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Rock",
@@ -20752,7 +20752,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassUltraBeast"
+      "UltraBeast"
     ],
     "types": [
       "Fire",
