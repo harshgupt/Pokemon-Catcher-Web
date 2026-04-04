@@ -1,7 +1,6 @@
 // Ports GridSpawner.cs logic exactly
 import pokemonData    from '../data/pokemon.json'
 import itemsData      from '../data/items.json'
-import filters        from '../data/pokedex-filters.json'
 import catchFilters   from '../data/catch-filters.json'
 import locations      from '../data/locations.json'
 
@@ -51,7 +50,7 @@ const CLUE_MAP = {
   PseudoLegendary: 'Pseudo-Legendary',
   Paradox:         'Paradox Pokémon',
   Legendary:       'Legendary Pokémon',
-  ClassMythical:   'Mythical Pokémon',
+  Mythical:        'Mythical Pokémon',
 
   EvolutionSingle: 'Does not evolve',
   EvolutionDouble: 'Two-stage evolution',
@@ -60,8 +59,8 @@ const CLUE_MAP = {
 }
 
 // ── Filter lookup sets ────────────────────────────────────────────────────────
-export const formSets     = Object.fromEntries(Object.entries(filters.forms).map(([k, ids])   => [k, new Set(ids)]))
-export const classSets       = Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)]))
+export const formSets  = {}
+export const classSets = {}
 export const catchFormSets   = Object.fromEntries(Object.entries(catchFilters).map(([k, ids]) => [k, new Set(ids)]))
 // locationSets[region][location] = Set of ids
 export const locationSets = Object.fromEntries(
@@ -103,7 +102,7 @@ function weightedSelect(pool, getWeight) {
 const CLS_TO_CAT  = {
   Starter: 'Starter', PseudoLegendary: 'PseudoLegendary',
   UltraBeast: 'UltraBeast', Legendary: 'Legendary',
-  Mythical: 'ClassMythical', Paradox: 'Paradox',
+  Mythical: 'Mythical', Paradox: 'Paradox',
   Baby: 'Baby', Fossil: 'Fossil',
 }
 

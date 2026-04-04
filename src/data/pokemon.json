@@ -4951,7 +4951,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Psychic"
@@ -7610,7 +7610,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Psychic",
@@ -10703,7 +10703,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Steel",
@@ -10739,7 +10739,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Psychic"
@@ -10757,6 +10757,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -10771,6 +10774,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -10785,6 +10791,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -12382,7 +12391,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Dark"
@@ -12394,7 +12403,9 @@
     "name": "Darkrai-Mega",
     "region": "Sinnoh",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "Mythical"
+    ],
     "displayName": "Mega Darkrai",
     "types": [
       "Dark"
@@ -12587,7 +12598,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Normal"
@@ -12603,7 +12614,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Water"
@@ -12619,7 +12630,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Water"
@@ -12642,7 +12653,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Grass"
@@ -12661,6 +12672,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -15966,7 +15980,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Water",
@@ -15986,6 +16000,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -16370,7 +16387,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Psychic",
@@ -16394,7 +16411,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "displayName": "Aria Forme Meloetta",
     "types": [
@@ -16415,6 +16432,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -16427,7 +16447,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Bug",
@@ -18987,7 +19007,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Rock",
@@ -19007,6 +19027,9 @@
     ],
     "forms": [
       "MegaEvolution"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -19026,7 +19049,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Psychic",
@@ -19046,6 +19069,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -19058,7 +19084,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Fire",
@@ -20994,7 +21020,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Steel",
@@ -21007,7 +21033,9 @@
     "name": "Magearna-Mega",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "Mythical"
+    ],
     "displayName": "Mega Magearna",
     "types": [
       "Steel",
@@ -21037,6 +21065,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -21045,7 +21076,9 @@
     "name": "Magearna-OriginalColor-Mega",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "Mythical"
+    ],
     "displayName": "Mega Magearna (Original Color)",
     "types": [
       "Steel",
@@ -21073,7 +21106,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Fighting",
@@ -21093,6 +21126,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -21112,7 +21148,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Electric"
@@ -21124,7 +21160,9 @@
     "name": "Zeraora-Mega",
     "region": "Alola",
     "nextForms": "[]",
-    "categories": [],
+    "categories": [
+      "Mythical"
+    ],
     "displayName": "Mega Zeraora",
     "types": [
       "Electric"
@@ -21150,7 +21188,7 @@
     ],
     "categories": [
       "EvolutionDouble",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Steel"
@@ -21171,6 +21209,9 @@
     ],
     "types": [
       "Steel"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -21185,6 +21226,9 @@
     ],
     "forms": [
       "GigantamaxForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -23363,7 +23407,7 @@
     ],
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Dark",
@@ -23383,6 +23427,9 @@
     ],
     "forms": [
       "AlternateForm"
+    ],
+    "categories": [
+      "Mythical"
     ]
   },
   {
@@ -25368,7 +25415,7 @@
     "nextForms": "[]",
     "categories": [
       "EvolutionSingle",
-      "ClassMythical"
+      "Mythical"
     ],
     "types": [
       "Poison",

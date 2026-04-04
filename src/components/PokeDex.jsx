@@ -1,7 +1,6 @@
 import { useState } from "react";
 import pokemon from "../data/pokemon.json";
 import itemsData from "../data/items.json";
-import filters from "../data/pokedex-filters.json";
 import { assetUrl } from "../lib/assetUrl";
 import {
 	canEvolveInto,
@@ -115,7 +114,7 @@ const classSets = {
 	Paradox:          new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Paradox')).map(p => p.id)),
 	PseudoLegendary:  new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('PseudoLegendary')).map(p => p.id)),
 	Legendary:        new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Legendary')).map(p => p.id)),
-	...Object.fromEntries(Object.entries(filters.classes).map(([k, ids]) => [k, new Set(ids)])),
+	Mythical:         new Set(pokemon.filter(p => Array.isArray(p.categories) && p.categories.includes('Mythical')).map(p => p.id)),
 };
 
 // ── Official Pokémon HOME type colours ────────────────────────────────────────
